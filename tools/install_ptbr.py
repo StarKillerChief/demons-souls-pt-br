@@ -63,7 +63,7 @@ def check_title(usr):
     if not os.path.isfile(sfo):
         raise SystemExit('error: PS3_GAME/PARAM.SFO not found, cannot confirm the game version')
     if b'BLUS30443' not in open(sfo, 'rb').read():
-        raise SystemExit('error: this is not BLUS30443 (US). The pack only supports the US disc version.')
+        raise SystemExit('error: this is not BLUS30443 (US). The pack only supports the US disc version for now; the European version (BLES00932) is not supported yet.')
 
 
 def manifest_path(usr):

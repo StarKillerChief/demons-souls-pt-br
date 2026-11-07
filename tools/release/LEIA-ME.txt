@@ -1,0 +1,13 @@
+Traducao PT-BR de Demon's Souls para o Soulbrandt (versao de teste, feita por fas, sem vinculo com os donos do jogo).
+
+Como instalar:
+1. Instale e abra o Soulbrandt uma vez, ate ele dizer que o jogo esta pronto. Depois feche.
+2. Extraia a pasta PT-BR dentro da pasta onde esta o Soulbrandt.exe.
+3. Abra a pasta PT-BR e de dois cliques em Instalar-PT-BR.bat.
+   Se o Windows avisar que protegeu o computador, clique em "Mais informacoes" e "Executar assim mesmo".
+
+Depois de atualizar o Soulbrandt, deixe ele preparar o jogo de novo e rode o Instalar-PT-BR.bat mais uma vez.
+Para voltar ao original, use Desinstalar-PT-BR.bat. Seus saves nao sao alterados.
+
+Por enquanto so funciona na versao americana do jogo (BLUS30443).
+Nenhum arquivo do jogo vem neste pacote: as fontes e os textos sao montados no seu PC, a partir da sua copia.

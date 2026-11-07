@@ -9,7 +9,8 @@
 // Files, in <dll folder>/movie_subs/:
 //   <hash>.subs   one line per sprite: first_frame end_frame x y w h name.rgba
 //   name.rgba     w*h*4 bytes, R G B A, made on the player's PC by make_movie_subs.py
-// <hash> is the FNV-1a hash of the first packet sent to a decoder, in lowercase hex. It names the movie.
+// <hash> is the FNV-1a hash of the first 16 packets sent to a decoder, in lowercase hex. It names the movie. (The first
+// packet alone is the same in several of the game's movies.)
 //
 // Tools for the subtitle authors (off unless set):
 //   BR_SUBS_LOG=<file>   writes each movie's hash and frame count
@@ -87,6 +88,8 @@ struct Sprite {
 struct Stream {
     void* ctx = nullptr;
     bool named = false;
+    int packets = 0;
+    uint64_t h = 0xcbf29ce484222325ull;
     char hash[17] = {0};
     int frames = 0;
     std::vector<Sprite> sprites;
@@ -274,12 +277,13 @@ EXPORT int avcodec_send_packet(void* ctx, const void* pkt)
         Stream* s = stream_of(ctx);
         const PacketView* p = static_cast<const PacketView*>(pkt);
         if (!s->named && p->data && p->size > 0) {
-            uint64_t h = 0xcbf29ce484222325ull;
-            for (int i = 0; i < p->size; i++) h = (h ^ p->data[i]) * 0x100000001b3ull;
-            snprintf(s->hash, sizeof s->hash, "%016llx", (unsigned long long)h);
-            s->named = true;
-            log_line("open %s (%d)\n", s->hash, p->size);
-            load_sprites(s);
+            for (int i = 0; i < p->size; i++) s->h = (s->h ^ p->data[i]) * 0x100000001b3ull;
+            if (++s->packets == 16) {
+                snprintf(s->hash, sizeof s->hash, "%016llx", (unsigned long long)s->h);
+                s->named = true;
+                log_line("open %s (%d)\n", s->hash, s->frames);
+                load_sprites(s);
+            }
         }
     }
     return REAL(p_send, int (*)(void*, const void*))(ctx, pkt);

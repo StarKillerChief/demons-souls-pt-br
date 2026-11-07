@@ -5,13 +5,15 @@
 
 It downloads Python's official embeddable package, checked by SHA-256, the same version Soulbrandt's setup uses.
 """
-import argparse, hashlib, io, os, shutil, subprocess, urllib.request, zipfile
+import argparse, hashlib, io, os, shutil, subprocess, sys, urllib.request, zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
 URL = 'https://www.python.org/ftp/python/3.13.9/python-3.13.9-embed-amd64.zip'
 SHA = '91d828c2da3a029b41699e918674a0cb379c02cf20dab9c501306885f837402a'
-TOOLS = ['ptbr_soulbrandt.py', 'install_ptbr.py', 'gen_ptbr_glyphs.py', 'fmg_tool.py', 'dcx_tool.py', 'font_mark.py']
+PILLOW = '12.0.0'
+TOOLS = ['ptbr_soulbrandt.py', 'install_ptbr.py', 'gen_ptbr_glyphs.py', 'gen_ptbr_banners.py', 'fmg_tool.py', 'dcx_tool.py',
+         'font_mark.py']
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--out', required=True)
@@ -39,4 +41,15 @@ data = open(cache, 'rb').read()
 if hashlib.sha256(data).hexdigest() != SHA:
     raise SystemExit('python download: wrong SHA-256')
 zipfile.ZipFile(io.BytesIO(data)).extractall(os.path.join(root, 'python'))
+# Pillow (HPND licence) for the banner textures: the official wheel, unpacked next to the embedded Python
+site = os.path.join(root, 'python', 'Lib', 'site-packages')
+os.makedirs(site)
+wheels = os.path.join(a.out, 'wheels')
+subprocess.run([sys.executable, '-m', 'pip', 'download', 'pillow==' + PILLOW, '--only-binary=:all:', '--platform',
+                'win_amd64', '--python-version', '3.13', '--no-deps', '-d', wheels, '-q'], check=True)
+whl = [f for f in os.listdir(wheels) if f.startswith('pillow-' + PILLOW) and f.endswith('.whl')][0]
+zipfile.ZipFile(os.path.join(wheels, whl)).extractall(site)
+pth = [f for f in os.listdir(os.path.join(root, 'python')) if f.endswith('._pth')][0]
+with open(os.path.join(root, 'python', pth), 'a') as f:
+    f.write('Lib/site-packages' + chr(10))
 print(shutil.make_archive(os.path.join(a.out, 'PT-BR-Soulbrandt'), 'zip', a.out, 'PT-BR'))

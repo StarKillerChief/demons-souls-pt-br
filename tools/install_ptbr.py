@@ -10,9 +10,10 @@ from the files in the folder you point at, plus the Portuguese text in ../text.
     install_ptbr.py status    --game GAMEDIR
 
 GAMEDIR is the folder that contains PS3_GAME (or PS3_GAME/USRDIR itself).
-Files touched (six, all inside USRDIR; the originals are saved first under USRDIR/.ptbr-backup with SHA-256):
+Files touched (seven, all inside USRDIR; the originals are saved first under USRDIR/.ptbr-backup with SHA-256):
     font/na_english/dsfont24.ccm.dcx   dsfont24.tpf.dcx   talkfont24.ccm.dcx   talkfont24.tpf.dcx
     msg/na_english/item.msgbnd.dcx     menu.msgbnd.dcx
+    menu/menu.tpf.dcx                  (the big on-screen messages; needs Pillow)
 The game only ever opens the `.dcx` names for these files, so the plain twins are left alone.
 `install` refuses to run on a folder that is not BLUS30443, refuses --in-place without the flag, and never
 writes outside GAMEDIR/NEWDIR. Running `install` again first restores the originals, then re-applies.
@@ -33,7 +34,8 @@ BACKUP = '.ptbr-backup'
 FONTS = ('dsfont24', 'talkfont24')
 LANG = 'na_english'
 TARGETS = ([('font/%s/%s.%s.dcx' % (LANG, f, e)) for f in FONTS for e in ('ccm', 'tpf')]
-           + [('msg/%s/%s.msgbnd.dcx' % (LANG, b)) for b in ('item', 'menu')])
+           + [('msg/%s/%s.msgbnd.dcx' % (LANG, b)) for b in ('item', 'menu')]
+           + ['menu/menu.tpf.dcx'])            # the big on-screen messages (YOU DIED and the rest)
 
 
 def load(name):
@@ -161,11 +163,24 @@ def install(usr, text):
             print('note: talkfont24 (bold face) has no glyph for %s; the game draws a blank for it, as it does for the '
                   'English original (the same symbol appears there)' % ' '.join('U+%04X' % ord(c) for c in talk_only))
         print('3/4 checked: every character of the Portuguese text has a glyph in dsfont24')
+        try:
+            import PIL  # noqa: F401  (bundled with the installer's Python)
+            os.makedirs(os.path.join(out, 'menu'), exist_ok=True)
+            r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_banners.py'),
+                                os.path.join(base, 'menu', 'menu.tpf'), os.path.join(out, 'menu', 'menu.tpf')],
+                               stdin=subprocess.DEVNULL, capture_output=True, text=True)
+            if r.returncode:
+                raise SystemExit('error: banner generation failed:' + chr(10) + r.stdout + r.stderr)
+            print('   big on-screen messages (VOCÊ MORREU and the rest) made from the lettering of this copy')
+        except ImportError:
+            print('note: Pillow is missing, so the big on-screen messages stay in English')
         print('4/4 writing (originals are saved in %s first)' % BACKUP)
         files = {}
         newdcx = {}
         for rel in TARGETS:
             built = os.path.join(out, rel[:-4])
+            if not os.path.isfile(built):
+                continue
             newdcx[rel] = dcx.encode(open(built, 'rb').read())
             cur = os.path.join(usr, rel)
             orig_sha = sha(cur) if os.path.isfile(cur) else None

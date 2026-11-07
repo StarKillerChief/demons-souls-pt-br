@@ -1,0 +1,145 @@
+{
+"fmg": 28,
+"category": "magic_desc",
+"bnd": "item",
+"jp_name": "魔法説明.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 1000,
+"pt": "Flecha de Alma de Fogo"
+},
+{
+"id": 1001,
+"pt": "Dispara um jato de fogo"
+},
+{
+"id": 1002,
+"pt": "Cura os PV e as condições do personagem tocado"
+},
+{
+"id": 1003,
+"pt": "Fortalece a arma da mão direita"
+},
+{
+"id": 1004,
+"pt": "Fortalece e amaldiçoa a arma da mão direita"
+},
+{
+"id": 1005,
+"pt": "Transforma-se em Fantasma Negro (inválido para Fantasmas)"
+},
+{
+"id": 1006,
+"pt": "Gera uma nuvem de veneno"
+},
+{
+"id": 1007,
+"pt": "Gera um forte ruído em outro lugar"
+},
+{
+"id": 1008,
+"pt": "Dispara uma grande bola de fogo"
+},
+{
+"id": 1009,
+"pt": "Gera uma grande chama na ponta dos dedos"
+},
+{
+"id": 1010,
+"pt": "Dispara um Raio de Alma perfurante"
+},
+{
+"id": 1011,
+"pt": "Dispara uma Flecha de Alma teleguiada"
+},
+{
+"id": 1012,
+"pt": "Esconde-se dos inimigos"
+},
+{
+"id": 1013,
+"pt": "Aumenta a Defesa"
+},
+{
+"id": 1014,
+"pt": "Fortalece muito a arma da mão direita"
+},
+{
+"id": 1015,
+"pt": "Uma lâmina de água aumenta a resistência ao fogo"
+},
+{
+"id": 1016,
+"pt": "Gera uma nuvem de morte venenosa"
+},
+{
+"id": 1017,
+"pt": "Dispara um grande jato de fogo"
+},
+{
+"id": 1018,
+"pt": "Rouba a Alma do personagem tocado"
+},
+{
+"id": 1019,
+"pt": "Gera uma nuvem de ácido"
+},
+{
+"id": 1020,
+"pt": "Aumenta muito a Defesa"
+},
+{
+"id": 1021,
+"pt": "Gera uma enorme tempestade de fogo"
+},
+{
+"id": 2000,
+"pt": "Libera uma poderosa onda de força"
+},
+{
+"id": 2001,
+"pt": "Cria uma área onde a magia não pode ser usada"
+},
+{
+"id": 2002,
+"pt": "Recupera uma grande quantidade de PV"
+},
+{
+"id": 2003,
+"pt": "Revive o usuário da morte uma vez"
+},
+{
+"id": 2004,
+"pt": "Recupera PV lentamente com o tempo"
+},
+{
+"id": 2005,
+"pt": "Ressuscita Fantasmas em seus próprios mundos"
+},
+{
+"id": 2006,
+"pt": "Cura condições adversas"
+},
+{
+"id": 2007,
+"pt": "Esconde-se dos Fantasmas Negros"
+},
+{
+"id": 2008,
+"pt": "Leva o usuário de volta ao Nexus"
+},
+{
+"id": 2009,
+"pt": "Envia os Fantasmas Negros de volta ao seu mundo"
+},
+{
+"id": 2010,
+"pt": "Recupera PV"
+},
+{
+"id": 2011,
+"pt": "Cura o veneno"
+}
+]
+}

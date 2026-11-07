@@ -1,0 +1,345 @@
+{
+"fmg": 18,
+"category": "npc_names",
+"bnd": "item",
+"jp_name": "NPC名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 13,
+"pt": "Biorr das Presas Duplas"
+},
+{
+"id": 14,
+"pt": "Yuria, a Bruxa"
+},
+{
+"id": 15,
+"pt": "Carrasca Miralda"
+},
+{
+"id": 16,
+"pt": "Mulher Enforcada"
+},
+{
+"id": 17,
+"pt": "Saqueador Blige"
+},
+{
+"id": 18,
+"pt": "Ferreiro Ed"
+},
+{
+"id": 19,
+"pt": "Mulher Imunda"
+},
+{
+"id": 20,
+"pt": "Sábio Freke, o Visionário"
+},
+{
+"id": 21,
+"pt": "Esposa do Antigo Nobre"
+},
+{
+"id": 22,
+"pt": "Patches, a Hiena"
+},
+{
+"id": 24,
+"pt": "Yurt, o Chefe Silencioso"
+},
+{
+"id": 25,
+"pt": "Menina Falcão de Asas Duplas"
+},
+{
+"id": 26,
+"pt": "São Urbain"
+},
+{
+"id": 30,
+"pt": "Scirvir, o Viajante"
+},
+{
+"id": 31,
+"pt": "Dama de Preto"
+},
+{
+"id": 33,
+"pt": "Guerreiro Abatido"
+},
+{
+"id": 37,
+"pt": "Velho Rei Doran"
+},
+{
+"id": 39,
+"pt": "Mefistófeles"
+},
+{
+"id": 40,
+"pt": "Mestre Satsuki"
+},
+{
+"id": 41,
+"pt": "Titereiro"
+},
+{
+"id": 42,
+"pt": "Aprendiz de Freke"
+},
+{
+"id": 43,
+"pt": "Acólito de Deus"
+},
+{
+"id": 44,
+"pt": "Discípulo de Deus"
+},
+{
+"id": 45,
+"pt": "Devoto de Deus"
+},
+{
+"id": 47,
+"pt": "Tudo-Conta"
+},
+{
+"id": 48,
+"pt": "Thomas, o Estocador"
+},
+{
+"id": 49,
+"pt": "Homem Imundo"
+},
+{
+"id": 50,
+"pt": "Baldwin, o Ferreiro"
+},
+{
+"id": 100,
+"pt": "Guarda da Fortaleza 1"
+},
+{
+"id": 101,
+"pt": "Primeiro Mosqueteiro"
+},
+{
+"id": 102,
+"pt": "Segundo Mosqueteiro"
+},
+{
+"id": 103,
+"pt": "Terceiro Mosqueteiro"
+},
+{
+"id": 1030,
+"pt": "Vanguarda"
+},
+{
+"id": 2010,
+"pt": "Soldado"
+},
+{
+"id": 2020,
+"pt": "Cavaleiro"
+},
+{
+"id": 2030,
+"pt": "Assassino"
+},
+{
+"id": 2070,
+"pt": "Prisioneiro"
+},
+{
+"id": 2075,
+"pt": "Horda de Prisioneiros"
+},
+{
+"id": 2080,
+"pt": "Carcereiro"
+},
+{
+"id": 2090,
+"pt": "Menina Gritante"
+},
+{
+"id": 2100,
+"pt": "Depravado"
+},
+{
+"id": 2110,
+"pt": "Minerador de Escamas"
+},
+{
+"id": 2120,
+"pt": "Homem das Sombras"
+},
+{
+"id": 2130,
+"pt": "Mulher das Sombras"
+},
+{
+"id": 3010,
+"pt": "Cão de Guerra"
+},
+{
+"id": 3030,
+"pt": "Falcão"
+},
+{
+"id": 3040,
+"pt": "Devorador de Homens"
+},
+{
+"id": 3050,
+"pt": "Gárgula"
+},
+{
+"id": 3060,
+"pt": "Rato da Praga"
+},
+{
+"id": 3070,
+"pt": "Lesma Gigante"
+},
+{
+"id": 3080,
+"pt": "Água-viva"
+},
+{
+"id": 3090,
+"pt": "Mosquito Gigante"
+},
+{
+"id": 3100,
+"pt": "Verme de Rocha"
+},
+{
+"id": 3110,
+"pt": "Lagarto de Cristal"
+},
+{
+"id": 3130,
+"pt": "Besouro-urso Gigante"
+},
+{
+"id": 3180,
+"pt": "Carrapato Gigante"
+},
+{
+"id": 4000,
+"pt": "Rei Allant"
+},
+{
+"id": 4010,
+"pt": "Ceifador"
+},
+{
+"id": 4020,
+"pt": "Esqueleto"
+},
+{
+"id": 4030,
+"pt": "Homem-polvo"
+},
+{
+"id": 4040,
+"pt": "Praga Célebre"
+},
+{
+"id": 4050,
+"pt": "Espreitador de Chamas"
+},
+{
+"id": 5001,
+"pt": "Falange"
+},
+{
+"id": 5010,
+"pt": "Cavaleiro da Torre"
+},
+{
+"id": 5020,
+"pt": "Penetrador"
+},
+{
+"id": 5030,
+"pt": "Rei da Tempestade"
+},
+{
+"id": 5031,
+"pt": "Arraia Filhote"
+},
+{
+"id": 5040,
+"pt": "Juiz"
+},
+{
+"id": 5060,
+"pt": "Ídolo do Tolo"
+},
+{
+"id": 5070,
+"pt": "Horda de Quimeras"
+},
+{
+"id": 5080,
+"pt": "Colosso Imundo"
+},
+{
+"id": 5081,
+"pt": "Mosca"
+},
+{
+"id": 5090,
+"pt": "Sanguessugueiro"
+},
+{
+"id": 5100,
+"pt": "Aranha Blindada"
+},
+{
+"id": 5110,
+"pt": "Demônio Primordial"
+},
+{
+"id": 5120,
+"pt": "Dragão Voador"
+},
+{
+"id": 5130,
+"pt": "Dragão Voador"
+},
+{
+"id": 6000,
+"pt": "Difuso"
+},
+{
+"id": 6010,
+"pt": "Velho Rei Allant"
+},
+{
+"id": 6020,
+"pt": "Velho Herói"
+},
+{
+"id": 6030,
+"pt": "Velho Monge"
+},
+{
+"id": 6040,
+"pt": "Senhora Astraea"
+},
+{
+"id": 6041,
+"pt": "Imundo"
+},
+{
+"id": 6050,
+"pt": "Deus-Dragão"
+}
+]
+}

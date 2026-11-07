@@ -1,0 +1,105 @@
+{
+"fmg": 17,
+"category": "trait_lore",
+"bnd": "item",
+"jp_name": "特徴うんちく.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100,
+"pt": "Aumenta o peso máximo dos itens equipáveis"
+},
+{
+"id": 101,
+"pt": "Aumenta o peso máximo dos itens carregáveis"
+},
+{
+"id": 102,
+"pt": "O poder de ataque aumenta quando os PV caem abaixo de certo nível"
+},
+{
+"id": 103,
+"pt": "O poder de defesa aumenta quando os PV caem abaixo de certo nível"
+},
+{
+"id": 104,
+"pt": "A velocidade de recuperação do vigor aumenta"
+},
+{
+"id": 105,
+"pt": "A velocidade de recuperação de PM aumenta"
+},
+{
+"id": 106,
+"pt": "Os PV se recuperam continuamente. Versão fraca da magia “Regeneração” do clérigo"
+},
+{
+"id": 107,
+"pt": "A resistência ao fogo aumenta"
+},
+{
+"id": 108,
+"pt": "A resistência ao veneno aumenta"
+},
+{
+"id": 109,
+"pt": "Os efeitos da magia do mago ficam mais fortes, mas o dano causado por magia também aumenta"
+},
+{
+"id": 110,
+"pt": "Os efeitos da magia do mago ficam mais fracos, mas o dano causado por magia também diminui"
+},
+{
+"id": 111,
+"pt": "A capacidade (número de magias aprendíveis) do mago aumenta"
+},
+{
+"id": 112,
+"pt": "Os efeitos da magia do clérigo ficam mais fortes, mas o movimento do Milagre fica mais longo (intervalo maior)"
+},
+{
+"id": 113,
+"pt": "Perde menos PV como Fantasma Cinzento"
+},
+{
+"id": 114,
+"pt": "Maior probabilidade de ser invocado e tornar-se um Fantasma Branco"
+},
+{
+"id": 115,
+"pt": "Maior probabilidade de ser invocado e tornar-se um Fantasma Negro"
+},
+{
+"id": 116,
+"pt": "Silencia os passos e dificulta a detecção quando parado. Versão fraca da magia “Ocultar” do mago"
+},
+{
+"id": 117,
+"pt": "Dificulta a detecção do jogador pelos Fantasmas Negros inimigos. Versão fraca da magia “Camuflagem Fantasma” do clérigo"
+},
+{
+"id": 118,
+"pt": "Reduz o dano e o ruído de quedas (a altura fatal de queda continua a mesma)"
+},
+{
+"id": 119,
+"pt": "Torna-se a principal prioridade de ataque dos inimigos"
+},
+{
+"id": 120,
+"pt": "Aumenta a quantidade de Almas obtidas ao derrotar inimigos"
+},
+{
+"id": 121,
+"pt": "Reduz a taxa de desgaste das armas"
+},
+{
+"id": 122,
+"pt": "Os inimigos ficam extremamente fortes (cálculo de entorno +1)"
+},
+{
+"id": 123,
+"pt": "Os efeitos de dano no Ponto Ideal aumentam; todos os outros diminuem"
+}
+]
+}

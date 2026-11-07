@@ -1,0 +1,5297 @@
+{
+"fmg": 1,
+"category": "dialogue",
+"bnd": "menu",
+"jp_name": "会話.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 11100000,
+"pt": "Por favor! Ajude-me! Estou preso, cercado por dreglings!"
+},
+{
+"id": 11100100,
+"pt": "Agradeço pelo seu bravo resgate."
+},
+{
+"id": 11100101,
+"pt": "Sou Ostrava de Boletaria. \nAceite isto como prova de minha gratidão."
+},
+{
+"id": 11100110,
+"pt": "Agora devo partir. Há algo de que preciso me ocupar."
+},
+{
+"id": 11100200,
+"pt": "Que salto ousado! Que surpresa!"
+},
+{
+"id": 11100201,
+"pt": "Pois bem, já que aqui estais, \nrogo-vos, afastai estes dreglings."
+},
+{
+"id": 11100300,
+"pt": "Por mais longe que eu vá, restam apenas os famintos de alma."
+},
+{
+"id": 11100301,
+"pt": "Resta uma única pessoa sã em Boletaria?"
+},
+{
+"id": 11200000,
+"pt": "Olá! Vós, aí! Aqui! Sou eu, Ostrava!"
+},
+{
+"id": 11200001,
+"pt": "Vede-me, de novo cercado por guerreiros malignos.\nPoderíeis, quiçá, ajudar-me uma última vez?"
+},
+{
+"id": 11200002,
+"pt": "Eliminai os soldados no fim desta passagem, \nse for do vosso agrado."
+},
+{
+"id": 11200003,
+"pt": "O Caminho do Senhor, logo adiante, degenerou \nem terreno de caça para dragões voadores. \nMantende o juízo."
+},
+{
+"id": 11200100,
+"pt": "Obrigado. São duas vezes, então."
+},
+{
+"id": 11200101,
+"pt": "Graças a vós, posso agora seguir adiante.\nIsto é uma lembrança de minha gratidão. Aceitai-a."
+},
+{
+"id": 11200200,
+"pt": "Isto é grave... Nem uma só pessoa restou... Por que, em nome de tudo...?"
+},
+{
+"id": 11200201,
+"pt": "Como tudo isto pôde acontecer... Pai!"
+},
+{
+"id": 11300000,
+"pt": "Socorro! Socorrooo!"
+},
+{
+"id": 11300001,
+"pt": "Soldados famintos de alma me perseguem! \nPor tudo o que é sagrado, abri este portão!"
+},
+{
+"id": 11300002,
+"pt": "Ó Senhor, depressa, por favor! Estão quase sobre mim!"
+},
+{
+"id": 11300100,
+"pt": "Obrigado por me salvar."
+},
+{
+"id": 11300200,
+"pt": "Um beco sem saída?"
+},
+{
+"id": 11300201,
+"pt": "Não! Ajudai-me!"
+},
+{
+"id": 11300202,
+"pt": "Não vou conseguir! Vão me matar!"
+},
+{
+"id": 11300401,
+"pt": "Salvastes a minha vida."
+},
+{
+"id": 11300402,
+"pt": "É a terceira vez. Estou verdadeiramente em dívida convosco."
+},
+{
+"id": 11300403,
+"pt": "É... tudo o que tenho, mas peço que aceiteis."
+},
+{
+"id": 11300404,
+"pt": "Agora devo partir. \nMeu pai, o Rei, aguarda-me logo ali."
+},
+{
+"id": 11300500,
+"pt": "Meu pai, o Rei, aguarda-me logo ali."
+},
+{
+"id": 11400000,
+"pt": "Ah, é você?"
+},
+{
+"id": 11400001,
+"pt": "Meu pai está lá em cima."
+},
+{
+"id": 11400002,
+"pt": "Bem, o que resta dele.\nEle se transformou em um demônio infernal."
+},
+{
+"id": 11400003,
+"pt": "Comecei esta jornada em busca da verdade, \nmas fui tolo até por tentar."
+},
+{
+"id": 11400004,
+"pt": "Por favor, mate meu pai. \nNesse estado degenerado, \nele só pode trazer perigo às terras."
+},
+{
+"id": 11400005,
+"pt": "Esta chave... serve no mausoléu de Boletaria."
+},
+{
+"id": 11400006,
+"pt": "Dentro do mausoléu estão as duas espadas de meu pai, \nSoulbrandt e Demonbrandt."
+},
+{
+"id": 11400007,
+"pt": "Use-as para pôr fim a esta loucura."
+},
+{
+"id": 11400100,
+"pt": "Que diabos está fazendo?!"
+},
+{
+"id": 11400101,
+"pt": "Por favor, não! Pensei que éramos aliados!"
+},
+{
+"id": 11400200,
+"pt": "Por favor, espere um pouco!"
+},
+{
+"id": 11400201,
+"pt": "Para onde está correndo?"
+},
+{
+"id": 11400300,
+"pt": "Qual era a pressa agora há pouco?"
+},
+{
+"id": 11400301,
+"pt": "Certamente pode poupar um mero instante."
+},
+{
+"id": 11500000,
+"pt": "Aqui em Boletaria, \nfala-se da lenda das Duas Espadas e\ndo Último Herói."
+},
+{
+"id": 11500001,
+"pt": "As Duas Espadas são Demonbrandt e Soulbrandt."
+},
+{
+"id": 11500002,
+"pt": "Uma espada bane aquilo que macula o homem, \ne a outra bane o próprio homem."
+},
+{
+"id": 11500003,
+"pt": "O Último Herói é o velho Rei Doran."
+},
+{
+"id": 11500004,
+"pt": "O Rei Doran é o Eterno, fundador de Boletaria \ne protetor das Duas Espadas."
+},
+{
+"id": 11500005,
+"pt": "Ha ha, claro, só segundo a lenda!"
+},
+{
+"id": 11500006,
+"pt": "Mas no estado sombrio de nossa terra, \nas lendas são tudo em que podemos nos apoiar..."
+},
+{
+"id": 11500100,
+"pt": "Em seu auge, Boletaria era um grande reino."
+},
+{
+"id": 11500101,
+"pt": "O rei, seus cavaleiros \ne seus súditos eram modestos e simples, \nmas também firmes e compassivos."
+},
+{
+"id": 11500102,
+"pt": "No distante reino do sul, \nBoletaria era conhecida como o paraíso na terra."
+},
+{
+"id": 11500103,
+"pt": "Mas veja no que nos tornamos agora!"
+},
+{
+"id": 11500104,
+"pt": "Recuso-me a crer que \nisto seja o que meu Pai desejava para nossa grande terra..."
+},
+{
+"id": 11500200,
+"pt": "O Rei Allant conduzia Boletaria com \numa távola redonda de bravos cavaleiros."
+},
+{
+"id": 11500201,
+"pt": "As Presas Duplas reais, Vallarfax e Biorr,"
+},
+{
+"id": 11500202,
+"pt": "Alfred, o cavaleiro da torre, \nMetas, o cavaleiro da lança,"
+},
+{
+"id": 11500203,
+"pt": "e o bravo homem da tribo Arco Longo Oolan \ne suas temíveis legiões."
+},
+{
+"id": 11500204,
+"pt": "Mas hoje Boletaria é uma ruína abismal."
+},
+{
+"id": 11500205,
+"pt": "Vallarfax se perdeu, \ne Biorr escorregou pela fenda, \nnunca mais se ouviu falar dele."
+},
+{
+"id": 11500206,
+"pt": "Todos os demais, junto com Boletaria, \nforam devorados pela névoa \ne logo serão presa dos Demônios."
+},
+{
+"id": 11500207,
+"pt": "Os cavaleiros de Boletaria já não existem."
+},
+{
+"id": 11500208,
+"pt": "Mas talvez a nossa era veja o surgimento de novos heróis, \ncomo você."
+},
+{
+"id": 12000000,
+"pt": "Bom dia. Quer dar uma olhada nas minhas mercadorias?"
+},
+{
+"id": 12000001,
+"pt": "Quase tudo roubado, mas quem é que vai dizer, né?"
+},
+{
+"id": 12000100,
+"pt": "Valeu. Volte logo."
+},
+{
+"id": 12000200,
+"pt": "Fique à vontade, sem pressa."
+},
+{
+"id": 12000201,
+"pt": "Não vou a lugar nenhum. He he he."
+},
+{
+"id": 12000300,
+"pt": "Ah, nos encontramos de novo. Olha só."
+},
+{
+"id": 12000301,
+"pt": "Espero que encontre algo do seu agrado."
+},
+{
+"id": 12000400,
+"pt": "Olá, o que posso fazer por você?"
+},
+{
+"id": 12000500,
+"pt": "Valeu por isso."
+},
+{
+"id": 12000600,
+"pt": "Seja você um bravo cavaleiro ou um escravo depravado, \nos Demônios arrancarão a sua alma, \ne então você enlouquece."
+},
+{
+"id": 12000601,
+"pt": "E os que ousam se agarrar à própria humanidade são caçados."
+},
+{
+"id": 12000602,
+"pt": "É o fim da Grande Boletaria como a conhecemos."
+},
+{
+"id": 12000603,
+"pt": "Mas, ora, ao menos os Demônios não nos mandam\nà morte em batalha! He he he he."
+},
+{
+"id": 12000701,
+"pt": "Tem um sujeito magrelo, metido numa armadura fabulosa, \nque vive resmungando sobre alguma missão."
+},
+{
+"id": 12000702,
+"pt": "É mais um que conseguiu se manter são, como você."
+},
+{
+"id": 12000703,
+"pt": "Provavelmente algum filhinho de papai, pelo jeito das roupas."
+},
+{
+"id": 12000704,
+"pt": "Eu daria um braço só pelos botões da camisa dele!"
+},
+{
+"id": 12000800,
+"pt": "O Rei? Enlouqueceu como todos os outros."
+},
+{
+"id": 12000801,
+"pt": "Ou talvez já fosse louco desde o início. \nNunca sei com esses brutamontes excêntricos da realeza!"
+},
+{
+"id": 12000900,
+"pt": "O lagarto gigante?"
+},
+{
+"id": 12000901,
+"pt": "Um dos bichos de estimação do Rei, como aqueles Demônios."
+},
+{
+"id": 12000902,
+"pt": "Esse monstro deixa um rastro de carcaças carbonizadas. \nO que é ótimo para os negócios, claro!"
+},
+{
+"id": 12000903,
+"pt": "Mas, a não ser que seja um catador como eu, \nmelhor ficar longe. He he he."
+},
+{
+"id": 12001000,
+"pt": "Que diabos há de errado com você!"
+},
+{
+"id": 12001001,
+"pt": "Não tenho medo! Vou despedaçar você membro por membro!"
+},
+{
+"id": 12001100,
+"pt": "Tempos difíceis, hein?"
+},
+{
+"id": 12001101,
+"pt": "Tenho certeza de que você dará a volta por cima. He he he."
+},
+{
+"id": 12001200,
+"pt": "Calma aí, amigo! Já vai?"
+},
+{
+"id": 12001300,
+"pt": "Vá lá. Compre algo para você."
+},
+{
+"id": 13000000,
+"pt": "Quem vem lá!"
+},
+{
+"id": 13000002,
+"pt": "Mmmmmmnnn... Ah-há! \nAquele inseto vil, vou despedaçá-lo membro por membro!"
+},
+{
+"id": 13000003,
+"pt": "Fui libertado?"
+},
+{
+"id": 13000100,
+"pt": "Suas larvas servis!"
+},
+{
+"id": 13000101,
+"pt": "Abominação rastejante e faminta de almas!"
+},
+{
+"id": 13000200,
+"pt": "Hm? Quem é você?... Ah, é aquele que me salvou."
+},
+{
+"id": 13000201,
+"pt": "Sou chamado Biorr, o mais velho das Presas Duplas\nde Boletaria. Eu lhe agradeço."
+},
+{
+"id": 13000202,
+"pt": "Você merece uma bela recompensa. Só que eu não tenho nenhuma! \nGaha ha ha ha..."
+},
+{
+"id": 13000203,
+"pt": "Vou dormir. Siga em frente."
+},
+{
+"id": 13100000,
+"pt": "Precisa de ajuda?"
+},
+{
+"id": 13100001,
+"pt": "Pela honra dos bons cavaleiros!"
+},
+{
+"id": 13100002,
+"pt": "Esta loucura demoníaca será detida de uma vez por todas!"
+},
+{
+"id": 13100100,
+"pt": "Mais um Demônio abatido!"
+},
+{
+"id": 13100101,
+"pt": "Gaha ha ha ha ha!"
+},
+{
+"id": 13200100,
+"pt": "Precisa de ajuda?"
+},
+{
+"id": 13200101,
+"pt": "Deixe o lagarto voador comigo!"
+},
+{
+"id": 13200102,
+"pt": "Que a luz brilhe sobre nosso Senhor e nossa orgulhosa Boletaria!"
+},
+{
+"id": 13200201,
+"pt": "Gaha ha ha ha ha!"
+},
+{
+"id": 13200300,
+"pt": "Aonde vai?"
+},
+{
+"id": 13200301,
+"pt": "Por que a pressa? Vai salvar o mundo? Gaha ha ha."
+},
+{
+"id": 13200401,
+"pt": "Mas que...! O que se apossou de você?!"
+},
+{
+"id": 13200402,
+"pt": "Posso ser velho, mas não sou frágil!"
+},
+{
+"id": 13500100,
+"pt": "Nosso grande Rei é um líder magnânimo."
+},
+{
+"id": 13500101,
+"pt": "É firme, enérgico e zeloso com seus súditos. \nLutou com vigilância contra os vis e depravados."
+},
+{
+"id": 13500102,
+"pt": "As alegações sediciosas de que nosso Senhor trouxe \neste flagelo sobre nós são meras invenções \ntecidas por conspiradores invejosos."
+},
+{
+"id": 13500103,
+"pt": "Tenho certeza disso, pois não há outra explicação."
+},
+{
+"id": 13500200,
+"pt": "Meu irmão de armas, Vallarfax das Presas Duplas,\nera um cavaleiro bravo e poderoso."
+},
+{
+"id": 13500201,
+"pt": "Ao contrário de mim, ele dominava mais que a espada. \nA mente de Vallarfax era mais afiada que a da maioria dos eruditos."
+},
+{
+"id": 13500202,
+"pt": "Tempos sombrios nos assolaram. Se nosso Senhor, com a\nestimada ajuda de Vallarfax, não pôde evitá-lo..."
+},
+{
+"id": 13500203,
+"pt": "Então ninguém poderia."
+},
+{
+"id": 13500300,
+"pt": "Quem vem lá!"
+},
+{
+"id": 13500301,
+"pt": "Ah, você matou aquele inseto vil e me salvou, he he."
+},
+{
+"id": 13500302,
+"pt": "Sou chamado Biorr, o mais velho das Presas Duplas\nde Boletaria. Eu lhe agradeço."
+},
+{
+"id": 13500303,
+"pt": "Você merece uma bela recompensa. Só que eu não tenho nenhuma! \nGaha ha ha ha..."
+},
+{
+"id": 13500304,
+"pt": "Siga em frente. Vou dormir um pouco."
+},
+{
+"id": 13500400,
+"pt": "Belo trabalho lá atrás."
+},
+{
+"id": 13500401,
+"pt": "Por outro lado, como um Demônio poderia enfrentar\num cavaleiro de verdade? Gaha ha ha ha..."
+},
+{
+"id": 13500402,
+"pt": "Agora, siga em frente. \nDevo estar ficando velho. Preciso descansar."
+},
+{
+"id": 13500500,
+"pt": "Conseguimos, não foi? Aquele lagarto saltador deu\nmais trabalho do que o esperado."
+},
+{
+"id": 13500501,
+"pt": "Agora, siga em frente. Você me conhece; preciso de um cochilo..."
+},
+{
+"id": 13500502,
+"pt": "Aquela monstruosidade mergulhadora... me esgotou bastante..."
+},
+{
+"id": 13500600,
+"pt": "Ouvi uma notícia estranha de um dregling mercador..."
+},
+{
+"id": 13500601,
+"pt": "Ele afirma que o filho do Rei, \nAriona, veio sozinho a Boletaria."
+},
+{
+"id": 13500602,
+"pt": "Ariona é uma alma sábia e gentil, quase gentil demais; \nnão estaria seguro nesta terra maldita\nsem proteção."
+},
+{
+"id": 13500603,
+"pt": "Se encontrar Ariona, cuide dele \ne diga-lhe que volte imediatamente ao Nexus..."
+},
+{
+"id": 13500604,
+"pt": "E que Biorr das Presas Duplas\ncuidará de Sua Alteza."
+},
+{
+"id": 13500700,
+"pt": "Pretende desafiar o Rei?"
+},
+{
+"id": 13500701,
+"pt": "Você pode ser um grande caçador de Demônios, \nmas temo que ainda não esteja pronto."
+},
+{
+"id": 13500702,
+"pt": "O Rei é defendido pelas almas negras de poderosos cavaleiros \ne por um dragão que cospe fogo."
+},
+{
+"id": 13500703,
+"pt": "Eles derrotaram até a mim; \nfoi assim que fui parar na masmorra."
+},
+{
+"id": 13500704,
+"pt": "Cuidado com os limites do seu próprio poder."
+},
+{
+"id": 13500800,
+"pt": "Hmm, você viu a torre de pedra solitária que \nbrota da muralha externa do castelo de Boletaria?"
+},
+{
+"id": 13500801,
+"pt": "Segundo aquele covarde carcereiro, uma jovem feiticeira\nestá presa ali, sujeita a, hum, \ntoda sorte de atos inconfessáveis em nome da purificação."
+},
+{
+"id": 13500802,
+"pt": "Lamentavelmente, não consigo encontrar a entrada daquela torre."
+},
+{
+"id": 13500803,
+"pt": "Por quanto tempo aquelas pragas desonrarão o bom nome do Rei?"
+},
+{
+"id": 13500900,
+"pt": "Ah, olá."
+},
+{
+"id": 13500901,
+"pt": "Você resgatou a jovem feiticeira daquela torre!"
+},
+{
+"id": 13500902,
+"pt": "Expresso minha gratidão. Não há desculpa para\ntamanho maltrato a uma jovem inocente."
+},
+{
+"id": 13500903,
+"pt": "O Rei ficaria orgulhoso."
+},
+{
+"id": 14000000,
+"pt": "...Vocês, brutos, não têm piedade...?"
+},
+{
+"id": 14000001,
+"pt": "Faça o que quiser."
+},
+{
+"id": 14000002,
+"pt": "Não há segredos aqui; só um corpo cansado e esquelético."
+},
+{
+"id": 14000003,
+"pt": "...O que quer de mim?"
+},
+{
+"id": 14000100,
+"pt": "Santo Deus, você..."
+},
+{
+"id": 14000101,
+"pt": "Você... veio... me salvar?"
+},
+{
+"id": 14000102,
+"pt": "Obrigada. Não, estou bem."
+},
+{
+"id": 14000103,
+"pt": "Com um pouco de descanso, logo poderei andar."
+},
+{
+"id": 14000104,
+"pt": "Siga em frente. Não desejo ser um peso morto."
+},
+{
+"id": 14500200,
+"pt": "Olá de novo. Você me salvou de uma grande agonia."
+},
+{
+"id": 14500201,
+"pt": "Lamento, pois não posso oferecer um agradecimento digno."
+},
+{
+"id": 14500202,
+"pt": "Se desejar, porém, posso ensinar-lhe magia\nem troca de almas de Demônios."
+},
+{
+"id": 14500203,
+"pt": "Mas minha feitiçaria é de natureza sombria \ne desperta suspeitas."
+},
+{
+"id": 14500204,
+"pt": "Por que não experimenta a magia do grande Sábio Freke?"
+},
+{
+"id": 14500205,
+"pt": "Talvez não lhe sirva..."
+},
+{
+"id": 14500300,
+"pt": "Tem certeza de que deseja aprender feitiçaria?"
+},
+{
+"id": 14500301,
+"pt": "Seria uma honra auxiliar alguém como você, mas..."
+},
+{
+"id": 14500302,
+"pt": "Tem certeza?"
+},
+{
+"id": 14500400,
+"pt": "Veio buscar mais feitiçaria?"
+},
+{
+"id": 14500401,
+"pt": "Muito bem. Ajudarei como puder."
+},
+{
+"id": 14500500,
+"pt": "Devo a minha vida a você."
+},
+{
+"id": 14500501,
+"pt": "Se algum dia precisar de feitiçaria, fale comigo."
+},
+{
+"id": 14500502,
+"pt": "É uma arte sombria, mas é tudo o que posso oferecer."
+},
+{
+"id": 14500520,
+"pt": "Obrigada. Espero que minha feitiçaria lhe seja de alguma ajuda."
+},
+{
+"id": 14500530,
+"pt": "Obrigada. Fale comigo sempre que precisar."
+},
+{
+"id": 14500550,
+"pt": "Aonde vai?"
+},
+{
+"id": 14500560,
+"pt": "P-Por quê!?"
+},
+{
+"id": 14500561,
+"pt": "Achei que você fosse diferente dos outros!"
+},
+{
+"id": 14500600,
+"pt": "Tenho grandes receios quanto a Freke."
+},
+{
+"id": 14500601,
+"pt": "Fui rotulada de bruxa muito jovem e, desde então, \nfui perseguida como uma ameaça à sociedade humana."
+},
+{
+"id": 14500602,
+"pt": "Embora eu nunca tenha tido más intenções, \nesta minha arte negra é intrinsecamente maligna."
+},
+{
+"id": 14500603,
+"pt": "Se há um Deus, ele nos deu almas para fazer o bem, \nnão para praticar feitiçaria."
+},
+{
+"id": 14500604,
+"pt": "Meus acusadores detestavam minhas artes sombrias com razão, \npois o caminho que segui está maculado."
+},
+{
+"id": 14500605,
+"pt": "Esta foi uma das constatações \nque tive desde que cheguei a Boletaria."
+},
+{
+"id": 14500606,
+"pt": "Mas temo que Freke também tenha se aventurado\npelo caminho errado. Tornou-se obcecado\npelas artes sombrias."
+},
+{
+"id": 14500700,
+"pt": "Um dia, cobicei o poder oferecido pelas almas de Demônios."
+},
+{
+"id": 14500701,
+"pt": "Aventurei-me pela fenda até Boletaria, \nmas fiquei presa no Nexus."
+},
+{
+"id": 14500702,
+"pt": "Então, a carrasca do Rei, Miralda, me acorrentou \nnaquela torre."
+},
+{
+"id": 14500703,
+"pt": "Minha sede por almas de Demônios acabou."
+},
+{
+"id": 14500704,
+"pt": "Pelo contrário, considero tal poder perigoso."
+},
+{
+"id": 14500800,
+"pt": "Conhece Yurt, o chefe silencioso?"
+},
+{
+"id": 14500801,
+"pt": "Ele veste uma armadura negra como breu \ne um elmo com dois espinhos agudos."
+},
+{
+"id": 14500802,
+"pt": "A presença de Yurt em Boletaria resultou na\nmorte de muitos grandes heróis."
+},
+{
+"id": 14500803,
+"pt": "Sejam quais forem os seus motivos, ele é um grave perigo para todos nós."
+},
+{
+"id": 14500804,
+"pt": "Cuide-se com ele. \nNão suporto pensar em algum mal que lhe aconteça."
+},
+{
+"id": 14500900,
+"pt": "Freke maneja um tipo de magia diferente da minha feitiçaria."
+},
+{
+"id": 14500901,
+"pt": "A magia de Freke nasce da compreensão \nda essência da alma de Demônio,"
+},
+{
+"id": 14500902,
+"pt": "enquanto minha feitiçaria apenas canaliza sua energia."
+},
+{
+"id": 14500903,
+"pt": "Se o Demônio for amaldiçoado, assim será a feitiçaria."
+},
+{
+"id": 14500904,
+"pt": "O poder de Freke vem do potencial humano, \nenquanto o meu é uma arte sombria e dependente."
+},
+{
+"id": 15000000,
+"pt": "Ke he he he he!"
+},
+{
+"id": 15000001,
+"pt": "Peguei você, miserável traidor do Rei!"
+},
+{
+"id": 15000002,
+"pt": "Eu, Miralda, não terei piedade de você!"
+},
+{
+"id": 15000100,
+"pt": "Já morreu? Oh, você merece."
+},
+{
+"id": 15000101,
+"pt": "Ke he, he he he he!"
+},
+{
+"id": 15000200,
+"pt": "Tolo traidor do Rei!"
+},
+{
+"id": 15000201,
+"pt": "Ke he, he he he he!"
+},
+{
+"id": 15000300,
+"pt": "Nia ha ha ha ha ha!"
+},
+{
+"id": 16000000,
+"pt": "Você... você é humano?"
+},
+{
+"id": 16000001,
+"pt": "Oh, a dor, a dor... e o cheiro horrendo..."
+},
+{
+"id": 16000002,
+"pt": "Por favor, acabe com o meu sofrimento..."
+},
+{
+"id": 16000003,
+"pt": "Por favor, tenha piedade..."
+},
+{
+"id": 16000100,
+"pt": "Obrigado."
+},
+{
+"id": 16000101,
+"pt": "Perdoe-me, Pai..."
+},
+{
+"id": 17000000,
+"pt": "Ufa! Você me salvou."
+},
+{
+"id": 17000001,
+"pt": "Meu Deus, não acredito que caí naquela armadilha."
+},
+{
+"id": 17000002,
+"pt": "Acho que agora lhe devo uma."
+},
+{
+"id": 17000003,
+"pt": "Como agradecimento, posso lhe fornecer mercadorias úteis."
+},
+{
+"id": 17000004,
+"pt": "Quem não precisa de uma mãozinha por estas bandas?"
+},
+{
+"id": 17000005,
+"pt": "Sou o saqueador Blige."
+},
+{
+"id": 17000100,
+"pt": "Satisfeito? Terei mais para você da próxima vez."
+},
+{
+"id": 17000101,
+"pt": "Que tenhamos uma relação longa e frutífera!"
+},
+{
+"id": 17000200,
+"pt": "Nada lhe agrada? Bem, não seja tão mão de vaca."
+},
+{
+"id": 17000201,
+"pt": "Um pouco de luxo faz bem."
+},
+{
+"id": 17000300,
+"pt": "Olá. Nos encontramos de novo."
+},
+{
+"id": 17000301,
+"pt": "Você está com uma cara péssima. Anime-se, a vida é uma aventura! \nHa ha ha."
+},
+{
+"id": 17000400,
+"pt": "Ah, olá. Estou aqui para agradar. O que posso lhe oferecer?"
+},
+{
+"id": 17000500,
+"pt": "Terminou? Bom dia."
+},
+{
+"id": 17000501,
+"pt": "Veja se não se mata!"
+},
+{
+"id": 17000600,
+"pt": "Este santuário foi usado em um ritual \nmacabro por uma tribo antiga."
+},
+{
+"id": 17000601,
+"pt": "Eles pereceram há muito, e agora os Demônios\nfazem as almas trabalharem."
+},
+{
+"id": 17000602,
+"pt": "Ao menos aqui você mata coisas que já estão mortas,\ncomo esqueletos e espreitadores das sombras."
+},
+{
+"id": 17000603,
+"pt": "Melhor do que matar aqueles pobres humanos famintos de alma, não?"
+},
+{
+"id": 17000604,
+"pt": "É disso que eu gosto neste lugar."
+},
+{
+"id": 17000700,
+"pt": "Há alguém sobre quem devo avisá-lo. \nUm sujeito sem a menor decência."
+},
+{
+"id": 17000701,
+"pt": "Chamam-no Patches, a Hiena, \ne foi ele quem armou aquela armadilha para mim."
+},
+{
+"id": 17000702,
+"pt": "É o tipo de gente que apunhalaria a própria mãe pelas costas."
+},
+{
+"id": 17000703,
+"pt": "Se por acaso o avistar, estará nos fazendo a todos um\nfavor ao acabar com o seu sofrimento."
+},
+{
+"id": 17000800,
+"pt": "Já esteve no altar onde os feiticeiros invocam sombras?"
+},
+{
+"id": 17000801,
+"pt": "Bem, acho que alguém pode estar preso na cavidade inferior. \nOuvi-o rezando por sua vida."
+},
+{
+"id": 17000802,
+"pt": "Pobre tolo. \nProvavelmente caiu em algum dos velhos truques de Patches."
+},
+{
+"id": 17000900,
+"pt": "Foi aqui que os antigos bárbaros ofereciam \nseus heróis honrados aos ventos."
+},
+{
+"id": 17000901,
+"pt": "Buscar os ventos em vida e encontrar os ventos na morte. \nEsse era o código do guerreiro."
+},
+{
+"id": 17000902,
+"pt": "E tudo o que resta aqui agora é uma bela pilha de pó."
+},
+{
+"id": 17000903,
+"pt": "Nunca errei tanto numa escavação. \nDesonrei a linhagem dos saqueadores Blige!"
+},
+{
+"id": 17001000,
+"pt": "Que diabos há de errado com você?"
+},
+{
+"id": 17001001,
+"pt": "Foi possuído por alguma alma?"
+},
+{
+"id": 17001100,
+"pt": "Hmm... Bem, como quiser."
+},
+{
+"id": 17001101,
+"pt": "Mas um pouco de luxo faz bem."
+},
+{
+"id": 17001200,
+"pt": "Ei, espere! Ainda não terminei!"
+},
+{
+"id": 17001300,
+"pt": "Desta vez eu perdoo, mas não faça de novo."
+},
+{
+"id": 17001400,
+"pt": "Não tenho nada a vender para gente como você."
+},
+{
+"id": 18000000,
+"pt": "Hm? Nunca vi você por estas bandas."
+},
+{
+"id": 18000001,
+"pt": "Bah, que importa? Se precisa de ferreiro,\nmostre-me algumas moedas. Se não, rumo à porta."
+},
+{
+"id": 18000100,
+"pt": "Bah. O que deseja?"
+},
+{
+"id": 18000101,
+"pt": "Se é de ferreiro que precisa, mostre-me algumas moedas. \nSe não, rumo à porta."
+},
+{
+"id": 18000200,
+"pt": "Terminou? Então vá embora. Trabalho sozinho."
+},
+{
+"id": 18000300,
+"pt": "Bah. Não perca o meu tempo."
+},
+{
+"id": 18000310,
+"pt": "Ei, volte já aqui!"
+},
+{
+"id": 18000320,
+"pt": "Não tenho negócios com a sua laia."
+},
+{
+"id": 18000321,
+"pt": "Estou ocupado. Vá embora."
+},
+{
+"id": 18000400,
+"pt": "Estou ocupado. Não estou aqui para jogar conversa fora."
+},
+{
+"id": 18000401,
+"pt": "Forjar uma arma a fortalece e altera o seu caráter."
+},
+{
+"id": 18000402,
+"pt": "Os minérios são espíritos transmutados. \nSua presença abençoa a arma."
+},
+{
+"id": 18000500,
+"pt": "Quantas vezes preciso repetir? \nEstou ocupado. Não tenho tempo para conversa fiada."
+},
+{
+"id": 18000501,
+"pt": "Os minérios são exigentes e volúveis."
+},
+{
+"id": 18000502,
+"pt": "Por mais gentil que você seja com eles, um tipo diferente\nnão dará sua bênção à mesma arma."
+},
+{
+"id": 18000503,
+"pt": "Claro, são imprevisíveis por natureza, \ne alguns são menos volúveis que outros."
+},
+{
+"id": 18000600,
+"pt": "Já disse que estou ocupado."
+},
+{
+"id": 18000601,
+"pt": "Cada minério tem um grau."
+},
+{
+"id": 18000602,
+"pt": "Armas poderosas só podem ser abençoadas por minérios de alto grau."
+},
+{
+"id": 18000603,
+"pt": "O mais alto grau de todos é um minério puro que brilha em\nesplendor absoluto. Uma força espiritual que encanta os olhos...\nKe he he he."
+},
+{
+"id": 18000700,
+"pt": "Almas de Demônios?"
+},
+{
+"id": 18000701,
+"pt": "Os Demônios são espíritos poderosos; \nalguns até podem abençoar armas."
+},
+{
+"id": 18000702,
+"pt": "Mas isso exige uma chama poderosa..."
+},
+{
+"id": 18000703,
+"pt": "Pois a alma de um Demônio é um inferno de fúria."
+},
+{
+"id": 18000800,
+"pt": "Sim, essa mesma, uma Alma de Demônio incandescente."
+},
+{
+"id": 18000801,
+"pt": "Agora você pode abençoar sua arma com outra Alma de Demônio."
+},
+{
+"id": 18000900,
+"pt": "Hm, escolha sábia. Fez bem em confiar\nno grande ferreiro Ed."
+},
+{
+"id": 18000901,
+"pt": "Traga-me uma Alma de Demônio, \ne eu a usarei para abençoar a sua arma."
+},
+{
+"id": 18001000,
+"pt": "Ora, certamente está brincando!"
+},
+{
+"id": 18001001,
+"pt": "...Por que falar toda essa bobagem, se não tem\ntal intenção...?"
+},
+{
+"id": 18001002,
+"pt": "...O pobre rapaz não reconhece um bom ferreiro quando \no vê e mal merece uma Alma de Demônio..."
+},
+{
+"id": 18001100,
+"pt": "Que diabos está fazendo?"
+},
+{
+"id": 18001101,
+"pt": "Sou só um ferreiro, seu tolo!!"
+},
+{
+"id": 19000000,
+"pt": "Você aí!"
+},
+{
+"id": 19000001,
+"pt": "Não vai comprar algo? Meu pobre filho está com fome."
+},
+{
+"id": 19000100,
+"pt": "Já terminou?"
+},
+{
+"id": 19000101,
+"pt": "Meu pequeno é um menino em crescimento. Por favor, seja generoso."
+},
+{
+"id": 19000200,
+"pt": "Maldição! Desperdicei meu fôlego com você!"
+},
+{
+"id": 19000201,
+"pt": "Aquela bruxa o mandou para me atormentar!?"
+},
+{
+"id": 19000300,
+"pt": "Ei, eu conheço você!"
+},
+{
+"id": 19000301,
+"pt": "Não vai comprar algo? \nMeu pobre filho está doente. Ele precisa da sua ajuda!"
+},
+{
+"id": 19000400,
+"pt": "Já terminou?"
+},
+{
+"id": 19000401,
+"pt": "Seu miserável pão-duro. “Deixem os filhos dos pobres\nmorrerem”, é isso?"
+},
+{
+"id": 19000500,
+"pt": "Por favor, compre outro. Pelo pobre menino, pelo pobre menino!"
+},
+{
+"id": 19000600,
+"pt": "Já terminou?"
+},
+{
+"id": 19000601,
+"pt": "Só quero que o meu querido menino seja feliz."
+},
+{
+"id": 19000700,
+"pt": "Desde que aquela bruxa demoníaca chegou aqui,\ntudo azedou."
+},
+{
+"id": 19000701,
+"pt": "Todos os homens a adoram como se fosse a Virgem Maria. \nOs mesmos homens que tirariam meu filho de mim!"
+},
+{
+"id": 19000702,
+"pt": "Este lugar era muito melhor antes de ela chegar. \nEu era a menina dos olhos de todos os homens."
+},
+{
+"id": 19000703,
+"pt": "Você veio nos livrar dela, não é? \nPois não tenha piedade!"
+},
+{
+"id": 19000800,
+"pt": "Você não merece morrer, então deixe-me dar um conselho."
+},
+{
+"id": 19000801,
+"pt": "Este lugar fervilha de pragas engordadas \ncom uma dieta de almas."
+},
+{
+"id": 19000802,
+"pt": "Para se proteger, \nvocê precisa manter um Lótus consigo."
+},
+{
+"id": 19000803,
+"pt": "O preço da sobrevivência nunca é alto demais, não é?"
+},
+{
+"id": 19000900,
+"pt": "Este lugar? É um verdadeiro monte de lixo."
+},
+{
+"id": 19000901,
+"pt": "Toda a podridão do mundo, viva ou não, vai parar aqui."
+},
+{
+"id": 19000902,
+"pt": "Agradeço às estrelas por ainda ter meu menino..."
+},
+{
+"id": 19001000,
+"pt": "Quantos anos já se passaram?"
+},
+{
+"id": 19001001,
+"pt": "Aquela bruxa Astraea veio a este vale \ncom aquele cavaleiro de cabeça de lula."
+},
+{
+"id": 19001002,
+"pt": "Aquelas ridículas vestes brancas dela...\nJuro que a peguei olhando meu filho com nojo!"
+},
+{
+"id": 19001003,
+"pt": "Sim, sim, é verdade! Ela é mais ruim que tudo."
+},
+{
+"id": 19001004,
+"pt": "E ainda por cima é um Demônio! Não me surpreende."
+},
+{
+"id": 19001100,
+"pt": "Seu bruto! O que está fazendo comigo!?"
+},
+{
+"id": 19001101,
+"pt": "Até mendigos reagem, seu rato sarnento!"
+},
+{
+"id": 19001200,
+"pt": "Não vá simplesmente embora!"
+},
+{
+"id": 19001300,
+"pt": "Pelo amor de Deus..."
+},
+{
+"id": 19001301,
+"pt": "Já tive humilhação demais para uma vida inteira."
+},
+{
+"id": 20000000,
+"pt": "Ah, humano, é?"
+},
+{
+"id": 20000001,
+"pt": "Sou Freke. Estou preso aqui há eras."
+},
+{
+"id": 20000002,
+"pt": "Talvez você possa me ajudar a sair daqui?"
+},
+{
+"id": 20000003,
+"pt": "Sou um sábio e posso lhe emprestar meu poder em troca."
+},
+{
+"id": 20000004,
+"pt": "Ah, cuidado com aqueles guardas de cabeça de polvo."
+},
+{
+"id": 20000100,
+"pt": "Magnífico. Nunca esperei sair de lá vivo."
+},
+{
+"id": 20000101,
+"pt": "Meu nome é Freke. Sou conhecido como sábio."
+},
+{
+"id": 20000102,
+"pt": "Achei que minha magia me daria vantagem \ncontra esses Demônios, mas como eu estava enganado..."
+},
+{
+"id": 20000103,
+"pt": "Fui enfraquecido por minha longa prisão."
+},
+{
+"id": 20000104,
+"pt": "Mas ainda posso mexer as pernas \ne consigo voltar ao Nexus."
+},
+{
+"id": 20000105,
+"pt": "Agradeço às estrelas por ter escapado quando escapei.\nDevo-lhe a vida."
+},
+{
+"id": 20000106,
+"pt": "Devo-lhe a vida."
+},
+{
+"id": 20500001,
+"pt": "Tenho uma proposta para você."
+},
+{
+"id": 20500002,
+"pt": "Poderia trazer suas Almas de Demônios para mim?"
+},
+{
+"id": 20500003,
+"pt": "À medida que desvendo a essência da alma, \nposso lhe ensinar novas magias."
+},
+{
+"id": 20500004,
+"pt": "A alma de um Demônio não é mera amálgama de almas menores."
+},
+{
+"id": 20500005,
+"pt": "Você é esperto; certamente me entende?"
+},
+{
+"id": 20500006,
+"pt": "Se deseja ser um mago, venha a mim."
+},
+{
+"id": 20500100,
+"pt": "Bravo! Obrigado por oferecer suas Almas de Demônios!"
+},
+{
+"id": 20500101,
+"pt": "Não consigo expressar minha gratidão."
+},
+{
+"id": 20500102,
+"pt": "Obrigado. Você é um excelente mago."
+},
+{
+"id": 20500103,
+"pt": "Conforme prometido, deixe-me ensinar-lhe novas magias."
+},
+{
+"id": 20500104,
+"pt": "Ter meu desejo atendido em idade tão avançada...!"
+},
+{
+"id": 20500200,
+"pt": "Bravo! Você me trouxe mais Almas de Demônios!"
+},
+{
+"id": 20500201,
+"pt": "Obrigado. Você é um excelente mago."
+},
+{
+"id": 20500202,
+"pt": "Deixe-me transmitir-lhe mais artes da varinha."
+},
+{
+"id": 20500203,
+"pt": "...Estou um passo mais perto da essência da alma de Demônio..."
+},
+{
+"id": 20500204,
+"pt": "...Nosso potencial humano é grande..."
+},
+{
+"id": 20500220,
+"pt": "Traga-me mais Almas de Demônios quando puder!"
+},
+{
+"id": 20500221,
+"pt": "Aguardo pacientemente, meu bom amigo mago!"
+},
+{
+"id": 20500300,
+"pt": "Estou plenamente preparado. Por favor, traga mais Almas de Demônios."
+},
+{
+"id": 20500301,
+"pt": "Ainda posso ter paciência, meu bom amigo mago!"
+},
+{
+"id": 20500320,
+"pt": "Aonde vai?"
+},
+{
+"id": 20500340,
+"pt": "Que diabos há de errado com você?"
+},
+{
+"id": 20500341,
+"pt": "O que ganha me matando?"
+},
+{
+"id": 20500400,
+"pt": "Como sabe, a magia é uma das artes da alma."
+},
+{
+"id": 20500401,
+"pt": "O flagelo de Boletaria ativou todas as almas \ne energizou toda a magia."
+},
+{
+"id": 20500402,
+"pt": "Talvez, então, devêssemos trabalhar para preservar este estado\nde realidade elevada?"
+},
+{
+"id": 20500403,
+"pt": "Não, não, Deus me livre."
+},
+{
+"id": 20500404,
+"pt": "Os Demônios roubam almas e, com elas, a nossa sanidade."
+},
+{
+"id": 20500405,
+"pt": "Tal blasfêmia não deve ser permitida."
+},
+{
+"id": 20500501,
+"pt": "Conheço três líderes humanos que se tornaram Demônios."
+},
+{
+"id": 20500502,
+"pt": "O Rei Allant de Boletaria, \nAstraea do Vale da Profanação \ne o ancião dourado de Latria."
+},
+{
+"id": 20500503,
+"pt": "Eles provaram que os humanos podem evoluir a um estado superior."
+},
+{
+"id": 20500504,
+"pt": "Erramos ao supor que só os Demônios poderiam\nfazer obra de demônio."
+},
+{
+"id": 20500600,
+"pt": "Fui derrotado e capturado pelo ancião dourado\nalém daquela masmorra."
+},
+{
+"id": 20500601,
+"pt": "Cuidado com ele, pois manipula almas."
+},
+{
+"id": 20500602,
+"pt": "Tem poder sobre almas sombrias, aquelas suscetíveis\nà loucura e à paranoia."
+},
+{
+"id": 20500700,
+"pt": "Você tem alguma ligação com os discípulos?"
+},
+{
+"id": 20500701,
+"pt": "Não lhes dê atenção se falarem mal\nde mim e de minha magia."
+},
+{
+"id": 20500702,
+"pt": "A oração é para os tolos, os ingênuos e os prestes a morrer."
+},
+{
+"id": 20500703,
+"pt": "E Deus o livre do dia em que descobrir \no que é de fato o seu tal Deus..."
+},
+{
+"id": 20500800,
+"pt": "Aquela bruxa Yuria é uma mulher fascinante."
+},
+{
+"id": 20500801,
+"pt": "Usa um tipo de magia diferente da minha. \nA dela é movida pela emoção; um tipo inferior de milagre."
+},
+{
+"id": 20500802,
+"pt": "Será que tem relação com o gênero dela?"
+},
+{
+"id": 20500803,
+"pt": "Ainda tenho muito a aprender..."
+},
+{
+"id": 20501500,
+"pt": "Ora, você derrotou todos os Demônios, não foi?"
+},
+{
+"id": 20501501,
+"pt": "Este uivo horrendo...\nO Monumental já falou dele antes..."
+},
+{
+"id": 20501502,
+"pt": "Há uma pergunta que há muito me ocupa a mente."
+},
+{
+"id": 20501503,
+"pt": "Se estamos certos em banir o Ancião."
+},
+{
+"id": 20501504,
+"pt": "E agora tenho a resposta, e é um sonoro “não”."
+},
+{
+"id": 20501505,
+"pt": "Ouça bem. O Ancião não deve ser separado de nós."
+},
+{
+"id": 20501506,
+"pt": "Se a donzela da vela tentar aprisioná-lo, mate-a."
+},
+{
+"id": 20501507,
+"pt": "Depois absorva para si as almas do Ancião."
+},
+{
+"id": 20501508,
+"pt": "O Ancião é um depósito insondável de energia; \ncontém todas as almas colhidas pelos Demônios."
+},
+{
+"id": 20501509,
+"pt": "Você obterá o poder de um Rei, \ne eu obterei conhecimento do além."
+},
+{
+"id": 20501510,
+"pt": "E esse, meu caro amigo, é o caminho justo. \nNão permita que ninharias o dissuadam."
+},
+{
+"id": 20501511,
+"pt": "As Almas de Demônios serão nossas!"
+},
+{
+"id": 20501512,
+"pt": "Para falar a verdade, aquela mulher foi maculada\npelos próprios Demônios. Ela lhe agradeceria em sua morte\npor aliviar a sua... agonia."
+},
+{
+"id": 20501600,
+"pt": "Olá."
+},
+{
+"id": 20501601,
+"pt": "Você me ajudou em Latria. Por isso lhe agradeço."
+},
+{
+"id": 20501602,
+"pt": "Mas na minha idade, não creio que possa\nlhe ser de ajuda."
+},
+{
+"id": 21000000,
+"pt": "Você é um humano comum, não é? \nDe onde vem?"
+},
+{
+"id": 21000001,
+"pt": "Meu Deus, não devo bisbilhotar. Ah, talvez queira\nalgo da minha coleção?"
+},
+{
+"id": 21000002,
+"pt": "Já tive dias melhores. Fui esposa de um nobre\ne tenho algumas belas coisas para mostrar."
+},
+{
+"id": 21000100,
+"pt": "Obrigado."
+},
+{
+"id": 21000101,
+"pt": "Agora posso ficar aqui por mais algum tempo."
+},
+{
+"id": 21000200,
+"pt": "Bem, tudo bem."
+},
+{
+"id": 21000201,
+"pt": "Quero ficar aqui, mas preciso de almas para me manter sã. \nCertamente você entende..."
+},
+{
+"id": 21000300,
+"pt": "Ah, é você. Procura comprar algo hoje?"
+},
+{
+"id": 21000310,
+"pt": "Ora, não saia correndo assim!"
+},
+{
+"id": 21000320,
+"pt": "Você voltou... Procura algo\nespecial hoje?"
+},
+{
+"id": 21000400,
+"pt": "Antes, havia muitos outros presos aqui."
+},
+{
+"id": 21000401,
+"pt": "Mas enlouqueceram e subiram,\npor vontade própria."
+},
+{
+"id": 21000402,
+"pt": "Redenção? Ha. Isso não existe."
+},
+{
+"id": 21000500,
+"pt": "A Rainha baniu da terra seu depravado e velho marido."
+},
+{
+"id": 21000501,
+"pt": "Ele voltou com estranhos trajes dourados e Demônios imundos a reboque."
+},
+{
+"id": 21000502,
+"pt": "Saquearam a grande Latria, terra dos eruditos, \ne nos trancaram nesta masmorra."
+},
+{
+"id": 21000503,
+"pt": "Desde então, alimentam-se de nossas almas..."
+},
+{
+"id": 21000504,
+"pt": "Dizendo-nos repetidamente que, se subirmos, \nnos será concedida a redenção."
+},
+{
+"id": 21000600,
+"pt": "Eu sei a verdade."
+},
+{
+"id": 21000601,
+"pt": "A deusa da igreja pode morrer, mas nunca por muito tempo."
+},
+{
+"id": 21000602,
+"pt": "E nós estamos presos lá embaixo para sempre."
+},
+{
+"id": 21000700,
+"pt": "Está atrás de sangue?"
+},
+{
+"id": 21000701,
+"pt": "Pelo amor de Deus! Por quê?!"
+},
+{
+"id": 22000000,
+"pt": "Oh! Os Demônios não pegaram você, não é? Que sorte a minha."
+},
+{
+"id": 22000001,
+"pt": "Está vendo aquele fosso? Está cheio de tesouros, \nmas, hã, não consigo chegar lá sozinho."
+},
+{
+"id": 22000002,
+"pt": "Vá, dê uma olhada! São mais riquezas do que \njamais sonhei!"
+},
+{
+"id": 22000003,
+"pt": "É isso, aquele fosso ali. Vá, chegue um pouco mais perto."
+},
+{
+"id": 22000020,
+"pt": "O que o detém?"
+},
+{
+"id": 22000021,
+"pt": "Dê uma olhada naquele tesouro lá no fosso."
+},
+{
+"id": 22000022,
+"pt": "Depois pensamos num jeito de pescá-lo. He he he."
+},
+{
+"id": 22000100,
+"pt": "He he, não leve a mal, hein?"
+},
+{
+"id": 22000101,
+"pt": "Fique à vontade para morrer de fome; \ndepois vendo cada bugiganga do seu cadáver!"
+},
+{
+"id": 22000102,
+"pt": "Ke he he he!"
+},
+{
+"id": 22000200,
+"pt": "V-Você..."
+},
+{
+"id": 22000201,
+"pt": "Ei, olhe, sinto muito mesmo, não quis dizer o que disse."
+},
+{
+"id": 22000202,
+"pt": "Quer dizer, um homem precisa ganhar a vida, não é? \nOlhe, posso compensar."
+},
+{
+"id": 22000203,
+"pt": "Já sei! Tome, pegue isto, como prova da minha amizade. \nCerto que já viu um destes antes?"
+},
+{
+"id": 22000204,
+"pt": "Não há muitos humanos como nós. Precisamos ficar juntos!"
+},
+{
+"id": 22000220,
+"pt": "He he he."
+},
+{
+"id": 22000221,
+"pt": "Vamos, sejamos amigos, o que me diz?"
+},
+{
+"id": 22000222,
+"pt": "Não há necessidade de puxarmos um ao outro para baixo."
+},
+{
+"id": 22000300,
+"pt": "Seu verme asqueroso!"
+},
+{
+"id": 22000301,
+"pt": "O que foi que eu lhe fiz?!"
+},
+{
+"id": 22000400,
+"pt": "Ah, olá de novo."
+},
+{
+"id": 22000401,
+"pt": "Ei, não me vire as costas. \nNão quis lhe fazer mal, de verdade!"
+},
+{
+"id": 22000402,
+"pt": "Ah, tive uma ideia!"
+},
+{
+"id": 22000403,
+"pt": "Aquele tesouro ali deveria ser meu, \nmas deixo que VOCÊ fique com ele!"
+},
+{
+"id": 22000404,
+"pt": "Prometo, sem truques! Não mexo um músculo\naté o tesouro estar em segurança nas suas mãos."
+},
+{
+"id": 22000405,
+"pt": "Pode confiar em mim... não pode? Só quero fazer\no certo e me redimir, hein?"
+},
+{
+"id": 22000420,
+"pt": "Qual é o problema? Estou me arriscando aqui;\ndê-me uma chance de provar minha boa-fé."
+},
+{
+"id": 22000440,
+"pt": "Qual é o problema? Bom demais para um tesouro?"
+},
+{
+"id": 22000500,
+"pt": "Oh, oh!! Quem diria? Besouros-urso!"
+},
+{
+"id": 22000501,
+"pt": "Minhas desculpas. Simplesmente não é o seu dia."
+},
+{
+"id": 22000502,
+"pt": "Como prometido, o tesouro é todo seu. \nSe sobreviver, é claro!"
+},
+{
+"id": 22000503,
+"pt": "Boa sorte!"
+},
+{
+"id": 22000600,
+"pt": "Você... Como fez isso?"
+},
+{
+"id": 22000601,
+"pt": "Eu não tentei enganá-lo, de verdade. Foi só azar."
+},
+{
+"id": 22000602,
+"pt": "E, de mais a mais, você está são e salvo, não está? \nNão se preocupe, não se preocupe."
+},
+{
+"id": 22000603,
+"pt": "Aqui está, o seu tesourinho, são e salvo."
+},
+{
+"id": 22000604,
+"pt": "Vamos, pegue, pegue! He he he he."
+},
+{
+"id": 22000700,
+"pt": "He he he."
+},
+{
+"id": 22000701,
+"pt": "Você simplesmente não tem sorte. Não se preocupe."
+},
+{
+"id": 22000702,
+"pt": "Fique perto de mim, e minha sorte logo passa para você!"
+},
+{
+"id": 22000800,
+"pt": "Ei, aonde vai?"
+},
+{
+"id": 22000801,
+"pt": "Eu estava só começando!"
+},
+{
+"id": 22001500,
+"pt": "Ora, eu me lembro de você."
+},
+{
+"id": 22001501,
+"pt": "Que bom que o encontrei. Achei umas bugigangas muito boas."
+},
+{
+"id": 22001502,
+"pt": "Coisa boa, hein? Volte sempre, então. Estarei esperando!"
+},
+{
+"id": 22001503,
+"pt": "Bem, faça como quiser, mas ainda pode se arrepender\nde recusar minha oferta."
+},
+{
+"id": 22001504,
+"pt": "Bem, nos conhecemos há tempos, então aceito separar-me\ndelas por um preço especial, mas só se comprar hoje!"
+},
+{
+"id": 22001520,
+"pt": "Não o vejo há algum tempo."
+},
+{
+"id": 22001521,
+"pt": "He he he, tenho umas coisas para você!"
+},
+{
+"id": 22001522,
+"pt": "Não, não, nem fale nisso! É o mínimo que posso fazer\npor um querido amigo! Mas pague por elas."
+},
+{
+"id": 22001600,
+"pt": "Ah, não o vejo há algum tempo."
+},
+{
+"id": 22001601,
+"pt": "Tenho mercadorias novas e preciosas. \nCom certeza vai achar algo muito útil."
+},
+{
+"id": 22001602,
+"pt": "Coisa boa, hein? Não vai achar em nenhum outro lugar. \nFaço questão de agradar!"
+},
+{
+"id": 22001603,
+"pt": "Bem, faça como quiser, mas não venha chorando\nquando não funcionar."
+},
+{
+"id": 22001604,
+"pt": "E então, como foi? Não está contente por sermos tão\nbons amigos? He he he he."
+},
+{
+"id": 22001605,
+"pt": "Tudo bem, tudo bem, não posso obrigá-lo. \nMas sei que logo voltará."
+},
+{
+"id": 22001700,
+"pt": "Nada aqui é roubado, eu juro."
+},
+{
+"id": 22001701,
+"pt": "Não participo mais dessa história de roubar cadáveres."
+},
+{
+"id": 22001702,
+"pt": "Sim... Não, estou completamente livre do meu vício. \nMinha velha mãe ficaria mesmo orgulhosa!"
+},
+{
+"id": 22001703,
+"pt": "Você também não está orgulhoso de mim?"
+},
+{
+"id": 22001720,
+"pt": "Está vendo aquele sacerdote e seus discípulos ali?"
+},
+{
+"id": 22001721,
+"pt": "Eles ainda não confiam em mim depois daquele probleminha\natrás do altar."
+},
+{
+"id": 22001722,
+"pt": "Não deveriam acreditar em perdoar \ne esquecer e tudo isso?"
+},
+{
+"id": 22001723,
+"pt": "Pois tenho novidades para eles. Rezar não pôs comida\nna minha boca, nem na de ninguém."
+},
+{
+"id": 22001740,
+"pt": "Tenho más notícias."
+},
+{
+"id": 22001741,
+"pt": "Há um boato de que o Chefe Silencioso Yurt\ninfiltrou-se em Boletaria."
+},
+{
+"id": 22001742,
+"pt": "Yurt é um mercenário; mataria a própria família\npelo preço certo."
+},
+{
+"id": 22001743,
+"pt": "Bem, não sou nenhum santo, mas perto de Yurt sou tão\nsanto quanto qualquer um."
+},
+{
+"id": 22001744,
+"pt": "Por isso lhe imploro que fique longe de Yurt, \no assassino de preto."
+},
+{
+"id": 22001760,
+"pt": "Você já visitou o Vale da Profanação?"
+},
+{
+"id": 22001761,
+"pt": "O pântano de lá está cheio de cadáveres de cavaleiros\nhonrados, tolos demais para se manterem fora de perigo."
+},
+{
+"id": 22001762,
+"pt": "Talvez tenha ouvido falar de alguns deles. \nVito, o Cavaleiro do Luar, Risaia de Istarel, \ne muitos, muitos mais."
+},
+{
+"id": 22001763,
+"pt": "Imagino que tenham deixado belas armaduras e armas. \nQue tal dar uma passada... ver o que encontra?"
+},
+{
+"id": 22001800,
+"pt": "Ah, olá de novo."
+},
+{
+"id": 22001801,
+"pt": "Ei, não me vire as costas. \nNão quis lhe fazer mal, de verdade!"
+},
+{
+"id": 22001802,
+"pt": "Vamos lá, temos coisas melhores com que nos preocupar!"
+},
+{
+"id": 22001803,
+"pt": "Aquele poço ali está cheio de tesouros, \nmas, bem, eu mesmo não consigo chegar a ele."
+},
+{
+"id": 22001804,
+"pt": "Vá, dê uma olhada! \nÉ mais riqueza do que jamais sonhei!"
+},
+{
+"id": 22001900,
+"pt": "Ah, você não é louco como os outros, é?"
+},
+{
+"id": 22001901,
+"pt": "Ora, que alegres companheiros de viagem somos! \nPrazer em conhecê-lo; chame-me de Patches."
+},
+{
+"id": 22001902,
+"pt": "Ah, está vendo aquele tesouro ali? Vá em frente e pegue."
+},
+{
+"id": 22001903,
+"pt": "Meu presente para você, só para mostrar que somos amigos."
+},
+{
+"id": 22001904,
+"pt": "Ufa, que bom conhecê-lo. \nEsses imbecis famintos de almas enlouquecem qualquer um."
+},
+{
+"id": 22002100,
+"pt": "Você... Como fez isso?"
+},
+{
+"id": 22002101,
+"pt": "Não se preocupe, o tesouro é todo seu!"
+},
+{
+"id": 22002102,
+"pt": "Azar com os besouros-urso, \nmas você mostrou a eles quem manda, não foi?"
+},
+{
+"id": 22002103,
+"pt": "Aqui está o tesouro, são e salvo."
+},
+{
+"id": 22002104,
+"pt": "Vamos, pegue, pegue! He he he he."
+},
+{
+"id": 24000000,
+"pt": "Obrigado."
+},
+{
+"id": 24000001,
+"pt": "Vou me lembrar disto."
+},
+{
+"id": 24000002,
+"pt": "Tenho certeza de que nos encontraremos de novo."
+},
+{
+"id": 24000020,
+"pt": "Veio lutar contra os Demônios?"
+},
+{
+"id": 24000021,
+"pt": "Se sim, então ajude-me a escapar deste lugar."
+},
+{
+"id": 24000022,
+"pt": "Se sim, então ajude-me a sair desta masmorra."
+},
+{
+"id": 24000023,
+"pt": "Estou do seu lado. Vim enfrentar os Demônios."
+},
+{
+"id": 24000040,
+"pt": "Volte aqui!"
+},
+{
+"id": 24000041,
+"pt": "Um dia você vai se arrepender disto! \nNão esqueço quem me faz mal!"
+},
+{
+"id": 24000060,
+"pt": "Ah... O valente."
+},
+{
+"id": 24000061,
+"pt": "Sou grato pela sua ajuda em Latria."
+},
+{
+"id": 24000062,
+"pt": "Sem ela, eu não teria conseguido voltar ao Nexus."
+},
+{
+"id": 24000063,
+"pt": "Agora posso continuar meu trabalho..."
+},
+{
+"id": 24000064,
+"pt": "E por isso, devo agradecer-lhe."
+},
+{
+"id": 24000080,
+"pt": "O que foi?"
+},
+{
+"id": 24000081,
+"pt": "Não tenho assunto com você. Ainda não."
+},
+{
+"id": 24000082,
+"pt": "Não se preocupe."
+},
+{
+"id": 24000083,
+"pt": "A vida dificilmente é tão preciosa quanto se pensa."
+},
+{
+"id": 24000100,
+"pt": "Hum, olá, valente."
+},
+{
+"id": 24000101,
+"pt": "Sou Yurt, o Chefe Silencioso. Sou um assassino."
+},
+{
+"id": 24000102,
+"pt": "Meu trabalho em Boletaria está quase completo. \nAssassinei todos os humanos sobreviventes."
+},
+{
+"id": 24000103,
+"pt": "...Exceto um."
+},
+{
+"id": 24000104,
+"pt": "Eu estava à sua procura agora mesmo."
+},
+{
+"id": 24000120,
+"pt": "Bem, o que temos aqui?"
+},
+{
+"id": 24000121,
+"pt": "Deseja morrer tão cedo?"
+},
+{
+"id": 24000140,
+"pt": "Ora, seu...!"
+},
+{
+"id": 24000141,
+"pt": "Mefistófeles tinha razão sobre você!"
+},
+{
+"id": 24000200,
+"pt": "Almas intrometidas nunca duram muito..."
+},
+{
+"id": 25000000,
+"pt": "Crá, você, assustador!"
+},
+{
+"id": 25000001,
+"pt": "Dá brilhoso, eu! Dá cintilante, eu!"
+},
+{
+"id": 25000002,
+"pt": "Eu, crá, você, troca, troca!"
+},
+{
+"id": 25000003,
+"pt": "Dá pra mim. Brilhoso-cintilante."
+},
+{
+"id": 25000100,
+"pt": "Crá, crá, você, assustador, crá."
+},
+{
+"id": 25000101,
+"pt": "Brilhoso, feliz, feliz! Crá."
+},
+{
+"id": 25000102,
+"pt": "Mais troca? Mais troca?"
+},
+{
+"id": 25000103,
+"pt": "Dá pra mim. Brilhoso-cintilante."
+},
+{
+"id": 25000104,
+"pt": "Por favor, por favor. Dá, crá, dá!"
+},
+{
+"id": 25000200,
+"pt": "Você, assustador, crá."
+},
+{
+"id": 25000201,
+"pt": "Sem brilhoso! Crá. Isso não cintilante!"
+},
+{
+"id": 25000202,
+"pt": "Quer brilhoso, eu. Crá. Quer... quer cintilante, eu. Crá."
+},
+{
+"id": 25000203,
+"pt": "Eu, você, troca. Dá. Crá."
+},
+{
+"id": 25000300,
+"pt": "Crá, crá, você, assustador."
+},
+{
+"id": 25000301,
+"pt": "Eu ter isso."
+},
+{
+"id": 25000302,
+"pt": "Dá brilhoso, eu! Crá. Dá cintilante, eu!"
+},
+{
+"id": 25000303,
+"pt": "Crá, crá, crá. Eu, você, troca, troca."
+},
+{
+"id": 25000304,
+"pt": "Dá pra mim. Crá. Brilhoso-cintilante. Crá, crá."
+},
+{
+"id": 25000305,
+"pt": "Por favor, por favor, dá, dá! Crá, crá, crá."
+},
+{
+"id": 26000000,
+"pt": "Ah, sois vós."
+},
+{
+"id": 26000001,
+"pt": "Purificastes o mundo de mais uma alma sombria hoje?"
+},
+{
+"id": 26000003,
+"pt": "Deus vos escolheu, e por isso somos gratos."
+},
+{
+"id": 26500099,
+"pt": "Ah, olá."
+},
+{
+"id": 26500100,
+"pt": "Graças a vós, pude buscar refúgio neste Nexus."
+},
+{
+"id": 26500101,
+"pt": "Agora fico aqui e rezo, com meus discípulos, \npelos heróis que enfrentam os Demônios."
+},
+{
+"id": 26500102,
+"pt": "Se desejais proteção benévola em vossa luta\ncontra os demônios, trazei-me Almas de Demônio."
+},
+{
+"id": 26500103,
+"pt": "Eu as purificarei e realizarei um milagre com o seu poder."
+},
+{
+"id": 26500300,
+"pt": "Ah, sois vós de novo?"
+},
+{
+"id": 26500301,
+"pt": "Tendes mais oferendas a fazer?"
+},
+{
+"id": 26500400,
+"pt": "Deus abençoe este valente guerreiro."
+},
+{
+"id": 26500420,
+"pt": "Sim, entendo."
+},
+{
+"id": 26500421,
+"pt": "Certamente não posso forçar-vos a nada."
+},
+{
+"id": 26500422,
+"pt": "Mas deveis lembrar-vos disto. \nUma Alma de Demônio é uma fonte de poder maligno."
+},
+{
+"id": 26500440,
+"pt": "Aonde vai?"
+},
+{
+"id": 26500441,
+"pt": "Ainda não terminei."
+},
+{
+"id": 26500460,
+"pt": "O que estais fazendo?"
+},
+{
+"id": 26500461,
+"pt": "O quê--! As almas vos enlouqueceram!?"
+},
+{
+"id": 26500480,
+"pt": "Parai."
+},
+{
+"id": 26500481,
+"pt": "Irritareis os céus."
+},
+{
+"id": 26500500,
+"pt": "Como sabeis, as almas são uma fonte de poder maligno \nque emana dos Demônios."
+},
+{
+"id": 26500501,
+"pt": "O Rei Allant foi dominado pela cobiça de tal poder, \ne colocou Boletaria na situação em que se encontra."
+},
+{
+"id": 26500502,
+"pt": "O velho Freke e a donzela da vela não são exceção..."
+},
+{
+"id": 26500600,
+"pt": "Se realmente sois um discípulo, deveis ter\num talismã à imagem de Deus."
+},
+{
+"id": 26500601,
+"pt": "Milagres celestiais ocorrem em Boletaria por meio dos talismãs."
+},
+{
+"id": 26500602,
+"pt": "Deus concedeu a esta terra amaldiçoada um poder especial."
+},
+{
+"id": 26500603,
+"pt": "É a forma de Deus nos dizer \nque devemos enfrentar os Demônios."
+},
+{
+"id": 26500700,
+"pt": "Depois que as artes sombrias se espalharam pela terra, \nmilagres sagrados voltaram a ser testemunhados."
+},
+{
+"id": 26500701,
+"pt": "A vontade de Deus é clara."
+},
+{
+"id": 26500702,
+"pt": "Devemos derrotar os Demônios, anular a maldição de Boletaria,"
+},
+{
+"id": 26500703,
+"pt": "e expurgar os magos malignos que \nmanipulam essas almas amaldiçoadas."
+},
+{
+"id": 26500800,
+"pt": "Ah, Astraea do Vale da Profanação?"
+},
+{
+"id": 26500801,
+"pt": "Não tenho certeza, mas a Santa Astraea do Oeste era\nacompanhada pelo cavaleiro Garl Vinland."
+},
+{
+"id": 26500802,
+"pt": "Ela jamais se voltaria para o mal com \naquele cavaleiro íntegro para guiá-la."
+},
+{
+"id": 26500900,
+"pt": "Certamente é mera calúnia. \nInfelizmente, os fracos são propensos a tais traições."
+},
+{
+"id": 26500901,
+"pt": "Vito, o Cavaleiro do Luar, Risaia de Istarel \ne Selen Vinland."
+},
+{
+"id": 26500902,
+"pt": "Muitos cavaleiros honrados aventuraram-se em Boletaria \nem busca do Vale da Profanação."
+},
+{
+"id": 26500903,
+"pt": "Os vis boatos sobre Astraea ofendem nosso mais \nbásico senso de respeito ao nome de Deus."
+},
+{
+"id": 26501000,
+"pt": "Contudo, nenhum desses grandes cavaleiros conseguiu voltar."
+},
+{
+"id": 26501001,
+"pt": "Seria possível que o miserável vale esteja tão infestado de \nimundície que nem a voz de nosso Senhor ressoa ali?"
+},
+{
+"id": 26501002,
+"pt": "Ou... talvez seja o destino dos abandonados por Deus..."
+},
+{
+"id": 26501100,
+"pt": "De onde vem esse uivo!?"
+},
+{
+"id": 26501101,
+"pt": "Isso não é um Demônio."
+},
+{
+"id": 26501102,
+"pt": "Parece mais uma criança pobre e faminta."
+},
+{
+"id": 26501103,
+"pt": "Faz ideia do que possa ser?"
+},
+{
+"id": 26501104,
+"pt": "Algo nisso me deixa muito inquieto."
+},
+{
+"id": 26501105,
+"pt": "Que Deus nos proteja. Abençoe-nos, e a toda Boletaria."
+},
+{
+"id": 26501499,
+"pt": "Ah, sois vós."
+},
+{
+"id": 26501500,
+"pt": "Graças a vós, consegui buscar refúgio neste Nexus."
+},
+{
+"id": 26501501,
+"pt": "Agora fico aqui e rezo, com meus discípulos, \npelos heróis que enfrentam os Demônios."
+},
+{
+"id": 26501502,
+"pt": "Que os céus sorriam benevolentes para vós."
+},
+{
+"id": 26501600,
+"pt": "Céus, caístes na armadilha daquele diabinho?"
+},
+{
+"id": 26501601,
+"pt": "Pois eu fiz o mesmo. Ele me enganou, e agora estou preso aqui."
+},
+{
+"id": 26501602,
+"pt": "As reverberações parecem indicar \nque estamos ligados ao mundo exterior."
+},
+{
+"id": 26501603,
+"pt": "Mas almas sombrias e temíveis se interpõem entre nós e a liberdade."
+},
+{
+"id": 26501604,
+"pt": "Mas não temais, Deus nos purificará do mal."
+},
+{
+"id": 26501605,
+"pt": "Rezai comigo."
+},
+{
+"id": 27000000,
+"pt": "Não deixarei que mal algum aconteça à querida Astraea."
+},
+{
+"id": 27000001,
+"pt": "Que você apodreça nas profundezas mais fundas deste pântano."
+},
+{
+"id": 27000002,
+"pt": "Você não vai voltar atrás, vai?"
+},
+{
+"id": 27000020,
+"pt": "Como ousa persistir em invadir nosso refúgio?"
+},
+{
+"id": 27000021,
+"pt": "Vocês nos abandonaram há muito tempo; que direito têm?"
+},
+{
+"id": 27000022,
+"pt": "Levamos vidas humildes. Deixe-nos em paz!"
+},
+{
+"id": 27000040,
+"pt": "Mergulhe para a sua morte..."
+},
+{
+"id": 27000041,
+"pt": "E que o ácido derreta a carne de seus ossos."
+},
+{
+"id": 27000050,
+"pt": "Vós, ambiciosos, que isto seja sabido."
+},
+{
+"id": 27000051,
+"pt": "Defenderemos nosso lar até a morte."
+},
+{
+"id": 27000100,
+"pt": "Querida Astraea... falhei com você."
+},
+{
+"id": 28000000,
+"pt": "Como derrotou o meu precioso Demônio?"
+},
+{
+"id": 28000001,
+"pt": "Nenhum humano tem tal apetite por almas como você."
+},
+{
+"id": 28000002,
+"pt": "O resto cabe ao Ancião. \nSe assim for, você será chamado."
+},
+{
+"id": 28500100,
+"pt": "Você foi escolhido pelo Ancião."
+},
+{
+"id": 28500101,
+"pt": "Buscarás tu Almas de Demônio eternas? \nOu obedecerás àquele ingênuo Monumental?"
+},
+{
+"id": 28500102,
+"pt": "Seja qual for sua escolha, você é nosso primeiro visitante. \nSeja bem-vindo."
+},
+{
+"id": 28500200,
+"pt": "Certamente você mesmo viu..."
+},
+{
+"id": 28500201,
+"pt": "A dor e o sofrimento que enchem este mundo!"
+},
+{
+"id": 28500202,
+"pt": "Mas combata veneno com veneno. \nDeus é misericordioso e, por isso, criou o Ancião."
+},
+{
+"id": 28500203,
+"pt": "O Ancião se alimentará de nossas almas \ne porá fim ao nosso trágico reino de existência!"
+},
+{
+"id": 28500300,
+"pt": "Seu tolo..."
+},
+{
+"id": 28500301,
+"pt": "Não entende?"
+},
+{
+"id": 28500302,
+"pt": "Ninguém deseja continuar..."
+},
+{
+"id": 28500400,
+"pt": "Já tive o bastante deste mundo podre."
+},
+{
+"id": 29000000,
+"pt": "Deixe-nos, algoz de Demônios."
+},
+{
+"id": 29000001,
+"pt": "Este é um santuário para os perdidos e miseráveis."
+},
+{
+"id": 29000002,
+"pt": "Não há nada aqui para você saquear ou pilhar."
+},
+{
+"id": 29000003,
+"pt": "Por favor, vá embora em silêncio."
+},
+{
+"id": 29000100,
+"pt": "Vá, Garl Vinland."
+},
+{
+"id": 29000101,
+"pt": "Que saia ileso."
+},
+{
+"id": 29000200,
+"pt": "Senhor cruel..."
+},
+{
+"id": 29000201,
+"pt": "O que mais pode nos tirar?"
+},
+{
+"id": 29000300,
+"pt": "Pare..."
+},
+{
+"id": 29000301,
+"pt": "Por favor, pare..."
+},
+{
+"id": 29000400,
+"pt": "Este é o nosso lar."
+},
+{
+"id": 29000401,
+"pt": "Não lhe fizemos mal algum."
+},
+{
+"id": 29000500,
+"pt": "Meu Deus, tende piedade."
+},
+{
+"id": 29000501,
+"pt": "Não basta o vosso abandono como castigo?"
+},
+{
+"id": 29000502,
+"pt": "Por quanto tempo teremos de suportar este destino cruel?"
+},
+{
+"id": 29000600,
+"pt": "Por favor, vá embora em silêncio..."
+},
+{
+"id": 29000601,
+"pt": "Antes que enfrente a ira do meu fiel seguidor."
+},
+{
+"id": 29000700,
+"pt": "Você..."
+},
+{
+"id": 29000701,
+"pt": "Você o matou, não foi?"
+},
+{
+"id": 29000702,
+"pt": "Muito bem. Não posso mais resistir a você."
+},
+{
+"id": 29000703,
+"pt": "Faça como quiser. Leve a sua preciosa alma de Demônio."
+},
+{
+"id": 29000800,
+"pt": "Querido Senhor..."
+},
+{
+"id": 29000801,
+"pt": "Sois cruel demais."
+},
+{
+"id": 29000802,
+"pt": "Vós nos abandonastes, não é castigo suficiente?"
+},
+{
+"id": 30000000,
+"pt": "Santo Deus!"
+},
+{
+"id": 30000001,
+"pt": "Quase me matou de susto! \nAparecer assim de mansinho..."
+},
+{
+"id": 30000002,
+"pt": "Chamo-me Scirvir. Busco tesouros do desconhecido."
+},
+{
+"id": 30000003,
+"pt": "Estou impressionado por ter chegado tão longe."
+},
+{
+"id": 30000004,
+"pt": "Que tal pormos essa habilidade para trabalhar?"
+},
+{
+"id": 30000005,
+"pt": "Há um templo além daqui, no subsolo."
+},
+{
+"id": 30000006,
+"pt": "É uma obra de arte, moldada pelos antigos escavadores \npara aplacar os ossos dos dragões."
+},
+{
+"id": 30000007,
+"pt": "Por precaução, uma espada larga capaz de esmagar ossos \ne matar dragões está guardada no templo."
+},
+{
+"id": 30000008,
+"pt": "Verdade seja dita, é motivo de riso de muitos ferreiros. \nDizem que é tão rombuda quanto um porrete."
+},
+{
+"id": 30000009,
+"pt": "Uma lâmina cega destinada a matar um dragão... Curioso, não?"
+},
+{
+"id": 30000010,
+"pt": "Eu mesmo a procuraria, mas temo me sair\nmal contra os Demônios."
+},
+{
+"id": 30000011,
+"pt": "Se por acaso encontrar a espada, \npermita-me dar uma olhada nela."
+},
+{
+"id": 30000015,
+"pt": "Foi guiado por um sexto sentido? Ou por uma imprudência\natrevida? De qualquer modo, tem mais habilidade que eu."
+},
+{
+"id": 30000100,
+"pt": "Santo Deus!"
+},
+{
+"id": 30000101,
+"pt": "Ah, você..."
+},
+{
+"id": 30000200,
+"pt": "Hum, sem sorte em encontrá-la, é? \nTalvez não esteja lá, afinal."
+},
+{
+"id": 30000201,
+"pt": "Alguém pode tê-la levado."
+},
+{
+"id": 30000202,
+"pt": "Ou pode ter derretido na lava. Uma pena."
+},
+{
+"id": 30000298,
+"pt": "Ei! Isso é...!"
+},
+{
+"id": 30000299,
+"pt": "Você a encontrou!"
+},
+{
+"id": 30000300,
+"pt": "Deixe-me ver!"
+},
+{
+"id": 30000301,
+"pt": "Maravilhosa. As artes da esgrima aplicadas de uma maneira \nperfeitamente inútil!"
+},
+{
+"id": 30000302,
+"pt": "Hum..."
+},
+{
+"id": 30000305,
+"pt": "Ah, não ligue para mim. Obrigado. Foi um prazer."
+},
+{
+"id": 30000306,
+"pt": "Aceite isto como uma pequena demonstração de gratidão."
+},
+{
+"id": 30000307,
+"pt": "Cuide bem dessa espada, está bem? É uma beleza."
+},
+{
+"id": 30000400,
+"pt": "Este lugar é magnífico, não?"
+},
+{
+"id": 30000401,
+"pt": "Os ossos de dragões exsudando minério... Um sonho realizado!"
+},
+{
+"id": 30000500,
+"pt": "Demônios? Desculpe, amigo, não tenho interesse."
+},
+{
+"id": 30000501,
+"pt": "Amo Boletaria pelo que ela é: um lugar de maravilhas estranhas."
+},
+{
+"id": 30000502,
+"pt": "Rostos estranhos... empunhando bugigangas estranhas...\nescondidos em lugares estranhos."
+},
+{
+"id": 30000503,
+"pt": "Começo a achar que Boletaria \nestá melhor agora do que antes."
+},
+{
+"id": 30000504,
+"pt": "Ha ha, não conte a ninguém que eu disse isso!"
+},
+{
+"id": 30000505,
+"pt": "Posso me meter em encrenca se não tomar cuidado."
+},
+{
+"id": 30000600,
+"pt": "Enlouqueceu!?"
+},
+{
+"id": 30000601,
+"pt": "Você não tem nada a ganhar me atacando!"
+},
+{
+"id": 30000700,
+"pt": "Pare com isso! Voltarei para assombrá-lo!"
+},
+{
+"id": 31000000,
+"pt": "Tu és o novo, não és?"
+},
+{
+"id": 31000001,
+"pt": "Este é o Nexus. \nEle mantém unida a terra setentrional de Boletaria."
+},
+{
+"id": 31000002,
+"pt": "Não podes sair do Nexus, \nmas cada uma das cinco Arquipedras \nte ligará a outro nó."
+},
+{
+"id": 31000020,
+"pt": "O que foi?"
+},
+{
+"id": 31000021,
+"pt": "Buscas poder de almas?"
+},
+{
+"id": 31000120,
+"pt": "Tu buscas poder de almas, não é?"
+},
+{
+"id": 31000121,
+"pt": "Então toca o Demônio dentro de mim."
+},
+{
+"id": 31000200,
+"pt": "Que assim seja."
+},
+{
+"id": 31000201,
+"pt": "Afinal, tu precisas de força."
+},
+{
+"id": 31000202,
+"pt": "Vai; toca o Demônio dentro de mim."
+},
+{
+"id": 31000203,
+"pt": "Que estas almas sem dono se tornem tuas."
+},
+{
+"id": 31000220,
+"pt": "Entendo."
+},
+{
+"id": 31000221,
+"pt": "Rogo-te que me perdoes."
+},
+{
+"id": 31000222,
+"pt": "Talvez minha opinião sobre ti estivesse errada. Sinto muito."
+},
+{
+"id": 31000300,
+"pt": "  Alma da mente, chave do éter da vida,"
+},
+{
+"id": 31000301,
+"pt": "  Alma dos perdidos, retirada de seu recipiente,"
+},
+{
+"id": 31000302,
+"pt": "  Que a força seja concedida, para que o mundo seja reparado."
+},
+{
+"id": 31000303,
+"pt": "  Para que o mundo seja reparado."
+},
+{
+"id": 31000400,
+"pt": "Terminaste?"
+},
+{
+"id": 31000401,
+"pt": "Que a tua força ajude a reparar o mundo."
+},
+{
+"id": 31000500,
+"pt": "Bem-vindo de volta."
+},
+{
+"id": 31000501,
+"pt": "O Monumental te aguarda, lá em cima."
+},
+{
+"id": 31000502,
+"pt": "O Monumental te explicará o Nexus."
+},
+{
+"id": 31000600,
+"pt": "Escuta, ouço uma voz de outrora."
+},
+{
+"id": 31000601,
+"pt": "O Ancião está te chamando."
+},
+{
+"id": 31000602,
+"pt": "Desçamos até o seu covil."
+},
+{
+"id": 31000700,
+"pt": "Ancião, trouxe-te o que desejas."
+},
+{
+"id": 31000701,
+"pt": "O teu novo Demônio."
+},
+{
+"id": 31000702,
+"pt": "Vamos, agora, sê bom..."
+},
+{
+"id": 31000800,
+"pt": "O teu trabalho está feito."
+},
+{
+"id": 31000801,
+"pt": "Algoz de Demônios, volta lá para cima."
+},
+{
+"id": 31000802,
+"pt": "O Nexus não te aprisionará mais."
+},
+{
+"id": 31000803,
+"pt": "Embalarei o Ancião de volta ao sono."
+},
+{
+"id": 31001000,
+"pt": "Alma valente, que não teme a morte."
+},
+{
+"id": 31001001,
+"pt": "Estás agora ligado ao Nexus."
+},
+{
+"id": 31001002,
+"pt": "Rogo-te que embales o Ancião de volta ao seu sono ancestral."
+},
+{
+"id": 31001100,
+"pt": "Aguardarei o teu retorno, algoz de Demônios."
+},
+{
+"id": 31001101,
+"pt": "Estou aqui por ti e somente por ti."
+},
+{
+"id": 31001200,
+"pt": "Obrigada."
+},
+{
+"id": 31001201,
+"pt": "Enfim... enfim... meu dever está cumprido..."
+},
+{
+"id": 31001300,
+"pt": "Ancião antigo! Meu querido!"
+},
+{
+"id": 31001301,
+"pt": "Trouxe-te um novo Demônio."
+},
+{
+"id": 31001302,
+"pt": "Era isto que querias, não era?"
+},
+{
+"id": 31001303,
+"pt": "Sim, sim, bom menino."
+},
+{
+"id": 31001304,
+"pt": "Agora fica quieto."
+},
+{
+"id": 31001305,
+"pt": "Pronto, pronto, querido Ancião..."
+},
+{
+"id": 31001400,
+"pt": "Ancião, todos os Demônios foram destruídos."
+},
+{
+"id": 31001401,
+"pt": "Mas não te desesperes; eles já não te servem mais."
+},
+{
+"id": 31001402,
+"pt": "Juntos, dormiremos profundamente. \nÉ assim que as coisas devem ser."
+},
+{
+"id": 31001403,
+"pt": "Agradeço-te, algoz de Demônios."
+},
+{
+"id": 31001404,
+"pt": "Obrigada; enfim dormimos."
+},
+{
+"id": 31001405,
+"pt": "Podes partir. Vai-te para o teu mundo."
+},
+{
+"id": 31001500,
+"pt": "O Ancião e eu dormiremos interminavelmente. \nÉ assim que deve ser."
+},
+{
+"id": 31001501,
+"pt": "Podes ir. Vai-te para o teu mundo."
+},
+{
+"id": 31001600,
+"pt": "Quanto a mim..."
+},
+{
+"id": 31001601,
+"pt": "Estou aqui apenas para cuidar das chamas."
+},
+{
+"id": 31001602,
+"pt": "Mantenho as velas acesas e sirvo \nos bravos algozes de Demônios presos aqui."
+},
+{
+"id": 31001700,
+"pt": "Sempre estive aqui neste Nexus."
+},
+{
+"id": 31001701,
+"pt": "Eu estava aqui quando o Ancião despertou, \ne estarei aqui quando Ele repousar novamente."
+},
+{
+"id": 31001900,
+"pt": "Ah!"
+},
+{
+"id": 31002000,
+"pt": "Aaaaaiiiigh!"
+},
+{
+"id": 31002100,
+"pt": "Espere... Onde está...?"
+},
+{
+"id": 31002200,
+"pt": "Sinto muito."
+},
+{
+"id": 31002201,
+"pt": "Não posso morrer."
+},
+{
+"id": 31002202,
+"pt": "Não enquanto o Nexus me prender..."
+},
+{
+"id": 32500000,
+"pt": "Há muito esperamos por você, algoz de Demônios."
+},
+{
+"id": 32500001,
+"pt": "Sou um dos Monumentais. \nPreservamos o tecido da realidade."
+},
+{
+"id": 32500002,
+"pt": "Há algo que tu precisas saber."
+},
+{
+"id": 32500003,
+"pt": "Outrora, nós também enfrentamos uma praga de Demônios."
+},
+{
+"id": 32500100,
+"pt": "No passado distante,"
+},
+{
+"id": 32500101,
+"pt": "sob um governo benevolente, o mundo era unido\ngraças às artes da Alma."
+},
+{
+"id": 32500102,
+"pt": "Até que a sede de poder causou o despertar do Ancião."
+},
+{
+"id": 32500103,
+"pt": "Pela terra se infiltrou uma Névoa Espessa incolor,"
+},
+{
+"id": 32500104,
+"pt": "e o mundo enfrentou a extinção nas mãos dos Demônios."
+},
+{
+"id": 32500105,
+"pt": "Graças a Deus, conseguimos embalar o Ancião\nde volta ao seu sono,"
+},
+{
+"id": 32500106,
+"pt": "mas somente após a perda de incontáveis almas"
+},
+{
+"id": 32500107,
+"pt": "e de metade do mundo, perdida... apagada pela névoa."
+},
+{
+"id": 32500108,
+"pt": "Para remendar o tecido do que restava da terra,"
+},
+{
+"id": 32500109,
+"pt": "confiamos a seis anciãos seis preciosas Arquipedras."
+},
+{
+"id": 32500110,
+"pt": "  Uma ao rei de uma terra pequena e diligente,"
+},
+{
+"id": 32500111,
+"pt": "  uma ao rei dos escavadores subterrâneos,"
+},
+{
+"id": 32500112,
+"pt": "  uma à sábia rainha da grande torre de marfim,"
+},
+{
+"id": 32500113,
+"pt": "  uma ao chefe das almas perdidas e desafortunadas,"
+},
+{
+"id": 32500114,
+"pt": "  uma ao xamã dos sombrios adoradores da tempestade,"
+},
+{
+"id": 32500115,
+"pt": "  e a última aos grandes gigantes das Terras do Norte."
+},
+{
+"id": 32500116,
+"pt": "As Arquipedras foram postas em nós por toda a terra."
+},
+{
+"id": 32500117,
+"pt": "contivemos o Ancião dentro deste Nexus, \ne proibimos as artes das almas."
+},
+{
+"id": 32500118,
+"pt": "Por fim, tornamo-nos Monumentais; \nsentinelas semivivas do tecido da realidade."
+},
+{
+"id": 32500119,
+"pt": "Ai de nós, os outros Monumentais pereceram, \ne só eu restei."
+},
+{
+"id": 32500200,
+"pt": "Agora é a sua vez."
+},
+{
+"id": 32500201,
+"pt": "Você deve embalar o Ancião de volta ao seu sono, \ne selá-lo por toda a eternidade."
+},
+{
+"id": 32500202,
+"pt": "Se não, a Névoa Espessa absorverá tudo o que conhecemos."
+},
+{
+"id": 32500203,
+"pt": "Tem força para aceitar esta missão?"
+},
+{
+"id": 32500220,
+"pt": "Sim, somos realmente afortunados por tê-lo."
+},
+{
+"id": 32500221,
+"pt": "Agora, vá e destrua cada último Demônio."
+},
+{
+"id": 32500222,
+"pt": "O Ancião, sem Demônios para lhe dar almas, \nprocurará um novo servo e o atrairá ao seu seio."
+},
+{
+"id": 32500223,
+"pt": "Tome isto. Ajudará você em sua jornada."
+},
+{
+"id": 32500240,
+"pt": "Sim, entendo. Isso é lamentável."
+},
+{
+"id": 32500241,
+"pt": "Deve saber que ficará \npreso no Nexus para sempre."
+},
+{
+"id": 32500242,
+"pt": "Assim como a pobre donzela da vela."
+},
+{
+"id": 32500300,
+"pt": "Uma alma é a essência com a qual os seres vivos \ncompreendem o mundo ao seu redor."
+},
+{
+"id": 32500301,
+"pt": "Quando se perde a Alma, perde-se a mente; \numa terra árida de Almas é absorvida pela névoa\ne banida para a escuridão infinita."
+},
+{
+"id": 32500302,
+"pt": "O Ancião é um poço sem fundo de Nada, \ncom um apetite insaciável pelas almas \ncolhidas por seus fiéis Demônios."
+},
+{
+"id": 32500303,
+"pt": "A própria natureza do Ancião não pode ser compreendida pelos vivos."
+},
+{
+"id": 32500400,
+"pt": "Neutralizamos o Ancião e proibimos as artes das almas. \nDepois espalhamos as Arquipedras e, para reparar\na realidade, tornamo-nos Monumentais."
+},
+{
+"id": 32500401,
+"pt": "Contudo, a memória do homem sobre a história é curta demais, \ne logo ele repetiu seus erros."
+},
+{
+"id": 32500402,
+"pt": "Os Monumentais pereceram, \ne as Arquipedras foram esquecidas há muito."
+},
+{
+"id": 32500403,
+"pt": "E o míope Rei Allant \ndespertou o Ancião mais uma vez."
+},
+{
+"id": 32500500,
+"pt": "As artes das almas se perderão quando \no Ancião for embalado de volta ao sono."
+},
+{
+"id": 32500501,
+"pt": "Uma alma é a essência do pensamento que \nestá latente em todos os seres vivos."
+},
+{
+"id": 32500502,
+"pt": "Você nunca deve esquecer..."
+},
+{
+"id": 32500503,
+"pt": "O poder de que agora desfruta contradiz a essência\nda alma, pois provém da magia dos Demônios."
+},
+{
+"id": 32500520,
+"pt": "Recebeu ajuda da donzela da vela?"
+},
+{
+"id": 32500521,
+"pt": "Ela é prisioneira deste Nexus. \nÉ seu dever embalar o Ancião de volta ao sono. \nPor isso ela ajuda os que caçam Demônios."
+},
+{
+"id": 32500522,
+"pt": "E por isso ela própria se tornou um Demônio."
+},
+{
+"id": 32500540,
+"pt": "Visitou o panteão no andar mais alto?"
+},
+{
+"id": 32500541,
+"pt": "O panteão honra aqueles como você \nque buscaram as almas de Demônios."
+},
+{
+"id": 32500542,
+"pt": "Talvez um dia sua alma também \nseja honrada da mesma forma."
+},
+{
+"id": 32500543,
+"pt": "É o máximo que podemos fazer para lhe agradecer."
+},
+{
+"id": 32500544,
+"pt": "Para agradecer aos guerreiros bravos e honrados \nque precisam lutar para reverter nossos pecados..."
+},
+{
+"id": 32500600,
+"pt": "Você destruiu todos os Demônios."
+},
+{
+"id": 32500601,
+"pt": "Logo ouvirá o chamado do Ancião."
+},
+{
+"id": 32500602,
+"pt": "Então, a donzela da vela o guiará abaixo do Nexus, \nonde o Ancião aguarda."
+},
+{
+"id": 32500603,
+"pt": "Ela embalará o Ancião de volta ao sono."
+},
+{
+"id": 32500604,
+"pt": "Esse é, afinal, o seu propósito."
+},
+{
+"id": 32500700,
+"pt": "Ha ha ha..."
+},
+{
+"id": 32500701,
+"pt": "Pare, está desperdiçando sua força vital."
+},
+{
+"id": 32500702,
+"pt": "Sou um Monumental. Não pode me ferir."
+},
+{
+"id": 32500720,
+"pt": "Ha ha ha ha ha..."
+},
+{
+"id": 32500740,
+"pt": "Ha ha ha ha ha ha ha ha ha!"
+},
+{
+"id": 32500800,
+"pt": "Arrrghaaaaaa!"
+},
+{
+"id": 32500801,
+"pt": "Mas... eu sou um Monumental...!"
+},
+{
+"id": 32500900,
+"pt": "Deve destruir todos os Demônios se deseja ser libertado \nda maldição do Nexus."
+},
+{
+"id": 32500901,
+"pt": "O Ancião, sem os Demônios para lhe dar almas, \nprocurará um novo servo e o atrairá ao seu seio."
+},
+{
+"id": 32500902,
+"pt": "Deve embalar o Ancião de volta ao sono, \npor seu próprio bem e pelo nosso."
+},
+{
+"id": 32501000,
+"pt": "Deve me desprezar."
+},
+{
+"id": 32501001,
+"pt": "Mas lembre-se, nós, Monumentais, também \nestamos presos neste Nexus."
+},
+{
+"id": 32501002,
+"pt": "Pois impedimos que o seu mundo se rompa pelas costuras."
+},
+{
+"id": 32501100,
+"pt": "Perdoe-me, mas desejo me concentrar."
+},
+{
+"id": 32501101,
+"pt": "Não é tarefa fácil ser um Monumental."
+},
+{
+"id": 32501300,
+"pt": "Alma valente, que não teme a morte."
+},
+{
+"id": 32501301,
+"pt": "Eu o guiarei…"
+},
+{
+"id": 32501302,
+"pt": "Para que possa embalar o Ancião de volta ao sono."
+},
+{
+"id": 33500000,
+"pt": "Ora, você também passou pela fenda, não foi?"
+},
+{
+"id": 33500001,
+"pt": "Veio atrás de almas de Demônios? Ou para salvar esta terra\ne ser lembrado como herói?"
+},
+{
+"id": 33500002,
+"pt": "Bah, dá tudo no mesmo. \nVocê é só mais um prisioneiro do Nexus."
+},
+{
+"id": 33500003,
+"pt": "Caçando Demônios? Tente uma das arqui-pedras."
+},
+{
+"id": 33500004,
+"pt": "Agora vá. Foi para isso que veio, não foi...?\nA esta maldita Boletaria."
+},
+{
+"id": 33500005,
+"pt": "Somos bem-vindos aqui, enquanto continuarmos retalhando Demônios."
+},
+{
+"id": 33500006,
+"pt": "Ha ha ha ha..."
+},
+{
+"id": 33500100,
+"pt": "Ainda vivo? Estou impressionado."
+},
+{
+"id": 33500101,
+"pt": "Isto pode lhe interessar."
+},
+{
+"id": 33500102,
+"pt": "A donzela de túnica negra do Nexus cuida das chamas. \nÉ do tipo taciturno, com olhos ocluídos por cera."
+},
+{
+"id": 33500103,
+"pt": "Ela controla almas como ninguém."
+},
+{
+"id": 33500104,
+"pt": "Traga-lhe as almas de homens e Demônios, e ela\nfortalecerá sua carne e seu sangue com o poder delas."
+},
+{
+"id": 33500105,
+"pt": "Mas cuidado; não se degenere em uma fera imunda..."
+},
+{
+"id": 33500110,
+"pt": "Hmpf. Não está gostando da conversa?"
+},
+{
+"id": 33500111,
+"pt": "Monstro! Pensa que é de algum modo especial!?"
+},
+{
+"id": 33500120,
+"pt": "Hm? O que foi?"
+},
+{
+"id": 33500121,
+"pt": "Não vou a lugar nenhum. Pergunte o que quiser."
+},
+{
+"id": 33500200,
+"pt": "Quantos outros haverá neste Nexus?"
+},
+{
+"id": 33500201,
+"pt": "Não são diferentes de mim."
+},
+{
+"id": 33500202,
+"pt": "Atravessaram a fenda enevoada com determinação, \nmas perceberam sua impotência e tornaram-se\nprisioneiros do Nexus."
+},
+{
+"id": 33500203,
+"pt": "Ah, olá de novo."
+},
+{
+"id": 33500300,
+"pt": "Os discípulos e os magos \nno Nexus se desprezam mutuamente."
+},
+{
+"id": 33500301,
+"pt": "Reparou que nunca se sentam à vista uns dos outros?"
+},
+{
+"id": 33500302,
+"pt": "Tolos. Que bem vêm de rivalidades pueris? \nSomos todos prisioneiros aqui."
+},
+{
+"id": 33500303,
+"pt": "O quê, você de novo?"
+},
+{
+"id": 33500400,
+"pt": "O que houve, perdeu a coragem?"
+},
+{
+"id": 33500401,
+"pt": "Não importa. Sente-se; podemos ficar aqui para sempre!"
+},
+{
+"id": 33500402,
+"pt": "Ha ha ha ha..."
+},
+{
+"id": 33500403,
+"pt": "Pelo menos estaremos seguros!"
+},
+{
+"id": 33500500,
+"pt": "Já conheceu o último Monumental sobrevivente?"
+},
+{
+"id": 33500501,
+"pt": "Aqueles tolos reviveram o Ancião por capricho,"
+},
+{
+"id": 33500502,
+"pt": "e agora nos prenderam aqui no Nexus \nnuma tentativa desesperada de desfazer o erro."
+},
+{
+"id": 33500503,
+"pt": "É tudo uma farsa, se quer saber."
+},
+{
+"id": 33501600,
+"pt": "A donzela que cuida das chamas não desceu \ndo andar de cima."
+},
+{
+"id": 33501601,
+"pt": "Vá em frente, procure-a; vocês, monstros, se merecem."
+},
+{
+"id": 33501602,
+"pt": "Não poderia me importar menos."
+},
+{
+"id": 33501700,
+"pt": "Você, viu minha carne corpórea? \nMeu corpo apodreceu?"
+},
+{
+"id": 33501800,
+"pt": "...Sinto muito, por favor, deixe-me em paz."
+},
+{
+"id": 33501900,
+"pt": "...Argh... quem é você? Não me lembro de nada..."
+},
+{
+"id": 33502000,
+"pt": "O que estais fazendo?"
+},
+{
+"id": 33502001,
+"pt": "Nem eu vou ficar de braços cruzados aceitando isto!"
+},
+{
+"id": 33502100,
+"pt": "Ha ha ha, você foi e morreu, é?"
+},
+{
+"id": 33502101,
+"pt": "Se morrer aqui em Boletaria, \nsua alma retorna ao Nexus."
+},
+{
+"id": 33502102,
+"pt": "Vamos, corra e encontre a escrita de sangue. \nRecupere esse seu cadáver antes que apodreça."
+},
+{
+"id": 33502103,
+"pt": "Se morrer mais uma vez, perde tudo."
+},
+{
+"id": 33502104,
+"pt": "...Inclusive todas as preciosas almas que obteve..."
+},
+{
+"id": 33502200,
+"pt": "Então, morreu de vez desta vez?"
+},
+{
+"id": 33502201,
+"pt": "E agora, o que vai fazer? Vai simplesmente desistir?"
+},
+{
+"id": 33502202,
+"pt": "Foi o que eu fiz."
+},
+{
+"id": 33502203,
+"pt": "Acho que simplesmente perdi a coragem para este tipo de coisa..."
+},
+{
+"id": 33502300,
+"pt": "Então, encontrou uma alma de Demônio, é?"
+},
+{
+"id": 33502301,
+"pt": "Estou impressionado, sim, de fato estou."
+},
+{
+"id": 33502302,
+"pt": "Siga esse caminho, e logo será um monstro também!"
+},
+{
+"id": 33502303,
+"pt": "Ha ha ha ha ha!"
+},
+{
+"id": 33502304,
+"pt": "Não vê que caiu na armadilha deles?"
+},
+{
+"id": 35000000,
+"pt": "Ora, você é um dos sãos, não é?"
+},
+{
+"id": 35000001,
+"pt": "Sou Selen do Oeste."
+},
+{
+"id": 35000002,
+"pt": "Procuro meu irmão Garl Vinland, o cavaleiro que\nacompanhou a Santa Astraea em suas viagens."
+},
+{
+"id": 35000003,
+"pt": "Creio que se estabeleceram aqui."
+},
+{
+"id": 35000004,
+"pt": "Se por acaso vedes meu irmão mais novo, por favor, dizei-me."
+},
+{
+"id": 35000005,
+"pt": "Devo partilhar com ele as últimas palavras de nosso pai."
+},
+{
+"id": 35000099,
+"pt": "Este brasão!"
+},
+{
+"id": 35000100,
+"pt": "É uma herança dos Vinland destinada a meu irmão mais novo."
+},
+{
+"id": 35000101,
+"pt": "Então, meu irmão e Astraea ambos se desviaram \ndo caminho de Deus..."
+},
+{
+"id": 35000102,
+"pt": "Pobres almas. Talvez seus corações fossem puros demais."
+},
+{
+"id": 35000150,
+"pt": "Ó guerreiro viajante..."
+},
+{
+"id": 35000151,
+"pt": "Hesito em pedir, mas podeis ceder-me esse brasão?"
+},
+{
+"id": 35000152,
+"pt": "Garl desviou-se do caminho da retidão, \nmas desejo ter a herança, em honra do\nnosso sangue Vinland."
+},
+{
+"id": 35000153,
+"pt": "Recompensar-vos-ei à altura."
+},
+{
+"id": 35000200,
+"pt": "Obrigada, bondoso guerreiro."
+},
+{
+"id": 35000201,
+"pt": "Como irmã de Garl, expresso meu mais profundo agradecimento\npor honrardes o nome dele."
+},
+{
+"id": 35000202,
+"pt": "Por favor, aceitai isto. Era destinado a meu irmão, \nmas agora deve pertencer-vos."
+},
+{
+"id": 35000203,
+"pt": "Que os anjos vos contemplem com favor."
+},
+{
+"id": 35000300,
+"pt": "Obrigada, bondoso guerreiro."
+},
+{
+"id": 35000301,
+"pt": "Como irmã de Garl, expresso meu mais profundo apreço \npor honrardes o nome dele."
+},
+{
+"id": 35000302,
+"pt": "Por favor, aceitai isto como agradecimento. \nTalvez vos seja útil em vossas viagens."
+},
+{
+"id": 35000500,
+"pt": "Sim, entendo."
+},
+{
+"id": 35000501,
+"pt": "Mas deveis compreender que um brasão comum \nnão vos concederá poder algum?"
+},
+{
+"id": 35000502,
+"pt": "Eu só desejava lembrar-me de meu pobre irmão mais novo por ele."
+},
+{
+"id": 35000503,
+"pt": "Talvez possais reconsiderar?"
+},
+{
+"id": 35000600,
+"pt": "Sim, entendo."
+},
+{
+"id": 35000601,
+"pt": "Não posso abusar mais de vós. \nTalvez isto seja castigo pelo erro de Garl."
+},
+{
+"id": 35000602,
+"pt": "Procurarei um caminho de volta para casa."
+},
+{
+"id": 35000603,
+"pt": "Que saiais ilesos em batalha,"
+},
+{
+"id": 35000604,
+"pt": "e em segurança pelas estradas de suas viagens."
+},
+{
+"id": 35000700,
+"pt": "Pelos céus!?"
+},
+{
+"id": 35000701,
+"pt": "Não sou seu inimigo!"
+},
+{
+"id": 35000800,
+"pt": "Acho este lugar estranho."
+},
+{
+"id": 35000801,
+"pt": "Transborda de imundície, mas ao mesmo tempo parece estranhamente puro."
+},
+{
+"id": 35000900,
+"pt": "Ouvi um boato pouco lisonjeiro sobre a Santa Astraea."
+},
+{
+"id": 35000901,
+"pt": "Já encontrou aquela mulher que vende ervas? \nElA afirma que a Santa Astraea é ela própria um demônio."
+},
+{
+"id": 35000902,
+"pt": "Aquela mulher não tem motivo para mentir. \nCertamente deve estar enganada."
+},
+{
+"id": 36000000,
+"pt": "Ora! Você é um dos sãos, não é?"
+},
+{
+"id": 36000001,
+"pt": "Meu nome é Rydell. Por favor, liberte-me desta cela."
+},
+{
+"id": 36000002,
+"pt": "Tenho pouquíssimo tempo. \nPreciso recuperar um objeto do meu cadáver."
+},
+{
+"id": 36000030,
+"pt": "Alguém! Qualquer um! Tirem-me daqui!"
+},
+{
+"id": 36000040,
+"pt": "Por favor! Ajude-me!"
+},
+{
+"id": 36000500,
+"pt": "Por favor, aceite esta bela peça. \nAliás, já não tenho uso para ela."
+},
+{
+"id": 36000501,
+"pt": "Ahh, e assim começa o meu repouso final, eterno..."
+},
+{
+"id": 36000502,
+"pt": "Ora! Obrigado! Obrigado, alma bondosa."
+},
+{
+"id": 36000900,
+"pt": "Como vê, a única coisa que resta\nde mim é minha alma."
+},
+{
+"id": 36000901,
+"pt": "Meu corpo está preso em outra cela; \nimagino que já seja uma bela podridão."
+},
+{
+"id": 36000902,
+"pt": "Não me interesso por minha carne corpórea, mas deixei\ncomigo uma lembrança de minha falecida esposa."
+},
+{
+"id": 36000903,
+"pt": "Logo me desvanecerei no além. \nMeu único desejo é fazê-lo perto dessa lembrança da minha amada."
+},
+{
+"id": 36001000,
+"pt": "Um servidor do Rei já guardou a chave desta cela."
+},
+{
+"id": 36001001,
+"pt": "Aquele porco de ébano com sua barriga balouçante e glutona..."
+},
+{
+"id": 36001100,
+"pt": "O que há de errado com você!? Em nome do Senhor, pare!"
+},
+{
+"id": 36001101,
+"pt": "Não desejo ferir ninguém!"
+},
+{
+"id": 36001102,
+"pt": "Principalmente não você, meu bondoso salvador!"
+},
+{
+"id": 37000000,
+"pt": "Tu que buscas a espada do Rei!"
+},
+{
+"id": 37000001,
+"pt": "Sou o Velho Rei. Mostra-me a tua força e\na força das tuas almas."
+},
+{
+"id": 37000050,
+"pt": "Prepara-te, bravo cavaleiro."
+},
+{
+"id": 37000100,
+"pt": "Fazes bem em impressionar alguém como eu, jovem cavaleiro."
+},
+{
+"id": 37000101,
+"pt": "Vai, e toma a espada do Rei em tua mão."
+},
+{
+"id": 37000102,
+"pt": "Sou o Velho Rei Doran, e provaste a tua\nforça a mim."
+},
+{
+"id": 37000200,
+"pt": "Sou o Velho Rei. Ousas desafiar-me? Muito bem."
+},
+{
+"id": 37000201,
+"pt": "Mas que sejas determinado desde o fundo do teu coração, \nou falharás."
+},
+{
+"id": 37000202,
+"pt": "Que o destino esteja contigo."
+},
+{
+"id": 39500000,
+"pt": "Não tenho uso para alguém como você."
+},
+{
+"id": 39500001,
+"pt": "Suas mãos estão limpas demais."
+},
+{
+"id": 39500002,
+"pt": "Sim, entendo..."
+},
+{
+"id": 39500100,
+"pt": "Vejo que já matou no passado."
+},
+{
+"id": 39500101,
+"pt": "Ninguém pode culpá-lo por isso. \nAlmas de Demônios são preciosas demais para abrir mão."
+},
+{
+"id": 39500102,
+"pt": "Talvez um cavaleiro como você se \ninteresse pela minha oferta?"
+},
+{
+"id": 39500103,
+"pt": "Quero que mate o Príncipe Ariona Allant. \nEle se faz chamar pelo pseudônimo Ostrava."
+},
+{
+"id": 39500104,
+"pt": "Será generosamente recompensado."
+},
+{
+"id": 39500105,
+"pt": "Temos um acordo?"
+},
+{
+"id": 39500106,
+"pt": "Um motivo? Bah, pense nisso como uma oportunidade de\neliminar um concorrente."
+},
+{
+"id": 39500200,
+"pt": "Excelente. Conto com você."
+},
+{
+"id": 39500300,
+"pt": "Hm, entendo. Meus ouvidos estão abertos, caso mude de ideia."
+},
+{
+"id": 39500301,
+"pt": "Mas lembre-se, não ficarei aqui por muito tempo."
+},
+{
+"id": 39500400,
+"pt": "O que houve?"
+},
+{
+"id": 39500401,
+"pt": "Dei-lhe uma tarefa simples; cumpra-a."
+},
+{
+"id": 39500500,
+"pt": "Bem, bem... Trabalho muito limpo. Quase... impiedoso."
+},
+{
+"id": 39500501,
+"pt": "Eis a sua recompensa. Seja grato por ela; normalmente\nnunca chegaria às suas mãos impuras."
+},
+{
+"id": 39500502,
+"pt": "Agora, para a sua próxima tarefa."
+},
+{
+"id": 39500503,
+"pt": "Mate o Príncipe Ariona Allant. Ele se faz chamar pelo pseudônimo Ostrava."
+},
+{
+"id": 39500504,
+"pt": "Darei, é claro, uma recompensa de\nvalor semelhante."
+},
+{
+"id": 39500600,
+"pt": "Hm, já terminou?"
+},
+{
+"id": 39500601,
+"pt": "Eis a sua recompensa. Pegue."
+},
+{
+"id": 39500602,
+"pt": "Não me olhe com essa expressão voraz de cobiça. \nHá mais trabalho para você."
+},
+{
+"id": 39500603,
+"pt": "A seguir, mate o Príncipe Ariona Allant, que se faz chamar pelo\npseudônimo Ostrava."
+},
+{
+"id": 39500604,
+"pt": "Não há motivo para hesitar agora, há?"
+},
+{
+"id": 39500700,
+"pt": "Então, completou tudo, é?"
+},
+{
+"id": 39500701,
+"pt": "É o que chamariam de operador de milagres."
+},
+{
+"id": 39500702,
+"pt": "Por fim, só me resta matá-lo, e o segredo das\nalmas estará eternamente seguro."
+},
+{
+"id": 39500800,
+"pt": "Tolo. Realmente pensou que era especial?"
+},
+{
+"id": 39500900,
+"pt": "Quero que mate Biorr."
+},
+{
+"id": 39500901,
+"pt": "Mate Biorr das Presas Duplas."
+},
+{
+"id": 39500902,
+"pt": "A seguir, matará Biorr das Presas Duplas."
+},
+{
+"id": 39501000,
+"pt": "Quero que mate o Sábio Freke e seu aprendiz."
+},
+{
+"id": 39501001,
+"pt": "Mate o Sábio Freke e seu aprendiz."
+},
+{
+"id": 39501002,
+"pt": "A seguir, matará o Sábio Freke e seu aprendiz."
+},
+{
+"id": 39501100,
+"pt": "Quero que mate a bruxa Yuria."
+},
+{
+"id": 39501101,
+"pt": "Mate a bruxa Yuria."
+},
+{
+"id": 39501102,
+"pt": "A seguir, matará a bruxa Yuria."
+},
+{
+"id": 39501200,
+"pt": "Quero que mate São Urbain e seus seguidores."
+},
+{
+"id": 39501201,
+"pt": "Mate São Urbain e seus seguidores."
+},
+{
+"id": 39501202,
+"pt": "A seguir, matará São Urbain e seus seguidores."
+},
+{
+"id": 39501300,
+"pt": "Quero que mate Thomas, o Estocador."
+},
+{
+"id": 39501301,
+"pt": "Mate Thomas, o Estocador."
+},
+{
+"id": 39501302,
+"pt": "A seguir, matará Thomas, o Estocador."
+},
+{
+"id": 39501400,
+"pt": "Quero que mate Patches, a Hiena."
+},
+{
+"id": 39501401,
+"pt": "Mate Patches, a Hiena."
+},
+{
+"id": 39501402,
+"pt": "A seguir, matará Patches, a Hiena."
+},
+{
+"id": 39501500,
+"pt": "Enlouqueceu?"
+},
+{
+"id": 39501600,
+"pt": "Um tolo como você é coisa rara..."
+},
+{
+"id": 40000001,
+"pt": "Bem, parece ter a cabeça no lugar."
+},
+{
+"id": 40000002,
+"pt": "Sou Satsuki. Procuro uma lembrança de meu pai."
+},
+{
+"id": 40000003,
+"pt": "Já viu a espada com a inscrição \"Makoto\"?"
+},
+{
+"id": 40000004,
+"pt": "Oferecerei almas de Demônios se me ajudar a encontrá-la."
+},
+{
+"id": 40000050,
+"pt": "A Makoto escolhe o seu dono."
+},
+{
+"id": 40000051,
+"pt": "Mas quem nutre ilusões sobre si mesmo deve ser logo advertido."
+},
+{
+"id": 40000052,
+"pt": "A Makoto não é espada para os de coração fraco."
+},
+{
+"id": 40000200,
+"pt": "Ah, encontrou a Makoto, não é?"
+},
+{
+"id": 40000201,
+"pt": "Bendita seja a sua sorte. E, bem, o seu bom trabalho."
+},
+{
+"id": 40000202,
+"pt": "Agora, basta entregar a Makoto a mim."
+},
+{
+"id": 40000300,
+"pt": "Sim, sim, é ela."
+},
+{
+"id": 40000301,
+"pt": "Este brilho... Finalmente é minha! Hehehehe..."
+},
+{
+"id": 40000302,
+"pt": "Exceto que... será que esta espada é mesmo tão mortal \nquanto dizem os boatos?"
+},
+{
+"id": 40000303,
+"pt": "Só há um modo de descobrir!"
+},
+{
+"id": 40000400,
+"pt": "O que diabos há de errado com você?"
+},
+{
+"id": 40000401,
+"pt": "Como ousa desperdiçar meu precioso tempo!?\nNão quer almas de Demônios?"
+},
+{
+"id": 40000500,
+"pt": "Está bem! Faça do seu jeito!"
+},
+{
+"id": 40000501,
+"pt": "Um duelo resolverá isto!"
+},
+{
+"id": 40000600,
+"pt": "Como ousa!"
+},
+{
+"id": 40000601,
+"pt": "Pagará com sangue!"
+},
+{
+"id": 40000700,
+"pt": "Hum, esperando que a Makoto se afeiçoe a você?"
+},
+{
+"id": 40000701,
+"pt": "Absurdo! Seu simples toque suja o seu cabo impecável!"
+},
+{
+"id": 40000702,
+"pt": "Que mergulhe nas profundezas do inferno \npor sua insolência desagradável!"
+},
+{
+"id": 40000800,
+"pt": "A Makoto faz jus ao nome. \nSua lâmina brilha com uma perfeição sobrenatural."
+},
+{
+"id": 40000801,
+"pt": "Hehehe, hehehehehehahaha!"
+},
+{
+"id": 40000900,
+"pt": "Seu invertebrado inútil. Encare o seu destino podre..."
+},
+{
+"id": 40001000,
+"pt": "Ei, você aí!"
+},
+{
+"id": 40001001,
+"pt": "Parece ter a cabeça no lugar."
+},
+{
+"id": 40001002,
+"pt": "Venha cá. Tenho uma proposta para você."
+},
+{
+"id": 40001003,
+"pt": "Não tenha medo. Você tem muito a ganhar."
+},
+{
+"id": 41000000,
+"pt": "Ha ha ha ha ha..."
+},
+{
+"id": 41000001,
+"pt": "Os ídolos serão revividos por toda a eternidade!"
+},
+{
+"id": 41000002,
+"pt": "Regozijai-vos, tolos, pois é como desejastes!"
+},
+{
+"id": 41000003,
+"pt": "Vós, tolos, nada sabeis do mundo!"
+},
+{
+"id": 41000100,
+"pt": "O-O que você quer?"
+},
+{
+"id": 41000101,
+"pt": "Sou um humilde servo. Não desejo interferir."
+},
+{
+"id": 41000102,
+"pt": "Não vou lhe causar problemas, não vou!"
+},
+{
+"id": 41000200,
+"pt": "O que está fazendo!?"
+},
+{
+"id": 41000201,
+"pt": "Sou apenas um servo!"
+},
+{
+"id": 41000300,
+"pt": "Por favor, pare!"
+},
+{
+"id": 41000301,
+"pt": "Iiik! Iiiiik!"
+},
+{
+"id": 42500000,
+"pt": "Veio enfrentar os Demônios?"
+},
+{
+"id": 42500001,
+"pt": "Se sim, por favor, liberte o Sábio Freke, o Visionário, \nda masmorra de Latria."
+},
+{
+"id": 42500002,
+"pt": "Ajudarei como puder. \nPosso ensinar-lhe feitiços elementares."
+},
+{
+"id": 42500003,
+"pt": "O Sábio Freke é uma esperança reluzente para a humanidade, \nmas não tenho poder para salvá-lo sozinho."
+},
+{
+"id": 42500100,
+"pt": "Está implorando por uma aula de magia?"
+},
+{
+"id": 42500200,
+"pt": "Cuidado com o modo como a usa."
+},
+{
+"id": 42500201,
+"pt": "Normalmente, não seria concedida a alguém como você."
+},
+{
+"id": 42500202,
+"pt": "Tive de abrir uma exceção, por causa do Sábio Freke."
+},
+{
+"id": 42500300,
+"pt": "Entendo. Como quiser."
+},
+{
+"id": 42500301,
+"pt": "Apenas certifique-se de resgatar o Sábio Freke \ntão depressa quanto possível."
+},
+{
+"id": 42500320,
+"pt": "Você salvou o Sábio Freke, não foi?"
+},
+{
+"id": 42500321,
+"pt": "Então fiz bem em dobrar as regras \ne ensinar-lhe alguns truques."
+},
+{
+"id": 42500322,
+"pt": "Mesmo assim, sou grato a você."
+},
+{
+"id": 42500323,
+"pt": "Vê como atos desinteressados são importantes \nneste mundo sombrio?"
+},
+{
+"id": 42500400,
+"pt": "O que foi? Ainda está implorando por aulas de magia?"
+},
+{
+"id": 42500401,
+"pt": "Ah, que seja."
+},
+{
+"id": 42500402,
+"pt": "Melhor do que incomodar o Sábio Freke."
+},
+{
+"id": 42500420,
+"pt": "Espere! Aonde vai?"
+},
+{
+"id": 42500430,
+"pt": "Ainda não terminei!"
+},
+{
+"id": 42500440,
+"pt": "O-O que está fazendo!?"
+},
+{
+"id": 42500450,
+"pt": "Por quê!? Perdeu o juízo?"
+},
+{
+"id": 42500451,
+"pt": "Pare!"
+},
+{
+"id": 42500500,
+"pt": "Freke é um grande sábio que sistematizou a magia das\nartes das Almas para torná-la imitável pelos humanos."
+},
+{
+"id": 42500501,
+"pt": "Observando o estado de Boletaria e dos Demônios\nque nela habitam, ele provavelmente abrirá caminho para coisas maiores."
+},
+{
+"id": 42500502,
+"pt": "Mais uma razão para que eu deva encontrar Freke\no quanto antes..."
+},
+{
+"id": 42500600,
+"pt": "Eu? Sem dúvida, fiz o meu melhor para salvar o Sábio Freke."
+},
+{
+"id": 42500601,
+"pt": "Mas não tive força. É simples assim."
+},
+{
+"id": 42500602,
+"pt": "Além disso, se eu mesmo fosse capturado, \nquem ficaria aqui recrutando salvadores?"
+},
+{
+"id": 42500700,
+"pt": "O Sábio Freke prefere trabalhar sozinho."
+},
+{
+"id": 42500701,
+"pt": "Não ouse incomodá-lo com conversa \nfiada sobre futilidades."
+},
+{
+"id": 42500702,
+"pt": "Ele está prestes a descobrir algo \nque rivalizará até com as Almas de Demônio."
+},
+{
+"id": 42501500,
+"pt": "O que quer, bruto?"
+},
+{
+"id": 42501501,
+"pt": "Não tenho uso para malfeitores como você. Fora daqui!"
+},
+{
+"id": 43500000,
+"pt": "Eu pequei."
+},
+{
+"id": 43500001,
+"pt": "Jurei lealdade a São Urbain, \nmas não lhe fui de serventia."
+},
+{
+"id": 43500002,
+"pt": "E agora fugi, e abandonei Sua Veneração."
+},
+{
+"id": 43500100,
+"pt": "Ó Senhor, castiga-me."
+},
+{
+"id": 43500101,
+"pt": "Pois não tenho força para me punir a mim mesmo."
+},
+{
+"id": 43500200,
+"pt": "Ó Venerável, hesito em imaginar o vosso\nestado atual."
+},
+{
+"id": 43500201,
+"pt": "No fundo da escuridão, onde nenhuma luz jamais brilhará."
+},
+{
+"id": 43500202,
+"pt": "Continuareis a rezar, mesmo em tal miséria?"
+},
+{
+"id": 43500300,
+"pt": "Juro que pegarei aquela maldita Hiena algum dia desses."
+},
+{
+"id": 43500301,
+"pt": "Ele me enganou e chutou o Venerável por\numa alçapão atrás do altar de um santuário."
+},
+{
+"id": 43500302,
+"pt": "Eu... perdi a coragem e fugi depressa daquele lugar."
+},
+{
+"id": 43500400,
+"pt": "Ora! Você resgatou o Venerável!"
+},
+{
+"id": 43500401,
+"pt": "Expresso minha mais profunda gratidão. \nLivrou-me de um grande fardo."
+},
+{
+"id": 43500402,
+"pt": "Ah, graças a Deus!"
+},
+{
+"id": 43500420,
+"pt": "O quê? Aonde vai?"
+},
+{
+"id": 43500421,
+"pt": "Ainda não terminei..."
+},
+{
+"id": 43500440,
+"pt": "O que está fazendo!?"
+},
+{
+"id": 43500460,
+"pt": "P-Por favor, pare com isso!"
+},
+{
+"id": 43500480,
+"pt": "Você se voltou contra os ensinamentos de Deus! \nQue a ira dos céus caia sobre você!"
+},
+{
+"id": 43500500,
+"pt": "Ouviu os boatos sobre\nAstraea do Vale da Profanação?"
+},
+{
+"id": 43500501,
+"pt": "Dizem que ela e seu fiel cavaleiro\ntornaram-se Demônios e lideram um clã de\nmalfeitores degenerados."
+},
+{
+"id": 43500502,
+"pt": "Na verdade, os boatos certamente são infundados. \nHá todo tipo de malfeitor lá embaixo \nque inventaria tais disparates."
+},
+{
+"id": 43500503,
+"pt": "...Mas, se os boatos forem verdadeiros..."
+},
+{
+"id": 43500504,
+"pt": "Então que ela seja eternamente condenada por \nrebaixar o nome do Senhor!"
+},
+{
+"id": 43500601,
+"pt": "Com São Urbain de volta, os magos terão de\ntomar cuidado."
+},
+{
+"id": 43500602,
+"pt": "Graças aos seus santos milagres, vocês, bravos combatentes de\nDemônios, não dependerão mais somente da\nmagia sombria."
+},
+{
+"id": 43500603,
+"pt": "Não é maravilhoso? Certamente os algozes de Demônios\naguardavam tal oportunidade!"
+},
+{
+"id": 43500700,
+"pt": "Tem alguma ligação com Patches, a Hiena?"
+},
+{
+"id": 43500701,
+"pt": "Espero que não. É um homem depravado e vil, e\nnão merece aliados."
+},
+{
+"id": 43500702,
+"pt": "Espero que um herói íntegro como você seja \nseletivo ao escolher suas companhias."
+},
+{
+"id": 43500703,
+"pt": "A propósito, recomendo vivamente a companhia\ndo jovial São Urbain!"
+},
+{
+"id": 44500000,
+"pt": "Ah, deve ser outro discípulo de Deus."
+},
+{
+"id": 44500001,
+"pt": "Eu também estou numa jornada para combater os Demônios \nem nome do Senhor."
+},
+{
+"id": 44500002,
+"pt": "Posso partilhar o poder de Deus com você? Não seja tímido; \nsomos feitos da mesma massa."
+},
+{
+"id": 44500100,
+"pt": "Milagres são obra de Deus."
+},
+{
+"id": 44500101,
+"pt": "Que suas ações imitem a Sua grandeza."
+},
+{
+"id": 44500200,
+"pt": "Ah, colega discípulo, busca o poder de Deus?"
+},
+{
+"id": 44500220,
+"pt": "Busca o poder de Deus?"
+},
+{
+"id": 44500240,
+"pt": "Agora, volte; ainda estou falando."
+},
+{
+"id": 44500241,
+"pt": "Isso mal condiz com um guerreiro honrado como você."
+},
+{
+"id": 44500260,
+"pt": "Em nome do Senhor, o que se apoderou de você?"
+},
+{
+"id": 44500261,
+"pt": "Temos um inimigo em comum! Os Demônios!"
+},
+{
+"id": 44500300,
+"pt": "Entendo. Deseja treinar-se no estoicismo. Muito bem."
+},
+{
+"id": 44500301,
+"pt": "Rezo para que nos encontremos de novo."
+},
+{
+"id": 44500600,
+"pt": "Um milagre é um ato celestial, mas feitiços são atos dos\nDemônios, obra das artes das almas."
+},
+{
+"id": 44500601,
+"pt": "Têm efeitos semelhantes, e ainda assim um é claramente mau, \ne o outro é claramente bom."
+},
+{
+"id": 44500602,
+"pt": "Os magos, no fim, são meros servos dos Demônios."
+},
+{
+"id": 44500700,
+"pt": "Conhece São Urbain?"
+},
+{
+"id": 44500701,
+"pt": "São Urbain é um verdadeiro sábio. Ele ouve a voz de Deus."
+},
+{
+"id": 44500702,
+"pt": "Mas aquele discípulo abatido ali afirma que \nele caiu numa armadilha atrás do altar."
+},
+{
+"id": 44500703,
+"pt": "Detesto pensar que tal infortúnio possa \nter acometido um homem tão eminente!"
+},
+{
+"id": 44500704,
+"pt": "Pretendemos partir em breve para o altar, \npara resgatar São Urbain."
+},
+{
+"id": 44500705,
+"pt": "Deus ordenou que se fizesse, e somos Seus discípulos."
+},
+{
+"id": 44500706,
+"pt": "Receio que não nos encontremos por bastante tempo."
+},
+{
+"id": 44501500,
+"pt": "Um guerreiro de terras distantes, é?"
+},
+{
+"id": 44501501,
+"pt": "Que desfrute de vitória em batalha."
+},
+{
+"id": 45500000,
+"pt": "Oh, céus, como isto aconteceu?"
+},
+{
+"id": 45500001,
+"pt": "Deus nos abandonou por não termos demonstrado \no devido respeito ao Rei Allant?"
+},
+{
+"id": 45500002,
+"pt": "Ah, umbasa..."
+},
+{
+"id": 45500300,
+"pt": "Ah, mal posso acreditar."
+},
+{
+"id": 45500301,
+"pt": "Ah, São Urbain..."
+},
+{
+"id": 45500302,
+"pt": "O fato de eu estar ajudando a salvar o mundo!"
+},
+{
+"id": 45500400,
+"pt": "Na época em que eu vivia abaixo do castelo de Boletaria,"
+},
+{
+"id": 45500401,
+"pt": "o Rei Allant partiu para algum negócio estranho, \ne voltou com Demônios horríveis a reboque."
+},
+{
+"id": 45500402,
+"pt": "Logo, a terra foi devastada por Demônios \ne loucos famintos de almas."
+},
+{
+"id": 45500403,
+"pt": "Minha espinha estremece só de pensar nisso."
+},
+{
+"id": 45500404,
+"pt": "Se não tivesse meu fragmento de pedra milagrosa, uma lembrança\nde meu avô, talvez não tivesse sobrevivido."
+},
+{
+"id": 45500500,
+"pt": "Já ouviu?"
+},
+{
+"id": 45500501,
+"pt": "Se for atacado por um Demônio, perderá a sua humanidade."
+},
+{
+"id": 45500502,
+"pt": "Que pensamento horrível... O que aconteceria então?"
+},
+{
+"id": 45500503,
+"pt": "Simplesmente não consigo imaginar."
+},
+{
+"id": 45500600,
+"pt": "Meu avô tinha gostos incomuns."
+},
+{
+"id": 45500601,
+"pt": "Ele visitava com frequência a mina de Stonefang, onde colecionava\npedras de todas as formas e tamanhos."
+},
+{
+"id": 45500602,
+"pt": "A maioria não tinha valor..."
+},
+{
+"id": 45500603,
+"pt": "Mas entre elas ele encontrou um fragmento de pedra milagrosa, \nque me deu."
+},
+{
+"id": 45500604,
+"pt": "Seria isto também um sinal de Deus?"
+},
+{
+"id": 45500700,
+"pt": "Graças a Deus; o Senhor ainda não me esqueceu."
+},
+{
+"id": 45500701,
+"pt": "Pois Ele me reuniu com São Urbain."
+},
+{
+"id": 45500702,
+"pt": "Servirei a ele e rezarei com ele."
+},
+{
+"id": 45500703,
+"pt": "E assim expressarei minha fé em Deus!"
+},
+{
+"id": 45500800,
+"pt": "Planejo legar todos os meus pertences a São Urbain."
+},
+{
+"id": 45500801,
+"pt": "Os pertences de meu avô podem conter mais fragmentos de\npedra milagrosa como o que ele me deu."
+},
+{
+"id": 45500802,
+"pt": "Ele não tem poderes intrínsecos em si mesmo,"
+},
+{
+"id": 45500803,
+"pt": "mas São Urbain pode ouvir a voz de Deus através dele."
+},
+{
+"id": 45500900,
+"pt": "Estarei sempre ao lado de São Urbain."
+},
+{
+"id": 45500901,
+"pt": "Esse é o propósito para o qual \nDeus me colocou sobre esta terra."
+},
+{
+"id": 45501000,
+"pt": "Ahn... onde você está se escondendo...?"
+},
+{
+"id": 45501100,
+"pt": "Iiik!"
+},
+{
+"id": 45501200,
+"pt": "Ai!"
+},
+{
+"id": 45501300,
+"pt": "O que está...! Pare com isso!"
+},
+{
+"id": 45501400,
+"pt": "Você aí..."
+},
+{
+"id": 45501401,
+"pt": "Eu sinto. Você ouve a voz de Deus."
+},
+{
+"id": 45501402,
+"pt": "E está combatendo aqueles terríveis Demônios."
+},
+{
+"id": 45501403,
+"pt": "Nosso Deus misericordioso o enviou aqui para nos proteger!"
+},
+{
+"id": 45501404,
+"pt": "Partilharei com você tudo o que tenho."
+},
+{
+"id": 45501405,
+"pt": "Que os céus o contemplem com favor."
+},
+{
+"id": 47500000,
+"pt": "Esta é Boletaria, um mundo deturpado \nmoldado pelo comércio de almas."
+},
+{
+"id": 47500001,
+"pt": "Ainda tem a sua alma? Então cuidado: \nhomens famintos de almas e Demônios terríveis o caçarão \npor ela."
+},
+{
+"id": 47500002,
+"pt": "Parece ter muitas consigo. \nCertamente percebe que é um sacrifício; \nestá destinado a morrer aqui."
+},
+{
+"id": 47500003,
+"pt": "Precisa de uma saída? \nDeve começar buscando conhecimento."
+},
+{
+"id": 47500004,
+"pt": "Sou Tudo-Conta. E posso lhe contar... qualquer coisa."
+},
+{
+"id": 47500100,
+"pt": "Muito bem. Mas este é um lugar perigoso para \nse percorrer sozinho."
+},
+{
+"id": 47500200,
+"pt": "Sábio guerreiro, busca mais conhecimento?"
+},
+{
+"id": 47500300,
+"pt": "Entendo. Que Deus tenha misericórdia dos ignorantes."
+},
+{
+"id": 47500400,
+"pt": "Sou Tudo-Conta."
+},
+{
+"id": 47500401,
+"pt": "Meu conhecimento é vasto, e a memória, profunda."
+},
+{
+"id": 47500402,
+"pt": "Confie em mim, pois não o desencaminharei."
+},
+{
+"id": 47500500,
+"pt": "Volte, prisioneiro eterno."
+},
+{
+"id": 47500501,
+"pt": "Se deseja salvar-se."
+},
+{
+"id": 47500600,
+"pt": "Volte."
+},
+{
+"id": 47500601,
+"pt": "Se sobreviver, tenho muito mais a contar."
+},
+{
+"id": 47500700,
+"pt": "Que tolice..."
+},
+{
+"id": 47500701,
+"pt": "O que a violência alcançará aqui?"
+},
+{
+"id": 47500800,
+"pt": "Aonde vai?"
+},
+{
+"id": 47500801,
+"pt": "Teme a verdade?"
+},
+{
+"id": 48500000,
+"pt": "Sou Thomas, o Estocador."
+},
+{
+"id": 48500001,
+"pt": "Quando a Praga veio, não sabia o que me atingiu. \nQuando voltei a mim, estava aqui, no Nexus."
+},
+{
+"id": 48500002,
+"pt": "Minha esposa e minha filha foram vítimas dos Demônios."
+},
+{
+"id": 48500003,
+"pt": "Sinto que devo fazer algo neste tempo de crise, \npor isso faço tudo o que posso para ajudar bravos heróis como você."
+},
+{
+"id": 48500004,
+"pt": "Terei prazer em aliviar sua carga \ne cuidar de qualquer bagagem excedente."
+},
+{
+"id": 48500005,
+"pt": "Mas seria inútil em batalha. \nO mínimo que espero é prestar minha ajuda \na vocês, bravos algozes de Demônios."
+},
+{
+"id": 48500100,
+"pt": "Fique tranquilo. Seus bens estão a salvo comigo."
+},
+{
+"id": 48500101,
+"pt": "Boa sorte!"
+},
+{
+"id": 48500200,
+"pt": "Olá de novo."
+},
+{
+"id": 48500201,
+"pt": "Estou de olho nos seus pertences. Fique tranquilo!"
+},
+{
+"id": 48500300,
+"pt": "Você tem um coração de ouro. Não deixe que o tirem de você."
+},
+{
+"id": 48500400,
+"pt": "Graças a Deus está a salvo!"
+},
+{
+"id": 48500401,
+"pt": "Estava morrendo de preocupação com você."
+},
+{
+"id": 48500500,
+"pt": "Somos gratos a você, pois luta em nosso nome."
+},
+{
+"id": 48500520,
+"pt": "Espere, aonde vai?"
+},
+{
+"id": 48500530,
+"pt": "O que foi isso? Sair correndo assim."
+},
+{
+"id": 48500600,
+"pt": "Quando a Praga veio, abandonei minha esposa e minha filha \ne fugi como um louco."
+},
+{
+"id": 48500601,
+"pt": "Quando voltei a mim, estava no Nexus. \nNão ousei me aventurar fora destas paredes desde então."
+},
+{
+"id": 48500602,
+"pt": "Gostaria de poder fazer mais, mas desconheço o mundo\nalém destas paredes."
+},
+{
+"id": 48500700,
+"pt": "Aquela donzela da vela cuidou de mim \nnos meus primeiros dias no Nexus."
+},
+{
+"id": 48500701,
+"pt": "Fala muito pouco, mas tem bom coração. \nTem a idade que minha filhinha teria."
+},
+{
+"id": 48500702,
+"pt": "A pobre, pobre menina... presa aqui \ncom os olhos ocluídos por cera."
+},
+{
+"id": 48500703,
+"pt": "Se ao menos algo pudesse ser feito para ajudá-la..."
+},
+{
+"id": 48500800,
+"pt": "E-E-Esse grampo! Pertence à minha filha!"
+},
+{
+"id": 48500801,
+"pt": "...Então, ela não resistiu, afinal...\nminha queridíssima bebê... que descanse em paz..."
+},
+{
+"id": 48500803,
+"pt": "Posso lhe pedir um favor?"
+},
+{
+"id": 48500804,
+"pt": "Importaria-se de me ceder esse grampo? \nGostaria de tê-lo em memória de minha filha."
+},
+{
+"id": 48500900,
+"pt": "Você é um santo!"
+},
+{
+"id": 48500901,
+"pt": "Obrigado, muito obrigado!"
+},
+{
+"id": 48500902,
+"pt": "Ah, não posso esquecer..."
+},
+{
+"id": 48500903,
+"pt": "Não é muito, mas por favor aceite isto como agradecimento."
+},
+{
+"id": 48500904,
+"pt": "Tenho um pouco de vergonha de dizer, mas encontrei um dia,\ndescartado na estrada principal."
+},
+{
+"id": 48500905,
+"pt": "Mas parece possuir um poder estranho."
+},
+{
+"id": 48500906,
+"pt": "De qualquer modo, sinto que deve ficar com ele. \nSerá mais feliz em suas mãos."
+},
+{
+"id": 48501000,
+"pt": "Sim, sim, claro..."
+},
+{
+"id": 48501001,
+"pt": "Foi você quem o encontrou; deve continuar sendo seu."
+},
+{
+"id": 48501002,
+"pt": "Ha ha ha, por favor, perdoe-me. \nNão quis me emocionar."
+},
+{
+"id": 48501003,
+"pt": "Ha ha ha ha..."
+},
+{
+"id": 48501100,
+"pt": "Santos, sábios e toda sorte de homens sábios \nvelam pelos salões deste Nexus."
+},
+{
+"id": 48501101,
+"pt": "Este santuário revigorante é um ótimo lugar \npara os algozes de Demônios repousarem seus ossos cansados."
+},
+{
+"id": 48501102,
+"pt": "Eu também devo contribuir como puder, \npois somos gratos a nossos honrados defensores."
+},
+{
+"id": 48501200,
+"pt": "Como é o mundo fora do Nexus?"
+},
+{
+"id": 48501201,
+"pt": "Com almas bravas como você enfrentando esses Demônios vis,"
+},
+{
+"id": 48501202,
+"pt": "talvez não demore para que as coisas voltem ao normal."
+},
+{
+"id": 48501203,
+"pt": "Pelo menos, é por isso que todos rezamos..."
+},
+{
+"id": 48501300,
+"pt": "Às vezes paro e me pergunto"
+},
+{
+"id": 48501301,
+"pt": "como fui parar no Nexus, para começar."
+},
+{
+"id": 48501302,
+"pt": "Por que não protegi minha esposa e minha filha, \nmesmo que significasse ser morto pelos Demônios?"
+},
+{
+"id": 48501303,
+"pt": "Ha ha ha, por favor, perdoe-me. Já superei isso."
+},
+{
+"id": 48501400,
+"pt": "Como você consegue?"
+},
+{
+"id": 48501401,
+"pt": "Não imagino o que é preciso para matar um Demônio..."
+},
+{
+"id": 48501402,
+"pt": "Se ao menos eu tivesse esse tipo de força..."
+},
+{
+"id": 48501403,
+"pt": "Se ao menos eu pudesse ajudar nesta luta..."
+},
+{
+"id": 48501500,
+"pt": "O que deu em você!?"
+},
+{
+"id": 48501501,
+"pt": "Em nome de Deus, pare!"
+},
+{
+"id": 49000000,
+"pt": "He he he, olá!"
+},
+{
+"id": 49000001,
+"pt": "Almas, almas! Troco mercadorias finas por almas!"
+},
+{
+"id": 49000100,
+"pt": "He he he! É um prazer fazer negócio com cê."
+},
+{
+"id": 49000200,
+"pt": "Quer brincar, bem, tem que pagar."
+},
+{
+"id": 49000201,
+"pt": "Não concorda?"
+},
+{
+"id": 49000300,
+"pt": "He he he, lembra de mim?"
+},
+{
+"id": 49000301,
+"pt": "Tenho muita mercadoria, então traga muitas almas!"
+},
+{
+"id": 49000400,
+"pt": "He he he, olá. Veio fazer negócio?"
+},
+{
+"id": 49000500,
+"pt": "He he, olá! Deus abençoe suas almas!"
+},
+{
+"id": 49000510,
+"pt": "He he... bom, tudo bem, então."
+},
+{
+"id": 49000511,
+"pt": "Volte quando precisar de algo de verdade!"
+},
+{
+"id": 49000520,
+"pt": "Pra onde cê tá indo?"
+},
+{
+"id": 49000530,
+"pt": "He he he, para com essa bagunça!"
+},
+{
+"id": 49000600,
+"pt": "Nossa vilinha? Bem, he he... É um lugarzinho agradável."
+},
+{
+"id": 49000601,
+"pt": "Esses moradores de olhos de lagarto vivem ocupados mexendo \ncom pedra, e não se incomodam com velhos como eu."
+},
+{
+"id": 49000602,
+"pt": "Torna a vida bem fácil pra mim. \nPosso me safar de qualquer coisa! \nHe he he he."
+},
+{
+"id": 49000603,
+"pt": "Obrigado, Senhor, por esta oportunidade de ouro! He he he."
+},
+{
+"id": 49000700,
+"pt": "Já ouviu falar daquele lagarto cintilante?"
+},
+{
+"id": 49000701,
+"pt": "Não é fácil de pegar, mas tem umas pedras boas."
+},
+{
+"id": 49000702,
+"pt": "E eu sei onde fica o ninho dele!"
+},
+{
+"id": 49000703,
+"pt": "Ah, sinto muito, não posso contar! He he he he!"
+},
+{
+"id": 49000800,
+"pt": "He he he, já ouviu?"
+},
+{
+"id": 49000801,
+"pt": "Bem no fundo desta mina, há um santuário de dragão cheio\nde ossos de dragão."
+},
+{
+"id": 49000802,
+"pt": "Bem, segundo o pequeno Scirvir, pelo menos."
+},
+{
+"id": 49000803,
+"pt": "Não vou me meter a descobrir."
+},
+{
+"id": 49000804,
+"pt": "Esses besouros-urso me matam de susto!"
+},
+{
+"id": 49000900,
+"pt": "O que pensa que está fazendo!"
+},
+{
+"id": 49000901,
+"pt": "Não vai me passar a perna fácil, então cuidado!"
+},
+{
+"id": 50000000,
+"pt": "Hm? É novo por aqui? Veio pelos meus serviços?"
+},
+{
+"id": 50000001,
+"pt": "Meu nome é Baldwin... Só um ferreiro comum."
+},
+{
+"id": 50000002,
+"pt": "Traga-me minério e uma recompensa modesta, \ne forjo suas armas."
+},
+{
+"id": 50000003,
+"pt": "Pode salvar a sua vida. Ou, pelo menos, prolongá-la."
+},
+{
+"id": 50000100,
+"pt": "Ah, bom dia."
+},
+{
+"id": 50000101,
+"pt": "Posso forjar armas para você, por um preço justo."
+},
+{
+"id": 50000200,
+"pt": "Volte vivo. Preciso dos seus negócios."
+},
+{
+"id": 50000300,
+"pt": "Sem interesse, é?"
+},
+{
+"id": 50000301,
+"pt": "Dá para ver que não vai durar muito aqui..."
+},
+{
+"id": 50000310,
+"pt": "Por que a pressa? Aonde vai?"
+},
+{
+"id": 50000311,
+"pt": "Tem alguma educação?"
+},
+{
+"id": 50000320,
+"pt": "Perdoo a grosseria, mas só desta vez."
+},
+{
+"id": 50000321,
+"pt": "Tem sorte de ser eu e não um dos\noutros brutamontes bárbaros."
+},
+{
+"id": 50000400,
+"pt": "Talvez já tenha ouvido, mas há outro\nferreiro na entrada da mina de Stonefang."
+},
+{
+"id": 50000401,
+"pt": "É um velho excêntrico, mas conhece bem o ofício. \nÉ o único são que restou numa cidade de homens famintos de almas."
+},
+{
+"id": 50000402,
+"pt": "Se o encontrar... É... bem, esqueça, \naquele velho teimoso e inútil vai simplesmente ignorá-lo..."
+},
+{
+"id": 50000500,
+"pt": "Não há ferreiros suficientes \nneste templo para dar conta de todo o trabalho."
+},
+{
+"id": 50000501,
+"pt": "Só certos minérios servem para forjar armas, \nmas terá de se virar com o que há."
+},
+{
+"id": 50000502,
+"pt": "E agradeça por eu ainda estar com boa saúde."
+},
+{
+"id": 50000700,
+"pt": "Então, o velho Ed continua com suas esquisitices de sempre, é?"
+},
+{
+"id": 50000701,
+"pt": "Ha ha, até os Demônios não sabem o que fazer\ncom ele, hein?"
+},
+{
+"id": 50000702,
+"pt": "Nossa, meus lados doem! Ha ha ha ha..."
+},
+{
+"id": 50000800,
+"pt": "No fundo da mina de Stonefang há \num antigo cemitério de dragões."
+},
+{
+"id": 50000801,
+"pt": "Os ossos dos dragões exsudam minério."
+},
+{
+"id": 50000900,
+"pt": "Nos meus tempos de moço, eu tinha a força de um boi."
+},
+{
+"id": 50000901,
+"pt": "Os mineiros sempre me pediam para limpar os besouros-urso, \nque eu esmagava com as próprias mãos!"
+},
+{
+"id": 50000902,
+"pt": "Mas nem eu conseguia vencê-los. \nEntão jogava-os nos fossos de lava!"
+},
+{
+"id": 50000903,
+"pt": "Gah ha ha ha ha!"
+},
+{
+"id": 50001000,
+"pt": "Eu mesmo sou bem forte, \nmas nem eu me comparo ao velho Ed."
+},
+{
+"id": 50001001,
+"pt": "O homem é uma fera, eu lhe digo! O homem deve comer\nrabos de dragão e pedras de desejo."
+},
+{
+"id": 50001002,
+"pt": "Se seguir meu conselho, evitará se meter com ele."
+},
+{
+"id": 50001003,
+"pt": "Acho que daria muito mais trabalho que a maioria dos Demônios!"
+},
+{
+"id": 50001004,
+"pt": "Gah ha ha ha ha!"
+},
+{
+"id": 50001100,
+"pt": "Que diabos pensa que está fazendo!?"
+},
+{
+"id": 50001101,
+"pt": "Perdeu o seu miserável juízo?"
+},
+{
+"id": 50001102,
+"pt": "Sou Baldwin, e não vou cair sem lutar!"
+},
+{
+"id": 50001200,
+"pt": "É simples. Traga-me todas as almas que puder."
+},
+{
+"id": 50001201,
+"pt": "Em troca, dou-lhe armas. \nOu forjo as que já tem."
+},
+{
+"id": 50001202,
+"pt": "Com suas almas, posso ganhar a vida, \ne com minhas armas, você pode continuar vivo. \nNada mau, hein?"
+},
+{
+"id": 80101000,
+"pt": "O Ancião, junto com a donzela, foram levados de volta\npara a névoa embaladora."
+},
+{
+"id": 80101001,
+"pt": "Boletaria foi poupada dos Demônios, \nmas também perdeu o conhecimento das artes das almas."
+},
+{
+"id": 80101002,
+"pt": "As almas perdidas durante o pandemônio nunca foram recuperadas."
+},
+{
+"id": 80101003,
+"pt": "E hoje, o mundo instável tem \nmais um Monumental para manter seu tecido unido."
+},
+{
+"id": 80101004,
+"pt": "...Um novo e bravo herói, de poder sem precedentes."
+},
+{
+"id": 80202000,
+"pt": "O Ancião sentiu um novo e poderoso Demônio ao seu lado."
+},
+{
+"id": 80202001,
+"pt": "E em breve, o mundo será engolfado pela Névoa Espessa."
+},
+{
+"id": 80202002,
+"pt": "...Traga mais almas!"
+}
+]
+}

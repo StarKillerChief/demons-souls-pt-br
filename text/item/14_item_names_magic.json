@@ -1,0 +1,145 @@
+{
+"fmg": 14,
+"category": "item_names_magic",
+"bnd": "item",
+"jp_name": "魔法名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 1000,
+"pt": "Flecha de Alma"
+},
+{
+"id": 1001,
+"pt": "Lançar Chamas"
+},
+{
+"id": 1002,
+"pt": "Alívio"
+},
+{
+"id": 1003,
+"pt": "Encantar Arma"
+},
+{
+"id": 1004,
+"pt": "Amaldiçoar Arma"
+},
+{
+"id": 1005,
+"pt": "Sede de Almas"
+},
+{
+"id": 1006,
+"pt": "Nuvem Venenosa"
+},
+{
+"id": 1007,
+"pt": "Travessura do Demônio"
+},
+{
+"id": 1008,
+"pt": "Bola de Fogo"
+},
+{
+"id": 1009,
+"pt": "Ignição"
+},
+{
+"id": 1010,
+"pt": "Raio de Alma"
+},
+{
+"id": 1011,
+"pt": "Flecha de Alma Guiada"
+},
+{
+"id": 1012,
+"pt": "Manto"
+},
+{
+"id": 1013,
+"pt": "Proteção"
+},
+{
+"id": 1014,
+"pt": "Arma Luminosa"
+},
+{
+"id": 1015,
+"pt": "Véu de Água"
+},
+{
+"id": 1016,
+"pt": "Nuvem da Morte"
+},
+{
+"id": 1017,
+"pt": "Jato de Fogo"
+},
+{
+"id": 1018,
+"pt": "Sugador de Almas"
+},
+{
+"id": 1019,
+"pt": "Nuvem Ácida"
+},
+{
+"id": 1020,
+"pt": "Resguardo"
+},
+{
+"id": 1021,
+"pt": "Tempestade de Fogo"
+},
+{
+"id": 2000,
+"pt": "Ira de Deus"
+},
+{
+"id": 2001,
+"pt": "Campo Antimagia"
+},
+{
+"id": 2002,
+"pt": "Recuperação"
+},
+{
+"id": 2003,
+"pt": "Segunda Chance"
+},
+{
+"id": 2004,
+"pt": "Regeneração"
+},
+{
+"id": 2005,
+"pt": "Ressurreição"
+},
+{
+"id": 2006,
+"pt": "Cura"
+},
+{
+"id": 2007,
+"pt": "Alma Oculta"
+},
+{
+"id": 2008,
+"pt": "Evacuar"
+},
+{
+"id": 2009,
+"pt": "Banir"
+},
+{
+"id": 2010,
+"pt": "Sarar"
+},
+{
+"id": 2011,
+"pt": "Antídoto"
+}
+]
+}

@@ -1,0 +1,317 @@
+{
+"fmg": 26,
+"category": "armor_lore",
+"bnd": "item",
+"jp_name": "防具うんちく.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100000,
+"pt": "Uma máscara de ouro incrustada com um desenho\ndelicado.\n\nMesmo na sociedade mascarada que busca dominar\no poder das Almas, só os de posto\nparticularmente alto podem usá-la."
+},
+{
+"id": 100100,
+"pt": "Uma coroa forjada em prata. Esta peça\ndecorativa só é dada aos célebres magos da\ndistinta família Yormedaar.\n\nEstá imbuída de um feitiço singular que\naumenta o PM máximo de quem a usa."
+},
+{
+"id": 100200,
+"pt": "Uma fina máscara de pano que cobre o nariz e a\nboca.\n\nPara ladrões e assassinos que precisam abafar\na respiração. De um modo ou de outro, não é\nusada para o bem."
+},
+{
+"id": 100300,
+"pt": "Um chapéu de couro próprio para atividades ao\nar livre. Muito usado por caçadores."
+},
+{
+"id": 100400,
+"pt": "Um gorro tecido com finos fios de aço.\n\nResistente a ataques cortantes, é muito usado\npor soldados da igreja. O peso prejudica\nlevemente a regeneração de Vigor."
+},
+{
+"id": 100500,
+"pt": "Um elmo forjado em metal branco, dado aos\ncavaleiros que protegem os templos sagrados.\nMird, hoje há muito perdida, é o nome da\nregião onde foram erguidos os primeiros\ntemplos.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 100600,
+"pt": "Um elmo de ferro, comum entre soldados. É\nsimples, mas razoavelmente resistente.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 100700,
+"pt": "Um elmo de ferro com sulcos finamente\ntalhados, usado pelos cavaleiros da região\nrelativamente avançada do sul de Boletaria. Os\nsulcos finos servem para reforçar a proteção\nda fina chapa de ferro.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 100800,
+"pt": "Este velho elmo pertenceu há muito tempo à\nFamília Real de Boletaria. É excelente para\nafastar as chamas. Recentemente, Biorr das\nPresas Duplas tem sido visto com ele.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 100900,
+"pt": "Um elmo de prata escura de Vinland. O\nimponente desenho parietal representa a árvore\nsagrada de ambas as casas.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 101000,
+"pt": "Um elmo de ferro negro usado por Yurt, o Chefe\nSilencioso. Os dois chifres na peça são sua\nprincipal característica.\n\nParte de um conjunto completo de armadura de\naderência extremamente alta. O ferro negro\nrouba o calor do corpo de quem o veste,\nfazendo-o tremer e exalar ar frio.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 101100,
+"pt": "A máscara de bronze do semideus Velho Rei\nDoran. Há joias incrustadas nela."
+},
+{
+"id": 101400,
+"pt": "O equipamento do Sábio Freke, o Visionário.\n\nUm simples traje de viagem que permite longas\nmarchas, mas é a roupa de viagem de um sábio\nsujo. Isso mostra bem as origens do Sábio\nFreke."
+},
+{
+"id": 101700,
+"pt": "Nenhum equipamento de cabeça está equipado no\nmomento"
+},
+{
+"id": 101800,
+"pt": "Os ministros gordos, que surgiram pouco antes\nde os demônios se espalharem por Boletaria e\nse insinuaram junto ao Rei Allant, oprimiam as\nmassas com sorrisos dissimulados.\n\nDizem que este chapéu era detestado pelas\nmassas como uma odiosa lembrança deles."
+},
+{
+"id": 101900,
+"pt": "Um elmo de ouro fosco. Usado como equipamento\nde guerra das mulheres de alto posto nas\nterras altas.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 102000,
+"pt": "Um capuz pontiagudo que cobre toda a cabeça. É\nfeito de couro e retalhos de pano. As tiras de\ncouro envolvem o pescoço.\n\nEm Boletaria, era usado por carrascos, em\nespecial a Carrasca Miralda, conhecida por sua\nloucura e sua bela voz."
+},
+{
+"id": 102100,
+"pt": "Um chapéu de três pontas, duro e sujo.\n\nO tradicional chapéu de bruxa dos desenhos\nparece, na verdade, ter sido usado pelas\nverdadeiras bruxas..."
+},
+{
+"id": 180000,
+"pt": "Faixas de cabeça que foram um dia o manto\ndourado usado pelo velho mestre de Latria e\nque acabaram tomando o controle do velho então\ndefinhado. Sussurra-se que o manto agora\nprocura invocar aqueles que oferecem ajuda, e\ncumprir seus desejos lhes concede o uso dessas\nestranhas faixas. Estaria o traje dourado em\nbusca de um novo recipiente para subjugar...?\n\nSeu poder enigmático aumenta os efeitos das\nmagias, mas também deixa quem o usa mais\nvulnerável a elas."
+},
+{
+"id": 200000,
+"pt": "Roupas de um xamã duvidoso e herege.\n\nHá bolsas para guardar bugigangas presas por\ntoda parte. Também está grudado nelas algum\ntipo de sebo de mau cheiro..."
+},
+{
+"id": 200100,
+"pt": "Um colete de pano bem-feito, usado por magos\noficiais."
+},
+{
+"id": 200200,
+"pt": "Roupas de couro negro lustroso.\n\nFuncionam como uma pele grossa e protegem sem\natrapalhar o movimento de quem as veste. São\nespecialmente boas para resistir a venenos."
+},
+{
+"id": 200300,
+"pt": "Uma armadura de couro própria para atividades\nao ar livre. Muito usada por caçadores."
+},
+{
+"id": 200400,
+"pt": "Uma armadura tecida com finos fios de aço.\n\nResistente a ataques cortantes, é muito usada\npor guerreiros da igreja.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 200500,
+"pt": "Uma armadura de escamas forjada em metal\nbranco, dada aos cavaleiros que protegem os\ntemplos sagrados. Mird, hoje há muito perdida,\né o nome da região onde foram erguidos os\nprimeiros templos.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 200600,
+"pt": "Uma couraça de ferro comumente usada por\nsoldados. É simples, mas razoavelmente\nresistente.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 200700,
+"pt": "Um elmo de ferro com sulcos finamente\ntalhados. É usado pelos cavaleiros da região\nrelativamente avançada do sul de Boletaria. Os\nsulcos finos servem para reforçar a proteção\nda fina chapa de ferro.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 200800,
+"pt": "Este velho elmo pertenceu há muito tempo à\nFamília Real de Boletaria. É excelente para\nafastar as chamas. Recentemente, Biorr das\nPresas Duplas tem sido visto com ele.\n\nSeu peso tremendo prejudica muito a\nregeneração de Vigor."
+},
+{
+"id": 200900,
+"pt": "Armadura de prata escura de Vinland.\n\nA prata escura é conhecida como o metal mais\nantigo da terra e dizem que exorciza a\nmalícia.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 201000,
+"pt": "Armadura de ferro negro usada por Yurt, o\nChefe Silencioso.\n\nParte de um conjunto completo de armadura de\naderência extremamente alta. O ferro negro\nrouba o calor do corpo de quem o veste,\nfazendo-o tremer e exalar ar frio.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 201100,
+"pt": "A couraça de bronze do semideus Velho Rei\nDoran. Há joias incrustadas nela."
+},
+{
+"id": 201200,
+"pt": "Vestes de santo.\n\nRoupas brancas de santos de posto\nespecialmente alto, usadas ao aparecerem para\nensinar ou realizar obras sagradas em viagem.\nO tecido resistente é feito de muitas camadas\nde pano, atadas juntas."
+},
+{
+"id": 201400,
+"pt": "O equipamento do Sábio Freke, o Visionário.\n\nUm simples traje de viagem que permite longas\nmarchas, mas é a roupa de viagem de um sábio\nsujo. Isso mostra bem as origens do Sábio\nFreke."
+},
+{
+"id": 201700,
+"pt": "Nenhuma armadura de corpo está equipada no\nmomento."
+},
+{
+"id": 201800,
+"pt": "Um luxuoso colete de pano negro e macio,\ntecido com fio de ouro.\n\nEquipamento de uma sociedade mascarada que se\nreúne em segredo para discutir o domínio das\nAlmas. Seus assuntos clandestinos são em\ngrande parte desconhecidos."
+},
+{
+"id": 201900,
+"pt": "Armadura de ouro fosco que serve de\nequipamento de guerra das mulheres de alto\nposto nas terras altas.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 202000,
+"pt": "Uma armadura feita de pano e couro. As tiras\nde couro envolvem toda a extensão da armadura.\n\nEm Boletaria, são usadas por carrascos, em\nespecial a Carrasca Miralda, conhecida por sua\nloucura e sua bela voz."
+},
+{
+"id": 202100,
+"pt": "Um manto feito de camadas de tecido\nesfarrapado. Está coberto de rasgos, costuras\nabertas e feias, e de numerosos insetos\nrepugnantes que se contorcem dentro dele.\nNenhuma pessoa sã ousaria vestir algo assim..."
+},
+{
+"id": 300000,
+"pt": "Faixas de braço de um xamã duvidoso e herege.\n\nTambém está grudado nelas algum tipo de sebo\nde mau cheiro..."
+},
+{
+"id": 300100,
+"pt": "Luvas grossas com um desenho metálico\nfinamente trabalhado, usadas por magos\noficiais."
+},
+{
+"id": 300200,
+"pt": "Luvas de couro negro.\n\nSão impermeáveis à água, o que permite\nrealizar trabalhos perigosos."
+},
+{
+"id": 300300,
+"pt": "Luvas de couro próprias para atividades ao ar\nlivre. Muito usadas por caçadores."
+},
+{
+"id": 300400,
+"pt": "Luvas tecidas com finos fios de aço. São\nresistentes a ataques cortantes e muito usadas\npor soldados da igreja.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 300500,
+"pt": "Manoplas forjadas em metal branco, dadas aos\ncavaleiros encarregados de proteger os templos\nsagrados. Mird, hoje há muito perdida, é o\nnome da região onde foram erguidos os\nprimeiros templos.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 300600,
+"pt": "Manoplas de ferro comumente usadas por\nsoldados. São simples, mas razoavelmente\nresistentes.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 300700,
+"pt": "Manoplas de ferro com sulcos finamente\ntalhados. São usadas pelos cavaleiros da\nregião relativamente avançada do sul de\nBoletaria. Os sulcos finos servem para\nreforçar a proteção da fina chapa de ferro.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 300800,
+"pt": "Estas velhas manoplas pertenceram há muito\ntempo à Família Real de Boletaria. São\nexcelentes para afastar as chamas.\nRecentemente, Biorr das Presas Duplas tem sido\nvisto com elas.\n\nSeu peso tremendo prejudica muito a\nregeneração de Vigor."
+},
+{
+"id": 300900,
+"pt": "Manoplas de prata escura de Vinland.\n\nA prata escura é conhecida como o metal mais\nantigo da terra e dizem que exorciza a\nmalícia.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 301000,
+"pt": "Manoplas de ferro negro usadas por Yurt, o\nChefe Silencioso.\n\nParte de um conjunto completo de armadura de\naderência extremamente alta. O ferro negro\nrouba o calor do corpo de quem o veste,\nfazendo-o tremer e exalar ar frio.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 301100,
+"pt": "As manoplas de bronze do semideus Velho Rei\nDoran. Há joias incrustadas nelas."
+},
+{
+"id": 301200,
+"pt": "Vestes de santo.\n\nRoupas brancas de santos de posto\nespecialmente alto, usadas ao aparecerem para\nensinar ou realizar obras sagradas em viagem.\nO tecido resistente é feito de muitas camadas\nde pano, atadas juntas."
+},
+{
+"id": 301400,
+"pt": "O equipamento do Sábio Freke, o Visionário.\n\nUm simples traje de viagem que permite longas\nmarchas, mas é a roupa de viagem de um sábio\nsujo. Isso mostra bem as origens do Sábio\nFreke."
+},
+{
+"id": 301500,
+"pt": "Nenhuma proteção de braço está equipada no\nmomento."
+},
+{
+"id": 301700,
+"pt": "Braceletes feitos de prata. Elegantes\nornamentos, muito provavelmente usados para\nenfeitar uma vestimenta igualmente elegante.\nCertamente usados por uma filha da nobreza.\n\nTalvez por seu alto valor, quem os usa obtém\nmais Almas ao derrotar um inimigo."
+},
+{
+"id": 301800,
+"pt": "Luvas luxuosas de pano negro e macio, tecidas\ncom fio de ouro.\n\nEquipamento de uma sociedade mascarada que se\nreúne em segredo para discutir o domínio das\nAlmas. Seus assuntos clandestinos são em\ngrande parte desconhecidos."
+},
+{
+"id": 301900,
+"pt": "Manoplas de ouro fosco que servem de\nequipamento de guerra das mulheres de alto\nposto nas terras altas.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 302000,
+"pt": "Manoplas feitas de pano e couro. As tiras de\ncouro envolvem os braços.\n\nEm Boletaria, são usadas por carrascos, em\nespecial a Carrasca Miralda, conhecida por sua\nloucura e sua bela voz."
+},
+{
+"id": 302100,
+"pt": "Rudes faixas de mão feitas de camadas de\ntecido esfarrapado. Estão cobertas de rasgos,\ncosturas abertas e feias, e de numerosos\ninsetos repugnantes que se contorcem dentro\ndelas. Nenhuma pessoa sã ousaria vestir algo\nassim..."
+},
+{
+"id": 400000,
+"pt": "Roupas de um xamã duvidoso e herege. O trapo\nsarnento, semelhante a um saco, cobre apenas\nabaixo do tornozelo.\n\nTambém está grudado nelas algum tipo de sebo\nde mau cheiro..."
+},
+{
+"id": 400100,
+"pt": "Sapatos funcionais próprios para pisos de\npedra. São usados por magos oficiais."
+},
+{
+"id": 400200,
+"pt": "Sapatos de couro negro que abafam os passos.\n\nUsados por ladrões e assassinos que precisam\nse manter ocultos nas sombras. De um modo ou\nde outro, não são usados para o bem."
+},
+{
+"id": 400300,
+"pt": "Sapatos de couro próprios para atividades ao\nar livre, muito usados por caçadores."
+},
+{
+"id": 400400,
+"pt": "Sapatos de couro leve.\n\nEmbora não sejam de metal, têm alto aspecto\ndefensivo. Estes sapatos são muito usados por\nsoldados da igreja."
+},
+{
+"id": 400500,
+"pt": "Grevas forjadas em metal branco, dadas aos\ncavaleiros encarregados de proteger os templos\nsagrados. Mird, hoje há muito perdida, é o\nnome da região onde foram erguidos os\nprimeiros templos.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 400600,
+"pt": "Grevas de ferro comumente usadas por soldados.\nSão simples, mas razoavelmente resistentes.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 400700,
+"pt": "Manoplas de ferro com sulcos finamente\ntalhados. São usadas pelos cavaleiros da\nregião relativamente avançada do sul de\nBoletaria. Os sulcos finos servem para\nreforçar a proteção da fina chapa de ferro.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 400800,
+"pt": "Estas velhas grevas pertenceram há muito tempo\nà Família Real de Boletaria. São excelentes\npara afastar as chamas. Recentemente, Biorr\ndas Presas Duplas tem sido visto com elas.\n\nSeu peso tremendo prejudica muito a\nregeneração de Vigor."
+},
+{
+"id": 400900,
+"pt": "Grevas de prata escura de Vinland.\n\nA prata escura é conhecida como o metal mais\nantigo da terra e dizem que exorciza a\nmalícia.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 401000,
+"pt": "Grevas de ferro negro usadas por Yurt, o Chefe\nSilencioso.\n\nParte de um conjunto completo de armadura de\naderência extremamente alta. O ferro negro\nrouba o calor do corpo de quem o veste,\nfazendo-o tremer e exalar ar frio.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 401100,
+"pt": "As grevas de bronze do semideus Velho Rei\nDoran. Há joias incrustadas nelas."
+},
+{
+"id": 401200,
+"pt": "Vestes de santo.\n\nRoupas brancas de santos de posto\nespecialmente alto, usadas ao aparecerem para\nensinar ou realizar obras sagradas em viagem.\nO tecido resistente é feito de muitas camadas\nde pano, atadas juntas."
+},
+{
+"id": 401400,
+"pt": "O equipamento do Sábio Freke, o Visionário.\n\nUm simples traje de viagem que permite longas\nmarchas, mas é a roupa de viagem de um sábio\nsujo. Isso mostra bem as origens do Sábio\nFreke."
+},
+{
+"id": 401500,
+"pt": "Nenhuma proteção de perna está equipada no\nmomento."
+},
+{
+"id": 401800,
+"pt": "Botas luxuosas de pano negro e macio, tecidas\ncom fio de ouro.\n\nEquipamento de uma sociedade mascarada que se\nreúne em segredo para discutir o domínio das\nAlmas. Seus assuntos clandestinos são em\ngrande parte desconhecidos."
+},
+{
+"id": 401900,
+"pt": "Grevas de ouro fosco que servem de equipamento\nde guerra das mulheres de alto posto nas\nterras altas.\n\nO peso prejudica levemente a regeneração de\nVigor."
+},
+{
+"id": 402000,
+"pt": "Botas feitas de pano e couro. As tiras de\ncouro envolvem as pernas.\n\nEm Boletaria, são usadas por carrascos, em\nespecial a Carrasca Miralda, conhecida por sua\nloucura e sua bela voz."
+},
+{
+"id": 402100,
+"pt": "Rudes sapatos feitos de camadas de tecido\nesfarrapado. Estão cobertos de rasgos,\ncosturas abertas e feias, e de numerosos\ninsetos repugnantes que se contorcem dentro\ndeles. Nenhuma pessoa sã ousaria vestir algo\nassim..."
+}
+]
+}

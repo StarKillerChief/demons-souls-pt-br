@@ -1,0 +1,517 @@
+{
+"fmg": 20,
+"category": "goods_desc",
+"bnd": "item",
+"jp_name": "アイテム説明.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 6,
+"pt": "Chave do campo de execução"
+},
+{
+"id": 7,
+"pt": "Alma do Demônio “Falso Rei”"
+},
+{
+"id": 8,
+"pt": "Argola de chaves feita de ferro"
+},
+{
+"id": 9,
+"pt": "Uma simples chave de cobre"
+},
+{
+"id": 10,
+"pt": "Abre o corredor trancado do 1º andar da Prisão da Esperança"
+},
+{
+"id": 11,
+"pt": "Abre o corredor trancado do 2º andar da Prisão da Esperança"
+},
+{
+"id": 12,
+"pt": "Abre o corredor trancado do 3º andar da Prisão da Esperança"
+},
+{
+"id": 13,
+"pt": "Abre o corredor trancado do 4º andar da Prisão da Esperança"
+},
+{
+"id": 14,
+"pt": "Abre o salão do Carcereiro na Prisão da Esperança"
+},
+{
+"id": 15,
+"pt": "Alma do Demônio “Falange”"
+},
+{
+"id": 16,
+"pt": "Alma do Demônio “Cavaleiro da Torre”"
+},
+{
+"id": 17,
+"pt": "Alma do Demônio “Penetrador”"
+},
+{
+"id": 18,
+"pt": "Alma do Demônio “Juiz”"
+},
+{
+"id": 19,
+"pt": "Alma do Demônio “Velho Herói”"
+},
+{
+"id": 20,
+"pt": "Alma do Demônio “Rei da Tempestade”"
+},
+{
+"id": 21,
+"pt": "Alma do Demônio “Ídolo do Tolo”"
+},
+{
+"id": 22,
+"pt": "Alma do Demônio “Devorador de Homens”"
+},
+{
+"id": 23,
+"pt": "Alma do Demônio “Velho Monge”"
+},
+{
+"id": 24,
+"pt": "Alma do Demônio “Sanguessugueiro”"
+},
+{
+"id": 25,
+"pt": "Alma do Demônio “Colosso Imundo”"
+},
+{
+"id": 26,
+"pt": "Alma do Demônio “Senhora Astraea”"
+},
+{
+"id": 27,
+"pt": "Alma do Demônio “Aranha Blindada”"
+},
+{
+"id": 28,
+"pt": "Alma do Demônio “Espreitador de Chamas”"
+},
+{
+"id": 29,
+"pt": "Alma do Demônio “Deus-Dragão”"
+},
+{
+"id": 30,
+"pt": "Alma do Demônio “Dama de Preto”"
+},
+{
+"id": 31,
+"pt": "Alma do Demônio “Vanguarda”"
+},
+{
+"id": 32,
+"pt": "Alma do Demônio “Dragão Voador Vermelho”"
+},
+{
+"id": 33,
+"pt": "Alma do Demônio “Dragão Voador Azul”"
+},
+{
+"id": 34,
+"pt": "Alma do Demônio Primordial"
+},
+{
+"id": 35,
+"pt": "Abre o Mausoléu da Família Real de Boletaria"
+},
+{
+"id": 36,
+"pt": "Uma chave de ferro incrustada de sangue seco"
+},
+{
+"id": 37,
+"pt": "Um pequeno brasão de ouro que representa Vinland"
+},
+{
+"id": 38,
+"pt": "Um simples enfeite de cabelo de jade"
+},
+{
+"id": 39,
+"pt": "Abre a cela trancada do 1º andar da Prisão da Esperança"
+},
+{
+"id": 40,
+"pt": "Abre a cela oeste trancada do 2º andar da Prisão da Esperança"
+},
+{
+"id": 41,
+"pt": "Abre a cela trancada do 3º andar da Prisão da Esperança"
+},
+{
+"id": 42,
+"pt": "Abre a cela trancada do 4º andar da Prisão da Esperança"
+},
+{
+"id": 43,
+"pt": "Abre a cela leste trancada do 2º andar da Prisão da Esperança"
+},
+{
+"id": 44,
+"pt": "Parece ser uma chave de cela especial..."
+},
+{
+"id": 45,
+"pt": "Alma do Demônio “O Ancião”"
+},
+{
+"id": 99,
+"pt": "Pedra que irradia a luz das Almas"
+},
+{
+"id": 1000,
+"pt": "Recupera uma pequena quantidade de PV do usuário"
+},
+{
+"id": 1001,
+"pt": "Recupera um pouco dos PV do usuário"
+},
+{
+"id": 1002,
+"pt": "Recupera uma grande quantidade de PV do usuário"
+},
+{
+"id": 1003,
+"pt": "Recupera quase todos os PV do usuário"
+},
+{
+"id": 1004,
+"pt": "Recupera todos os PV do usuário"
+},
+{
+"id": 1005,
+"pt": "Recupera um pouco dos PM do usuário"
+},
+{
+"id": 1006,
+"pt": "Recupera uma grande quantidade de PM do usuário"
+},
+{
+"id": 1007,
+"pt": "Cura o usuário de veneno"
+},
+{
+"id": 1008,
+"pt": "Cura o usuário da praga"
+},
+{
+"id": 1009,
+"pt": "Recupera totalmente os PV e as condições adversas"
+},
+{
+"id": 1010,
+"pt": "Recupera a durabilidade da arma da mão direita"
+},
+{
+"id": 1011,
+"pt": "Faca de arremesso. Lance-a para atacar"
+},
+{
+"id": 1012,
+"pt": "Arma envenenada. Lance-a para atacar"
+},
+{
+"id": 1013,
+"pt": "Barril de óleo. Ao ser lançado, produz uma grande chama"
+},
+{
+"id": 1014,
+"pt": "Atrai aqueles famintos por Almas"
+},
+{
+"id": 1015,
+"pt": "Aplique na arma da mão direita para envolvê-la em fogo"
+},
+{
+"id": 1016,
+"pt": "Aplique na arma da mão direita para um fogo mais forte"
+},
+{
+"id": 1017,
+"pt": "Aplique na arma da mão direita para encantá-la"
+},
+{
+"id": 1018,
+"pt": "Permite enxergar nitidamente a grandes distâncias"
+},
+{
+"id": 1020,
+"pt": "Leva o usuário de volta ao Nexus"
+},
+{
+"id": 1021,
+"pt": "Ressuscita o corpo do usuário da forma de Alma"
+},
+{
+"id": 1022,
+"pt": "Uma pedra que irradia uma luz guiadora"
+},
+{
+"id": 1023,
+"pt": "Estanca o sangramento do usuário"
+},
+{
+"id": 1024,
+"pt": "Adaga especial, lançada na horizontal para atacar"
+},
+{
+"id": 1025,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1026,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1027,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1028,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1029,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1030,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1031,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1032,
+"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+},
+{
+"id": 1033,
+"pt": "O usuário perde Almas e retorna ao Nexus"
+},
+{
+"id": 2000,
+"pt": "Fragmento de minério duro"
+},
+{
+"id": 2001,
+"pt": "Grande fragmento de minério duro"
+},
+{
+"id": 2002,
+"pt": "Bloco de minério duro"
+},
+{
+"id": 2003,
+"pt": "Valiosa Pedra Dura pura"
+},
+{
+"id": 2004,
+"pt": "Fragmento de minério afiado"
+},
+{
+"id": 2005,
+"pt": "Grande fragmento de minério afiado"
+},
+{
+"id": 2006,
+"pt": "Bloco de minério afiado"
+},
+{
+"id": 2007,
+"pt": "Valiosa Pedra Afiada pura"
+},
+{
+"id": 2012,
+"pt": "Fragmento de minério branco cristalizado"
+},
+{
+"id": 2013,
+"pt": "Bloco de minério branco cristalizado"
+},
+{
+"id": 2014,
+"pt": "Valiosíssima Pedra Clara pura"
+},
+{
+"id": 2015,
+"pt": "Fragmento de minério cinzento de brilho opaco"
+},
+{
+"id": 2016,
+"pt": "Bloco de minério cinzento de brilho opaco"
+},
+{
+"id": 2017,
+"pt": "Valiosíssima Pedra Cinzenta pura"
+},
+{
+"id": 2021,
+"pt": "Fragmento de minério molhado de orvalho"
+},
+{
+"id": 2022,
+"pt": "Bloco de minério molhado de orvalho"
+},
+{
+"id": 2023,
+"pt": "Valiosíssima Pedra-Lâmina pura"
+},
+{
+"id": 2024,
+"pt": "Fragmento de minério transparente como tecido"
+},
+{
+"id": 2025,
+"pt": "Bloco de minério transparente como tecido"
+},
+{
+"id": 2026,
+"pt": "Valiosíssima Pedra-Aranha pura"
+},
+{
+"id": 2027,
+"pt": "Fragmento de minério venenoso e derretido"
+},
+{
+"id": 2028,
+"pt": "Bloco de minério venenoso e derretido"
+},
+{
+"id": 2029,
+"pt": "Rara Pedra-Mercúrio pura"
+},
+{
+"id": 2030,
+"pt": "Fragmento de osso de dragão fossilizado pela lava"
+},
+{
+"id": 2031,
+"pt": "Bloco de osso de dragão fossilizado pela lava"
+},
+{
+"id": 2032,
+"pt": "Rara Pedra-Dragão pura"
+},
+{
+"id": 2033,
+"pt": "Fragmento de minério vampiro. Gruda na pele"
+},
+{
+"id": 2034,
+"pt": "Bloco de minério vampiro. Gruda na pele"
+},
+{
+"id": 2035,
+"pt": "Rara Pedra-Ventosa pura"
+},
+{
+"id": 2036,
+"pt": "Fragmento de minério finíssimo e pontiagudo"
+},
+{
+"id": 2037,
+"pt": "Bloco de minério finíssimo e pontiagudo"
+},
+{
+"id": 2038,
+"pt": "Rara Pedra-Tutano pura"
+},
+{
+"id": 2039,
+"pt": "Fragmento de minério que reflete o luar"
+},
+{
+"id": 2040,
+"pt": "Bloco de minério que reflete o luar"
+},
+{
+"id": 2041,
+"pt": "Raríssima Pedra-Luar pura"
+},
+{
+"id": 2042,
+"pt": "Fragmento de minério que reflete a sombra da lua"
+},
+{
+"id": 2043,
+"pt": "Bloco de minério que reflete a sombra da lua"
+},
+{
+"id": 2044,
+"pt": "Raríssima Pedra da Lua Sombria pura"
+},
+{
+"id": 2045,
+"pt": "Fragmento de minério sagrado e frio. Emite uma luz tênue"
+},
+{
+"id": 2046,
+"pt": "Bloco de minério sagrado e frio. Emite uma luz tênue"
+},
+{
+"id": 2047,
+"pt": "Raríssima Pedra Tênue pura"
+},
+{
+"id": 2048,
+"pt": "Fragmento de minério verde que dizem existir no céu"
+},
+{
+"id": 2049,
+"pt": "Bloco de minério verde que dizem existir no céu"
+},
+{
+"id": 2050,
+"pt": "Raríssima Pedra-Nuvem pura"
+},
+{
+"id": 2054,
+"pt": "Fragmento de lava que contém calor intenso"
+},
+{
+"id": 2055,
+"pt": "Grande fragmento de Pedra Clara"
+},
+{
+"id": 2056,
+"pt": "Grande fragmento de Pedra Cinzenta"
+},
+{
+"id": 2057,
+"pt": "Grande fragmento de Pedra-Lâmina"
+},
+{
+"id": 9995,
+"pt": "Permite ao usuário invadir outro mundo"
+},
+{
+"id": 9996,
+"pt": "O Sinal de Alma desafia um guerreiro do Outromundo"
+},
+{
+"id": 9997,
+"pt": "O Sinal de Alma busca ajudar um guerreiro do Outromundo"
+},
+{
+"id": 9998,
+"pt": "Envia os Fantasmas de volta ao seu mundo"
+},
+{
+"id": 9999,
+"pt": "Retorna ao seu mundo quando for um Fantasma"
+}
+]
+}

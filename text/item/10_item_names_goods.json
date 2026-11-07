@@ -1,0 +1,513 @@
+{
+"fmg": 10,
+"category": "item_names_goods",
+"bnd": "item",
+"jp_name": "アイテム名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 6,
+"pt": "Chave do Campo de Execução"
+},
+{
+"id": 7,
+"pt": "Alma de Demônio do Falso Rei"
+},
+{
+"id": 8,
+"pt": "Argola de Chaves de Ferro"
+},
+{
+"id": 9,
+"pt": "Chave de Cobre"
+},
+{
+"id": 10,
+"pt": "Chave da Prisão da Esperança, 1º And."
+},
+{
+"id": 11,
+"pt": "Chave da Prisão da Esperança, 2º And."
+},
+{
+"id": 12,
+"pt": "Chave da Prisão da Esperança, 3º And."
+},
+{
+"id": 13,
+"pt": "Chave da Prisão da Esperança, 4º And."
+},
+{
+"id": 14,
+"pt": "Chave do Carcereiro da Prisão da Esperança"
+},
+{
+"id": 15,
+"pt": "Alma de Demônio de Chumbo"
+},
+{
+"id": 16,
+"pt": "Alma de Demônio de Ferro"
+},
+{
+"id": 17,
+"pt": "Alma de Demônio de Prata"
+},
+{
+"id": 18,
+"pt": "Alma de Demônio Inchada"
+},
+{
+"id": 19,
+"pt": "Alma de Demônio do Herói"
+},
+{
+"id": 20,
+"pt": "Alma de Demônio da Tempestade"
+},
+{
+"id": 21,
+"pt": "Alma de Demônio da Boneca"
+},
+{
+"id": 22,
+"pt": "Alma de Demônio Mista"
+},
+{
+"id": 23,
+"pt": "Alma de Demônio Amarela"
+},
+{
+"id": 24,
+"pt": "Alma de Demônio Contorcida"
+},
+{
+"id": 25,
+"pt": "Alma de Demônio Corroída"
+},
+{
+"id": 26,
+"pt": "Alma de Demônio Puro-sangue"
+},
+{
+"id": 27,
+"pt": "Alma de Demônio Dura"
+},
+{
+"id": 28,
+"pt": "Alma de Demônio Incandescente"
+},
+{
+"id": 29,
+"pt": "Alma de Demônio do Dragão"
+},
+{
+"id": 30,
+"pt": "Alma de Demônio da Dama de Preto"
+},
+{
+"id": 31,
+"pt": "Alma de Demônio Cinzenta"
+},
+{
+"id": 32,
+"pt": "Alma de Demônio de Escama Flamejante (P)"
+},
+{
+"id": 33,
+"pt": "Alma de Demônio de Escama Flamejante (G)"
+},
+{
+"id": 34,
+"pt": "Alma de Demônio Incolor"
+},
+{
+"id": 35,
+"pt": "Chave do Mausoléu"
+},
+{
+"id": 36,
+"pt": "Chave de Ferro Sangrenta"
+},
+{
+"id": 37,
+"pt": "Brasão de Vinland"
+},
+{
+"id": 38,
+"pt": "Enfeite de Cabelo de Jade"
+},
+{
+"id": 39,
+"pt": "Chave da Cela, Prisão da Esperança, 1º And."
+},
+{
+"id": 40,
+"pt": "Chave da Cela O., Prisão da Esperança, 2º And."
+},
+{
+"id": 41,
+"pt": "Chave da Cela, Prisão da Esperança, 3º And."
+},
+{
+"id": 42,
+"pt": "Chave da Cela, Prisão da Esperança, 4º And."
+},
+{
+"id": 43,
+"pt": "Chave da Cela L., Prisão da Esperança, 2º And."
+},
+{
+"id": 44,
+"pt": "Chave Especial da Prisão da Esperança"
+},
+{
+"id": 45,
+"pt": "Alma de Demônio da Fera"
+},
+{
+"id": 99,
+"pt": "Augita de Almas"
+},
+{
+"id": 1000,
+"pt": "Erva da Lua Crescente"
+},
+{
+"id": 1001,
+"pt": "Erva da Meia-Lua"
+},
+{
+"id": 1002,
+"pt": "Erva da Lua Minguante"
+},
+{
+"id": 1003,
+"pt": "Erva da Lua Cheia"
+},
+{
+"id": 1004,
+"pt": "Erva da Lua Nova"
+},
+{
+"id": 1005,
+"pt": "Tempero Fresco"
+},
+{
+"id": 1006,
+"pt": "Tempero Velho"
+},
+{
+"id": 1007,
+"pt": "Lótus Real"
+},
+{
+"id": 1008,
+"pt": "Lótus da Viúva"
+},
+{
+"id": 1009,
+"pt": "Erva da Lua Sombria"
+},
+{
+"id": 1010,
+"pt": "Pedra de Amolar de Ed"
+},
+{
+"id": 1011,
+"pt": "Faca de Arremesso"
+},
+{
+"id": 1013,
+"pt": "Bomba Incendiária"
+},
+{
+"id": 1014,
+"pt": "Restos de Alma"
+},
+{
+"id": 1015,
+"pt": "Terebintina"
+},
+{
+"id": 1016,
+"pt": "Terebintina Negra"
+},
+{
+"id": 1017,
+"pt": "Gosma Branca"
+},
+{
+"id": 1018,
+"pt": "Luneta de Latão"
+},
+{
+"id": 1020,
+"pt": "Fragmento de Arquipedra"
+},
+{
+"id": 1021,
+"pt": "Pedra dos Olhos Efêmeros"
+},
+{
+"id": 1022,
+"pt": "Augita da Orientação"
+},
+{
+"id": 1023,
+"pt": "Lótus do Soldado"
+},
+{
+"id": 1024,
+"pt": "Adaga de Arremesso Secreta"
+},
+{
+"id": 1025,
+"pt": "Alma de Soldado Desconhecido"
+},
+{
+"id": 1026,
+"pt": "Alma de Herói Desconhecido"
+},
+{
+"id": 1027,
+"pt": "Alma de Soldado Renomado"
+},
+{
+"id": 1028,
+"pt": "Alma de Herói Renomado"
+},
+{
+"id": 1029,
+"pt": "Alma de Soldado Lendário"
+},
+{
+"id": 1030,
+"pt": "Alma de Herói Lendário"
+},
+{
+"id": 1031,
+"pt": "Alma de Soldado Épico"
+},
+{
+"id": 1032,
+"pt": "Alma de Herói Épico"
+},
+{
+"id": 1033,
+"pt": "Vínculo do Nexus"
+},
+{
+"id": 2000,
+"pt": "Fragmento de Pedra Dura"
+},
+{
+"id": 2001,
+"pt": "Grande Fragmento de Pedra Dura"
+},
+{
+"id": 2002,
+"pt": "Bloco de Pedra Dura"
+},
+{
+"id": 2003,
+"pt": "Pedra Dura Pura"
+},
+{
+"id": 2004,
+"pt": "Fragmento de Pedra Afiada"
+},
+{
+"id": 2005,
+"pt": "Grande Fragmento de Pedra Afiada"
+},
+{
+"id": 2006,
+"pt": "Bloco de Pedra Afiada"
+},
+{
+"id": 2007,
+"pt": "Pedra Afiada Pura"
+},
+{
+"id": 2012,
+"pt": "Fragmento de Pedra Clara"
+},
+{
+"id": 2013,
+"pt": "Bloco de Pedra Clara"
+},
+{
+"id": 2014,
+"pt": "Pedra Clara Pura"
+},
+{
+"id": 2015,
+"pt": "Fragmento de Pedra Cinzenta"
+},
+{
+"id": 2016,
+"pt": "Bloco de Pedra Cinzenta"
+},
+{
+"id": 2017,
+"pt": "Pedra Cinzenta Pura"
+},
+{
+"id": 2021,
+"pt": "Fragmento de Pedra-Lâmina"
+},
+{
+"id": 2022,
+"pt": "Bloco de Pedra-Lâmina"
+},
+{
+"id": 2023,
+"pt": "Pedra-Lâmina Pura"
+},
+{
+"id": 2024,
+"pt": "Fragmento de Pedra-Aranha"
+},
+{
+"id": 2025,
+"pt": "Bloco de Pedra-Aranha"
+},
+{
+"id": 2026,
+"pt": "Pedra-Aranha Pura"
+},
+{
+"id": 2027,
+"pt": "Fragmento de Pedra-Mercúrio"
+},
+{
+"id": 2028,
+"pt": "Bloco de Pedra-Mercúrio"
+},
+{
+"id": 2029,
+"pt": "Pedra-Mercúrio Pura"
+},
+{
+"id": 2030,
+"pt": "Fragmento de Pedra-Dragão"
+},
+{
+"id": 2031,
+"pt": "Bloco de Pedra-Dragão"
+},
+{
+"id": 2032,
+"pt": "Pedra-Dragão Pura"
+},
+{
+"id": 2033,
+"pt": "Fragmento de Pedra-Ventosa"
+},
+{
+"id": 2034,
+"pt": "Bloco de Pedra-Ventosa"
+},
+{
+"id": 2035,
+"pt": "Pedra-Ventosa Pura"
+},
+{
+"id": 2036,
+"pt": "Fragmento de Pedra-Tutano"
+},
+{
+"id": 2037,
+"pt": "Bloco de Pedra-Tutano"
+},
+{
+"id": 2038,
+"pt": "Pedra-Tutano Pura"
+},
+{
+"id": 2039,
+"pt": "Fragmento de Pedra-Luar"
+},
+{
+"id": 2040,
+"pt": "Bloco de Pedra-Luar"
+},
+{
+"id": 2041,
+"pt": "Pedra-Luar Pura"
+},
+{
+"id": 2042,
+"pt": "Fragmento de Pedra da Lua Sombria"
+},
+{
+"id": 2043,
+"pt": "Bloco de Pedra da Lua Sombria"
+},
+{
+"id": 2044,
+"pt": "Pedra da Lua Sombria Pura"
+},
+{
+"id": 2045,
+"pt": "Fragmento de Pedra Tênue"
+},
+{
+"id": 2046,
+"pt": "Bloco de Pedra Tênue"
+},
+{
+"id": 2047,
+"pt": "Pedra Tênue Pura"
+},
+{
+"id": 2048,
+"pt": "Fragmento de Pedra-Nuvem"
+},
+{
+"id": 2049,
+"pt": "Bloco de Pedra-Nuvem"
+},
+{
+"id": 2050,
+"pt": "Pedra-Nuvem Pura"
+},
+{
+"id": 2054,
+"pt": "Fragmento de Pedra Derretida"
+},
+{
+"id": 2055,
+"pt": "Grande Fragmento de Pedra Clara"
+},
+{
+"id": 2056,
+"pt": "Grande Fragmento de Pedra Cinzenta"
+},
+{
+"id": 2057,
+"pt": "Grande Fragmento de Pedra-Lâmina"
+},
+{
+"id": 9995,
+"pt": "Pedra do Olho Negro"
+},
+{
+"id": 9996,
+"pt": "Pedra do Olho Vermelho"
+},
+{
+"id": 9997,
+"pt": "Pedra do Olho Azul"
+},
+{
+"id": 9998,
+"pt": "Item de Chute"
+},
+{
+"id": 9999,
+"pt": "Pedra do Olho Branco"
+}
+]
+}

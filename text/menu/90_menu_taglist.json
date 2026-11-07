@@ -1,0 +1,161 @@
+{
+"fmg": 90,
+"category": "menu_taglist",
+"bnd": "menu",
+"jp_name": "テキスト表示用タグ一覧.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 200101,
+"pt": "O Nexus"
+},
+{
+"id": 200201,
+"pt": "Palácio de Boletaria"
+},
+{
+"id": 200202,
+"pt": "Arquipedra da Falange"
+},
+{
+"id": 200203,
+"pt": "Arquipedra do Cavaleiro da Torre"
+},
+{
+"id": 200204,
+"pt": "Arquipedra do Penetrador"
+},
+{
+"id": 200205,
+"pt": "Arquipedra do Falso Rei"
+},
+{
+"id": 200301,
+"pt": "Santuário das Tempestades"
+},
+{
+"id": 200302,
+"pt": "Arquipedra do Juiz"
+},
+{
+"id": 200303,
+"pt": "Arquipedra do Velho Herói"
+},
+{
+"id": 200304,
+"pt": "Arquipedra do Rei da Tempestade"
+},
+{
+"id": 200401,
+"pt": "Torre de Latria"
+},
+{
+"id": 200402,
+"pt": "Arquipedra do Ídolo do Tolo"
+},
+{
+"id": 200403,
+"pt": "Arquipedra do Devorador de Homens"
+},
+{
+"id": 200404,
+"pt": "Arquipedra do Velho Monge"
+},
+{
+"id": 200501,
+"pt": "Vale da Profanação"
+},
+{
+"id": 200502,
+"pt": "Arquipedra do Sanguessugueiro"
+},
+{
+"id": 200503,
+"pt": "Arquipedra do Colosso Imundo"
+},
+{
+"id": 200504,
+"pt": "Arquipedra da Senhora Astraea"
+},
+{
+"id": 200601,
+"pt": "Túnel de Stonefang"
+},
+{
+"id": 200602,
+"pt": "Arquipedra da Aranha Blindada"
+},
+{
+"id": 200603,
+"pt": "Arquipedra do Espreitador de Chamas"
+},
+{
+"id": 200604,
+"pt": "Arquipedra do Deus-Dragão"
+},
+{
+"id": 200701,
+"pt": "Limite Norte 1"
+},
+{
+"id": 200702,
+"pt": "Limite Norte 2"
+},
+{
+"id": 200703,
+"pt": "Limite Norte 3"
+},
+{
+"id": 200704,
+"pt": "Limite Norte 4"
+},
+{
+"id": 201001,
+"pt": "Cavaleiro"
+},
+{
+"id": 201002,
+"pt": "Mago"
+},
+{
+"id": 201003,
+"pt": "Bárbaro"
+},
+{
+"id": 201004,
+"pt": "Andarilho"
+},
+{
+"id": 201005,
+"pt": "Soldado"
+},
+{
+"id": 201006,
+"pt": "Caçador"
+},
+{
+"id": 201007,
+"pt": "Sacerdote"
+},
+{
+"id": 201008,
+"pt": "Ladrão"
+},
+{
+"id": 201009,
+"pt": "Cavaleiro do Templo"
+},
+{
+"id": 201010,
+"pt": "Realeza"
+},
+{
+"id": 500101,
+"pt": "Total de Pts."
+},
+{
+"id": 500102,
+"pt": "Total de Almas"
+}
+]
+}

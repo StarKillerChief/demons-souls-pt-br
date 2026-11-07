@@ -1,0 +1,113 @@
+{
+"fmg": 15,
+"category": "item_names_traits",
+"bnd": "item",
+"jp_name": "特徴名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100,
+"pt": "Carga de Equip. +"
+},
+{
+"id": 101,
+"pt": "Carga de Itens +"
+},
+{
+"id": 102,
+"pt": "Ataque ao Morrer +"
+},
+{
+"id": 103,
+"pt": "Defesa ao Morrer +"
+},
+{
+"id": 104,
+"pt": "Recup. de Vigor +"
+},
+{
+"id": 105,
+"pt": "Recup. de PM"
+},
+{
+"id": 106,
+"pt": "Recup. de PV"
+},
+{
+"id": 107,
+"pt": "Defesa a Fogo +"
+},
+{
+"id": 108,
+"pt": "Res. a Veneno +"
+},
+{
+"id": 109,
+"pt": "Poder Mágico +"
+},
+{
+"id": 110,
+"pt": "Defesa Mágica +"
+},
+{
+"id": 111,
+"pt": "Capac. de Magias +"
+},
+{
+"id": 112,
+"pt": "Poder de Milagres +"
+},
+{
+"id": 113,
+"pt": "PV na Forma de Alma +"
+},
+{
+"id": 114,
+"pt": "Poder de Fantasma +"
+},
+{
+"id": 115,
+"pt": "Poder Fant. Negro +"
+},
+{
+"id": 116,
+"pt": "Esconder de inimigos"
+},
+{
+"id": 117,
+"pt": "Esconder de Fantasmas"
+},
+{
+"id": 118,
+"pt": "Dano de Queda -"
+},
+{
+"id": 119,
+"pt": "Atrair inimigos"
+},
+{
+"id": 120,
+"pt": "Almas Obtidas +"
+},
+{
+"id": 121,
+"pt": "Desgaste de Arma -"
+},
+{
+"id": 123,
+"pt": "Poder de Acerto Direto +"
+},
+{
+"id": 124,
+"pt": "Capac. de Milagres +"
+},
+{
+"id": 125,
+"pt": "Res. a Sangramento +"
+},
+{
+"id": 126,
+"pt": "Res. a Praga +"
+}
+]
+}

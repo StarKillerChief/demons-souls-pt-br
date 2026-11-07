@@ -1,0 +1,6813 @@
+{
+"fmg": 11,
+"category": "item_names_weapons",
+"bnd": "item",
+"jp_name": "武器名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 10000,
+"pt": "Adaga"
+},
+{
+"id": 10001,
+"pt": "Adaga+1"
+},
+{
+"id": 10002,
+"pt": "Adaga+2"
+},
+{
+"id": 10003,
+"pt": "Adaga+3"
+},
+{
+"id": 10004,
+"pt": "Adaga+4"
+},
+{
+"id": 10005,
+"pt": "Adaga+5"
+},
+{
+"id": 10006,
+"pt": "Adaga+6"
+},
+{
+"id": 10007,
+"pt": "Adaga+7"
+},
+{
+"id": 10008,
+"pt": "Adaga+8"
+},
+{
+"id": 10009,
+"pt": "Adaga+9"
+},
+{
+"id": 10010,
+"pt": "Adaga+10"
+},
+{
+"id": 10011,
+"pt": "Adaga de Qualidade+1"
+},
+{
+"id": 10012,
+"pt": "Adaga de Qualidade+2"
+},
+{
+"id": 10013,
+"pt": "Adaga de Qualidade+3"
+},
+{
+"id": 10014,
+"pt": "Adaga de Qualidade+4"
+},
+{
+"id": 10015,
+"pt": "Adaga de Qualidade+5"
+},
+{
+"id": 10021,
+"pt": "Adaga de Mercúrio+1"
+},
+{
+"id": 10022,
+"pt": "Adaga de Mercúrio+2"
+},
+{
+"id": 10023,
+"pt": "Adaga de Mercúrio+3"
+},
+{
+"id": 10024,
+"pt": "Adaga de Mercúrio+4"
+},
+{
+"id": 10025,
+"pt": "Adaga de Mercúrio+5"
+},
+{
+"id": 10031,
+"pt": "Adaga Afiada+1"
+},
+{
+"id": 10032,
+"pt": "Adaga Afiada+2"
+},
+{
+"id": 10033,
+"pt": "Adaga Afiada+3"
+},
+{
+"id": 10034,
+"pt": "Adaga Afiada+4"
+},
+{
+"id": 10035,
+"pt": "Adaga Afiada+5"
+},
+{
+"id": 10041,
+"pt": "Adaga Fatal+1"
+},
+{
+"id": 10042,
+"pt": "Adaga Fatal+2"
+},
+{
+"id": 10043,
+"pt": "Adaga Fatal+3"
+},
+{
+"id": 10044,
+"pt": "Adaga Fatal+4"
+},
+{
+"id": 10045,
+"pt": "Adaga Fatal+5"
+},
+{
+"id": 10051,
+"pt": "Adaga Crescente+1"
+},
+{
+"id": 10052,
+"pt": "Adaga Crescente+2"
+},
+{
+"id": 10053,
+"pt": "Adaga Crescente+3"
+},
+{
+"id": 10054,
+"pt": "Adaga Crescente+4"
+},
+{
+"id": 10055,
+"pt": "Adaga Crescente+5"
+},
+{
+"id": 10100,
+"pt": "Adaga de Aparo"
+},
+{
+"id": 10101,
+"pt": "Adaga de Aparo+1"
+},
+{
+"id": 10102,
+"pt": "Adaga de Aparo+2"
+},
+{
+"id": 10103,
+"pt": "Adaga de Aparo+3"
+},
+{
+"id": 10104,
+"pt": "Adaga de Aparo+4"
+},
+{
+"id": 10105,
+"pt": "Adaga de Aparo+5"
+},
+{
+"id": 10106,
+"pt": "Adaga de Aparo+6"
+},
+{
+"id": 10107,
+"pt": "Adaga de Aparo+7"
+},
+{
+"id": 10108,
+"pt": "Adaga de Aparo+8"
+},
+{
+"id": 10109,
+"pt": "Adaga de Aparo+9"
+},
+{
+"id": 10110,
+"pt": "Adaga de Aparo+10"
+},
+{
+"id": 10111,
+"pt": "Adaga de Aparo de Qualidade+1"
+},
+{
+"id": 10112,
+"pt": "Adaga de Aparo de Qualidade+2"
+},
+{
+"id": 10113,
+"pt": "Adaga de Aparo de Qualidade+3"
+},
+{
+"id": 10114,
+"pt": "Adaga de Aparo de Qualidade+4"
+},
+{
+"id": 10115,
+"pt": "Adaga de Aparo de Qualidade+5"
+},
+{
+"id": 10121,
+"pt": "Adaga de Aparo de Mercúrio+1"
+},
+{
+"id": 10122,
+"pt": "Adaga de Aparo de Mercúrio+2"
+},
+{
+"id": 10123,
+"pt": "Adaga de Aparo de Mercúrio+3"
+},
+{
+"id": 10124,
+"pt": "Adaga de Aparo de Mercúrio+4"
+},
+{
+"id": 10125,
+"pt": "Adaga de Aparo de Mercúrio+5"
+},
+{
+"id": 10131,
+"pt": "Adaga de Aparo Fatal+1"
+},
+{
+"id": 10132,
+"pt": "Adaga de Aparo Fatal+2"
+},
+{
+"id": 10133,
+"pt": "Adaga de Aparo Fatal+3"
+},
+{
+"id": 10134,
+"pt": "Adaga de Aparo Fatal+4"
+},
+{
+"id": 10135,
+"pt": "Adaga de Aparo Fatal+5"
+},
+{
+"id": 10141,
+"pt": "Adaga de Aparo Afiada+1"
+},
+{
+"id": 10142,
+"pt": "Adaga de Aparo Afiada+2"
+},
+{
+"id": 10143,
+"pt": "Adaga de Aparo Afiada+3"
+},
+{
+"id": 10144,
+"pt": "Adaga de Aparo Afiada+4"
+},
+{
+"id": 10145,
+"pt": "Adaga de Aparo Afiada+5"
+},
+{
+"id": 10151,
+"pt": "Adaga de Aparo Crescente+1"
+},
+{
+"id": 10152,
+"pt": "Adaga de Aparo Crescente+2"
+},
+{
+"id": 10153,
+"pt": "Adaga de Aparo Crescente+3"
+},
+{
+"id": 10154,
+"pt": "Adaga de Aparo Crescente+4"
+},
+{
+"id": 10155,
+"pt": "Adaga de Aparo Crescente+5"
+},
+{
+"id": 10200,
+"pt": "Quebra-Malhas"
+},
+{
+"id": 10201,
+"pt": "Quebra-Malhas+1"
+},
+{
+"id": 10202,
+"pt": "Quebra-Malhas+2"
+},
+{
+"id": 10203,
+"pt": "Quebra-Malhas+3"
+},
+{
+"id": 10204,
+"pt": "Quebra-Malhas+4"
+},
+{
+"id": 10205,
+"pt": "Quebra-Malhas+5"
+},
+{
+"id": 10206,
+"pt": "Quebra-Malhas+6"
+},
+{
+"id": 10207,
+"pt": "Quebra-Malhas+7"
+},
+{
+"id": 10208,
+"pt": "Quebra-Malhas+8"
+},
+{
+"id": 10209,
+"pt": "Quebra-Malhas+9"
+},
+{
+"id": 10210,
+"pt": "Quebra-Malhas+10"
+},
+{
+"id": 10211,
+"pt": "Quebra-Malhas de Qualidade+1"
+},
+{
+"id": 10212,
+"pt": "Quebra-Malhas de Qualidade+2"
+},
+{
+"id": 10213,
+"pt": "Quebra-Malhas de Qualidade+3"
+},
+{
+"id": 10214,
+"pt": "Quebra-Malhas de Qualidade+4"
+},
+{
+"id": 10215,
+"pt": "Quebra-Malhas de Qualidade+5"
+},
+{
+"id": 10221,
+"pt": "Quebra-Malhas de Mercúrio+1"
+},
+{
+"id": 10222,
+"pt": "Quebra-Malhas de Mercúrio+2"
+},
+{
+"id": 10223,
+"pt": "Quebra-Malhas de Mercúrio+3"
+},
+{
+"id": 10224,
+"pt": "Quebra-Malhas de Mercúrio+4"
+},
+{
+"id": 10225,
+"pt": "Quebra-Malhas de Mercúrio+5"
+},
+{
+"id": 10231,
+"pt": "Quebra-Malhas Fatal+1"
+},
+{
+"id": 10232,
+"pt": "Quebra-Malhas Fatal+2"
+},
+{
+"id": 10233,
+"pt": "Quebra-Malhas Fatal+3"
+},
+{
+"id": 10234,
+"pt": "Quebra-Malhas Fatal+4"
+},
+{
+"id": 10235,
+"pt": "Quebra-Malhas Fatal+5"
+},
+{
+"id": 10241,
+"pt": "Quebra-Malhas Afiado+1"
+},
+{
+"id": 10242,
+"pt": "Quebra-Malhas Afiado+2"
+},
+{
+"id": 10243,
+"pt": "Quebra-Malhas Afiado+3"
+},
+{
+"id": 10244,
+"pt": "Quebra-Malhas Afiado+4"
+},
+{
+"id": 10245,
+"pt": "Quebra-Malhas Afiado+5"
+},
+{
+"id": 10251,
+"pt": "Quebra-Malhas Crescente+1"
+},
+{
+"id": 10252,
+"pt": "Quebra-Malhas Crescente+2"
+},
+{
+"id": 10253,
+"pt": "Quebra-Malhas Crescente+3"
+},
+{
+"id": 10254,
+"pt": "Quebra-Malhas Crescente+4"
+},
+{
+"id": 10255,
+"pt": "Quebra-Malhas Crescente+5"
+},
+{
+"id": 10400,
+"pt": "Unha do Bebê"
+},
+{
+"id": 10401,
+"pt": "Unha do Bebê+1"
+},
+{
+"id": 10402,
+"pt": "Unha do Bebê+2"
+},
+{
+"id": 10403,
+"pt": "Unha do Bebê+3"
+},
+{
+"id": 10404,
+"pt": "Unha do Bebê+4"
+},
+{
+"id": 10405,
+"pt": "Unha do Bebê+5"
+},
+{
+"id": 10500,
+"pt": "Estilete de Geri"
+},
+{
+"id": 10501,
+"pt": "Estilete de Geri+1"
+},
+{
+"id": 10502,
+"pt": "Estilete de Geri+2"
+},
+{
+"id": 10503,
+"pt": "Estilete de Geri+3"
+},
+{
+"id": 10504,
+"pt": "Estilete de Geri+4"
+},
+{
+"id": 10505,
+"pt": "Estilete de Geri+5"
+},
+{
+"id": 10600,
+"pt": "Lâmina Kris"
+},
+{
+"id": 10601,
+"pt": "Lâmina Kris+1"
+},
+{
+"id": 10602,
+"pt": "Lâmina Kris+2"
+},
+{
+"id": 10603,
+"pt": "Lâmina Kris+3"
+},
+{
+"id": 10604,
+"pt": "Lâmina Kris+4"
+},
+{
+"id": 10605,
+"pt": "Lâmina Kris+5"
+},
+{
+"id": 10700,
+"pt": "Adaga Secreta"
+},
+{
+"id": 10701,
+"pt": "Adaga Secreta+1"
+},
+{
+"id": 10702,
+"pt": "Adaga Secreta+2"
+},
+{
+"id": 10703,
+"pt": "Adaga Secreta+3"
+},
+{
+"id": 10704,
+"pt": "Adaga Secreta+4"
+},
+{
+"id": 10705,
+"pt": "Adaga Secreta+5"
+},
+{
+"id": 10706,
+"pt": "Adaga Secreta+6"
+},
+{
+"id": 10707,
+"pt": "Adaga Secreta+7"
+},
+{
+"id": 10708,
+"pt": "Adaga Secreta+8"
+},
+{
+"id": 10709,
+"pt": "Adaga Secreta+9"
+},
+{
+"id": 10710,
+"pt": "Adaga Secreta+10"
+},
+{
+"id": 10711,
+"pt": "Adaga Secreta Afiada+1"
+},
+{
+"id": 10712,
+"pt": "Adaga Secreta Afiada+2"
+},
+{
+"id": 10713,
+"pt": "Adaga Secreta Afiada+3"
+},
+{
+"id": 10714,
+"pt": "Adaga Secreta Afiada+4"
+},
+{
+"id": 10715,
+"pt": "Adaga Secreta Afiada+5"
+},
+{
+"id": 10721,
+"pt": "Adaga Dilacerante+1"
+},
+{
+"id": 10722,
+"pt": "Adaga Dilacerante+2"
+},
+{
+"id": 10723,
+"pt": "Adaga Dilacerante+3"
+},
+{
+"id": 10731,
+"pt": "Adaga Secreta Crescente+1"
+},
+{
+"id": 10732,
+"pt": "Adaga Secreta Crescente+2"
+},
+{
+"id": 10733,
+"pt": "Adaga Secreta Crescente+3"
+},
+{
+"id": 10734,
+"pt": "Adaga Secreta Crescente+4"
+},
+{
+"id": 10735,
+"pt": "Adaga Secreta Crescente+5"
+},
+{
+"id": 10741,
+"pt": "Adaga Secreta de Qualidade+1"
+},
+{
+"id": 10742,
+"pt": "Adaga Secreta de Qualidade+2"
+},
+{
+"id": 10743,
+"pt": "Adaga Secreta de Qualidade+3"
+},
+{
+"id": 10744,
+"pt": "Adaga Secreta de Qualidade+4"
+},
+{
+"id": 10745,
+"pt": "Adaga Secreta de Qualidade+5"
+},
+{
+"id": 10751,
+"pt": "Adaga Secreta de Mercúrio+1"
+},
+{
+"id": 10752,
+"pt": "Adaga Secreta de Mercúrio+2"
+},
+{
+"id": 10753,
+"pt": "Adaga Secreta de Mercúrio+3"
+},
+{
+"id": 10754,
+"pt": "Adaga Secreta de Mercúrio+4"
+},
+{
+"id": 10755,
+"pt": "Adaga Secreta de Mercúrio+5"
+},
+{
+"id": 10761,
+"pt": "Adaga Secreta Fatal+1"
+},
+{
+"id": 10762,
+"pt": "Adaga Secreta Fatal+2"
+},
+{
+"id": 10763,
+"pt": "Adaga Secreta Fatal+3"
+},
+{
+"id": 10764,
+"pt": "Adaga Secreta Fatal+4"
+},
+{
+"id": 10765,
+"pt": "Adaga Secreta Fatal+5"
+},
+{
+"id": 20000,
+"pt": "Espada Curta"
+},
+{
+"id": 20001,
+"pt": "Espada Curta+1"
+},
+{
+"id": 20002,
+"pt": "Espada Curta+2"
+},
+{
+"id": 20003,
+"pt": "Espada Curta+3"
+},
+{
+"id": 20004,
+"pt": "Espada Curta+4"
+},
+{
+"id": 20005,
+"pt": "Espada Curta+5"
+},
+{
+"id": 20006,
+"pt": "Espada Curta+6"
+},
+{
+"id": 20007,
+"pt": "Espada Curta+7"
+},
+{
+"id": 20008,
+"pt": "Espada Curta+8"
+},
+{
+"id": 20009,
+"pt": "Espada Curta+9"
+},
+{
+"id": 20010,
+"pt": "Espada Curta+10"
+},
+{
+"id": 20011,
+"pt": "Espada Curta de Qualidade+1"
+},
+{
+"id": 20012,
+"pt": "Espada Curta de Qualidade+2"
+},
+{
+"id": 20013,
+"pt": "Espada Curta de Qualidade+3"
+},
+{
+"id": 20014,
+"pt": "Espada Curta de Qualidade+4"
+},
+{
+"id": 20015,
+"pt": "Espada Curta de Qualidade+5"
+},
+{
+"id": 20021,
+"pt": "Espada Curta do Dragão+1"
+},
+{
+"id": 20022,
+"pt": "Espada Curta do Dragão+2"
+},
+{
+"id": 20023,
+"pt": "Espada Curta do Dragão+3"
+},
+{
+"id": 20024,
+"pt": "Espada Curta do Dragão+4"
+},
+{
+"id": 20025,
+"pt": "Espada Curta do Dragão+5"
+},
+{
+"id": 20031,
+"pt": "Espada Curta da Lua+1"
+},
+{
+"id": 20032,
+"pt": "Espada Curta da Lua+2"
+},
+{
+"id": 20033,
+"pt": "Espada Curta da Lua+3"
+},
+{
+"id": 20034,
+"pt": "Espada Curta da Lua+4"
+},
+{
+"id": 20035,
+"pt": "Espada Curta da Lua+5"
+},
+{
+"id": 20041,
+"pt": "Espada Curta Esmagadora+1"
+},
+{
+"id": 20042,
+"pt": "Espada Curta Esmagadora+2"
+},
+{
+"id": 20043,
+"pt": "Espada Curta Esmagadora+3"
+},
+{
+"id": 20044,
+"pt": "Espada Curta Esmagadora+4"
+},
+{
+"id": 20045,
+"pt": "Espada Curta Esmagadora+5"
+},
+{
+"id": 20051,
+"pt": "Espada Curta Abençoada+1"
+},
+{
+"id": 20052,
+"pt": "Espada Curta Abençoada+2"
+},
+{
+"id": 20053,
+"pt": "Espada Curta Abençoada+3"
+},
+{
+"id": 20054,
+"pt": "Espada Curta Abençoada+4"
+},
+{
+"id": 20055,
+"pt": "Espada Curta Abençoada+5"
+},
+{
+"id": 20100,
+"pt": "Montante"
+},
+{
+"id": 20101,
+"pt": "Montante+1"
+},
+{
+"id": 20102,
+"pt": "Montante+2"
+},
+{
+"id": 20103,
+"pt": "Montante+3"
+},
+{
+"id": 20104,
+"pt": "Montante+4"
+},
+{
+"id": 20105,
+"pt": "Montante+5"
+},
+{
+"id": 20106,
+"pt": "Montante+6"
+},
+{
+"id": 20107,
+"pt": "Montante+7"
+},
+{
+"id": 20108,
+"pt": "Montante+8"
+},
+{
+"id": 20109,
+"pt": "Montante+9"
+},
+{
+"id": 20110,
+"pt": "Montante+10"
+},
+{
+"id": 20111,
+"pt": "Montante Afiado+1"
+},
+{
+"id": 20112,
+"pt": "Montante Afiado+2"
+},
+{
+"id": 20113,
+"pt": "Montante Afiado+3"
+},
+{
+"id": 20114,
+"pt": "Montante Afiado+4"
+},
+{
+"id": 20115,
+"pt": "Montante Afiado+5"
+},
+{
+"id": 20121,
+"pt": "Montante Dilacerante+1"
+},
+{
+"id": 20122,
+"pt": "Montante Dilacerante+2"
+},
+{
+"id": 20123,
+"pt": "Montante Dilacerante+3"
+},
+{
+"id": 20124,
+"pt": "Montante Dilacerante+4"
+},
+{
+"id": 20125,
+"pt": "Montante Dilacerante+5"
+},
+{
+"id": 20131,
+"pt": "Montante Crescente+1"
+},
+{
+"id": 20132,
+"pt": "Montante Crescente+2"
+},
+{
+"id": 20133,
+"pt": "Montante Crescente+3"
+},
+{
+"id": 20134,
+"pt": "Montante Crescente+4"
+},
+{
+"id": 20135,
+"pt": "Montante Crescente+5"
+},
+{
+"id": 20141,
+"pt": "Montante de Qualidade+1"
+},
+{
+"id": 20142,
+"pt": "Montante de Qualidade+2"
+},
+{
+"id": 20143,
+"pt": "Montante de Qualidade+3"
+},
+{
+"id": 20144,
+"pt": "Montante de Qualidade+4"
+},
+{
+"id": 20145,
+"pt": "Montante de Qualidade+5"
+},
+{
+"id": 20151,
+"pt": "Montante de Mercúrio+1"
+},
+{
+"id": 20152,
+"pt": "Montante de Mercúrio+2"
+},
+{
+"id": 20153,
+"pt": "Montante de Mercúrio+3"
+},
+{
+"id": 20154,
+"pt": "Montante de Mercúrio+4"
+},
+{
+"id": 20155,
+"pt": "Montante de Mercúrio+5"
+},
+{
+"id": 20161,
+"pt": "Montante da Lua+1"
+},
+{
+"id": 20162,
+"pt": "Montante da Lua+2"
+},
+{
+"id": 20163,
+"pt": "Montante da Lua+3"
+},
+{
+"id": 20164,
+"pt": "Montante da Lua+4"
+},
+{
+"id": 20165,
+"pt": "Montante da Lua+5"
+},
+{
+"id": 20200,
+"pt": "Espada Longa"
+},
+{
+"id": 20201,
+"pt": "Espada Longa+1"
+},
+{
+"id": 20202,
+"pt": "Espada Longa+2"
+},
+{
+"id": 20203,
+"pt": "Espada Longa+3"
+},
+{
+"id": 20204,
+"pt": "Espada Longa+4"
+},
+{
+"id": 20205,
+"pt": "Espada Longa+5"
+},
+{
+"id": 20206,
+"pt": "Espada Longa+6"
+},
+{
+"id": 20207,
+"pt": "Espada Longa+7"
+},
+{
+"id": 20208,
+"pt": "Espada Longa+8"
+},
+{
+"id": 20209,
+"pt": "Espada Longa+9"
+},
+{
+"id": 20210,
+"pt": "Espada Longa+10"
+},
+{
+"id": 20211,
+"pt": "Espada Longa de Qualidade+1"
+},
+{
+"id": 20212,
+"pt": "Espada Longa de Qualidade+2"
+},
+{
+"id": 20213,
+"pt": "Espada Longa de Qualidade+3"
+},
+{
+"id": 20214,
+"pt": "Espada Longa de Qualidade+4"
+},
+{
+"id": 20215,
+"pt": "Espada Longa de Qualidade+5"
+},
+{
+"id": 20221,
+"pt": "Espada Longa do Dragão+1"
+},
+{
+"id": 20222,
+"pt": "Espada Longa do Dragão+2"
+},
+{
+"id": 20223,
+"pt": "Espada Longa do Dragão+3"
+},
+{
+"id": 20224,
+"pt": "Espada Longa do Dragão+4"
+},
+{
+"id": 20225,
+"pt": "Espada Longa do Dragão+5"
+},
+{
+"id": 20231,
+"pt": "Espada Longa da Lua+1"
+},
+{
+"id": 20232,
+"pt": "Espada Longa da Lua+2"
+},
+{
+"id": 20233,
+"pt": "Espada Longa da Lua+3"
+},
+{
+"id": 20234,
+"pt": "Espada Longa da Lua+4"
+},
+{
+"id": 20235,
+"pt": "Espada Longa da Lua+5"
+},
+{
+"id": 20241,
+"pt": "Espada Longa Esmagadora+1"
+},
+{
+"id": 20242,
+"pt": "Espada Longa Esmagadora+2"
+},
+{
+"id": 20243,
+"pt": "Espada Longa Esmagadora+3"
+},
+{
+"id": 20244,
+"pt": "Espada Longa Esmagadora+4"
+},
+{
+"id": 20245,
+"pt": "Espada Longa Esmagadora+5"
+},
+{
+"id": 20251,
+"pt": "Espada Longa Abençoada+1"
+},
+{
+"id": 20252,
+"pt": "Espada Longa Abençoada+2"
+},
+{
+"id": 20253,
+"pt": "Espada Longa Abençoada+3"
+},
+{
+"id": 20254,
+"pt": "Espada Longa Abençoada+4"
+},
+{
+"id": 20255,
+"pt": "Espada Longa Abençoada+5"
+},
+{
+"id": 20311,
+"pt": "Flamberge Afiada+1"
+},
+{
+"id": 20312,
+"pt": "Flamberge Afiada+2"
+},
+{
+"id": 20313,
+"pt": "Flamberge Afiada+3"
+},
+{
+"id": 20314,
+"pt": "Flamberge Afiada+4"
+},
+{
+"id": 20315,
+"pt": "Flamberge Afiada+5"
+},
+{
+"id": 20321,
+"pt": "Flamberge Dilacerante+1"
+},
+{
+"id": 20322,
+"pt": "Flamberge Dilacerante+2"
+},
+{
+"id": 20323,
+"pt": "Flamberge Dilacerante+3"
+},
+{
+"id": 20324,
+"pt": "Flamberge Dilacerante+4"
+},
+{
+"id": 20325,
+"pt": "Flamberge Dilacerante+5"
+},
+{
+"id": 20331,
+"pt": "Flamberge Crescente+1"
+},
+{
+"id": 20332,
+"pt": "Flamberge Crescente+2"
+},
+{
+"id": 20333,
+"pt": "Flamberge Crescente+3"
+},
+{
+"id": 20334,
+"pt": "Flamberge Crescente+4"
+},
+{
+"id": 20335,
+"pt": "Flamberge Crescente+5"
+},
+{
+"id": 20341,
+"pt": "Flamberge de Qualidade+1"
+},
+{
+"id": 20342,
+"pt": "Flamberge de Qualidade+2"
+},
+{
+"id": 20343,
+"pt": "Flamberge de Qualidade+3"
+},
+{
+"id": 20344,
+"pt": "Flamberge de Qualidade+4"
+},
+{
+"id": 20345,
+"pt": "Flamberge de Qualidade+5"
+},
+{
+"id": 20351,
+"pt": "Flamberge de Mercúrio+1"
+},
+{
+"id": 20352,
+"pt": "Flamberge de Mercúrio+2"
+},
+{
+"id": 20353,
+"pt": "Flamberge de Mercúrio+3"
+},
+{
+"id": 20354,
+"pt": "Flamberge de Mercúrio+4"
+},
+{
+"id": 20355,
+"pt": "Flamberge de Mercúrio+5"
+},
+{
+"id": 20361,
+"pt": "Flamberge da Lua+1"
+},
+{
+"id": 20362,
+"pt": "Flamberge da Lua+2"
+},
+{
+"id": 20363,
+"pt": "Flamberge da Lua+3"
+},
+{
+"id": 20364,
+"pt": "Flamberge da Lua+4"
+},
+{
+"id": 20365,
+"pt": "Flamberge da Lua+5"
+},
+{
+"id": 20400,
+"pt": "Espada Bastarda"
+},
+{
+"id": 20401,
+"pt": "Espada Bastarda+1"
+},
+{
+"id": 20402,
+"pt": "Espada Bastarda+2"
+},
+{
+"id": 20403,
+"pt": "Espada Bastarda+3"
+},
+{
+"id": 20404,
+"pt": "Espada Bastarda+4"
+},
+{
+"id": 20405,
+"pt": "Espada Bastarda+5"
+},
+{
+"id": 20406,
+"pt": "Espada Bastarda+6"
+},
+{
+"id": 20407,
+"pt": "Espada Bastarda+7"
+},
+{
+"id": 20408,
+"pt": "Espada Bastarda+8"
+},
+{
+"id": 20409,
+"pt": "Espada Bastarda+9"
+},
+{
+"id": 20410,
+"pt": "Espada Bastarda+10"
+},
+{
+"id": 20411,
+"pt": "Espada Bastarda de Qualidade+1"
+},
+{
+"id": 20412,
+"pt": "Espada Bastarda de Qualidade+2"
+},
+{
+"id": 20413,
+"pt": "Espada Bastarda de Qualidade+3"
+},
+{
+"id": 20414,
+"pt": "Espada Bastarda de Qualidade+4"
+},
+{
+"id": 20415,
+"pt": "Espada Bastarda de Qualidade+5"
+},
+{
+"id": 20421,
+"pt": "Espada Bastarda do Dragão+1"
+},
+{
+"id": 20422,
+"pt": "Espada Bastarda do Dragão+2"
+},
+{
+"id": 20423,
+"pt": "Espada Bastarda do Dragão+3"
+},
+{
+"id": 20424,
+"pt": "Espada Bastarda do Dragão+4"
+},
+{
+"id": 20425,
+"pt": "Espada Bastarda do Dragão+5"
+},
+{
+"id": 20431,
+"pt": "Espada Bastarda da Lua+1"
+},
+{
+"id": 20432,
+"pt": "Espada Bastarda da Lua+2"
+},
+{
+"id": 20433,
+"pt": "Espada Bastarda da Lua+3"
+},
+{
+"id": 20434,
+"pt": "Espada Bastarda da Lua+4"
+},
+{
+"id": 20435,
+"pt": "Espada Bastarda da Lua+5"
+},
+{
+"id": 20441,
+"pt": "Espada Bastarda Esmagadora+1"
+},
+{
+"id": 20442,
+"pt": "Espada Bastarda Esmagadora+2"
+},
+{
+"id": 20443,
+"pt": "Espada Bastarda Esmagadora+3"
+},
+{
+"id": 20444,
+"pt": "Espada Bastarda Esmagadora+4"
+},
+{
+"id": 20445,
+"pt": "Espada Bastarda Esmagadora+5"
+},
+{
+"id": 20451,
+"pt": "Espada Bastarda Abençoada+1"
+},
+{
+"id": 20452,
+"pt": "Espada Bastarda Abençoada+2"
+},
+{
+"id": 20453,
+"pt": "Espada Bastarda Abençoada+3"
+},
+{
+"id": 20454,
+"pt": "Espada Bastarda Abençoada+4"
+},
+{
+"id": 20455,
+"pt": "Espada Bastarda Abençoada+5"
+},
+{
+"id": 20511,
+"pt": "Claymore de Qualidade+1"
+},
+{
+"id": 20512,
+"pt": "Claymore de Qualidade+2"
+},
+{
+"id": 20513,
+"pt": "Claymore de Qualidade+3"
+},
+{
+"id": 20514,
+"pt": "Claymore de Qualidade+4"
+},
+{
+"id": 20515,
+"pt": "Claymore de Qualidade+5"
+},
+{
+"id": 20521,
+"pt": "Claymore do Dragão+1"
+},
+{
+"id": 20522,
+"pt": "Claymore do Dragão+2"
+},
+{
+"id": 20523,
+"pt": "Claymore do Dragão+3"
+},
+{
+"id": 20524,
+"pt": "Claymore do Dragão+4"
+},
+{
+"id": 20525,
+"pt": "Claymore do Dragão+5"
+},
+{
+"id": 20531,
+"pt": "Claymore da Lua+1"
+},
+{
+"id": 20532,
+"pt": "Claymore da Lua+2"
+},
+{
+"id": 20533,
+"pt": "Claymore da Lua+3"
+},
+{
+"id": 20534,
+"pt": "Claymore da Lua+4"
+},
+{
+"id": 20535,
+"pt": "Claymore da Lua+5"
+},
+{
+"id": 20541,
+"pt": "Claymore Esmagadora+1"
+},
+{
+"id": 20542,
+"pt": "Claymore Esmagadora+2"
+},
+{
+"id": 20543,
+"pt": "Claymore Esmagadora+3"
+},
+{
+"id": 20544,
+"pt": "Claymore Esmagadora+4"
+},
+{
+"id": 20545,
+"pt": "Claymore Esmagadora+5"
+},
+{
+"id": 20551,
+"pt": "Claymore Abençoada+1"
+},
+{
+"id": 20552,
+"pt": "Claymore Abençoada+2"
+},
+{
+"id": 20553,
+"pt": "Claymore Abençoada+3"
+},
+{
+"id": 20554,
+"pt": "Claymore Abençoada+4"
+},
+{
+"id": 20555,
+"pt": "Claymore Abençoada+5"
+},
+{
+"id": 20600,
+"pt": "Espada Grande"
+},
+{
+"id": 20601,
+"pt": "Espada Grande+1"
+},
+{
+"id": 20602,
+"pt": "Espada Grande+2"
+},
+{
+"id": 20603,
+"pt": "Espada Grande+3"
+},
+{
+"id": 20604,
+"pt": "Espada Grande+4"
+},
+{
+"id": 20605,
+"pt": "Espada Grande+5"
+},
+{
+"id": 20606,
+"pt": "Espada Grande+6"
+},
+{
+"id": 20607,
+"pt": "Espada Grande+7"
+},
+{
+"id": 20608,
+"pt": "Espada Grande+8"
+},
+{
+"id": 20609,
+"pt": "Espada Grande+9"
+},
+{
+"id": 20610,
+"pt": "Espada Grande+10"
+},
+{
+"id": 20611,
+"pt": "Espada Grande de Qualidade+1"
+},
+{
+"id": 20612,
+"pt": "Espada Grande de Qualidade+2"
+},
+{
+"id": 20613,
+"pt": "Espada Grande de Qualidade+3"
+},
+{
+"id": 20614,
+"pt": "Espada Grande de Qualidade+4"
+},
+{
+"id": 20615,
+"pt": "Espada Grande de Qualidade+5"
+},
+{
+"id": 20621,
+"pt": "Espada Grande do Dragão+1"
+},
+{
+"id": 20622,
+"pt": "Espada Grande do Dragão+2"
+},
+{
+"id": 20623,
+"pt": "Espada Grande do Dragão+3"
+},
+{
+"id": 20624,
+"pt": "Espada Grande do Dragão+4"
+},
+{
+"id": 20625,
+"pt": "Espada Grande do Dragão+5"
+},
+{
+"id": 20631,
+"pt": "Espada Grande da Lua+1"
+},
+{
+"id": 20632,
+"pt": "Espada Grande da Lua+2"
+},
+{
+"id": 20633,
+"pt": "Espada Grande da Lua+3"
+},
+{
+"id": 20634,
+"pt": "Espada Grande da Lua+4"
+},
+{
+"id": 20635,
+"pt": "Espada Grande da Lua+5"
+},
+{
+"id": 20641,
+"pt": "Espada Grande Esmagadora+1"
+},
+{
+"id": 20642,
+"pt": "Espada Grande Esmagadora+2"
+},
+{
+"id": 20643,
+"pt": "Espada Grande Esmagadora+3"
+},
+{
+"id": 20644,
+"pt": "Espada Grande Esmagadora+4"
+},
+{
+"id": 20645,
+"pt": "Espada Grande Esmagadora+5"
+},
+{
+"id": 20651,
+"pt": "Espada Grande Abençoada+1"
+},
+{
+"id": 20652,
+"pt": "Espada Grande Abençoada+2"
+},
+{
+"id": 20653,
+"pt": "Espada Grande Abençoada+3"
+},
+{
+"id": 20654,
+"pt": "Espada Grande Abençoada+4"
+},
+{
+"id": 20655,
+"pt": "Espada Grande Abençoada+5"
+},
+{
+"id": 20700,
+"pt": "Esmagador de Osso de Dragão"
+},
+{
+"id": 20701,
+"pt": "Esmagador de Osso de Dragão+1"
+},
+{
+"id": 20702,
+"pt": "Esmagador de Osso de Dragão+2"
+},
+{
+"id": 20703,
+"pt": "Esmagador de Osso de Dragão+3"
+},
+{
+"id": 20704,
+"pt": "Esmagador de Osso de Dragão+4"
+},
+{
+"id": 20705,
+"pt": "Esmagador de Osso de Dragão+5"
+},
+{
+"id": 20800,
+"pt": "Espada de Runas"
+},
+{
+"id": 20801,
+"pt": "Espada de Runas+1"
+},
+{
+"id": 20802,
+"pt": "Espada de Runas+2"
+},
+{
+"id": 20803,
+"pt": "Espada de Runas+3"
+},
+{
+"id": 20804,
+"pt": "Espada de Runas+4"
+},
+{
+"id": 20805,
+"pt": "Espada de Runas+5"
+},
+{
+"id": 21100,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21101,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21102,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21103,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21104,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21105,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21106,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21107,
+"pt": "Soberana da Tempestade"
+},
+{
+"id": 21300,
+"pt": "Espada de Cavaleiro"
+},
+{
+"id": 21301,
+"pt": "Espada de Cavaleiro+1"
+},
+{
+"id": 21302,
+"pt": "Espada de Cavaleiro+2"
+},
+{
+"id": 21303,
+"pt": "Espada de Cavaleiro+3"
+},
+{
+"id": 21304,
+"pt": "Espada de Cavaleiro+4"
+},
+{
+"id": 21305,
+"pt": "Espada de Cavaleiro+5"
+},
+{
+"id": 21306,
+"pt": "Espada de Cavaleiro+6"
+},
+{
+"id": 21307,
+"pt": "Espada de Cavaleiro+7"
+},
+{
+"id": 21308,
+"pt": "Espada de Cavaleiro+8"
+},
+{
+"id": 21309,
+"pt": "Espada de Cavaleiro+9"
+},
+{
+"id": 21310,
+"pt": "Espada de Cavaleiro+10"
+},
+{
+"id": 21311,
+"pt": "Espada de Cavaleiro de Qualidade+1"
+},
+{
+"id": 21312,
+"pt": "Espada de Cavaleiro de Qualidade+2"
+},
+{
+"id": 21313,
+"pt": "Espada de Cavaleiro de Qualidade+3"
+},
+{
+"id": 21314,
+"pt": "Espada de Cavaleiro de Qualidade+4"
+},
+{
+"id": 21315,
+"pt": "Espada de Cavaleiro de Qualidade+5"
+},
+{
+"id": 21321,
+"pt": "Espada de Cavaleiro do Dragão+1"
+},
+{
+"id": 21322,
+"pt": "Espada de Cavaleiro do Dragão+2"
+},
+{
+"id": 21323,
+"pt": "Espada de Cavaleiro do Dragão+3"
+},
+{
+"id": 21324,
+"pt": "Espada de Cavaleiro do Dragão+4"
+},
+{
+"id": 21325,
+"pt": "Espada de Cavaleiro do Dragão+5"
+},
+{
+"id": 21331,
+"pt": "Espada de Cavaleiro da Lua+1"
+},
+{
+"id": 21332,
+"pt": "Espada de Cavaleiro da Lua+2"
+},
+{
+"id": 21333,
+"pt": "Espada de Cavaleiro da Lua+3"
+},
+{
+"id": 21334,
+"pt": "Espada de Cavaleiro da Lua+4"
+},
+{
+"id": 21335,
+"pt": "Espada de Cavaleiro da Lua+5"
+},
+{
+"id": 21341,
+"pt": "Espada de Cavaleiro Esmagadora+1"
+},
+{
+"id": 21342,
+"pt": "Espada de Cavaleiro Esmagadora+2"
+},
+{
+"id": 21343,
+"pt": "Espada de Cavaleiro Esmagadora+3"
+},
+{
+"id": 21344,
+"pt": "Espada de Cavaleiro Esmagadora+4"
+},
+{
+"id": 21345,
+"pt": "Espada de Cavaleiro Esmagadora+5"
+},
+{
+"id": 21351,
+"pt": "Espada de Cavaleiro Abençoada+1"
+},
+{
+"id": 21352,
+"pt": "Espada de Cavaleiro Abençoada+2"
+},
+{
+"id": 21353,
+"pt": "Espada de Cavaleiro Abençoada+3"
+},
+{
+"id": 21354,
+"pt": "Espada de Cavaleiro Abençoada+4"
+},
+{
+"id": 21355,
+"pt": "Espada de Cavaleiro Abençoada+5"
+},
+{
+"id": 21400,
+"pt": "Espada Quebrada"
+},
+{
+"id": 21500,
+"pt": "Insígnia do Norte"
+},
+{
+"id": 21501,
+"pt": "Insígnia do Norte"
+},
+{
+"id": 21600,
+"pt": "Grande Espada do Luar"
+},
+{
+"id": 21601,
+"pt": "Grande Espada do Luar+1"
+},
+{
+"id": 21602,
+"pt": "Grande Espada do Luar+2"
+},
+{
+"id": 21603,
+"pt": "Grande Espada do Luar+3"
+},
+{
+"id": 21604,
+"pt": "Grande Espada do Luar+4"
+},
+{
+"id": 21605,
+"pt": "Grande Espada do Luar+5"
+},
+{
+"id": 21700,
+"pt": "Espada Sangue-azul"
+},
+{
+"id": 21800,
+"pt": "Espada Penetrante"
+},
+{
+"id": 21801,
+"pt": "Espada Penetrante+1"
+},
+{
+"id": 21802,
+"pt": "Espada Penetrante+2"
+},
+{
+"id": 21803,
+"pt": "Espada Penetrante+3"
+},
+{
+"id": 21804,
+"pt": "Espada Penetrante+4"
+},
+{
+"id": 21805,
+"pt": "Espada Penetrante+5"
+},
+{
+"id": 21900,
+"pt": "Lâmina Morion"
+},
+{
+"id": 21901,
+"pt": "Lâmina Morion"
+},
+{
+"id": 21902,
+"pt": "Lâmina Morion"
+},
+{
+"id": 21903,
+"pt": "Lâmina Morion"
+},
+{
+"id": 21904,
+"pt": "Lâmina Morion"
+},
+{
+"id": 21905,
+"pt": "Lâmina Morion"
+},
+{
+"id": 30000,
+"pt": "Rapieira"
+},
+{
+"id": 30001,
+"pt": "Rapieira+1"
+},
+{
+"id": 30002,
+"pt": "Rapieira+2"
+},
+{
+"id": 30003,
+"pt": "Rapieira+3"
+},
+{
+"id": 30004,
+"pt": "Rapieira+4"
+},
+{
+"id": 30005,
+"pt": "Rapieira+5"
+},
+{
+"id": 30006,
+"pt": "Rapieira+6"
+},
+{
+"id": 30007,
+"pt": "Rapieira+7"
+},
+{
+"id": 30008,
+"pt": "Rapieira+8"
+},
+{
+"id": 30009,
+"pt": "Rapieira+9"
+},
+{
+"id": 30010,
+"pt": "Rapieira+10"
+},
+{
+"id": 30011,
+"pt": "Rapieira de Qualidade+1"
+},
+{
+"id": 30012,
+"pt": "Rapieira de Qualidade+2"
+},
+{
+"id": 30013,
+"pt": "Rapieira de Qualidade+3"
+},
+{
+"id": 30014,
+"pt": "Rapieira de Qualidade+4"
+},
+{
+"id": 30015,
+"pt": "Rapieira de Qualidade+5"
+},
+{
+"id": 30021,
+"pt": "Rapieira de Mercúrio+1"
+},
+{
+"id": 30022,
+"pt": "Rapieira de Mercúrio+2"
+},
+{
+"id": 30023,
+"pt": "Rapieira de Mercúrio+3"
+},
+{
+"id": 30024,
+"pt": "Rapieira de Mercúrio+4"
+},
+{
+"id": 30025,
+"pt": "Rapieira de Mercúrio+5"
+},
+{
+"id": 30031,
+"pt": "Rapieira Fatal+1"
+},
+{
+"id": 30032,
+"pt": "Rapieira Fatal+2"
+},
+{
+"id": 30033,
+"pt": "Rapieira Fatal+3"
+},
+{
+"id": 30034,
+"pt": "Rapieira Fatal+4"
+},
+{
+"id": 30035,
+"pt": "Rapieira Fatal+5"
+},
+{
+"id": 30041,
+"pt": "Rapieira Afiada+1"
+},
+{
+"id": 30042,
+"pt": "Rapieira Afiada+2"
+},
+{
+"id": 30043,
+"pt": "Rapieira Afiada+3"
+},
+{
+"id": 30044,
+"pt": "Rapieira Afiada+4"
+},
+{
+"id": 30045,
+"pt": "Rapieira Afiada+5"
+},
+{
+"id": 30051,
+"pt": "Rapieira Crescente+1"
+},
+{
+"id": 30052,
+"pt": "Rapieira Crescente+2"
+},
+{
+"id": 30053,
+"pt": "Rapieira Crescente+3"
+},
+{
+"id": 30054,
+"pt": "Rapieira Crescente+4"
+},
+{
+"id": 30055,
+"pt": "Rapieira Crescente+5"
+},
+{
+"id": 30100,
+"pt": "Estoque"
+},
+{
+"id": 30101,
+"pt": "Estoque+1"
+},
+{
+"id": 30102,
+"pt": "Estoque+2"
+},
+{
+"id": 30103,
+"pt": "Estoque+3"
+},
+{
+"id": 30104,
+"pt": "Estoque+4"
+},
+{
+"id": 30105,
+"pt": "Estoque+5"
+},
+{
+"id": 30106,
+"pt": "Estoque+6"
+},
+{
+"id": 30107,
+"pt": "Estoque+7"
+},
+{
+"id": 30108,
+"pt": "Estoque+8"
+},
+{
+"id": 30109,
+"pt": "Estoque+9"
+},
+{
+"id": 30110,
+"pt": "Estoque+10"
+},
+{
+"id": 30111,
+"pt": "Estoque de Qualidade+1"
+},
+{
+"id": 30112,
+"pt": "Estoque de Qualidade+2"
+},
+{
+"id": 30113,
+"pt": "Estoque de Qualidade+3"
+},
+{
+"id": 30114,
+"pt": "Estoque de Qualidade+4"
+},
+{
+"id": 30115,
+"pt": "Estoque de Qualidade+5"
+},
+{
+"id": 30121,
+"pt": "Estoque de Mercúrio+1"
+},
+{
+"id": 30122,
+"pt": "Estoque de Mercúrio+2"
+},
+{
+"id": 30123,
+"pt": "Estoque de Mercúrio+3"
+},
+{
+"id": 30124,
+"pt": "Estoque de Mercúrio+4"
+},
+{
+"id": 30125,
+"pt": "Estoque de Mercúrio+5"
+},
+{
+"id": 30131,
+"pt": "Estoque Fatal+1"
+},
+{
+"id": 30132,
+"pt": "Estoque Fatal+2"
+},
+{
+"id": 30133,
+"pt": "Estoque Fatal+3"
+},
+{
+"id": 30134,
+"pt": "Estoque Fatal+4"
+},
+{
+"id": 30135,
+"pt": "Estoque Fatal+5"
+},
+{
+"id": 30141,
+"pt": "Estoque Afiado+1"
+},
+{
+"id": 30142,
+"pt": "Estoque Afiado+2"
+},
+{
+"id": 30143,
+"pt": "Estoque Afiado+3"
+},
+{
+"id": 30144,
+"pt": "Estoque Afiado+4"
+},
+{
+"id": 30145,
+"pt": "Estoque Afiado+5"
+},
+{
+"id": 30151,
+"pt": "Estoque Crescente+1"
+},
+{
+"id": 30152,
+"pt": "Estoque Crescente+2"
+},
+{
+"id": 30153,
+"pt": "Estoque Crescente+3"
+},
+{
+"id": 30154,
+"pt": "Estoque Crescente+4"
+},
+{
+"id": 30155,
+"pt": "Estoque Crescente+5"
+},
+{
+"id": 30200,
+"pt": "Rapieira Espadim"
+},
+{
+"id": 30201,
+"pt": "Rapieira Espadim+1"
+},
+{
+"id": 30202,
+"pt": "Rapieira Espadim+2"
+},
+{
+"id": 30203,
+"pt": "Rapieira Espadim+3"
+},
+{
+"id": 30204,
+"pt": "Rapieira Espadim+4"
+},
+{
+"id": 30205,
+"pt": "Rapieira Espadim+5"
+},
+{
+"id": 30300,
+"pt": "Rapieira Espiral"
+},
+{
+"id": 30301,
+"pt": "Rapieira Espiral+1"
+},
+{
+"id": 30302,
+"pt": "Rapieira Espiral+2"
+},
+{
+"id": 30303,
+"pt": "Rapieira Espiral+3"
+},
+{
+"id": 30304,
+"pt": "Rapieira Espiral+4"
+},
+{
+"id": 30305,
+"pt": "Rapieira Espiral+5"
+},
+{
+"id": 30306,
+"pt": "Rapieira Espiral+6"
+},
+{
+"id": 30307,
+"pt": "Rapieira Espiral+7"
+},
+{
+"id": 30308,
+"pt": "Rapieira Espiral+8"
+},
+{
+"id": 30309,
+"pt": "Rapieira Espiral+9"
+},
+{
+"id": 30310,
+"pt": "Rapieira Espiral+10"
+},
+{
+"id": 30311,
+"pt": "Rapieira Espiral de Qualidade+1"
+},
+{
+"id": 30312,
+"pt": "Rapieira Espiral de Qualidade+2"
+},
+{
+"id": 30313,
+"pt": "Rapieira Espiral de Qualidade+3"
+},
+{
+"id": 30314,
+"pt": "Rapieira Espiral de Qualidade+4"
+},
+{
+"id": 30315,
+"pt": "Rapieira Espiral de Qualidade+5"
+},
+{
+"id": 30321,
+"pt": "Rapieira Espiral de Mercúrio+1"
+},
+{
+"id": 30322,
+"pt": "Rapieira Espiral de Mercúrio+2"
+},
+{
+"id": 30323,
+"pt": "Rapieira Espiral de Mercúrio+3"
+},
+{
+"id": 30324,
+"pt": "Rapieira Espiral de Mercúrio+4"
+},
+{
+"id": 30325,
+"pt": "Rapieira Espiral de Mercúrio+5"
+},
+{
+"id": 30331,
+"pt": "Rapieira Espiral Fatal+1"
+},
+{
+"id": 30332,
+"pt": "Rapieira Espiral Fatal+2"
+},
+{
+"id": 30333,
+"pt": "Rapieira Espiral Fatal+3"
+},
+{
+"id": 30334,
+"pt": "Rapieira Espiral Fatal+4"
+},
+{
+"id": 30335,
+"pt": "Rapieira Espiral Fatal+5"
+},
+{
+"id": 30341,
+"pt": "Rapieira Espiral Afiada+1"
+},
+{
+"id": 30342,
+"pt": "Rapieira Espiral Afiada+2"
+},
+{
+"id": 30343,
+"pt": "Rapieira Espiral Afiada+3"
+},
+{
+"id": 30344,
+"pt": "Rapieira Espiral Afiada+4"
+},
+{
+"id": 30345,
+"pt": "Rapieira Espiral Afiada+5"
+},
+{
+"id": 30351,
+"pt": "Rapieira Espiral Crescente+1"
+},
+{
+"id": 30352,
+"pt": "Rapieira Espiral Crescente+2"
+},
+{
+"id": 30353,
+"pt": "Rapieira Espiral Crescente+3"
+},
+{
+"id": 30354,
+"pt": "Rapieira Espiral Crescente+4"
+},
+{
+"id": 30355,
+"pt": "Rapieira Espiral Crescente+5"
+},
+{
+"id": 30400,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30401,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30402,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30403,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30404,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30405,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30406,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 30407,
+"pt": "Agulha da Agonia Eterna"
+},
+{
+"id": 40000,
+"pt": "Cimitarra"
+},
+{
+"id": 40001,
+"pt": "Cimitarra+1"
+},
+{
+"id": 40002,
+"pt": "Cimitarra+2"
+},
+{
+"id": 40003,
+"pt": "Cimitarra+3"
+},
+{
+"id": 40004,
+"pt": "Cimitarra+4"
+},
+{
+"id": 40005,
+"pt": "Cimitarra+5"
+},
+{
+"id": 40006,
+"pt": "Cimitarra+6"
+},
+{
+"id": 40007,
+"pt": "Cimitarra+7"
+},
+{
+"id": 40008,
+"pt": "Cimitarra+8"
+},
+{
+"id": 40009,
+"pt": "Cimitarra+9"
+},
+{
+"id": 40010,
+"pt": "Cimitarra+10"
+},
+{
+"id": 40011,
+"pt": "Cimitarra Afiada+1"
+},
+{
+"id": 40012,
+"pt": "Cimitarra Afiada+2"
+},
+{
+"id": 40013,
+"pt": "Cimitarra Afiada+3"
+},
+{
+"id": 40014,
+"pt": "Cimitarra Afiada+4"
+},
+{
+"id": 40015,
+"pt": "Cimitarra Afiada+5"
+},
+{
+"id": 40021,
+"pt": "Cimitarra Dilacerante+1"
+},
+{
+"id": 40022,
+"pt": "Cimitarra Dilacerante+2"
+},
+{
+"id": 40023,
+"pt": "Cimitarra Dilacerante+3"
+},
+{
+"id": 40024,
+"pt": "Cimitarra Dilacerante+4"
+},
+{
+"id": 40025,
+"pt": "Cimitarra Dilacerante+5"
+},
+{
+"id": 40031,
+"pt": "Cimitarra Crescente+1"
+},
+{
+"id": 40032,
+"pt": "Cimitarra Crescente+2"
+},
+{
+"id": 40033,
+"pt": "Cimitarra Crescente+3"
+},
+{
+"id": 40034,
+"pt": "Cimitarra Crescente+4"
+},
+{
+"id": 40035,
+"pt": "Cimitarra Crescente+5"
+},
+{
+"id": 40041,
+"pt": "Cimitarra de Qualidade+1"
+},
+{
+"id": 40042,
+"pt": "Cimitarra de Qualidade+2"
+},
+{
+"id": 40043,
+"pt": "Cimitarra de Qualidade+3"
+},
+{
+"id": 40044,
+"pt": "Cimitarra de Qualidade+4"
+},
+{
+"id": 40045,
+"pt": "Cimitarra de Qualidade+5"
+},
+{
+"id": 40051,
+"pt": "Cimitarra de Mercúrio+1"
+},
+{
+"id": 40052,
+"pt": "Cimitarra de Mercúrio+2"
+},
+{
+"id": 40053,
+"pt": "Cimitarra de Mercúrio+3"
+},
+{
+"id": 40054,
+"pt": "Cimitarra de Mercúrio+4"
+},
+{
+"id": 40055,
+"pt": "Cimitarra de Mercúrio+5"
+},
+{
+"id": 40061,
+"pt": "Cimitarra da Lua+1"
+},
+{
+"id": 40062,
+"pt": "Cimitarra da Lua+2"
+},
+{
+"id": 40063,
+"pt": "Cimitarra da Lua+3"
+},
+{
+"id": 40064,
+"pt": "Cimitarra da Lua+4"
+},
+{
+"id": 40065,
+"pt": "Cimitarra da Lua+5"
+},
+{
+"id": 40111,
+"pt": "Kilij Afiada+1"
+},
+{
+"id": 40112,
+"pt": "Kilij Afiada+2"
+},
+{
+"id": 40113,
+"pt": "Kilij Afiada+3"
+},
+{
+"id": 40114,
+"pt": "Kilij Afiada+4"
+},
+{
+"id": 40115,
+"pt": "Kilij Afiada+5"
+},
+{
+"id": 40121,
+"pt": "Kilij Dilacerante+1"
+},
+{
+"id": 40122,
+"pt": "Kilij Dilacerante+2"
+},
+{
+"id": 40123,
+"pt": "Kilij Dilacerante+3"
+},
+{
+"id": 40124,
+"pt": "Kilij Dilacerante+4"
+},
+{
+"id": 40125,
+"pt": "Kilij Dilacerante+5"
+},
+{
+"id": 40131,
+"pt": "Kilij Crescente+1"
+},
+{
+"id": 40132,
+"pt": "Kilij Crescente+2"
+},
+{
+"id": 40133,
+"pt": "Kilij Crescente+3"
+},
+{
+"id": 40134,
+"pt": "Kilij Crescente+4"
+},
+{
+"id": 40135,
+"pt": "Kilij Crescente+5"
+},
+{
+"id": 40141,
+"pt": "Kilij de Qualidade+1"
+},
+{
+"id": 40142,
+"pt": "Kilij de Qualidade+2"
+},
+{
+"id": 40143,
+"pt": "Kilij de Qualidade+3"
+},
+{
+"id": 40144,
+"pt": "Kilij de Qualidade+4"
+},
+{
+"id": 40145,
+"pt": "Kilij de Qualidade+5"
+},
+{
+"id": 40151,
+"pt": "Kilij de Mercúrio+1"
+},
+{
+"id": 40152,
+"pt": "Kilij de Mercúrio+2"
+},
+{
+"id": 40153,
+"pt": "Kilij de Mercúrio+3"
+},
+{
+"id": 40154,
+"pt": "Kilij de Mercúrio+4"
+},
+{
+"id": 40155,
+"pt": "Kilij de Mercúrio+5"
+},
+{
+"id": 40161,
+"pt": "Kilij da Lua+1"
+},
+{
+"id": 40162,
+"pt": "Kilij da Lua+2"
+},
+{
+"id": 40163,
+"pt": "Kilij da Lua+3"
+},
+{
+"id": 40164,
+"pt": "Kilij da Lua+4"
+},
+{
+"id": 40165,
+"pt": "Kilij da Lua+5"
+},
+{
+"id": 40211,
+"pt": "Shotel Afiado+1"
+},
+{
+"id": 40212,
+"pt": "Shotel Afiado+2"
+},
+{
+"id": 40213,
+"pt": "Shotel Afiado+3"
+},
+{
+"id": 40214,
+"pt": "Shotel Afiado+4"
+},
+{
+"id": 40215,
+"pt": "Shotel Afiado+5"
+},
+{
+"id": 40221,
+"pt": "Shotel Dilacerante+1"
+},
+{
+"id": 40222,
+"pt": "Shotel Dilacerante+2"
+},
+{
+"id": 40223,
+"pt": "Shotel Dilacerante+3"
+},
+{
+"id": 40224,
+"pt": "Shotel Dilacerante+4"
+},
+{
+"id": 40225,
+"pt": "Shotel Dilacerante+5"
+},
+{
+"id": 40231,
+"pt": "Shotel de Qualidade+1"
+},
+{
+"id": 40232,
+"pt": "Shotel de Qualidade+2"
+},
+{
+"id": 40233,
+"pt": "Shotel de Qualidade+3"
+},
+{
+"id": 40234,
+"pt": "Shotel de Qualidade+4"
+},
+{
+"id": 40235,
+"pt": "Shotel de Qualidade+5"
+},
+{
+"id": 40241,
+"pt": "Shotel de Mercúrio+1"
+},
+{
+"id": 40242,
+"pt": "Shotel de Mercúrio+2"
+},
+{
+"id": 40243,
+"pt": "Shotel de Mercúrio+3"
+},
+{
+"id": 40244,
+"pt": "Shotel de Mercúrio+4"
+},
+{
+"id": 40245,
+"pt": "Shotel de Mercúrio+5"
+},
+{
+"id": 40251,
+"pt": "Shotel da Lua+1"
+},
+{
+"id": 40252,
+"pt": "Shotel da Lua+2"
+},
+{
+"id": 40253,
+"pt": "Shotel da Lua+3"
+},
+{
+"id": 40254,
+"pt": "Shotel da Lua+4"
+},
+{
+"id": 40255,
+"pt": "Shotel da Lua+5"
+},
+{
+"id": 40261,
+"pt": "Shotel Crescente+1"
+},
+{
+"id": 40262,
+"pt": "Shotel Crescente+2"
+},
+{
+"id": 40263,
+"pt": "Shotel Crescente+3"
+},
+{
+"id": 40264,
+"pt": "Shotel Crescente+4"
+},
+{
+"id": 40265,
+"pt": "Shotel Crescente+5"
+},
+{
+"id": 40300,
+"pt": "Alfange"
+},
+{
+"id": 40301,
+"pt": "Alfange+1"
+},
+{
+"id": 40302,
+"pt": "Alfange+2"
+},
+{
+"id": 40303,
+"pt": "Alfange+3"
+},
+{
+"id": 40304,
+"pt": "Alfange+4"
+},
+{
+"id": 40305,
+"pt": "Alfange+5"
+},
+{
+"id": 40306,
+"pt": "Alfange+6"
+},
+{
+"id": 40307,
+"pt": "Alfange+7"
+},
+{
+"id": 40308,
+"pt": "Alfange+8"
+},
+{
+"id": 40309,
+"pt": "Alfange+9"
+},
+{
+"id": 40310,
+"pt": "Alfange+10"
+},
+{
+"id": 40311,
+"pt": "Alfange Afiado+1"
+},
+{
+"id": 40312,
+"pt": "Alfange Afiado+2"
+},
+{
+"id": 40313,
+"pt": "Alfange Afiado+3"
+},
+{
+"id": 40314,
+"pt": "Alfange Afiado+4"
+},
+{
+"id": 40315,
+"pt": "Alfange Afiado+5"
+},
+{
+"id": 40321,
+"pt": "Alfange Dilacerante+1"
+},
+{
+"id": 40322,
+"pt": "Alfange Dilacerante+2"
+},
+{
+"id": 40323,
+"pt": "Alfange Dilacerante+3"
+},
+{
+"id": 40324,
+"pt": "Alfange Dilacerante+4"
+},
+{
+"id": 40325,
+"pt": "Alfange Dilacerante+5"
+},
+{
+"id": 40331,
+"pt": "Alfange Crescente+1"
+},
+{
+"id": 40332,
+"pt": "Alfange Crescente+2"
+},
+{
+"id": 40333,
+"pt": "Alfange Crescente+3"
+},
+{
+"id": 40334,
+"pt": "Alfange Crescente+4"
+},
+{
+"id": 40335,
+"pt": "Alfange Crescente+5"
+},
+{
+"id": 40341,
+"pt": "Alfange de Qualidade+1"
+},
+{
+"id": 40342,
+"pt": "Alfange de Qualidade+2"
+},
+{
+"id": 40343,
+"pt": "Alfange de Qualidade+3"
+},
+{
+"id": 40344,
+"pt": "Alfange de Qualidade+4"
+},
+{
+"id": 40345,
+"pt": "Alfange de Qualidade+5"
+},
+{
+"id": 40351,
+"pt": "Alfange de Mercúrio+1"
+},
+{
+"id": 40352,
+"pt": "Alfange de Mercúrio+2"
+},
+{
+"id": 40353,
+"pt": "Alfange de Mercúrio+3"
+},
+{
+"id": 40354,
+"pt": "Alfange de Mercúrio+4"
+},
+{
+"id": 40355,
+"pt": "Alfange de Mercúrio+5"
+},
+{
+"id": 40361,
+"pt": "Alfange da Lua+1"
+},
+{
+"id": 40362,
+"pt": "Alfange da Lua+2"
+},
+{
+"id": 40363,
+"pt": "Alfange da Lua+3"
+},
+{
+"id": 40364,
+"pt": "Alfange da Lua+4"
+},
+{
+"id": 40365,
+"pt": "Alfange da Lua+5"
+},
+{
+"id": 40411,
+"pt": "Uchigatana Afiada+1"
+},
+{
+"id": 40412,
+"pt": "Uchigatana Afiada+2"
+},
+{
+"id": 40413,
+"pt": "Uchigatana Afiada+3"
+},
+{
+"id": 40414,
+"pt": "Uchigatana Afiada+4"
+},
+{
+"id": 40415,
+"pt": "Uchigatana Afiada+5"
+},
+{
+"id": 40421,
+"pt": "Uchigatana Dilacerante+1"
+},
+{
+"id": 40422,
+"pt": "Uchigatana Dilacerante+2"
+},
+{
+"id": 40423,
+"pt": "Uchigatana Dilacerante+3"
+},
+{
+"id": 40424,
+"pt": "Uchigatana Dilacerante+4"
+},
+{
+"id": 40425,
+"pt": "Uchigatana Dilacerante+5"
+},
+{
+"id": 40431,
+"pt": "Uchigatana Crescente+1"
+},
+{
+"id": 40432,
+"pt": "Uchigatana Crescente+2"
+},
+{
+"id": 40433,
+"pt": "Uchigatana Crescente+3"
+},
+{
+"id": 40434,
+"pt": "Uchigatana Crescente+4"
+},
+{
+"id": 40435,
+"pt": "Uchigatana Crescente+5"
+},
+{
+"id": 40441,
+"pt": "Uchigatana de Qualidade+1"
+},
+{
+"id": 40442,
+"pt": "Uchigatana de Qualidade+2"
+},
+{
+"id": 40443,
+"pt": "Uchigatana de Qualidade+3"
+},
+{
+"id": 40444,
+"pt": "Uchigatana de Qualidade+4"
+},
+{
+"id": 40445,
+"pt": "Uchigatana de Qualidade+5"
+},
+{
+"id": 40451,
+"pt": "Uchigatana de Mercúrio+1"
+},
+{
+"id": 40452,
+"pt": "Uchigatana de Mercúrio+2"
+},
+{
+"id": 40453,
+"pt": "Uchigatana de Mercúrio+3"
+},
+{
+"id": 40454,
+"pt": "Uchigatana de Mercúrio+4"
+},
+{
+"id": 40455,
+"pt": "Uchigatana de Mercúrio+5"
+},
+{
+"id": 40461,
+"pt": "Uchigatana da Lua+1"
+},
+{
+"id": 40462,
+"pt": "Uchigatana da Lua+2"
+},
+{
+"id": 40463,
+"pt": "Uchigatana da Lua+3"
+},
+{
+"id": 40464,
+"pt": "Uchigatana da Lua+4"
+},
+{
+"id": 40465,
+"pt": "Uchigatana da Lua+5"
+},
+{
+"id": 40500,
+"pt": "Sem-Punho"
+},
+{
+"id": 40501,
+"pt": "Sem-Punho+1"
+},
+{
+"id": 40502,
+"pt": "Sem-Punho+2"
+},
+{
+"id": 40503,
+"pt": "Sem-Punho+3"
+},
+{
+"id": 40504,
+"pt": "Sem-Punho+4"
+},
+{
+"id": 40505,
+"pt": "Sem-Punho+5"
+},
+{
+"id": 40600,
+"pt": "Cegueira"
+},
+{
+"id": 40601,
+"pt": "Cegueira+1"
+},
+{
+"id": 40602,
+"pt": "Cegueira+2"
+},
+{
+"id": 40603,
+"pt": "Cegueira+3"
+},
+{
+"id": 40604,
+"pt": "Cegueira+4"
+},
+{
+"id": 40605,
+"pt": "Cegueira+5"
+},
+{
+"id": 40700,
+"pt": "Espada Mágica “Makoto”"
+},
+{
+"id": 40701,
+"pt": "Espada Mágica “Makoto”+1"
+},
+{
+"id": 40702,
+"pt": "Espada Mágica “Makoto”+2"
+},
+{
+"id": 40703,
+"pt": "Espada Mágica “Makoto”+3"
+},
+{
+"id": 40704,
+"pt": "Espada Mágica “Makoto”+4"
+},
+{
+"id": 40705,
+"pt": "Espada Mágica “Makoto”+5"
+},
+{
+"id": 40900,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40901,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40902,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40903,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40904,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40905,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40906,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40907,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 40908,
+"pt": "Grande Espada da Busca"
+},
+{
+"id": 50000,
+"pt": "Machado de Batalha"
+},
+{
+"id": 50001,
+"pt": "Machado de Batalha+1"
+},
+{
+"id": 50002,
+"pt": "Machado de Batalha+2"
+},
+{
+"id": 50003,
+"pt": "Machado de Batalha+3"
+},
+{
+"id": 50004,
+"pt": "Machado de Batalha+4"
+},
+{
+"id": 50005,
+"pt": "Machado de Batalha+5"
+},
+{
+"id": 50006,
+"pt": "Machado de Batalha+6"
+},
+{
+"id": 50007,
+"pt": "Machado de Batalha+7"
+},
+{
+"id": 50008,
+"pt": "Machado de Batalha+8"
+},
+{
+"id": 50009,
+"pt": "Machado de Batalha+9"
+},
+{
+"id": 50010,
+"pt": "Machado de Batalha+10"
+},
+{
+"id": 50011,
+"pt": "Machado de Batalha Esmagador+1"
+},
+{
+"id": 50012,
+"pt": "Machado de Batalha Esmagador+2"
+},
+{
+"id": 50013,
+"pt": "Machado de Batalha Esmagador+3"
+},
+{
+"id": 50014,
+"pt": "Machado de Batalha Esmagador+4"
+},
+{
+"id": 50015,
+"pt": "Machado de Batalha Esmagador+5"
+},
+{
+"id": 50021,
+"pt": "Machado de Batalha do Dragão+1"
+},
+{
+"id": 50022,
+"pt": "Machado de Batalha do Dragão+2"
+},
+{
+"id": 50023,
+"pt": "Machado de Batalha do Dragão+3"
+},
+{
+"id": 50024,
+"pt": "Machado de Batalha do Dragão+4"
+},
+{
+"id": 50025,
+"pt": "Machado de Batalha do Dragão+5"
+},
+{
+"id": 50031,
+"pt": "Machado de Batalha da Lua+1"
+},
+{
+"id": 50032,
+"pt": "Machado de Batalha da Lua+2"
+},
+{
+"id": 50033,
+"pt": "Machado de Batalha da Lua+3"
+},
+{
+"id": 50034,
+"pt": "Machado de Batalha da Lua+4"
+},
+{
+"id": 50035,
+"pt": "Machado de Batalha da Lua+5"
+},
+{
+"id": 50041,
+"pt": "Machado de Batalha de Qualidade+1"
+},
+{
+"id": 50042,
+"pt": "Machado de Batalha de Qualidade+2"
+},
+{
+"id": 50043,
+"pt": "Machado de Batalha de Qualidade+3"
+},
+{
+"id": 50044,
+"pt": "Machado de Batalha de Qualidade+4"
+},
+{
+"id": 50045,
+"pt": "Machado de Batalha de Qualidade+5"
+},
+{
+"id": 50051,
+"pt": "Machado de Batalha Abençoado+1"
+},
+{
+"id": 50052,
+"pt": "Machado de Batalha Abençoado+2"
+},
+{
+"id": 50053,
+"pt": "Machado de Batalha Abençoado+3"
+},
+{
+"id": 50054,
+"pt": "Machado de Batalha Abençoado+4"
+},
+{
+"id": 50055,
+"pt": "Machado de Batalha Abençoado+5"
+},
+{
+"id": 50200,
+"pt": "Machado Grande"
+},
+{
+"id": 50201,
+"pt": "Machado Grande+1"
+},
+{
+"id": 50202,
+"pt": "Machado Grande+2"
+},
+{
+"id": 50203,
+"pt": "Machado Grande+3"
+},
+{
+"id": 50204,
+"pt": "Machado Grande+4"
+},
+{
+"id": 50205,
+"pt": "Machado Grande+5"
+},
+{
+"id": 50206,
+"pt": "Machado Grande+6"
+},
+{
+"id": 50207,
+"pt": "Machado Grande+7"
+},
+{
+"id": 50208,
+"pt": "Machado Grande+8"
+},
+{
+"id": 50209,
+"pt": "Machado Grande+9"
+},
+{
+"id": 50210,
+"pt": "Machado Grande+10"
+},
+{
+"id": 50211,
+"pt": "Machado Grande Esmagador+1"
+},
+{
+"id": 50212,
+"pt": "Machado Grande Esmagador+2"
+},
+{
+"id": 50213,
+"pt": "Machado Grande Esmagador+3"
+},
+{
+"id": 50214,
+"pt": "Machado Grande Esmagador+4"
+},
+{
+"id": 50215,
+"pt": "Machado Grande Esmagador+5"
+},
+{
+"id": 50221,
+"pt": "Machado Grande do Dragão+1"
+},
+{
+"id": 50222,
+"pt": "Machado Grande do Dragão+2"
+},
+{
+"id": 50223,
+"pt": "Machado Grande do Dragão+3"
+},
+{
+"id": 50224,
+"pt": "Machado Grande do Dragão+4"
+},
+{
+"id": 50225,
+"pt": "Machado Grande do Dragão+5"
+},
+{
+"id": 50231,
+"pt": "Machado Grande da Lua+1"
+},
+{
+"id": 50232,
+"pt": "Machado Grande da Lua+2"
+},
+{
+"id": 50233,
+"pt": "Machado Grande da Lua+3"
+},
+{
+"id": 50234,
+"pt": "Machado Grande da Lua+4"
+},
+{
+"id": 50235,
+"pt": "Machado Grande da Lua+5"
+},
+{
+"id": 50241,
+"pt": "Machado Grande de Qualidade+1"
+},
+{
+"id": 50242,
+"pt": "Machado Grande de Qualidade+2"
+},
+{
+"id": 50243,
+"pt": "Machado Grande de Qualidade+3"
+},
+{
+"id": 50244,
+"pt": "Machado Grande de Qualidade+4"
+},
+{
+"id": 50245,
+"pt": "Machado Grande de Qualidade+5"
+},
+{
+"id": 50251,
+"pt": "Machado Grande Abençoado+1"
+},
+{
+"id": 50252,
+"pt": "Machado Grande Abençoado+2"
+},
+{
+"id": 50253,
+"pt": "Machado Grande Abençoado+3"
+},
+{
+"id": 50254,
+"pt": "Machado Grande Abençoado+4"
+},
+{
+"id": 50255,
+"pt": "Machado Grande Abençoado+5"
+},
+{
+"id": 50300,
+"pt": "Machado Crescente"
+},
+{
+"id": 50301,
+"pt": "Machado Crescente+1"
+},
+{
+"id": 50302,
+"pt": "Machado Crescente+2"
+},
+{
+"id": 50303,
+"pt": "Machado Crescente+3"
+},
+{
+"id": 50304,
+"pt": "Machado Crescente+4"
+},
+{
+"id": 50305,
+"pt": "Machado Crescente+5"
+},
+{
+"id": 50306,
+"pt": "Machado Crescente+6"
+},
+{
+"id": 50307,
+"pt": "Machado Crescente+7"
+},
+{
+"id": 50308,
+"pt": "Machado Crescente+8"
+},
+{
+"id": 50309,
+"pt": "Machado Crescente+9"
+},
+{
+"id": 50310,
+"pt": "Machado Crescente+10"
+},
+{
+"id": 50311,
+"pt": "Machado Crescente Esmagador+1"
+},
+{
+"id": 50312,
+"pt": "Machado Crescente Esmagador+2"
+},
+{
+"id": 50313,
+"pt": "Machado Crescente Esmagador+3"
+},
+{
+"id": 50314,
+"pt": "Machado Crescente Esmagador+4"
+},
+{
+"id": 50315,
+"pt": "Machado Crescente Esmagador+5"
+},
+{
+"id": 50321,
+"pt": "Machado Crescente do Dragão+1"
+},
+{
+"id": 50322,
+"pt": "Machado Crescente do Dragão+2"
+},
+{
+"id": 50323,
+"pt": "Machado Crescente do Dragão+3"
+},
+{
+"id": 50324,
+"pt": "Machado Crescente do Dragão+4"
+},
+{
+"id": 50325,
+"pt": "Machado Crescente do Dragão+5"
+},
+{
+"id": 50331,
+"pt": "Machado Crescente da Lua+1"
+},
+{
+"id": 50332,
+"pt": "Machado Crescente da Lua+2"
+},
+{
+"id": 50333,
+"pt": "Machado Crescente da Lua+3"
+},
+{
+"id": 50334,
+"pt": "Machado Crescente da Lua+4"
+},
+{
+"id": 50335,
+"pt": "Machado Crescente da Lua+5"
+},
+{
+"id": 50341,
+"pt": "Machado Crescente de Qualidade+1"
+},
+{
+"id": 50342,
+"pt": "Machado Crescente de Qualidade+2"
+},
+{
+"id": 50343,
+"pt": "Machado Crescente de Qualidade+3"
+},
+{
+"id": 50344,
+"pt": "Machado Crescente de Qualidade+4"
+},
+{
+"id": 50345,
+"pt": "Machado Crescente de Qualidade+5"
+},
+{
+"id": 50351,
+"pt": "Machado Crescente Abençoado+1"
+},
+{
+"id": 50352,
+"pt": "Machado Crescente Abençoado+2"
+},
+{
+"id": 50353,
+"pt": "Machado Crescente Abençoado+3"
+},
+{
+"id": 50354,
+"pt": "Machado Crescente Abençoado+4"
+},
+{
+"id": 50355,
+"pt": "Machado Crescente Abençoado+5"
+},
+{
+"id": 50400,
+"pt": "Machado Guilhotina"
+},
+{
+"id": 50401,
+"pt": "Machado Guilhotina+1"
+},
+{
+"id": 50402,
+"pt": "Machado Guilhotina+2"
+},
+{
+"id": 50403,
+"pt": "Machado Guilhotina+3"
+},
+{
+"id": 50404,
+"pt": "Machado Guilhotina+4"
+},
+{
+"id": 50405,
+"pt": "Machado Guilhotina+5"
+},
+{
+"id": 50406,
+"pt": "Machado Guilhotina+6"
+},
+{
+"id": 50407,
+"pt": "Machado Guilhotina+7"
+},
+{
+"id": 50408,
+"pt": "Machado Guilhotina+8"
+},
+{
+"id": 50409,
+"pt": "Machado Guilhotina+9"
+},
+{
+"id": 50410,
+"pt": "Machado Guilhotina+10"
+},
+{
+"id": 50411,
+"pt": "Machado Guilhotina Esmagador+1"
+},
+{
+"id": 50412,
+"pt": "Machado Guilhotina Esmagador+2"
+},
+{
+"id": 50413,
+"pt": "Machado Guilhotina Esmagador+3"
+},
+{
+"id": 50414,
+"pt": "Machado Guilhotina Esmagador+4"
+},
+{
+"id": 50415,
+"pt": "Machado Guilhotina Esmagador+5"
+},
+{
+"id": 50421,
+"pt": "Machado Guilhotina do Dragão+1"
+},
+{
+"id": 50422,
+"pt": "Machado Guilhotina do Dragão+2"
+},
+{
+"id": 50423,
+"pt": "Machado Guilhotina do Dragão+3"
+},
+{
+"id": 50424,
+"pt": "Machado Guilhotina do Dragão+4"
+},
+{
+"id": 50425,
+"pt": "Machado Guilhotina do Dragão+5"
+},
+{
+"id": 50431,
+"pt": "Machado Guilhotina da Lua+1"
+},
+{
+"id": 50432,
+"pt": "Machado Guilhotina da Lua+2"
+},
+{
+"id": 50433,
+"pt": "Machado Guilhotina da Lua+3"
+},
+{
+"id": 50434,
+"pt": "Machado Guilhotina da Lua+4"
+},
+{
+"id": 50435,
+"pt": "Machado Guilhotina da Lua+5"
+},
+{
+"id": 50441,
+"pt": "Machado Guilhotina de Qualidade+1"
+},
+{
+"id": 50442,
+"pt": "Machado Guilhotina de Qualidade+2"
+},
+{
+"id": 50443,
+"pt": "Machado Guilhotina de Qualidade+3"
+},
+{
+"id": 50444,
+"pt": "Machado Guilhotina de Qualidade+4"
+},
+{
+"id": 50445,
+"pt": "Machado Guilhotina de Qualidade+5"
+},
+{
+"id": 50451,
+"pt": "Machado Guilhotina Abençoado+1"
+},
+{
+"id": 50452,
+"pt": "Machado Guilhotina Abençoado+2"
+},
+{
+"id": 50453,
+"pt": "Machado Guilhotina Abençoado+3"
+},
+{
+"id": 50454,
+"pt": "Machado Guilhotina Abençoado+4"
+},
+{
+"id": 50455,
+"pt": "Machado Guilhotina Abençoado+5"
+},
+{
+"id": 50500,
+"pt": "Machado Dozer"
+},
+{
+"id": 50501,
+"pt": "Machado Dozer"
+},
+{
+"id": 50502,
+"pt": "Machado Dozer"
+},
+{
+"id": 50503,
+"pt": "Machado Dozer"
+},
+{
+"id": 50504,
+"pt": "Machado Dozer"
+},
+{
+"id": 60000,
+"pt": "Clava"
+},
+{
+"id": 60001,
+"pt": "Clava Esmagadora+1"
+},
+{
+"id": 60002,
+"pt": "Clava Esmagadora+2"
+},
+{
+"id": 60003,
+"pt": "Clava Esmagadora+3"
+},
+{
+"id": 60004,
+"pt": "Clava Esmagadora+4"
+},
+{
+"id": 60005,
+"pt": "Clava Esmagadora+5"
+},
+{
+"id": 60011,
+"pt": "Clava Abençoada+1"
+},
+{
+"id": 60012,
+"pt": "Clava Abençoada+2"
+},
+{
+"id": 60013,
+"pt": "Clava Abençoada+3"
+},
+{
+"id": 60014,
+"pt": "Clava Abençoada+4"
+},
+{
+"id": 60015,
+"pt": "Clava Abençoada+5"
+},
+{
+"id": 60100,
+"pt": "Maça"
+},
+{
+"id": 60101,
+"pt": "Maça Esmagadora+1"
+},
+{
+"id": 60102,
+"pt": "Maça Esmagadora+2"
+},
+{
+"id": 60103,
+"pt": "Maça Esmagadora+3"
+},
+{
+"id": 60104,
+"pt": "Maça Esmagadora+4"
+},
+{
+"id": 60105,
+"pt": "Maça Esmagadora+5"
+},
+{
+"id": 60111,
+"pt": "Maça Abençoada+1"
+},
+{
+"id": 60112,
+"pt": "Maça Abençoada+2"
+},
+{
+"id": 60113,
+"pt": "Maça Abençoada+3"
+},
+{
+"id": 60114,
+"pt": "Maça Abençoada+4"
+},
+{
+"id": 60115,
+"pt": "Maça Abençoada+5"
+},
+{
+"id": 60121,
+"pt": "Maça+1"
+},
+{
+"id": 60122,
+"pt": "Maça+2"
+},
+{
+"id": 60123,
+"pt": "Maça+3"
+},
+{
+"id": 60124,
+"pt": "Maça+4"
+},
+{
+"id": 60125,
+"pt": "Maça+5"
+},
+{
+"id": 60126,
+"pt": "Maça+6"
+},
+{
+"id": 60127,
+"pt": "Maça+7"
+},
+{
+"id": 60128,
+"pt": "Maça+8"
+},
+{
+"id": 60129,
+"pt": "Maça+9"
+},
+{
+"id": 60130,
+"pt": "Maça+10"
+},
+{
+"id": 60131,
+"pt": "Maça de Qualidade+1"
+},
+{
+"id": 60132,
+"pt": "Maça de Qualidade+2"
+},
+{
+"id": 60133,
+"pt": "Maça de Qualidade+3"
+},
+{
+"id": 60134,
+"pt": "Maça de Qualidade+4"
+},
+{
+"id": 60135,
+"pt": "Maça de Qualidade+5"
+},
+{
+"id": 60141,
+"pt": "Maça do Dragão+1"
+},
+{
+"id": 60142,
+"pt": "Maça do Dragão+2"
+},
+{
+"id": 60143,
+"pt": "Maça do Dragão+3"
+},
+{
+"id": 60144,
+"pt": "Maça do Dragão+4"
+},
+{
+"id": 60145,
+"pt": "Maça do Dragão+5"
+},
+{
+"id": 60151,
+"pt": "Maça da Lua+1"
+},
+{
+"id": 60152,
+"pt": "Maça da Lua+2"
+},
+{
+"id": 60153,
+"pt": "Maça da Lua+3"
+},
+{
+"id": 60154,
+"pt": "Maça da Lua+4"
+},
+{
+"id": 60155,
+"pt": "Maça da Lua+5"
+},
+{
+"id": 60200,
+"pt": "Picareta de Guerra"
+},
+{
+"id": 60201,
+"pt": "Picareta de Guerra+1"
+},
+{
+"id": 60202,
+"pt": "Picareta de Guerra+2"
+},
+{
+"id": 60203,
+"pt": "Picareta de Guerra+3"
+},
+{
+"id": 60204,
+"pt": "Picareta de Guerra+4"
+},
+{
+"id": 60205,
+"pt": "Picareta de Guerra+5"
+},
+{
+"id": 60206,
+"pt": "Picareta de Guerra+6"
+},
+{
+"id": 60207,
+"pt": "Picareta de Guerra+7"
+},
+{
+"id": 60208,
+"pt": "Picareta de Guerra+8"
+},
+{
+"id": 60209,
+"pt": "Picareta de Guerra+9"
+},
+{
+"id": 60210,
+"pt": "Picareta de Guerra+10"
+},
+{
+"id": 60211,
+"pt": "Picareta de Guerra de Qualidade+1"
+},
+{
+"id": 60212,
+"pt": "Picareta de Guerra de Qualidade+2"
+},
+{
+"id": 60213,
+"pt": "Picareta de Guerra de Qualidade+3"
+},
+{
+"id": 60214,
+"pt": "Picareta de Guerra de Qualidade+4"
+},
+{
+"id": 60215,
+"pt": "Picareta de Guerra de Qualidade+5"
+},
+{
+"id": 60221,
+"pt": "Picareta de Guerra de Mercúrio+1"
+},
+{
+"id": 60222,
+"pt": "Picareta de Guerra de Mercúrio+2"
+},
+{
+"id": 60223,
+"pt": "Picareta de Guerra de Mercúrio+3"
+},
+{
+"id": 60224,
+"pt": "Picareta de Guerra de Mercúrio+4"
+},
+{
+"id": 60225,
+"pt": "Picareta de Guerra de Mercúrio+5"
+},
+{
+"id": 60231,
+"pt": "Picareta de Guerra Afiada+1"
+},
+{
+"id": 60232,
+"pt": "Picareta de Guerra Afiada+2"
+},
+{
+"id": 60233,
+"pt": "Picareta de Guerra Afiada+3"
+},
+{
+"id": 60234,
+"pt": "Picareta de Guerra Afiada+4"
+},
+{
+"id": 60235,
+"pt": "Picareta de Guerra Afiada+5"
+},
+{
+"id": 60241,
+"pt": "Picareta de Guerra Dilacerante+1"
+},
+{
+"id": 60242,
+"pt": "Picareta de Guerra Dilacerante+2"
+},
+{
+"id": 60243,
+"pt": "Picareta de Guerra Dilacerante+3"
+},
+{
+"id": 60244,
+"pt": "Picareta de Guerra Dilacerante+4"
+},
+{
+"id": 60245,
+"pt": "Picareta de Guerra Dilacerante+5"
+},
+{
+"id": 60251,
+"pt": "Picareta de Guerra da Lua+1"
+},
+{
+"id": 60252,
+"pt": "Picareta de Guerra da Lua+2"
+},
+{
+"id": 60253,
+"pt": "Picareta de Guerra da Lua+3"
+},
+{
+"id": 60254,
+"pt": "Picareta de Guerra da Lua+4"
+},
+{
+"id": 60255,
+"pt": "Picareta de Guerra da Lua+5"
+},
+{
+"id": 60300,
+"pt": "Maça Estrela"
+},
+{
+"id": 60301,
+"pt": "Maça Estrela Esmagadora+1"
+},
+{
+"id": 60302,
+"pt": "Maça Estrela Esmagadora+2"
+},
+{
+"id": 60303,
+"pt": "Maça Estrela Esmagadora+3"
+},
+{
+"id": 60304,
+"pt": "Maça Estrela Esmagadora+4"
+},
+{
+"id": 60305,
+"pt": "Maça Estrela Esmagadora+5"
+},
+{
+"id": 60311,
+"pt": "Maça Estrela Abençoada+1"
+},
+{
+"id": 60312,
+"pt": "Maça Estrela Abençoada+2"
+},
+{
+"id": 60313,
+"pt": "Maça Estrela Abençoada+3"
+},
+{
+"id": 60314,
+"pt": "Maça Estrela Abençoada+4"
+},
+{
+"id": 60315,
+"pt": "Maça Estrela Abençoada+5"
+},
+{
+"id": 60321,
+"pt": "Maça Estrela+1"
+},
+{
+"id": 60322,
+"pt": "Maça Estrela+2"
+},
+{
+"id": 60323,
+"pt": "Maça Estrela+3"
+},
+{
+"id": 60324,
+"pt": "Maça Estrela+4"
+},
+{
+"id": 60325,
+"pt": "Maça Estrela+5"
+},
+{
+"id": 60326,
+"pt": "Maça Estrela+6"
+},
+{
+"id": 60327,
+"pt": "Maça Estrela+7"
+},
+{
+"id": 60328,
+"pt": "Maça Estrela+8"
+},
+{
+"id": 60329,
+"pt": "Maça Estrela+9"
+},
+{
+"id": 60330,
+"pt": "Maça Estrela+10"
+},
+{
+"id": 60331,
+"pt": "Maça Estrela de Qualidade+1"
+},
+{
+"id": 60332,
+"pt": "Maça Estrela de Qualidade+2"
+},
+{
+"id": 60333,
+"pt": "Maça Estrela de Qualidade+3"
+},
+{
+"id": 60334,
+"pt": "Maça Estrela de Qualidade+4"
+},
+{
+"id": 60335,
+"pt": "Maça Estrela de Qualidade+5"
+},
+{
+"id": 60341,
+"pt": "Maça Estrela do Dragão+1"
+},
+{
+"id": 60342,
+"pt": "Maça Estrela do Dragão+2"
+},
+{
+"id": 60343,
+"pt": "Maça Estrela do Dragão+3"
+},
+{
+"id": 60344,
+"pt": "Maça Estrela do Dragão+4"
+},
+{
+"id": 60345,
+"pt": "Maça Estrela do Dragão+5"
+},
+{
+"id": 60351,
+"pt": "Maça Estrela da Lua+1"
+},
+{
+"id": 60352,
+"pt": "Maça Estrela da Lua+2"
+},
+{
+"id": 60353,
+"pt": "Maça Estrela da Lua+3"
+},
+{
+"id": 60354,
+"pt": "Maça Estrela da Lua+4"
+},
+{
+"id": 60355,
+"pt": "Maça Estrela da Lua+5"
+},
+{
+"id": 60400,
+"pt": "Clava Grande"
+},
+{
+"id": 60401,
+"pt": "Clava Grande Esmagadora+1"
+},
+{
+"id": 60402,
+"pt": "Clava Grande Esmagadora+2"
+},
+{
+"id": 60403,
+"pt": "Clava Grande Esmagadora+3"
+},
+{
+"id": 60404,
+"pt": "Clava Grande Esmagadora+4"
+},
+{
+"id": 60405,
+"pt": "Clava Grande Esmagadora+5"
+},
+{
+"id": 60411,
+"pt": "Clava Grande Abençoada+1"
+},
+{
+"id": 60412,
+"pt": "Clava Grande Abençoada+2"
+},
+{
+"id": 60413,
+"pt": "Clava Grande Abençoada+3"
+},
+{
+"id": 60414,
+"pt": "Clava Grande Abençoada+4"
+},
+{
+"id": 60415,
+"pt": "Clava Grande Abençoada+5"
+},
+{
+"id": 60600,
+"pt": "Picareta"
+},
+{
+"id": 60601,
+"pt": "Picareta+1"
+},
+{
+"id": 60602,
+"pt": "Picareta+2"
+},
+{
+"id": 60603,
+"pt": "Picareta+3"
+},
+{
+"id": 60604,
+"pt": "Picareta+4"
+},
+{
+"id": 60605,
+"pt": "Picareta+5"
+},
+{
+"id": 60606,
+"pt": "Picareta+6"
+},
+{
+"id": 60607,
+"pt": "Picareta+7"
+},
+{
+"id": 60608,
+"pt": "Picareta+8"
+},
+{
+"id": 60609,
+"pt": "Picareta+9"
+},
+{
+"id": 60610,
+"pt": "Picareta+10"
+},
+{
+"id": 60611,
+"pt": "Picareta de Qualidade+1"
+},
+{
+"id": 60612,
+"pt": "Picareta de Qualidade+2"
+},
+{
+"id": 60613,
+"pt": "Picareta de Qualidade+3"
+},
+{
+"id": 60614,
+"pt": "Picareta de Qualidade+4"
+},
+{
+"id": 60615,
+"pt": "Picareta de Qualidade+5"
+},
+{
+"id": 60621,
+"pt": "Picareta de Mercúrio+1"
+},
+{
+"id": 60622,
+"pt": "Picareta de Mercúrio+2"
+},
+{
+"id": 60623,
+"pt": "Picareta de Mercúrio+3"
+},
+{
+"id": 60624,
+"pt": "Picareta de Mercúrio+4"
+},
+{
+"id": 60625,
+"pt": "Picareta de Mercúrio+5"
+},
+{
+"id": 60631,
+"pt": "Picareta Afiada+1"
+},
+{
+"id": 60632,
+"pt": "Picareta Afiada+2"
+},
+{
+"id": 60633,
+"pt": "Picareta Afiada+3"
+},
+{
+"id": 60634,
+"pt": "Picareta Afiada+4"
+},
+{
+"id": 60635,
+"pt": "Picareta Afiada+5"
+},
+{
+"id": 60641,
+"pt": "Picareta Dilacerante+1"
+},
+{
+"id": 60642,
+"pt": "Picareta Dilacerante+2"
+},
+{
+"id": 60643,
+"pt": "Picareta Dilacerante+3"
+},
+{
+"id": 60644,
+"pt": "Picareta Dilacerante+4"
+},
+{
+"id": 60645,
+"pt": "Picareta Dilacerante+5"
+},
+{
+"id": 60651,
+"pt": "Picareta da Lua+1"
+},
+{
+"id": 60652,
+"pt": "Picareta da Lua+2"
+},
+{
+"id": 60653,
+"pt": "Picareta da Lua+3"
+},
+{
+"id": 60654,
+"pt": "Picareta da Lua+4"
+},
+{
+"id": 60655,
+"pt": "Picareta da Lua+5"
+},
+{
+"id": 60700,
+"pt": "Cutelo"
+},
+{
+"id": 60701,
+"pt": "Cutelo"
+},
+{
+"id": 60702,
+"pt": "Cutelo"
+},
+{
+"id": 60703,
+"pt": "Cutelo"
+},
+{
+"id": 60704,
+"pt": "Cutelo"
+},
+{
+"id": 60705,
+"pt": "Cutelo"
+},
+{
+"id": 60706,
+"pt": "Cutelo"
+},
+{
+"id": 60707,
+"pt": "Cutelo"
+},
+{
+"id": 60800,
+"pt": "Tocha"
+},
+{
+"id": 70000,
+"pt": "Lança Curta"
+},
+{
+"id": 70001,
+"pt": "Lança Curta+1"
+},
+{
+"id": 70002,
+"pt": "Lança Curta+2"
+},
+{
+"id": 70003,
+"pt": "Lança Curta+3"
+},
+{
+"id": 70004,
+"pt": "Lança Curta+4"
+},
+{
+"id": 70005,
+"pt": "Lança Curta+5"
+},
+{
+"id": 70006,
+"pt": "Lança Curta+6"
+},
+{
+"id": 70007,
+"pt": "Lança Curta+7"
+},
+{
+"id": 70008,
+"pt": "Lança Curta+8"
+},
+{
+"id": 70009,
+"pt": "Lança Curta+9"
+},
+{
+"id": 70010,
+"pt": "Lança Curta+10"
+},
+{
+"id": 70011,
+"pt": "Lança Curta de Qualidade+1"
+},
+{
+"id": 70012,
+"pt": "Lança Curta de Qualidade+2"
+},
+{
+"id": 70013,
+"pt": "Lança Curta de Qualidade+3"
+},
+{
+"id": 70014,
+"pt": "Lança Curta de Qualidade+4"
+},
+{
+"id": 70015,
+"pt": "Lança Curta de Qualidade+5"
+},
+{
+"id": 70021,
+"pt": "Lança Curta de Mercúrio+1"
+},
+{
+"id": 70022,
+"pt": "Lança Curta de Mercúrio+2"
+},
+{
+"id": 70023,
+"pt": "Lança Curta de Mercúrio+3"
+},
+{
+"id": 70024,
+"pt": "Lança Curta de Mercúrio+4"
+},
+{
+"id": 70025,
+"pt": "Lança Curta de Mercúrio+5"
+},
+{
+"id": 70031,
+"pt": "Lança Curta Afiada+1"
+},
+{
+"id": 70032,
+"pt": "Lança Curta Afiada+2"
+},
+{
+"id": 70033,
+"pt": "Lança Curta Afiada+3"
+},
+{
+"id": 70034,
+"pt": "Lança Curta Afiada+4"
+},
+{
+"id": 70035,
+"pt": "Lança Curta Afiada+5"
+},
+{
+"id": 70041,
+"pt": "Lança Curta Fatal+1"
+},
+{
+"id": 70042,
+"pt": "Lança Curta Fatal+2"
+},
+{
+"id": 70043,
+"pt": "Lança Curta Fatal+3"
+},
+{
+"id": 70044,
+"pt": "Lança Curta Fatal+4"
+},
+{
+"id": 70045,
+"pt": "Lança Curta Fatal+5"
+},
+{
+"id": 70051,
+"pt": "Lança Curta da Lua+1"
+},
+{
+"id": 70052,
+"pt": "Lança Curta da Lua+2"
+},
+{
+"id": 70053,
+"pt": "Lança Curta da Lua+3"
+},
+{
+"id": 70054,
+"pt": "Lança Curta da Lua+4"
+},
+{
+"id": 70055,
+"pt": "Lança Curta da Lua+5"
+},
+{
+"id": 70100,
+"pt": "Lança Alada"
+},
+{
+"id": 70101,
+"pt": "Lança Alada+1"
+},
+{
+"id": 70102,
+"pt": "Lança Alada+2"
+},
+{
+"id": 70103,
+"pt": "Lança Alada+3"
+},
+{
+"id": 70104,
+"pt": "Lança Alada+4"
+},
+{
+"id": 70105,
+"pt": "Lança Alada+5"
+},
+{
+"id": 70106,
+"pt": "Lança Alada+6"
+},
+{
+"id": 70107,
+"pt": "Lança Alada+7"
+},
+{
+"id": 70108,
+"pt": "Lança Alada+8"
+},
+{
+"id": 70109,
+"pt": "Lança Alada+9"
+},
+{
+"id": 70110,
+"pt": "Lança Alada+10"
+},
+{
+"id": 70111,
+"pt": "Lança Alada de Qualidade+1"
+},
+{
+"id": 70112,
+"pt": "Lança Alada de Qualidade+2"
+},
+{
+"id": 70113,
+"pt": "Lança Alada de Qualidade+3"
+},
+{
+"id": 70114,
+"pt": "Lança Alada de Qualidade+4"
+},
+{
+"id": 70115,
+"pt": "Lança Alada de Qualidade+5"
+},
+{
+"id": 70121,
+"pt": "Lança Alada de Mercúrio+1"
+},
+{
+"id": 70122,
+"pt": "Lança Alada de Mercúrio+2"
+},
+{
+"id": 70123,
+"pt": "Lança Alada de Mercúrio+3"
+},
+{
+"id": 70124,
+"pt": "Lança Alada de Mercúrio+4"
+},
+{
+"id": 70125,
+"pt": "Lança Alada de Mercúrio+5"
+},
+{
+"id": 70131,
+"pt": "Lança Alada Afiada+1"
+},
+{
+"id": 70132,
+"pt": "Lança Alada Afiada+2"
+},
+{
+"id": 70133,
+"pt": "Lança Alada Afiada+3"
+},
+{
+"id": 70134,
+"pt": "Lança Alada Afiada+4"
+},
+{
+"id": 70135,
+"pt": "Lança Alada Afiada+5"
+},
+{
+"id": 70141,
+"pt": "Lança Alada Fatal+1"
+},
+{
+"id": 70142,
+"pt": "Lança Alada Fatal+2"
+},
+{
+"id": 70143,
+"pt": "Lança Alada Fatal+3"
+},
+{
+"id": 70144,
+"pt": "Lança Alada Fatal+4"
+},
+{
+"id": 70145,
+"pt": "Lança Alada Fatal+5"
+},
+{
+"id": 70151,
+"pt": "Lança Alada da Lua+1"
+},
+{
+"id": 70152,
+"pt": "Lança Alada da Lua+2"
+},
+{
+"id": 70153,
+"pt": "Lança Alada da Lua+3"
+},
+{
+"id": 70154,
+"pt": "Lança Alada da Lua+4"
+},
+{
+"id": 70155,
+"pt": "Lança Alada da Lua+5"
+},
+{
+"id": 70400,
+"pt": "Lança Raspadora"
+},
+{
+"id": 70401,
+"pt": "Lança Raspadora"
+},
+{
+"id": 70402,
+"pt": "Lança Raspadora"
+},
+{
+"id": 70403,
+"pt": "Lança Raspadora"
+},
+{
+"id": 70404,
+"pt": "Lança Raspadora"
+},
+{
+"id": 70405,
+"pt": "Lança Raspadora"
+},
+{
+"id": 80000,
+"pt": "Foice de Guerra"
+},
+{
+"id": 80001,
+"pt": "Foice de Guerra+1"
+},
+{
+"id": 80002,
+"pt": "Foice de Guerra+2"
+},
+{
+"id": 80003,
+"pt": "Foice de Guerra+3"
+},
+{
+"id": 80004,
+"pt": "Foice de Guerra+4"
+},
+{
+"id": 80005,
+"pt": "Foice de Guerra+5"
+},
+{
+"id": 80006,
+"pt": "Foice de Guerra+6"
+},
+{
+"id": 80007,
+"pt": "Foice de Guerra+7"
+},
+{
+"id": 80008,
+"pt": "Foice de Guerra+8"
+},
+{
+"id": 80009,
+"pt": "Foice de Guerra+9"
+},
+{
+"id": 80010,
+"pt": "Foice de Guerra+10"
+},
+{
+"id": 80011,
+"pt": "Foice de Guerra Afiada+1"
+},
+{
+"id": 80012,
+"pt": "Foice de Guerra Afiada+2"
+},
+{
+"id": 80013,
+"pt": "Foice de Guerra Afiada+3"
+},
+{
+"id": 80014,
+"pt": "Foice de Guerra Afiada+4"
+},
+{
+"id": 80015,
+"pt": "Foice de Guerra Afiada+5"
+},
+{
+"id": 80021,
+"pt": "Foice de Guerra Dilacerante+1"
+},
+{
+"id": 80022,
+"pt": "Foice de Guerra Dilacerante+2"
+},
+{
+"id": 80023,
+"pt": "Foice de Guerra Dilacerante+3"
+},
+{
+"id": 80024,
+"pt": "Foice de Guerra Dilacerante+4"
+},
+{
+"id": 80025,
+"pt": "Foice de Guerra Dilacerante+5"
+},
+{
+"id": 80031,
+"pt": "Foice de Guerra Crescente+1"
+},
+{
+"id": 80032,
+"pt": "Foice de Guerra Crescente+2"
+},
+{
+"id": 80033,
+"pt": "Foice de Guerra Crescente+3"
+},
+{
+"id": 80034,
+"pt": "Foice de Guerra Crescente+4"
+},
+{
+"id": 80035,
+"pt": "Foice de Guerra Crescente+5"
+},
+{
+"id": 80041,
+"pt": "Foice de Guerra de Qualidade+1"
+},
+{
+"id": 80042,
+"pt": "Foice de Guerra de Qualidade+2"
+},
+{
+"id": 80043,
+"pt": "Foice de Guerra de Qualidade+3"
+},
+{
+"id": 80044,
+"pt": "Foice de Guerra de Qualidade+4"
+},
+{
+"id": 80045,
+"pt": "Foice de Guerra de Qualidade+5"
+},
+{
+"id": 80051,
+"pt": "Foice de Guerra de Mercúrio+1"
+},
+{
+"id": 80052,
+"pt": "Foice de Guerra de Mercúrio+2"
+},
+{
+"id": 80053,
+"pt": "Foice de Guerra de Mercúrio+3"
+},
+{
+"id": 80054,
+"pt": "Foice de Guerra de Mercúrio+4"
+},
+{
+"id": 80055,
+"pt": "Foice de Guerra de Mercúrio+5"
+},
+{
+"id": 80061,
+"pt": "Foice de Guerra da Lua+1"
+},
+{
+"id": 80062,
+"pt": "Foice de Guerra da Lua+2"
+},
+{
+"id": 80063,
+"pt": "Foice de Guerra da Lua+3"
+},
+{
+"id": 80064,
+"pt": "Foice de Guerra da Lua+4"
+},
+{
+"id": 80065,
+"pt": "Foice de Guerra da Lua+5"
+},
+{
+"id": 80100,
+"pt": "Martelo Mirdan"
+},
+{
+"id": 80101,
+"pt": "Martelo Mirdan+1"
+},
+{
+"id": 80102,
+"pt": "Martelo Mirdan+2"
+},
+{
+"id": 80103,
+"pt": "Martelo Mirdan+3"
+},
+{
+"id": 80104,
+"pt": "Martelo Mirdan+4"
+},
+{
+"id": 80105,
+"pt": "Martelo Mirdan+5"
+},
+{
+"id": 80106,
+"pt": "Martelo Mirdan+6"
+},
+{
+"id": 80107,
+"pt": "Martelo Mirdan+7"
+},
+{
+"id": 80108,
+"pt": "Martelo Mirdan+8"
+},
+{
+"id": 80109,
+"pt": "Martelo Mirdan+9"
+},
+{
+"id": 80110,
+"pt": "Martelo Mirdan+10"
+},
+{
+"id": 80111,
+"pt": "Martelo Mirdan de Qualidade+1"
+},
+{
+"id": 80112,
+"pt": "Martelo Mirdan de Qualidade+2"
+},
+{
+"id": 80113,
+"pt": "Martelo Mirdan de Qualidade+3"
+},
+{
+"id": 80114,
+"pt": "Martelo Mirdan de Qualidade+4"
+},
+{
+"id": 80115,
+"pt": "Martelo Mirdan de Qualidade+5"
+},
+{
+"id": 80121,
+"pt": "Martelo Mirdan de Mercúrio+1"
+},
+{
+"id": 80122,
+"pt": "Martelo Mirdan de Mercúrio+2"
+},
+{
+"id": 80123,
+"pt": "Martelo Mirdan de Mercúrio+3"
+},
+{
+"id": 80131,
+"pt": "Martelo Mirdan Esmagador+1"
+},
+{
+"id": 80132,
+"pt": "Martelo Mirdan Esmagador+2"
+},
+{
+"id": 80133,
+"pt": "Martelo Mirdan Esmagador+3"
+},
+{
+"id": 80134,
+"pt": "Martelo Mirdan Esmagador+4"
+},
+{
+"id": 80135,
+"pt": "Martelo Mirdan Esmagador+5"
+},
+{
+"id": 80141,
+"pt": "Martelo Mirdan do Dragão+1"
+},
+{
+"id": 80142,
+"pt": "Martelo Mirdan do Dragão+2"
+},
+{
+"id": 80143,
+"pt": "Martelo Mirdan do Dragão+3"
+},
+{
+"id": 80144,
+"pt": "Martelo Mirdan do Dragão+4"
+},
+{
+"id": 80145,
+"pt": "Martelo Mirdan do Dragão+5"
+},
+{
+"id": 80151,
+"pt": "Martelo Mirdan da Lua+1"
+},
+{
+"id": 80152,
+"pt": "Martelo Mirdan da Lua+2"
+},
+{
+"id": 80153,
+"pt": "Martelo Mirdan da Lua+3"
+},
+{
+"id": 80154,
+"pt": "Martelo Mirdan da Lua+4"
+},
+{
+"id": 80155,
+"pt": "Martelo Mirdan da Lua+5"
+},
+{
+"id": 80161,
+"pt": "Martelo Mirdan Abençoado+1"
+},
+{
+"id": 80162,
+"pt": "Martelo Mirdan Abençoado+2"
+},
+{
+"id": 80163,
+"pt": "Martelo Mirdan Abençoado+3"
+},
+{
+"id": 80164,
+"pt": "Martelo Mirdan Abençoado+4"
+},
+{
+"id": 80165,
+"pt": "Martelo Mirdan Abençoado+5"
+},
+{
+"id": 80200,
+"pt": "Alabarda"
+},
+{
+"id": 80201,
+"pt": "Alabarda+1"
+},
+{
+"id": 80202,
+"pt": "Alabarda+2"
+},
+{
+"id": 80203,
+"pt": "Alabarda+3"
+},
+{
+"id": 80204,
+"pt": "Alabarda+4"
+},
+{
+"id": 80205,
+"pt": "Alabarda+5"
+},
+{
+"id": 80206,
+"pt": "Alabarda+6"
+},
+{
+"id": 80207,
+"pt": "Alabarda+7"
+},
+{
+"id": 80208,
+"pt": "Alabarda+8"
+},
+{
+"id": 80209,
+"pt": "Alabarda+9"
+},
+{
+"id": 80210,
+"pt": "Alabarda+10"
+},
+{
+"id": 80211,
+"pt": "Alabarda de Qualidade+1"
+},
+{
+"id": 80212,
+"pt": "Alabarda de Qualidade+2"
+},
+{
+"id": 80213,
+"pt": "Alabarda de Qualidade+3"
+},
+{
+"id": 80214,
+"pt": "Alabarda de Qualidade+4"
+},
+{
+"id": 80215,
+"pt": "Alabarda de Qualidade+5"
+},
+{
+"id": 80221,
+"pt": "Alabarda de Mercúrio+1"
+},
+{
+"id": 80222,
+"pt": "Alabarda de Mercúrio+2"
+},
+{
+"id": 80223,
+"pt": "Alabarda de Mercúrio+3"
+},
+{
+"id": 80231,
+"pt": "Alabarda Esmagadora+1"
+},
+{
+"id": 80232,
+"pt": "Alabarda Esmagadora+2"
+},
+{
+"id": 80233,
+"pt": "Alabarda Esmagadora+3"
+},
+{
+"id": 80234,
+"pt": "Alabarda Esmagadora+4"
+},
+{
+"id": 80235,
+"pt": "Alabarda Esmagadora+5"
+},
+{
+"id": 80241,
+"pt": "Alabarda do Dragão+1"
+},
+{
+"id": 80242,
+"pt": "Alabarda do Dragão+2"
+},
+{
+"id": 80243,
+"pt": "Alabarda do Dragão+3"
+},
+{
+"id": 80244,
+"pt": "Alabarda do Dragão+4"
+},
+{
+"id": 80245,
+"pt": "Alabarda do Dragão+5"
+},
+{
+"id": 80251,
+"pt": "Alabarda da Lua+1"
+},
+{
+"id": 80252,
+"pt": "Alabarda da Lua+2"
+},
+{
+"id": 80253,
+"pt": "Alabarda da Lua+3"
+},
+{
+"id": 80254,
+"pt": "Alabarda da Lua+4"
+},
+{
+"id": 80255,
+"pt": "Alabarda da Lua+5"
+},
+{
+"id": 80261,
+"pt": "Alabarda Abençoada+1"
+},
+{
+"id": 80262,
+"pt": "Alabarda Abençoada+2"
+},
+{
+"id": 80263,
+"pt": "Alabarda Abençoada+3"
+},
+{
+"id": 80264,
+"pt": "Alabarda Abençoada+4"
+},
+{
+"id": 80265,
+"pt": "Alabarda Abençoada+5"
+},
+{
+"id": 80300,
+"pt": "Haste Fosforescente"
+},
+{
+"id": 80301,
+"pt": "Haste Fosforescente+1"
+},
+{
+"id": 80302,
+"pt": "Haste Fosforescente+2"
+},
+{
+"id": 80303,
+"pt": "Haste Fosforescente+3"
+},
+{
+"id": 80304,
+"pt": "Haste Fosforescente+4"
+},
+{
+"id": 80305,
+"pt": "Haste Fosforescente+5"
+},
+{
+"id": 90000,
+"pt": "Catalisador de Madeira"
+},
+{
+"id": 90001,
+"pt": "Catalisador de Madeira Esmagador+1"
+},
+{
+"id": 90002,
+"pt": "Catalisador de Madeira Esmagador+2"
+},
+{
+"id": 90003,
+"pt": "Catalisador de Madeira Esmagador+3"
+},
+{
+"id": 90004,
+"pt": "Catalisador de Madeira Esmagador+4"
+},
+{
+"id": 90005,
+"pt": "Catalisador de Madeira Esmagador+5"
+},
+{
+"id": 90100,
+"pt": "Catalisador de Prata"
+},
+{
+"id": 90101,
+"pt": "Catalisador de Prata Esmagador+1"
+},
+{
+"id": 90102,
+"pt": "Catalisador de Prata Esmagador+2"
+},
+{
+"id": 90103,
+"pt": "Catalisador de Prata Esmagador+3"
+},
+{
+"id": 90104,
+"pt": "Catalisador de Prata Esmagador+4"
+},
+{
+"id": 90105,
+"pt": "Catalisador de Prata Esmagador+5"
+},
+{
+"id": 90200,
+"pt": "Catalisador da Insanidade"
+},
+{
+"id": 90201,
+"pt": "Catalisador da Insanidade"
+},
+{
+"id": 90400,
+"pt": "Talismã de Deus"
+},
+{
+"id": 90500,
+"pt": "Talismã das Feras"
+},
+{
+"id": 100000,
+"pt": "Soqueira de Ferro"
+},
+{
+"id": 100001,
+"pt": "Soqueira de Ferro Esmagadora+1"
+},
+{
+"id": 100002,
+"pt": "Soqueira de Ferro Esmagadora+2"
+},
+{
+"id": 100003,
+"pt": "Soqueira de Ferro Esmagadora+3"
+},
+{
+"id": 100004,
+"pt": "Soqueira de Ferro Esmagadora+4"
+},
+{
+"id": 100005,
+"pt": "Soqueira de Ferro Esmagadora+5"
+},
+{
+"id": 100011,
+"pt": "Soqueira de Ferro Abençoada+1"
+},
+{
+"id": 100012,
+"pt": "Soqueira de Ferro Abençoada+2"
+},
+{
+"id": 100013,
+"pt": "Soqueira de Ferro Abençoada+3"
+},
+{
+"id": 100014,
+"pt": "Soqueira de Ferro Abençoada+4"
+},
+{
+"id": 100015,
+"pt": "Soqueira de Ferro Abençoada+5"
+},
+{
+"id": 100021,
+"pt": "Soqueira de Ferro+1"
+},
+{
+"id": 100022,
+"pt": "Soqueira de Ferro+2"
+},
+{
+"id": 100023,
+"pt": "Soqueira de Ferro+3"
+},
+{
+"id": 100024,
+"pt": "Soqueira de Ferro+4"
+},
+{
+"id": 100025,
+"pt": "Soqueira de Ferro+5"
+},
+{
+"id": 100026,
+"pt": "Soqueira de Ferro+6"
+},
+{
+"id": 100027,
+"pt": "Soqueira de Ferro+7"
+},
+{
+"id": 100028,
+"pt": "Soqueira de Ferro+8"
+},
+{
+"id": 100029,
+"pt": "Soqueira de Ferro+9"
+},
+{
+"id": 100030,
+"pt": "Soqueira de Ferro+10"
+},
+{
+"id": 100031,
+"pt": "Soqueira de Ferro de Qualidade+1"
+},
+{
+"id": 100032,
+"pt": "Soqueira de Ferro de Qualidade+2"
+},
+{
+"id": 100033,
+"pt": "Soqueira de Ferro de Qualidade+3"
+},
+{
+"id": 100034,
+"pt": "Soqueira de Ferro de Qualidade+4"
+},
+{
+"id": 100035,
+"pt": "Soqueira de Ferro de Qualidade+5"
+},
+{
+"id": 100041,
+"pt": "Soqueira de Ferro do Dragão+1"
+},
+{
+"id": 100042,
+"pt": "Soqueira de Ferro do Dragão+2"
+},
+{
+"id": 100043,
+"pt": "Soqueira de Ferro do Dragão+3"
+},
+{
+"id": 100044,
+"pt": "Soqueira de Ferro do Dragão+4"
+},
+{
+"id": 100045,
+"pt": "Soqueira de Ferro do Dragão+5"
+},
+{
+"id": 100051,
+"pt": "Soqueira de Ferro da Lua+1"
+},
+{
+"id": 100052,
+"pt": "Soqueira de Ferro da Lua+2"
+},
+{
+"id": 100053,
+"pt": "Soqueira de Ferro da Lua+3"
+},
+{
+"id": 100054,
+"pt": "Soqueira de Ferro da Lua+4"
+},
+{
+"id": 100055,
+"pt": "Soqueira de Ferro da Lua+5"
+},
+{
+"id": 100100,
+"pt": "Garras"
+},
+{
+"id": 100101,
+"pt": "Garras+1"
+},
+{
+"id": 100102,
+"pt": "Garras+2"
+},
+{
+"id": 100103,
+"pt": "Garras+3"
+},
+{
+"id": 100104,
+"pt": "Garras+4"
+},
+{
+"id": 100105,
+"pt": "Garras+5"
+},
+{
+"id": 100106,
+"pt": "Garras+6"
+},
+{
+"id": 100107,
+"pt": "Garras+7"
+},
+{
+"id": 100108,
+"pt": "Garras+8"
+},
+{
+"id": 100109,
+"pt": "Garras+9"
+},
+{
+"id": 100110,
+"pt": "Garras+10"
+},
+{
+"id": 100111,
+"pt": "Garras Afiada+1"
+},
+{
+"id": 100112,
+"pt": "Garras Afiada+2"
+},
+{
+"id": 100113,
+"pt": "Garras Afiada+3"
+},
+{
+"id": 100114,
+"pt": "Garras Afiada+4"
+},
+{
+"id": 100115,
+"pt": "Garras Afiada+5"
+},
+{
+"id": 100121,
+"pt": "Garras Dilacerante+1"
+},
+{
+"id": 100122,
+"pt": "Garras Dilacerante+2"
+},
+{
+"id": 100123,
+"pt": "Garras Dilacerante+3"
+},
+{
+"id": 100124,
+"pt": "Garras Dilacerante+4"
+},
+{
+"id": 100125,
+"pt": "Garras Dilacerante+5"
+},
+{
+"id": 100131,
+"pt": "Garras Crescente+1"
+},
+{
+"id": 100132,
+"pt": "Garras Crescente+2"
+},
+{
+"id": 100133,
+"pt": "Garras Crescente+3"
+},
+{
+"id": 100134,
+"pt": "Garras Crescente+4"
+},
+{
+"id": 100135,
+"pt": "Garras Crescente+5"
+},
+{
+"id": 100141,
+"pt": "Garras de Qualidade+1"
+},
+{
+"id": 100142,
+"pt": "Garras de Qualidade+2"
+},
+{
+"id": 100143,
+"pt": "Garras de Qualidade+3"
+},
+{
+"id": 100144,
+"pt": "Garras de Qualidade+4"
+},
+{
+"id": 100145,
+"pt": "Garras de Qualidade+5"
+},
+{
+"id": 100151,
+"pt": "Garras de Mercúrio+1"
+},
+{
+"id": 100152,
+"pt": "Garras de Mercúrio+2"
+},
+{
+"id": 100153,
+"pt": "Garras de Mercúrio+3"
+},
+{
+"id": 100154,
+"pt": "Garras de Mercúrio+4"
+},
+{
+"id": 100155,
+"pt": "Garras de Mercúrio+5"
+},
+{
+"id": 100161,
+"pt": "Garras da Lua+1"
+},
+{
+"id": 100162,
+"pt": "Garras da Lua+2"
+},
+{
+"id": 100163,
+"pt": "Garras da Lua+3"
+},
+{
+"id": 100164,
+"pt": "Garras da Lua+4"
+},
+{
+"id": 100165,
+"pt": "Garras da Lua+5"
+},
+{
+"id": 100200,
+"pt": "Mãos de Deus"
+},
+{
+"id": 100201,
+"pt": "Mãos de Deus+1"
+},
+{
+"id": 100202,
+"pt": "Mãos de Deus+2"
+},
+{
+"id": 100203,
+"pt": "Mãos de Deus+3"
+},
+{
+"id": 100204,
+"pt": "Mãos de Deus+4"
+},
+{
+"id": 100205,
+"pt": "Mãos de Deus+5"
+},
+{
+"id": 100300,
+"pt": "Sem Equipamento"
+},
+{
+"id": 130000,
+"pt": "Arco Curto"
+},
+{
+"id": 130001,
+"pt": "Arco Curto+1"
+},
+{
+"id": 130002,
+"pt": "Arco Curto+2"
+},
+{
+"id": 130003,
+"pt": "Arco Curto+3"
+},
+{
+"id": 130004,
+"pt": "Arco Curto+4"
+},
+{
+"id": 130005,
+"pt": "Arco Curto+5"
+},
+{
+"id": 130006,
+"pt": "Arco Curto+6"
+},
+{
+"id": 130007,
+"pt": "Arco Curto+7"
+},
+{
+"id": 130008,
+"pt": "Arco Curto+8"
+},
+{
+"id": 130009,
+"pt": "Arco Curto+9"
+},
+{
+"id": 130010,
+"pt": "Arco Curto+10"
+},
+{
+"id": 130021,
+"pt": "Arco Curto Pegajoso+1"
+},
+{
+"id": 130022,
+"pt": "Arco Curto Pegajoso+2"
+},
+{
+"id": 130023,
+"pt": "Arco Curto Pegajoso+3"
+},
+{
+"id": 130024,
+"pt": "Arco Curto Pegajoso+4"
+},
+{
+"id": 130025,
+"pt": "Arco Curto Pegajoso+5"
+},
+{
+"id": 130031,
+"pt": "Arco Curto de Qualidade+1"
+},
+{
+"id": 130032,
+"pt": "Arco Curto de Qualidade+2"
+},
+{
+"id": 130033,
+"pt": "Arco Curto de Qualidade+3"
+},
+{
+"id": 130034,
+"pt": "Arco Curto de Qualidade+4"
+},
+{
+"id": 130035,
+"pt": "Arco Curto de Qualidade+5"
+},
+{
+"id": 130100,
+"pt": "Arco Curto Composto"
+},
+{
+"id": 130101,
+"pt": "Arco Curto Composto+1"
+},
+{
+"id": 130102,
+"pt": "Arco Curto Composto+2"
+},
+{
+"id": 130103,
+"pt": "Arco Curto Composto+3"
+},
+{
+"id": 130104,
+"pt": "Arco Curto Composto+4"
+},
+{
+"id": 130105,
+"pt": "Arco Curto Composto+5"
+},
+{
+"id": 130106,
+"pt": "Arco Curto Composto+6"
+},
+{
+"id": 130107,
+"pt": "Arco Curto Composto+7"
+},
+{
+"id": 130108,
+"pt": "Arco Curto Composto+8"
+},
+{
+"id": 130109,
+"pt": "Arco Curto Composto+9"
+},
+{
+"id": 130110,
+"pt": "Arco Curto Composto+10"
+},
+{
+"id": 130121,
+"pt": "Arco Curto Composto Pegajoso+1"
+},
+{
+"id": 130122,
+"pt": "Arco Curto Composto Pegajoso+2"
+},
+{
+"id": 130123,
+"pt": "Arco Curto Composto Pegajoso+3"
+},
+{
+"id": 130124,
+"pt": "Arco Curto Composto Pegajoso+4"
+},
+{
+"id": 130125,
+"pt": "Arco Curto Composto Pegajoso+5"
+},
+{
+"id": 130131,
+"pt": "Arco Curto Composto de Qualidade+1"
+},
+{
+"id": 130132,
+"pt": "Arco Curto Composto de Qualidade+2"
+},
+{
+"id": 130133,
+"pt": "Arco Curto Composto de Qualidade+3"
+},
+{
+"id": 130134,
+"pt": "Arco Curto Composto de Qualidade+4"
+},
+{
+"id": 130135,
+"pt": "Arco Curto Composto de Qualidade+5"
+},
+{
+"id": 130200,
+"pt": "Arco Longo"
+},
+{
+"id": 130201,
+"pt": "Arco Longo+1"
+},
+{
+"id": 130202,
+"pt": "Arco Longo+2"
+},
+{
+"id": 130203,
+"pt": "Arco Longo+3"
+},
+{
+"id": 130204,
+"pt": "Arco Longo+4"
+},
+{
+"id": 130205,
+"pt": "Arco Longo+5"
+},
+{
+"id": 130206,
+"pt": "Arco Longo+6"
+},
+{
+"id": 130207,
+"pt": "Arco Longo+7"
+},
+{
+"id": 130208,
+"pt": "Arco Longo+8"
+},
+{
+"id": 130209,
+"pt": "Arco Longo+9"
+},
+{
+"id": 130210,
+"pt": "Arco Longo+10"
+},
+{
+"id": 130221,
+"pt": "Arco Longo Pegajoso+1"
+},
+{
+"id": 130222,
+"pt": "Arco Longo Pegajoso+2"
+},
+{
+"id": 130223,
+"pt": "Arco Longo Pegajoso+3"
+},
+{
+"id": 130224,
+"pt": "Arco Longo Pegajoso+4"
+},
+{
+"id": 130225,
+"pt": "Arco Longo Pegajoso+5"
+},
+{
+"id": 130231,
+"pt": "Arco Longo de Qualidade+1"
+},
+{
+"id": 130232,
+"pt": "Arco Longo de Qualidade+2"
+},
+{
+"id": 130233,
+"pt": "Arco Longo de Qualidade+3"
+},
+{
+"id": 130234,
+"pt": "Arco Longo de Qualidade+4"
+},
+{
+"id": 130235,
+"pt": "Arco Longo de Qualidade+5"
+},
+{
+"id": 130300,
+"pt": "Arco Longo Composto"
+},
+{
+"id": 130301,
+"pt": "Arco Longo Composto+1"
+},
+{
+"id": 130302,
+"pt": "Arco Longo Composto+2"
+},
+{
+"id": 130303,
+"pt": "Arco Longo Composto+3"
+},
+{
+"id": 130304,
+"pt": "Arco Longo Composto+4"
+},
+{
+"id": 130305,
+"pt": "Arco Longo Composto+5"
+},
+{
+"id": 130306,
+"pt": "Arco Longo Composto+6"
+},
+{
+"id": 130307,
+"pt": "Arco Longo Composto+7"
+},
+{
+"id": 130308,
+"pt": "Arco Longo Composto+8"
+},
+{
+"id": 130309,
+"pt": "Arco Longo Composto+9"
+},
+{
+"id": 130310,
+"pt": "Arco Longo Composto+10"
+},
+{
+"id": 130321,
+"pt": "Arco Longo Composto Pegajoso+1"
+},
+{
+"id": 130322,
+"pt": "Arco Longo Composto Pegajoso+2"
+},
+{
+"id": 130323,
+"pt": "Arco Longo Composto Pegajoso+3"
+},
+{
+"id": 130324,
+"pt": "Arco Longo Composto Pegajoso+4"
+},
+{
+"id": 130325,
+"pt": "Arco Longo Composto Pegajoso+5"
+},
+{
+"id": 130331,
+"pt": "Arco Longo Composto de Qualidade+1"
+},
+{
+"id": 130332,
+"pt": "Arco Longo Composto de Qualidade+2"
+},
+{
+"id": 130333,
+"pt": "Arco Longo Composto de Qualidade+3"
+},
+{
+"id": 130334,
+"pt": "Arco Longo Composto de Qualidade+4"
+},
+{
+"id": 130335,
+"pt": "Arco Longo Composto de Qualidade+5"
+},
+{
+"id": 130400,
+"pt": "Arco Branco"
+},
+{
+"id": 130401,
+"pt": "Arco Branco+1"
+},
+{
+"id": 130402,
+"pt": "Arco Branco+2"
+},
+{
+"id": 130403,
+"pt": "Arco Branco+3"
+},
+{
+"id": 130404,
+"pt": "Arco Branco+4"
+},
+{
+"id": 130405,
+"pt": "Arco Branco+5"
+},
+{
+"id": 130500,
+"pt": "Arco de Lava"
+},
+{
+"id": 130501,
+"pt": "Arco de Lava"
+},
+{
+"id": 130502,
+"pt": "Arco de Lava"
+},
+{
+"id": 130503,
+"pt": "Arco de Lava"
+},
+{
+"id": 140000,
+"pt": "Besta Leve"
+},
+{
+"id": 140100,
+"pt": "Besta Pesada"
+},
+{
+"id": 140200,
+"pt": "Besta da Gárgula"
+},
+{
+"id": 150000,
+"pt": "Broquel"
+},
+{
+"id": 150001,
+"pt": "Broquel+1"
+},
+{
+"id": 150002,
+"pt": "Broquel+2"
+},
+{
+"id": 150003,
+"pt": "Broquel+3"
+},
+{
+"id": 150004,
+"pt": "Broquel+4"
+},
+{
+"id": 150005,
+"pt": "Broquel+5"
+},
+{
+"id": 150006,
+"pt": "Broquel+6"
+},
+{
+"id": 150007,
+"pt": "Broquel+7"
+},
+{
+"id": 150008,
+"pt": "Broquel+8"
+},
+{
+"id": 150009,
+"pt": "Broquel+9"
+},
+{
+"id": 150010,
+"pt": "Broquel+10"
+},
+{
+"id": 150021,
+"pt": "Broquel Sombrio+1"
+},
+{
+"id": 150022,
+"pt": "Broquel Sombrio+2"
+},
+{
+"id": 150023,
+"pt": "Broquel Sombrio+3"
+},
+{
+"id": 150024,
+"pt": "Broquel Sombrio+4"
+},
+{
+"id": 150025,
+"pt": "Broquel Sombrio+5"
+},
+{
+"id": 150100,
+"pt": "Escudo de Madeira"
+},
+{
+"id": 150200,
+"pt": "Escudo Pipa"
+},
+{
+"id": 150201,
+"pt": "Escudo Pipa+1"
+},
+{
+"id": 150202,
+"pt": "Escudo Pipa+2"
+},
+{
+"id": 150203,
+"pt": "Escudo Pipa+3"
+},
+{
+"id": 150204,
+"pt": "Escudo Pipa+4"
+},
+{
+"id": 150205,
+"pt": "Escudo Pipa+5"
+},
+{
+"id": 150206,
+"pt": "Escudo Pipa+6"
+},
+{
+"id": 150207,
+"pt": "Escudo Pipa+7"
+},
+{
+"id": 150208,
+"pt": "Escudo Pipa+8"
+},
+{
+"id": 150209,
+"pt": "Escudo Pipa+9"
+},
+{
+"id": 150210,
+"pt": "Escudo Pipa+10"
+},
+{
+"id": 150221,
+"pt": "Escudo Pipa Sombrio+1"
+},
+{
+"id": 150222,
+"pt": "Escudo Pipa Sombrio+2"
+},
+{
+"id": 150223,
+"pt": "Escudo Pipa Sombrio+3"
+},
+{
+"id": 150224,
+"pt": "Escudo Pipa Sombrio+4"
+},
+{
+"id": 150225,
+"pt": "Escudo Pipa Sombrio+5"
+},
+{
+"id": 150300,
+"pt": "Escudo Triangular"
+},
+{
+"id": 150301,
+"pt": "Escudo Triangular+1"
+},
+{
+"id": 150302,
+"pt": "Escudo Triangular+2"
+},
+{
+"id": 150303,
+"pt": "Escudo Triangular+3"
+},
+{
+"id": 150304,
+"pt": "Escudo Triangular+4"
+},
+{
+"id": 150305,
+"pt": "Escudo Triangular+5"
+},
+{
+"id": 150306,
+"pt": "Escudo Triangular+6"
+},
+{
+"id": 150307,
+"pt": "Escudo Triangular+7"
+},
+{
+"id": 150308,
+"pt": "Escudo Triangular+8"
+},
+{
+"id": 150309,
+"pt": "Escudo Triangular+9"
+},
+{
+"id": 150310,
+"pt": "Escudo Triangular+10"
+},
+{
+"id": 150321,
+"pt": "Escudo Triangular Sombrio+1"
+},
+{
+"id": 150322,
+"pt": "Escudo Triangular Sombrio+2"
+},
+{
+"id": 150323,
+"pt": "Escudo Triangular Sombrio+3"
+},
+{
+"id": 150324,
+"pt": "Escudo Triangular Sombrio+4"
+},
+{
+"id": 150325,
+"pt": "Escudo Triangular Sombrio+5"
+},
+{
+"id": 150400,
+"pt": "Escudo do Juiz"
+},
+{
+"id": 150401,
+"pt": "Escudo do Juiz+1"
+},
+{
+"id": 150402,
+"pt": "Escudo do Juiz+2"
+},
+{
+"id": 150403,
+"pt": "Escudo do Juiz+3"
+},
+{
+"id": 150404,
+"pt": "Escudo do Juiz+4"
+},
+{
+"id": 150405,
+"pt": "Escudo do Juiz+5"
+},
+{
+"id": 150500,
+"pt": "Escudo de Espinhos"
+},
+{
+"id": 150501,
+"pt": "Escudo de Espinhos+1"
+},
+{
+"id": 150502,
+"pt": "Escudo de Espinhos+2"
+},
+{
+"id": 150503,
+"pt": "Escudo de Espinhos+3"
+},
+{
+"id": 150504,
+"pt": "Escudo de Espinhos+4"
+},
+{
+"id": 150505,
+"pt": "Escudo de Espinhos+5"
+},
+{
+"id": 150506,
+"pt": "Escudo de Espinhos+6"
+},
+{
+"id": 150507,
+"pt": "Escudo de Espinhos+7"
+},
+{
+"id": 150508,
+"pt": "Escudo de Espinhos+8"
+},
+{
+"id": 150509,
+"pt": "Escudo de Espinhos+9"
+},
+{
+"id": 150510,
+"pt": "Escudo de Espinhos+10"
+},
+{
+"id": 150521,
+"pt": "Escudo de Espinhos Afiado+1"
+},
+{
+"id": 150522,
+"pt": "Escudo de Espinhos Afiado+2"
+},
+{
+"id": 150523,
+"pt": "Escudo de Espinhos Afiado+3"
+},
+{
+"id": 150524,
+"pt": "Escudo de Espinhos Afiado+4"
+},
+{
+"id": 150525,
+"pt": "Escudo de Espinhos Afiado+5"
+},
+{
+"id": 150600,
+"pt": "Escudo de Torre"
+},
+{
+"id": 150601,
+"pt": "Escudo de Torre+1"
+},
+{
+"id": 150602,
+"pt": "Escudo de Torre+2"
+},
+{
+"id": 150603,
+"pt": "Escudo de Torre+3"
+},
+{
+"id": 150604,
+"pt": "Escudo de Torre+4"
+},
+{
+"id": 150605,
+"pt": "Escudo de Torre+5"
+},
+{
+"id": 150700,
+"pt": "Escudo de Prata Escura"
+},
+{
+"id": 150701,
+"pt": "Escudo de Prata Escura+1"
+},
+{
+"id": 150702,
+"pt": "Escudo de Prata Escura+2"
+},
+{
+"id": 150703,
+"pt": "Escudo de Prata Escura+3"
+},
+{
+"id": 150704,
+"pt": "Escudo de Prata Escura+4"
+},
+{
+"id": 150705,
+"pt": "Escudo de Prata Escura+5"
+},
+{
+"id": 150800,
+"pt": "Escudo do Soldado"
+},
+{
+"id": 150801,
+"pt": "Escudo do Soldado+1"
+},
+{
+"id": 150802,
+"pt": "Escudo do Soldado+2"
+},
+{
+"id": 150803,
+"pt": "Escudo do Soldado+3"
+},
+{
+"id": 150804,
+"pt": "Escudo do Soldado+4"
+},
+{
+"id": 150805,
+"pt": "Escudo do Soldado+5"
+},
+{
+"id": 150806,
+"pt": "Escudo do Soldado+6"
+},
+{
+"id": 150807,
+"pt": "Escudo do Soldado+7"
+},
+{
+"id": 150808,
+"pt": "Escudo do Soldado+8"
+},
+{
+"id": 150809,
+"pt": "Escudo do Soldado+9"
+},
+{
+"id": 150810,
+"pt": "Escudo do Soldado+10"
+},
+{
+"id": 150821,
+"pt": "Escudo do Soldado Sombrio+1"
+},
+{
+"id": 150822,
+"pt": "Escudo do Soldado Sombrio+2"
+},
+{
+"id": 150823,
+"pt": "Escudo do Soldado Sombrio+3"
+},
+{
+"id": 150824,
+"pt": "Escudo do Soldado Sombrio+4"
+},
+{
+"id": 150825,
+"pt": "Escudo do Soldado Sombrio+5"
+},
+{
+"id": 150900,
+"pt": "Escudo do Cavaleiro"
+},
+{
+"id": 150901,
+"pt": "Escudo do Cavaleiro+1"
+},
+{
+"id": 150902,
+"pt": "Escudo do Cavaleiro+2"
+},
+{
+"id": 150903,
+"pt": "Escudo do Cavaleiro+3"
+},
+{
+"id": 150904,
+"pt": "Escudo do Cavaleiro+4"
+},
+{
+"id": 150905,
+"pt": "Escudo do Cavaleiro+5"
+},
+{
+"id": 150906,
+"pt": "Escudo do Cavaleiro+6"
+},
+{
+"id": 150907,
+"pt": "Escudo do Cavaleiro+7"
+},
+{
+"id": 150908,
+"pt": "Escudo do Cavaleiro+8"
+},
+{
+"id": 150909,
+"pt": "Escudo do Cavaleiro+9"
+},
+{
+"id": 150910,
+"pt": "Escudo do Cavaleiro+10"
+},
+{
+"id": 150921,
+"pt": "Escudo do Cavaleiro Sombrio+1"
+},
+{
+"id": 150922,
+"pt": "Escudo do Cavaleiro Sombrio+2"
+},
+{
+"id": 150923,
+"pt": "Escudo do Cavaleiro Sombrio+3"
+},
+{
+"id": 150924,
+"pt": "Escudo do Cavaleiro Sombrio+4"
+},
+{
+"id": 150925,
+"pt": "Escudo do Cavaleiro Sombrio+5"
+},
+{
+"id": 151000,
+"pt": "Escudo do Escravo"
+},
+{
+"id": 151100,
+"pt": "Escudo de Runas"
+},
+{
+"id": 151101,
+"pt": "Escudo de Runas+1"
+},
+{
+"id": 151102,
+"pt": "Escudo de Runas+2"
+},
+{
+"id": 151103,
+"pt": "Escudo de Runas+3"
+},
+{
+"id": 151104,
+"pt": "Escudo de Runas+4"
+},
+{
+"id": 151105,
+"pt": "Escudo de Runas+5"
+},
+{
+"id": 151200,
+"pt": "Grande Escudo de Gravetos"
+},
+{
+"id": 151201,
+"pt": "Grande Escudo de Gravetos+1"
+},
+{
+"id": 151202,
+"pt": "Grande Escudo de Gravetos+2"
+},
+{
+"id": 151203,
+"pt": "Grande Escudo de Gravetos+3"
+},
+{
+"id": 151204,
+"pt": "Grande Escudo de Gravetos+4"
+},
+{
+"id": 151205,
+"pt": "Grande Escudo de Gravetos+5"
+},
+{
+"id": 151300,
+"pt": "Escudo de Aço"
+},
+{
+"id": 151301,
+"pt": "Escudo de Aço+1"
+},
+{
+"id": 151302,
+"pt": "Escudo de Aço+2"
+},
+{
+"id": 151303,
+"pt": "Escudo de Aço+3"
+},
+{
+"id": 151304,
+"pt": "Escudo de Aço+4"
+},
+{
+"id": 151305,
+"pt": "Escudo de Aço+5"
+},
+{
+"id": 151306,
+"pt": "Escudo de Aço+6"
+},
+{
+"id": 151307,
+"pt": "Escudo de Aço+7"
+},
+{
+"id": 151308,
+"pt": "Escudo de Aço+8"
+},
+{
+"id": 151309,
+"pt": "Escudo de Aço+9"
+},
+{
+"id": 151310,
+"pt": "Escudo de Aço+10"
+},
+{
+"id": 151321,
+"pt": "Escudo de Aço Sombrio+1"
+},
+{
+"id": 151322,
+"pt": "Escudo de Aço Sombrio+2"
+},
+{
+"id": 151323,
+"pt": "Escudo de Aço Sombrio+3"
+},
+{
+"id": 151324,
+"pt": "Escudo de Aço Sombrio+4"
+},
+{
+"id": 151325,
+"pt": "Escudo de Aço Sombrio+5"
+},
+{
+"id": 151400,
+"pt": "Escudo da Chama Púrpura"
+},
+{
+"id": 151401,
+"pt": "Escudo da Chama Púrpura+1"
+},
+{
+"id": 151402,
+"pt": "Escudo da Chama Púrpura+2"
+},
+{
+"id": 151403,
+"pt": "Escudo da Chama Púrpura+3"
+},
+{
+"id": 151404,
+"pt": "Escudo da Chama Púrpura+4"
+},
+{
+"id": 151405,
+"pt": "Escudo da Chama Púrpura+5"
+},
+{
+"id": 151406,
+"pt": "Escudo da Chama Púrpura+6"
+},
+{
+"id": 151407,
+"pt": "Escudo da Chama Púrpura+7"
+},
+{
+"id": 151408,
+"pt": "Escudo da Chama Púrpura+8"
+},
+{
+"id": 151409,
+"pt": "Escudo da Chama Púrpura+9"
+},
+{
+"id": 151410,
+"pt": "Escudo da Chama Púrpura+10"
+},
+{
+"id": 151421,
+"pt": "Escudo da Chama Púrpura Sombrio+1"
+},
+{
+"id": 151422,
+"pt": "Escudo da Chama Púrpura Sombrio+2"
+},
+{
+"id": 151423,
+"pt": "Escudo da Chama Púrpura Sombrio+3"
+},
+{
+"id": 151424,
+"pt": "Escudo da Chama Púrpura Sombrio+4"
+},
+{
+"id": 151425,
+"pt": "Escudo da Chama Púrpura Sombrio+5"
+},
+{
+"id": 151500,
+"pt": "Escudo de Couro"
+},
+{
+"id": 160000,
+"pt": "Flecha"
+},
+{
+"id": 160100,
+"pt": "Flecha Pesada"
+},
+{
+"id": 160200,
+"pt": "Flecha Leve"
+},
+{
+"id": 160400,
+"pt": "Flecha de Fogo"
+},
+{
+"id": 160500,
+"pt": "Flecha Podre"
+},
+{
+"id": 160600,
+"pt": "Flecha Sagrada"
+},
+{
+"id": 160700,
+"pt": "Flecha Branca"
+},
+{
+"id": 160800,
+"pt": "Flecha de Madeira"
+},
+{
+"id": 170000,
+"pt": "Virote"
+},
+{
+"id": 170100,
+"pt": "Virote Pesado"
+},
+{
+"id": 170200,
+"pt": "Virote Negro"
+},
+{
+"id": 170300,
+"pt": "Virote de Madeira"
+}
+]
+}

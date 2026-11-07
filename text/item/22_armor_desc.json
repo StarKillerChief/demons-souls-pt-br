@@ -1,0 +1,317 @@
+{
+"fmg": 22,
+"category": "armor_desc",
+"bnd": "item",
+"jp_name": "防具説明.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100000,
+"pt": "Apenas Feminino"
+},
+{
+"id": 100100,
+"pt": "Unissex"
+},
+{
+"id": 100200,
+"pt": "Unissex"
+},
+{
+"id": 100300,
+"pt": "Unissex"
+},
+{
+"id": 100400,
+"pt": "Unissex"
+},
+{
+"id": 100500,
+"pt": "Unissex"
+},
+{
+"id": 100600,
+"pt": "Unissex"
+},
+{
+"id": 100700,
+"pt": "Unissex"
+},
+{
+"id": 100800,
+"pt": "Unissex"
+},
+{
+"id": 100900,
+"pt": "Apenas Masculino"
+},
+{
+"id": 101000,
+"pt": "Unissex"
+},
+{
+"id": 101100,
+"pt": "Apenas Masculino"
+},
+{
+"id": 101400,
+"pt": "Apenas Masculino"
+},
+{
+"id": 101700,
+"pt": "Nu"
+},
+{
+"id": 101800,
+"pt": "Unissex"
+},
+{
+"id": 101900,
+"pt": "Apenas Feminino"
+},
+{
+"id": 102000,
+"pt": "Apenas Feminino"
+},
+{
+"id": 102100,
+"pt": "Apenas Feminino"
+},
+{
+"id": 180000,
+"pt": "Unissex"
+},
+{
+"id": 200000,
+"pt": "Apenas Masculino"
+},
+{
+"id": 200100,
+"pt": "Unissex"
+},
+{
+"id": 200200,
+"pt": "Unissex"
+},
+{
+"id": 200300,
+"pt": "Unissex"
+},
+{
+"id": 200400,
+"pt": "Unissex"
+},
+{
+"id": 200500,
+"pt": "Unissex"
+},
+{
+"id": 200600,
+"pt": "Unissex"
+},
+{
+"id": 200700,
+"pt": "Unissex"
+},
+{
+"id": 200800,
+"pt": "Unissex"
+},
+{
+"id": 200900,
+"pt": "Apenas Masculino"
+},
+{
+"id": 201000,
+"pt": "Unissex"
+},
+{
+"id": 201100,
+"pt": "Apenas Masculino"
+},
+{
+"id": 201200,
+"pt": "Apenas Masculino"
+},
+{
+"id": 201400,
+"pt": "Apenas Masculino"
+},
+{
+"id": 201700,
+"pt": "Nu"
+},
+{
+"id": 201800,
+"pt": "Apenas Feminino"
+},
+{
+"id": 201900,
+"pt": "Apenas Feminino"
+},
+{
+"id": 202000,
+"pt": "Apenas Feminino"
+},
+{
+"id": 202100,
+"pt": "Apenas Feminino"
+},
+{
+"id": 300000,
+"pt": "Apenas Masculino"
+},
+{
+"id": 300100,
+"pt": "Unissex"
+},
+{
+"id": 300200,
+"pt": "Unissex"
+},
+{
+"id": 300300,
+"pt": "Unissex"
+},
+{
+"id": 300400,
+"pt": "Unissex"
+},
+{
+"id": 300500,
+"pt": "Unissex"
+},
+{
+"id": 300600,
+"pt": "Unissex"
+},
+{
+"id": 300700,
+"pt": "Unissex"
+},
+{
+"id": 300800,
+"pt": "Unissex"
+},
+{
+"id": 300900,
+"pt": "Apenas Masculino"
+},
+{
+"id": 301000,
+"pt": "Unissex"
+},
+{
+"id": 301100,
+"pt": "Apenas Masculino"
+},
+{
+"id": 301200,
+"pt": "Apenas Masculino"
+},
+{
+"id": 301400,
+"pt": "Apenas Masculino"
+},
+{
+"id": 301500,
+"pt": "Nu"
+},
+{
+"id": 301700,
+"pt": "Apenas Feminino"
+},
+{
+"id": 301800,
+"pt": "Apenas Feminino"
+},
+{
+"id": 301900,
+"pt": "Apenas Feminino"
+},
+{
+"id": 302000,
+"pt": "Apenas Feminino"
+},
+{
+"id": 302100,
+"pt": "Apenas Feminino"
+},
+{
+"id": 400000,
+"pt": "Apenas Masculino"
+},
+{
+"id": 400100,
+"pt": "Unissex"
+},
+{
+"id": 400200,
+"pt": "Unissex"
+},
+{
+"id": 400300,
+"pt": "Unissex"
+},
+{
+"id": 400400,
+"pt": "Unissex"
+},
+{
+"id": 400500,
+"pt": "Unissex"
+},
+{
+"id": 400600,
+"pt": "Unissex"
+},
+{
+"id": 400700,
+"pt": "Unissex"
+},
+{
+"id": 400800,
+"pt": "Unissex"
+},
+{
+"id": 400900,
+"pt": "Apenas Masculino"
+},
+{
+"id": 401000,
+"pt": "Unissex"
+},
+{
+"id": 401100,
+"pt": "Apenas Masculino"
+},
+{
+"id": 401200,
+"pt": "Apenas Masculino"
+},
+{
+"id": 401400,
+"pt": "Apenas Masculino"
+},
+{
+"id": 401500,
+"pt": "Nu"
+},
+{
+"id": 401800,
+"pt": "Apenas Feminino"
+},
+{
+"id": 401900,
+"pt": "Apenas Feminino"
+},
+{
+"id": 402000,
+"pt": "Apenas Feminino"
+},
+{
+"id": 402100,
+"pt": "Apenas Feminino"
+}
+]
+}

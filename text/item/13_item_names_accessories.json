@@ -1,0 +1,113 @@
+{
+"fmg": 13,
+"category": "item_names_accessories",
+"bnd": "item",
+"jp_name": "アクセサリ名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100,
+"pt": "Anel da Grande Força"
+},
+{
+"id": 101,
+"pt": "Anel da Força Hercúlea"
+},
+{
+"id": 102,
+"pt": "Anel do Rato Astuto"
+},
+{
+"id": 103,
+"pt": "Anel do Rato Tapado"
+},
+{
+"id": 104,
+"pt": "Anel do Guerreiro Eterno"
+},
+{
+"id": 105,
+"pt": "Anel Fragrante"
+},
+{
+"id": 106,
+"pt": "Anel do Regenerador"
+},
+{
+"id": 107,
+"pt": "Anel da Resistência ao Fogo"
+},
+{
+"id": 108,
+"pt": "Anel da Resistência ao Veneno"
+},
+{
+"id": 109,
+"pt": "Anel da Agudeza Mágica"
+},
+{
+"id": 110,
+"pt": "Anel da Embotação Mágica"
+},
+{
+"id": 111,
+"pt": "Anel da Natureza Mágica"
+},
+{
+"id": 112,
+"pt": "Anel da Oração Sincera"
+},
+{
+"id": 113,
+"pt": "Anel Aderente"
+},
+{
+"id": 114,
+"pt": "Anel do Amigo"
+},
+{
+"id": 115,
+"pt": "Anel do Inimigo"
+},
+{
+"id": 116,
+"pt": "Anel do Ladrão"
+},
+{
+"id": 117,
+"pt": "Anel do Saqueador"
+},
+{
+"id": 118,
+"pt": "Anel do Gato"
+},
+{
+"id": 119,
+"pt": "Anel dos Amaldiçoados"
+},
+{
+"id": 120,
+"pt": "Anel da Avareza"
+},
+{
+"id": 121,
+"pt": "Anel do Ronin"
+},
+{
+"id": 123,
+"pt": "Anel do Mestre"
+},
+{
+"id": 124,
+"pt": "Anel da Oração Devota"
+},
+{
+"id": 125,
+"pt": "Anel da Resistência a Cortes"
+},
+{
+"id": 126,
+"pt": "Anel da Resistência a Doenças"
+}
+]
+}

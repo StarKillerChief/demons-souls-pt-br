@@ -1,0 +1,429 @@
+{
+"fmg": 79,
+"category": "menu_keyguide",
+"bnd": "menu",
+"jp_name": "キーガイド.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 10000,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 10001,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 10002,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 10003,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 10004,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 10005,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 11000,
+"pt": "<?selectAll?>:Selecionar　<?conclusion?>:Menu de Comandos　<?cancel?>:Fechar　<?commando?>:Mudar Lista de Itens　<?viewChange?>:Mudar Exibição de Status"
+},
+{
+"id": 11001,
+"pt": "<?selectAll?>:Selecionar　<?conclusion?>:Menu de Comandos　<?cancel?>:Fechar　<?commando?>:Mudar Lista de Itens　<?viewChange?>:Mudar Exibição de Status"
+},
+{
+"id": 11002,
+"pt": "<?selectUD?>:Selecionar　<?conclusion?>:Confirmar　<?cancel?>:Normal　<?viewChange?>:Mudar Exibição de Status"
+},
+{
+"id": 11003,
+"pt": "<?selectUD?>:Selecionar　<?conclusion?>:Confirmar　<?cancel?>:Cancelar　<?viewChange?>:Mudar Exibição de Status"
+},
+{
+"id": 11004,
+"pt": "<?selectUD?>:Selecionar　<?conclusion?>:Confirmar　<?cancel?>:Fechar"
+},
+{
+"id": 11005,
+"pt": "<?selectUD?>:Selecionar　<?conclusion?>:Confirmar　<?cancel?>:Fechar"
+},
+{
+"id": 11006,
+"pt": "<?selectUD?>:Selecionar　<?conclusion?>:Confirmar　<?cancel?>:Fechar"
+},
+{
+"id": 11007,
+"pt": "<?selectUD?>:Selecionar　<?conclusion?>:Confirmar　<?cancel?>:Fechar"
+},
+{
+"id": 12000,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar <?commando?>:Desequipar Item　<?viewChange?>:Mudar Exibição de Status"
+},
+{
+"id": 12001,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Voltar <?commando?>:Mudar Lista de Itens <?viewChange?>:Mudar Exibição de Status"
+},
+{
+"id": 14000,
+"pt": "<?slectMenuSwitch?>Guia de Atributos <?cancel?>:Fechar"
+},
+{
+"id": 15000,
+"pt": "<?cancel?>:Fechar"
+},
+{
+"id": 16000,
+"pt": "<?selectUD?>:Selecionar Opção　<?selectLR?>:Mudar Opção　<?cancel?>:Voltar"
+},
+{
+"id": 16001,
+"pt": "<?selectUD?>:Selecionar Opção　<?selectLR?>:Mudar Opção"
+},
+{
+"id": 16003,
+"pt": "<?conclusion?>:Confirmar <?cancel?>:Voltar"
+},
+{
+"id": 16004,
+"pt": "<?conclusion?>:Confirmar "
+},
+{
+"id": 16005,
+"pt": "<?conclusion?>:Confirmar <?cancel?>:Voltar"
+},
+{
+"id": 16006,
+"pt": "<?conclusion?>:Confirmar"
+},
+{
+"id": 16500,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 16501,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 16502,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 17301,
+"pt": "<?viewChange?>:Alternar"
+},
+{
+"id": 17400,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Cancelar"
+},
+{
+"id": 17800,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar"
+},
+{
+"id": 17801,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Cancelar"
+},
+{
+"id": 17802,
+"pt": "<?selectLR?>:Selecionar <?conclusion?>:Confirmar"
+},
+{
+"id": 17900,
+"pt": "<?conclusion?>:Fechar"
+},
+{
+"id": 18000,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Cancelar"
+},
+{
+"id": 18200,
+"pt": "<?cancel?>:Fechar <?viewChange?>:Mudar Exibição"
+},
+{
+"id": 18201,
+"pt": "<?cancel?>:Fechar <?viewChange?>:Mudar Exibição"
+},
+{
+"id": 18202,
+"pt": "<?selectAll?>:Selecionar <?cancel?>:Fechar <?viewChange?>:Mudar Exibição"
+},
+{
+"id": 20000,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Sair"
+},
+{
+"id": 20001,
+"pt": "<?selectLR?>:Selecionar Alma <?conclusion?>: Confirmar <?cancel?>:Cancelar"
+},
+{
+"id": 22000,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Liberar <?cancel?>:Sair"
+},
+{
+"id": 22001,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Memorizar <?cancel?>:Sair"
+},
+{
+"id": 22002,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Memorizar <?cancel?>:Sair"
+},
+{
+"id": 22003,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Liberar <?cancel?>:Sair"
+},
+{
+"id": 23000,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Depositar <?cancel?>:Sair <?commando?>:Mudar Lista de Itens"
+},
+{
+"id": 23001,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Remover <?cancel?>:Sair <?commando?>:Mudar Lista de Itens <?viewChange?>:Menu de Comandos"
+},
+{
+"id": 23003,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Normal"
+},
+{
+"id": 23004,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Cancelar"
+},
+{
+"id": 23005,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 23006,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 23007,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 23008,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 30000,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Comprar <?cancel?>:Sair <?commando?>:Mudar Lista de Itens"
+},
+{
+"id": 31000,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Organizar <?cancel?>:Sair <?commando?>:Mudar Lista de Itens"
+},
+{
+"id": 32000,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Sair <?commando?>:Mudar Lista de Itens"
+},
+{
+"id": 32001,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Voltar <?commando?>:Mudar Lista de Itens"
+},
+{
+"id": 34000,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Comprar <?cancel?>:Sair"
+},
+{
+"id": 34001,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Sair"
+},
+{
+"id": 35000,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Sair"
+},
+{
+"id": 35300,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Sair"
+},
+{
+"id": 41000,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar <?commando?>:Excluir"
+},
+{
+"id": 41001,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Fechar"
+},
+{
+"id": 41002,
+"pt": "<?selectUD?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Voltar"
+},
+{
+"id": 42000,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Selecionar <?cancel?>:Voltar <?spin?>:Girar Personagem"
+},
+{
+"id": 42001,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Mudar Item <?cancel?>:Voltar <?spin?>:Girar Personagem"
+},
+{
+"id": 42002,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Mudar Item <?cancel?>:Voltar <?spin?>:Girar Personagem"
+},
+{
+"id": 42003,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Selecionar <?cancel?>:Voltar <?spin?>:Girar Personagem"
+},
+{
+"id": 42004,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Selecionar <?cancel?>:Voltar <?spin?>:Girar Personagem"
+},
+{
+"id": 43001,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Mudar Item <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43002,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Selecionar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43003,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Selecionar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43004,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Quantidade +/- <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43005,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Quantidade +/- <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43006,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Selecionar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43011,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Mudar Item <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43012,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Mudar Item <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43101,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43102,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43103,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43104,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43105,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43106,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43107,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43108,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43109,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43201,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43202,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43203,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43204,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43205,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43206,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43207,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43208,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43209,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43210,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43211,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43212,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43213,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43214,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43215,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43216,
+"pt": "<?selectLR?>:Mudar Categorias <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43501,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Quantidade +/- <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43502,
+"pt": "<?selectUD?>:Selecionar Item <?selectLR?>:Mudar Item <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 43503,
+"pt": "<?selectUD?>:Selecionar Item <?conclusion?>:Confirmar <?cancel?>:Voltar <?spin?>:Girar Rosto"
+},
+{
+"id": 44000,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Sair"
+},
+{
+"id": 44001,
+"pt": "<?selectAll?>:Selecionar <?conclusion?>:Confirmar <?cancel?>:Cancelar"
+}
+]
+}

@@ -1,0 +1,33 @@
+{
+"fmg": 19,
+"category": "place_names",
+"bnd": "item",
+"jp_name": "地名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 90000,
+"pt": "O Nexus"
+},
+{
+"id": 90001,
+"pt": "Palácio de Boletaria"
+},
+{
+"id": 90002,
+"pt": "Santuário das Tempestades"
+},
+{
+"id": 90003,
+"pt": "Torre de Latria"
+},
+{
+"id": 90004,
+"pt": "Vale da Profanação"
+},
+{
+"id": 90005,
+"pt": "Túnel de Stonefang"
+}
+]
+}

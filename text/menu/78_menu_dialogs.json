@@ -1,0 +1,521 @@
+{
+"fmg": 78,
+"category": "menu_dialogs",
+"bnd": "menu",
+"jp_name": "ダイアログ.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 2,
+"pt": "CANCELAR"
+},
+{
+"id": 3,
+"pt": "SIM"
+},
+{
+"id": 4,
+"pt": "NÃO"
+},
+{
+"id": 5,
+"pt": "Aceitar"
+},
+{
+"id": 6,
+"pt": "Não Aceitar"
+},
+{
+"id": 11000,
+"pt": "Selecione a quantidade de itens a descartar."
+},
+{
+"id": 11002,
+"pt": "Reordenar automaticamente todos os itens?"
+},
+{
+"id": 11003,
+"pt": "Descartar item?"
+},
+{
+"id": 12010,
+"pt": "Você não pode equipar dois anéis iguais."
+},
+{
+"id": 12020,
+"pt": "Você não pode retirar o anel selecionado;\nele aliviaria demais a sua carga."
+},
+{
+"id": 12021,
+"pt": "<?removeMagic?> será desativada\npara poupar capacidade de magia."
+},
+{
+"id": 12030,
+"pt": "Você não tem força para usar isto com uma só mão.\nContudo, poderá usá-lo com eficácia se o empunhar\ncom as duas mãos."
+},
+{
+"id": 12031,
+"pt": "Você não tem habilidade para usar esta arma.\nSua eficácia em batalha será reduzida."
+},
+{
+"id": 16000,
+"pt": "Redefinir opções?"
+},
+{
+"id": 16001,
+"pt": "Cancelar as alterações de opções e voltar?"
+},
+{
+"id": 16500,
+"pt": "Sair do jogo e voltar à Tela de Título?"
+},
+{
+"id": 17800,
+"pt": "Alguns jogadores não foram avaliados"
+},
+{
+"id": 17804,
+"pt": "A avaliação lhe concedeu <?getSoulNum?> Almas"
+},
+{
+"id": 18000,
+"pt": "Ir para a área selecionada?"
+},
+{
+"id": 18100,
+"pt": "Dispensar o Fantasma selecionado?"
+},
+{
+"id": 18400,
+"pt": "Deseja recomendar esta mensagem?"
+},
+{
+"id": 18401,
+"pt": "Você não tem mensagens anteriores."
+},
+{
+"id": 18500,
+"pt": "Prisão da Esperança, Oeste-4º And."
+},
+{
+"id": 18501,
+"pt": "Prisão da Esperança, Leste-4º And."
+},
+{
+"id": 18502,
+"pt": "Prisão da Esperança, Oeste-3º And."
+},
+{
+"id": 18503,
+"pt": "Prisão da Esperança, Leste-3º And."
+},
+{
+"id": 18504,
+"pt": "Prisão da Esperança, Oeste-2º And."
+},
+{
+"id": 18505,
+"pt": "Prisão da Esperança, Leste-2º And."
+},
+{
+"id": 18506,
+"pt": "Prisão da Esperança, Oeste-1º And."
+},
+{
+"id": 18507,
+"pt": "Prisão da Esperança, Leste-1º And."
+},
+{
+"id": 20002,
+"pt": "Sua capacidade de magias aumentou."
+},
+{
+"id": 20003,
+"pt": "Sua capacidade de Milagres aumentou."
+},
+{
+"id": 20010,
+"pt": "<?primParam?> não pode ser aumentado mais."
+},
+{
+"id": 22001,
+"pt": "Esta magia já foi registrada."
+},
+{
+"id": 22002,
+"pt": "Você não tem capacidade suficiente."
+},
+{
+"id": 22003,
+"pt": "Você não tem nenhuma magia."
+},
+{
+"id": 23000,
+"pt": "Descartar todo o item selecionado?"
+},
+{
+"id": 23001,
+"pt": "Isto o sobrecarregará.\nReduza o peso dos itens."
+},
+{
+"id": 23002,
+"pt": "Você não pode depositar mais deste item."
+},
+{
+"id": 23003,
+"pt": "Você não pode carregar mais deste item."
+},
+{
+"id": 23005,
+"pt": "Descartar item?"
+},
+{
+"id": 23006,
+"pt": "Você não pode depositar mais itens."
+},
+{
+"id": 23007,
+"pt": "Você não pode carregar mais itens."
+},
+{
+"id": 23010,
+"pt": "Selecione a quantidade de itens a transferir."
+},
+{
+"id": 30000,
+"pt": "Comprar sob estas condições?\nAlmas necessárias: <?demandSoul?>"
+},
+{
+"id": 30001,
+"pt": "Comprar sob estas condições?\nAlmas necessárias: <?demandSoul?>"
+},
+{
+"id": 30002,
+"pt": "Você não tem Almas suficientes."
+},
+{
+"id": 30003,
+"pt": "Você não pode carregar mais deste item."
+},
+{
+"id": 30004,
+"pt": "Você não pode comprar isto. Ficará\nsobrecarregado."
+},
+{
+"id": 30006,
+"pt": "Não há nada que você possa comprar."
+},
+{
+"id": 30007,
+"pt": "Você não pode carregar mais itens."
+},
+{
+"id": 31000,
+"pt": "Reparar sob estas condições?\nAlmas necessárias: <?demandSoul?>"
+},
+{
+"id": 31001,
+"pt": "Você não tem Almas suficientes."
+},
+{
+"id": 31002,
+"pt": "Nenhum de seus equipamentos precisa de reparo."
+},
+{
+"id": 32000,
+"pt": "Forjar sob estas condições?\nAlmas necessárias: <?demandSoul?>"
+},
+{
+"id": 32001,
+"pt": "Você não tem Almas suficientes."
+},
+{
+"id": 32002,
+"pt": "Você não tem os materiais necessários\npara o aprimoramento."
+},
+{
+"id": 32003,
+"pt": "Você não tem nenhuma arma que possa\nser aprimorada."
+},
+{
+"id": 32004,
+"pt": "Você não pode aprimorar isto, ou ficará\nsobrecarregado."
+},
+{
+"id": 32006,
+"pt": "Restaurar esta arma ao estado básico?\n(Os materiais usados não serão devolvidos.)"
+},
+{
+"id": 32007,
+"pt": "Você não pode aprimorar isto; você já\ncarrega o resultado do aprimoramento."
+},
+{
+"id": 35000,
+"pt": "Aprender a magia selecionada?"
+},
+{
+"id": 35010,
+"pt": "Não há magias a aprender."
+},
+{
+"id": 35300,
+"pt": "Aprender o milagre selecionado?"
+},
+{
+"id": 35310,
+"pt": "Não há milagres a aprender."
+},
+{
+"id": 35600,
+"pt": "Você não tem Almas suficientes."
+},
+{
+"id": 35601,
+"pt": "Você não tem a Alma de Demônio\nnecessária."
+},
+{
+"id": 41000,
+"pt": "Isto apagará os dados do seu perfil.\nContinuar?"
+},
+{
+"id": 41100,
+"pt": "Carregar o perfil e sair do jogo atual?"
+},
+{
+"id": 42000,
+"pt": "Descartar o personagem e voltar à tela de título?"
+},
+{
+"id": 42001,
+"pt": "Você não inseriu o nome do personagem."
+},
+{
+"id": 42500,
+"pt": "Cancelar a criação do personagem e voltar à\nTela de Título?"
+},
+{
+"id": 43001,
+"pt": "Alterar o gênero fará com que os dados de\naparência editados sejam perdidos."
+},
+{
+"id": 44000,
+"pt": "Deixar esta mensagem?"
+},
+{
+"id": 44010,
+"pt": "Deseja deixar uma mensagem?"
+},
+{
+"id": 44500,
+"pt": "Cancelar esta mensagem?"
+},
+{
+"id": 45000,
+"pt": "Este jogo é compatível com o recurso de\nsalvamento automático de dados do sistema.\nNão desligue o sistema enquanto o indicador\nde acesso ao HDD estiver piscando."
+},
+{
+"id": 45100,
+"pt": "Não há espaço livre suficiente no HDD.\nPara jogar Demon's Souls, são necessários pelo menos 53,6 MB.\n\nSaia do jogo e apague do HDD os dados desnecessários."
+},
+{
+"id": 45103,
+"pt": "Não há espaço livre suficiente no HDD.\nPara instalar os Dados de Troféus, são necessários\npelo menos <?dataSize?>d KB de espaço.\n\nSelecione [OK] para iniciar o Utilitário de Exclusão de DADOS SALVOS.\nSelecione [CANCELAR] para cancelar a instalação."
+},
+{
+"id": 45110,
+"pt": "Os DADOS SALVOS estão corrompidos."
+},
+{
+"id": 45111,
+"pt": "Os DADOS SALVOS estão corrompidos.\nDeseja criar novos DADOS SALVOS?\nOs DADOS SALVOS atuais serão sobrescritos.\n\nEscolha CANCELAR para tentar recarregá-los."
+},
+{
+"id": 45120,
+"pt": "Falha ao carregar os DADOS SALVOS."
+},
+{
+"id": 45121,
+"pt": "Falha ao carregar os DADOS SALVOS.\nDeseja criar novos DADOS SALVOS?\nOs DADOS SALVOS atuais serão sobrescritos.\n\nEscolha CANCELAR para tentar recarregá-los."
+},
+{
+"id": 45130,
+"pt": "Falha ao recuperar os DADOS SALVOS.\nDeseja criar novos DADOS SALVOS?\nOs DADOS SALVOS atuais serão sobrescritos.\n\nEscolha CANCELAR para tentar recuperá-los."
+},
+{
+"id": 45200,
+"pt": "Falha ao salvar os DADOS SALVOS."
+},
+{
+"id": 45201,
+"pt": "Falha ao salvar os DADOS SALVOS."
+},
+{
+"id": 45250,
+"pt": "Falha ao instalar o Conjunto de Troféus.\nSaia do jogo e reabra\nDemon's Souls para reinstalar."
+},
+{
+"id": 45300,
+"pt": "Recuperar e recriar os DADOS SALVOS?\n\nRecriar os DADOS SALVOS fará com que os\ndados dos itens depositados sejam perdidos."
+},
+{
+"id": 45400,
+"pt": "Os espaços de perfil estão cheios. Criar um novo perfil\nescolhendo um existente para sobrescrever? (A\nsobrescrita só ocorrerá ao concluir a criação do perfil.)\n\n*Você só pode criar até 4 perfis."
+},
+{
+"id": 45500,
+"pt": "Deseja jogar a jornada até o Nexus?"
+},
+{
+"id": 47000,
+"pt": "Verificando o número de arquivos"
+},
+{
+"id": 47100,
+"pt": "Carregando DADOS SALVOS...\nNão desligue o sistema."
+},
+{
+"id": 47101,
+"pt": "Verificando DADOS SALVOS...\nNão desligue o sistema."
+},
+{
+"id": 47102,
+"pt": "Carregando...\nNão desligue o sistema."
+},
+{
+"id": 47110,
+"pt": "Atualizando DADOS SALVOS...\nNão desligue o sistema."
+},
+{
+"id": 47111,
+"pt": "Atualizando DADOS SALVOS...\nNão desligue o sistema."
+},
+{
+"id": 47112,
+"pt": "Criando DADOS SALVOS...\nNão desligue o sistema."
+},
+{
+"id": 47113,
+"pt": "Excluindo perfil...\nNão desligue o sistema."
+},
+{
+"id": 47120,
+"pt": "Redefinindo o Conjunto de Troféus...\nNão desligue o sistema."
+},
+{
+"id": 47121,
+"pt": "Verificando o Conjunto de Troféus...\nNão desligue o sistema."
+},
+{
+"id": 48000,
+"pt": "Descartar alterações e voltar."
+},
+{
+"id": 50001,
+"pt": "Obtendo dados de ranking..."
+},
+{
+"id": 50002,
+"pt": "Os dados de ranking não podem ser obtidos no Modo Offline."
+},
+{
+"id": 50101,
+"pt": "Conectando ao servidor de Demon's Souls...\nNão desconecte o sistema da internet.\nNão desligue o sistema."
+},
+{
+"id": 50102,
+"pt": "Não foi possível conectar ao servidor de Demon's Souls.\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 50103,
+"pt": "Os logins nesta conta estão bloqueados no momento."
+},
+{
+"id": 50104,
+"pt": "Os logins nesta conta estão bloqueados no momento."
+},
+{
+"id": 50105,
+"pt": "Você não tem novas mensagens."
+},
+{
+"id": 50201,
+"pt": "Não foi possível conectar ao servidor de Demon's Souls.\nCriação de conta cancelada.\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 50202,
+"pt": "Não foi possível conectar ao servidor de Demon's Souls.\nCriação de conta cancelada.\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 50203,
+"pt": "Você deve concordar com os TERMOS COMPLEMENTARES para\ncriar uma conta. Criação de conta cancelada."
+},
+{
+"id": 50204,
+"pt": "Acessando os TERMOS COMPLEMENTARES..."
+},
+{
+"id": 50301,
+"pt": "Isto criará uma nova conta.\nDeseja continuar?"
+},
+{
+"id": 50302,
+"pt": "Falha na criação da conta. Para saber o estado do\nServiço Online, consulte a página de Suporte\nem Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 50303,
+"pt": "Criando Conta"
+},
+{
+"id": 50401,
+"pt": "Falha ao iniciar o jogo.\nVoltando à Tela de Título..."
+},
+{
+"id": 50402,
+"pt": "Iniciando Jogo"
+},
+{
+"id": 50501,
+"pt": "Iniciar o jogo no Modo Offline."
+},
+{
+"id": 50502,
+"pt": "Não foi possível conectar ao servidor de Demon's Souls.\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 50503,
+"pt": "O Bloqueio Parental está ativado na sua\nconta da PlayStation®Network.\nO Serviço Online não pode ser usado."
+},
+{
+"id": 50504,
+"pt": "Você não está conectado. É preciso se conectar\npara acessar o Jogo em Rede.\nDeseja se conectar?"
+},
+{
+"id": 50505,
+"pt": "Ocorreu um erro de rede.\nNão é possível acessar o Jogo em Rede.\nIniciando o Modo Offline."
+},
+{
+"id": 50506,
+"pt": "O Jogo em Rede não pode ser usado nesta\nversão. Iniciando o Modo Offline."
+},
+{
+"id": 51000,
+"pt": "Não foi possível conectar ao servidor de Demon's Souls.\nVoltando ao Menu Principal...\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 51100,
+"pt": "Você se desconectou da\nPlayStation®Network.\nVoltando à Tela de Título..."
+},
+{
+"id": 51200,
+"pt": "O servidor de Demon's Souls está em\nmanutenção no momento.\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com."
+},
+{
+"id": 51201,
+"pt": "O Serviço Online de Demon's Souls\nfoi encerrado."
+},
+{
+"id": 51300,
+"pt": "Não foi possível conectar ao servidor de Demon's Souls.\nVoltando à Tela de Título...\nPara saber o estado do Serviço Online, consulte a\npágina de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+}
+]
+}

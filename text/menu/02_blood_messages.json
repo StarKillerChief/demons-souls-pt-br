@@ -1,0 +1,2673 @@
+{
+"fmg": 2,
+"category": "blood_messages",
+"bnd": "menu",
+"jp_name": "血文字.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 10,
+"pt": "Mensagem de Sangue de Ajuda"
+},
+{
+"id": 3200,
+"pt": "Para desafiar a tempestade, você precisará de uma espada capaz de rasgar o céu."
+},
+{
+"id": 4000,
+"pt": "Outra vez...? Nunca acaba..."
+},
+{
+"id": 4001,
+"pt": "Aquela voz está ressuscitando o ídolo..."
+},
+{
+"id": 4003,
+"pt": "Eles estão lá em cima."
+},
+{
+"id": 6000,
+"pt": "O próximo inimigo é vulnerável a ataques perfurantes."
+},
+{
+"id": 6001,
+"pt": "O próximo inimigo é vulnerável a magias."
+},
+{
+"id": 8001,
+"pt": "O Vigor é consumido ao atacar, bloquear com escudos\ne correr."
+},
+{
+"id": 8002,
+"pt": "Quando a barra de Vigor se esgota, você não pode realizar\nações que consomem Vigor."
+},
+{
+"id": 8003,
+"pt": "Sem Vigor, a defesa do escudo é ineficaz."
+},
+{
+"id": 8010,
+"pt": "Se faltarem certos pontos de habilidade, sua arma\nserá inútil."
+},
+{
+"id": 8011,
+"pt": "Se você estiver sobrecarregado de equipamento, sua\nvelocidade de movimento cairá drasticamente."
+},
+{
+"id": 8020,
+"pt": "Usar uma arma com as duas mãos aumenta a sua força\nem 50%%."
+},
+{
+"id": 8021,
+"pt": "Se usar uma arma com as duas mãos, você pode quebrar\na guarda de um inimigo."
+},
+{
+"id": 8030,
+"pt": "Ao aparar com sucesso, você tem a chance de contra-atacar."
+},
+{
+"id": 8040,
+"pt": "Na forma de Alma, seus PV são reduzidos pela metade."
+},
+{
+"id": 8050,
+"pt": "Quando uma arma se desgasta (durabilidade baixa),\nseu poder de ataque diminui."
+},
+{
+"id": 8051,
+"pt": "O ferreiro pode reparar armas que se desgastaram."
+},
+{
+"id": 8060,
+"pt": "Para usar Magias e Milagres, você precisa aprendê-los antes."
+},
+{
+"id": 8061,
+"pt": "Magias e milagres aprendidos não podem ser usados\na menos que você os memorize."
+},
+{
+"id": 8062,
+"pt": "Há um limite para o número de magias e milagres\nque podem ser memorizados."
+},
+{
+"id": 8063,
+"pt": "Você precisa equipar um catalisador para usar magias."
+},
+{
+"id": 8064,
+"pt": "Você precisa equipar um talismã para usar milagres."
+},
+{
+"id": 8070,
+"pt": "Fantasmas são guerreiros de outro mundo, muito parecidos\ncom aquele em que você luta agora."
+},
+{
+"id": 8080,
+"pt": "Ao morrer, uma mancha de sangue ficará no local\nde sua morte."
+},
+{
+"id": 8081,
+"pt": "Se tocar a sua própria mancha de sangue, você recupera as Almas\nperdidas ao morrer."
+},
+{
+"id": 8082,
+"pt": "Se tocar a mancha de sangue de outro guerreiro, você pode ver\ncomo ele ou ela morreu."
+},
+{
+"id": 8090,
+"pt": "Você pode deixar mensagens com <?select?>."
+},
+{
+"id": 8091,
+"pt": "Essas mensagens são enviadas a outros mundos."
+},
+{
+"id": 8100,
+"pt": "Preste atenção à tendência das Almas do mundo."
+},
+{
+"id": 8101,
+"pt": "Se a tendência estiver mais próxima do negro, os demônios\nserão mais ameaçadores."
+},
+{
+"id": 8102,
+"pt": "Se a tendência estiver mais próxima do branco, os poderes\ndos demônios serão enfraquecidos."
+},
+{
+"id": 9000,
+"pt": "<?categoryChangeR?>: Ataque Padrão"
+},
+{
+"id": 9001,
+"pt": "Direção + Segurar <?cancel?>: Correr"
+},
+{
+"id": 9002,
+"pt": "<?categoryChangeL?>: Guarda"
+},
+{
+"id": 9003,
+"pt": "<?spinReset?>: Fixar/Soltar alvo\nAnalógico direito: Mudar alvo fixado"
+},
+{
+"id": 9004,
+"pt": "<?cancel?>: Recuar\nAnalógico esquerdo + <?cancel?>: Rolar"
+},
+{
+"id": 9006,
+"pt": "<?commando?>: Usar Item"
+},
+{
+"id": 9030,
+"pt": "<?shortCutR?>: Ataque Forte"
+},
+{
+"id": 9031,
+"pt": "<?shortCutL?>: Aparar (repelir um ataque inimigo)\nApós aparar <?categoryChangeR?>: Contra-ataque"
+},
+{
+"id": 9033,
+"pt": "<?viewChange?>: Empunhar arma com as duas mãos/Soltar"
+},
+{
+"id": 9034,
+"pt": "<?selectLR?>: Trocar Arma\n<?selectD?>: Trocar Item"
+},
+{
+"id": 9200,
+"pt": "Com catalisador equipado <?categoryChangeR?>: Usar Magia\n<?selectU?>: Trocar Magia"
+},
+{
+"id": 9300,
+"pt": "Com talismã equipado <?categoryChangeR?>: Usar Milagre\n<?selectU?>: Trocar Milagre"
+},
+{
+"id": 9400,
+"pt": "Com arco equipado <?categoryChangeR?>: Usar Arco (Atirar)"
+},
+{
+"id": 9500,
+"pt": "Com arco equipado <?categoryChangeL?>: Modo de Tiro de Precisão/Soltar\nNo Modo de Tiro de Precisão <?selectUD?>: Zoom"
+},
+{
+"id": 10000,
+"pt": "Aviso"
+},
+{
+"id": 10010,
+"pt": "Cuidado com <?bmsg?> adiante. <?job?>"
+},
+{
+"id": 10020,
+"pt": "Cuidado com <?bmsg?> do inimigo. <?etc?>"
+},
+{
+"id": 11000,
+"pt": "Dica"
+},
+{
+"id": 11001,
+"pt": "Há <?bmsg?> adiante<?trp?>."
+},
+{
+"id": 11002,
+"pt": "Adiante, <?bmsg?> aguarda<?dir?>."
+},
+{
+"id": 11003,
+"pt": "Você encontrará <?bmsg?> depois daqui<?som?>."
+},
+{
+"id": 11004,
+"pt": "Você obterá <?bmsg?> do próximo inimigo<?som?>."
+},
+{
+"id": 11005,
+"pt": "Se você <?bmsg?>, poderá prosseguir<?em2?>."
+},
+{
+"id": 12000,
+"pt": "Táticas de Batalha"
+},
+{
+"id": 12001,
+"pt": "Use <?bmsg?> no próximo inimigo<?cls?>."
+},
+{
+"id": 12002,
+"pt": "Não perca tempo com <?bmsg?><?cls?>."
+},
+{
+"id": 12003,
+"pt": "A fraqueza do próximo inimigo é <?bmsg?><?rat?>."
+},
+{
+"id": 13000,
+"pt": "Preparação"
+},
+{
+"id": 13001,
+"pt": "Não avance sem <?bmsg?><?got?>."
+},
+{
+"id": 13002,
+"pt": "Você precisará de Nível de Alma <?bmsg?> adiante<?fel?>."
+},
+{
+"id": 13003,
+"pt": "<?bmsg?> devem vir aqui primeiro<?hlp?>."
+},
+{
+"id": 13004,
+"pt": "<?bmsg?> devem tentar esta área depois<?hlp?>."
+},
+{
+"id": 14000,
+"pt": "Outros"
+},
+{
+"id": 14001,
+"pt": "Cuidado."
+},
+{
+"id": 14002,
+"pt": "Ouça bem."
+},
+{
+"id": 14003,
+"pt": "Pense bem."
+},
+{
+"id": 14004,
+"pt": "Lembre-se..."
+},
+{
+"id": 14005,
+"pt": "Não pare!"
+},
+{
+"id": 14006,
+"pt": "Corra em linha reta."
+},
+{
+"id": 14007,
+"pt": "Dê um passo à frente."
+},
+{
+"id": 14008,
+"pt": "Cuide-se."
+},
+{
+"id": 14009,
+"pt": "É isto."
+},
+{
+"id": 14010,
+"pt": "O verdadeiro Demon's Souls começa aqui."
+},
+{
+"id": 14011,
+"pt": "Bem-vindo!"
+},
+{
+"id": 14012,
+"pt": "Olá!"
+},
+{
+"id": 14013,
+"pt": "Adeus!"
+},
+{
+"id": 14014,
+"pt": "Boa sorte."
+},
+{
+"id": 14015,
+"pt": "Há demônios por perto."
+},
+{
+"id": 14016,
+"pt": "Aqui é seguro."
+},
+{
+"id": 14017,
+"pt": "Aqui não é seguro."
+},
+{
+"id": 14018,
+"pt": "Você pode invocar aqui."
+},
+{
+"id": 14019,
+"pt": "Procurando um desafiante..."
+},
+{
+"id": 14020,
+"pt": "Estou em apuros: recomendem esta mensagem!"
+},
+{
+"id": 14021,
+"pt": "Escrevam mais mensagens!"
+},
+{
+"id": 14022,
+"pt": "Cuidado com mensagens falsas."
+},
+{
+"id": 14023,
+"pt": "Não ataque!"
+},
+{
+"id": 14024,
+"pt": "Ataque!"
+},
+{
+"id": 14025,
+"pt": "Tenho um bom item..."
+},
+{
+"id": 14026,
+"pt": "Se você avançar..."
+},
+{
+"id": 14027,
+"pt": "Se você pular daqui..."
+},
+{
+"id": 14028,
+"pt": "Atrás de você!"
+},
+{
+"id": 14029,
+"pt": "Se você ler esta mensagem..."
+},
+{
+"id": 14030,
+"pt": "Estou perdido..."
+},
+{
+"id": 14031,
+"pt": "Este lugar de novo...?"
+},
+{
+"id": 14032,
+"pt": "Por que sempre..."
+},
+{
+"id": 14033,
+"pt": "Meu coração está partido..."
+},
+{
+"id": 14034,
+"pt": "Agora é tarde..."
+},
+{
+"id": 14035,
+"pt": "Quero ir para casa..."
+},
+{
+"id": 14036,
+"pt": "Quero ser ressuscitado..."
+},
+{
+"id": 14037,
+"pt": "Estou na forma de Alma há tanto tempo..."
+},
+{
+"id": 14038,
+"pt": "Se ao menos eu tivesse amigos..."
+},
+{
+"id": 14039,
+"pt": "Eu avisei."
+},
+{
+"id": 14040,
+"pt": "Não é hora de ler mensagens!"
+},
+{
+"id": 14041,
+"pt": "Achou que haveria uma dica?"
+},
+{
+"id": 14042,
+"pt": "A resposta está dentro de você."
+},
+{
+"id": 15000,
+"pt": "Termos"
+},
+{
+"id": 15002,
+"pt": "Passos"
+},
+{
+"id": 15003,
+"pt": "Aos seus pés"
+},
+{
+"id": 15004,
+"pt": "Cabeça"
+},
+{
+"id": 15005,
+"pt": "Lugar seguro"
+},
+{
+"id": 15006,
+"pt": "Bom sujeito"
+},
+{
+"id": 15007,
+"pt": "Besta"
+},
+{
+"id": 15008,
+"pt": "Em algum momento..."
+},
+{
+"id": 15009,
+"pt": "Um dia..."
+},
+{
+"id": 15010,
+"pt": "Caminho sem volta"
+},
+{
+"id": 15011,
+"pt": "Sujeito ruim"
+},
+{
+"id": 15012,
+"pt": "Cima"
+},
+{
+"id": 15013,
+"pt": "Escada subindo"
+},
+{
+"id": 15014,
+"pt": "Escada de mão subindo"
+},
+{
+"id": 15015,
+"pt": "Movimento"
+},
+{
+"id": 15016,
+"pt": "Pedra-Nuvem"
+},
+{
+"id": 15017,
+"pt": "Mentiroso"
+},
+{
+"id": 15018,
+"pt": "Voz cantante"
+},
+{
+"id": 15019,
+"pt": "Sorte"
+},
+{
+"id": 15020,
+"pt": "Ao conjurar..."
+},
+{
+"id": 15021,
+"pt": "Pedra Afiada"
+},
+{
+"id": 15022,
+"pt": "Praga"
+},
+{
+"id": 15023,
+"pt": "Cuidado com a praga"
+},
+{
+"id": 15024,
+"pt": "Pedra de Amolar de Ed"
+},
+{
+"id": 15025,
+"pt": "Item de recuperação de PM"
+},
+{
+"id": 15026,
+"pt": "Ataque à distância"
+},
+{
+"id": 15027,
+"pt": "Machado grande"
+},
+{
+"id": 15028,
+"pt": "Escudo grande"
+},
+{
+"id": 15029,
+"pt": "Martelo grande"
+},
+{
+"id": 15030,
+"pt": "Ataque forte"
+},
+{
+"id": 15031,
+"pt": "Covarde"
+},
+{
+"id": 15032,
+"pt": "Repulsão"
+},
+{
+"id": 15033,
+"pt": "Tente cair através..."
+},
+{
+"id": 15034,
+"pt": "Armadilha de fosso"
+},
+{
+"id": 15035,
+"pt": "Machado"
+},
+{
+"id": 15036,
+"pt": "Atraia para fora"
+},
+{
+"id": 15037,
+"pt": "Você mesmo"
+},
+{
+"id": 15038,
+"pt": "Ao girar..."
+},
+{
+"id": 15039,
+"pt": "Esquiva"
+},
+{
+"id": 15040,
+"pt": "Item de recuperação de PV"
+},
+{
+"id": 15041,
+"pt": "Ao se recuperar..."
+},
+{
+"id": 15042,
+"pt": "Arma de punho"
+},
+{
+"id": 15043,
+"pt": "Bomba Incendiária"
+},
+{
+"id": 15044,
+"pt": "Chave"
+},
+{
+"id": 15045,
+"pt": "Se você pegar a chave..."
+},
+{
+"id": 15046,
+"pt": "Passagem oculta"
+},
+{
+"id": 15047,
+"pt": "Com uma só mão"
+},
+{
+"id": 15049,
+"pt": "Dividir para conquistar"
+},
+{
+"id": 15050,
+"pt": "Paralisia"
+},
+{
+"id": 15051,
+"pt": "Arquipedra"
+},
+{
+"id": 15052,
+"pt": "Fragmento de Arquipedra"
+},
+{
+"id": 15053,
+"pt": "Lótus da Viúva"
+},
+{
+"id": 15054,
+"pt": "Caçador"
+},
+{
+"id": 15055,
+"pt": "Fofura enganosa"
+},
+{
+"id": 15056,
+"pt": "Pobre coitado"
+},
+{
+"id": 15057,
+"pt": "Fofura"
+},
+{
+"id": 15058,
+"pt": "Observação"
+},
+{
+"id": 15059,
+"pt": "Mal-entendido"
+},
+{
+"id": 15060,
+"pt": "Força de vontade"
+},
+{
+"id": 15061,
+"pt": "Inimigo perigoso"
+},
+{
+"id": 15062,
+"pt": "Cavaleiro"
+},
+{
+"id": 15063,
+"pt": "Milagre"
+},
+{
+"id": 15064,
+"pt": "Realeza"
+},
+{
+"id": 15065,
+"pt": "Lótus Real"
+},
+{
+"id": 15066,
+"pt": "Item valioso"
+},
+{
+"id": 15067,
+"pt": "Item de recuperação valioso"
+},
+{
+"id": 15068,
+"pt": "Minério valioso"
+},
+{
+"id": 15069,
+"pt": "Tesouro valioso"
+},
+{
+"id": 15070,
+"pt": "Arma valiosa"
+},
+{
+"id": 15071,
+"pt": "Armadura valiosa"
+},
+{
+"id": 15072,
+"pt": "Anel valioso"
+},
+{
+"id": 15073,
+"pt": "Descuido"
+},
+{
+"id": 15074,
+"pt": "Inimigo formidável"
+},
+{
+"id": 15075,
+"pt": "Ataque crítico"
+},
+{
+"id": 15076,
+"pt": "Espada curva"
+},
+{
+"id": 15077,
+"pt": "Coisas cintilantes"
+},
+{
+"id": 15078,
+"pt": "Pedra-Aranha"
+},
+{
+"id": 15079,
+"pt": "Escuridão"
+},
+{
+"id": 15080,
+"pt": "Fantasma Negro"
+},
+{
+"id": 15081,
+"pt": "Terebintina Negra"
+},
+{
+"id": 15082,
+"pt": "Pedra-Luar"
+},
+{
+"id": 15083,
+"pt": "Mancha de sangue"
+},
+{
+"id": 15084,
+"pt": "Lagarto de Cristal"
+},
+{
+"id": 15085,
+"pt": "Chute"
+},
+{
+"id": 15086,
+"pt": "Demônio Primordial"
+},
+{
+"id": 15087,
+"pt": "Após atacar..."
+},
+{
+"id": 15088,
+"pt": "Durante o seu ataque..."
+},
+{
+"id": 15089,
+"pt": "Pedra Dura"
+},
+{
+"id": 15090,
+"pt": "Minério"
+},
+{
+"id": 15091,
+"pt": "Em seu coração"
+},
+{
+"id": 15092,
+"pt": "Inimigo aterrorizante"
+},
+{
+"id": 15093,
+"pt": "Arma de haste"
+},
+{
+"id": 15094,
+"pt": "Se você seguir adiante..."
+},
+{
+"id": 15095,
+"pt": "Rapieira"
+},
+{
+"id": 15096,
+"pt": "Ataque cortante"
+},
+{
+"id": 15097,
+"pt": "Batalha de desgaste"
+},
+{
+"id": 15098,
+"pt": "O confiante"
+},
+{
+"id": 15099,
+"pt": "Baixo"
+},
+{
+"id": 15100,
+"pt": "Escada descendo"
+},
+{
+"id": 15101,
+"pt": "Escada de mão descendo"
+},
+{
+"id": 15102,
+"pt": "Ataque perfurante"
+},
+{
+"id": 15103,
+"pt": "Passos furtivos"
+},
+{
+"id": 15104,
+"pt": "Perímetro"
+},
+{
+"id": 15106,
+"pt": "Sangramento"
+},
+{
+"id": 15107,
+"pt": "Resistência a sangramento"
+},
+{
+"id": 15108,
+"pt": "Frente"
+},
+{
+"id": 15109,
+"pt": "Carga de itens"
+},
+{
+"id": 15110,
+"pt": "Iniciante"
+},
+{
+"id": 15111,
+"pt": "Gosma Branca"
+},
+{
+"id": 15112,
+"pt": "Amor verdadeiro"
+},
+{
+"id": 15113,
+"pt": "Sacerdote"
+},
+{
+"id": 15114,
+"pt": "Cavaleiro do Templo"
+},
+{
+"id": 15115,
+"pt": "Pedra-Mercúrio"
+},
+{
+"id": 15116,
+"pt": "Pedra-Tutano"
+},
+{
+"id": 15117,
+"pt": "Pedra-Ventosa"
+},
+{
+"id": 15118,
+"pt": "Por cima"
+},
+{
+"id": 15119,
+"pt": "Vigor"
+},
+{
+"id": 15120,
+"pt": "Tendência do Mundo"
+},
+{
+"id": 15121,
+"pt": "Vista ampla"
+},
+{
+"id": 15122,
+"pt": "Abaixo"
+},
+{
+"id": 15123,
+"pt": "Corredor estreito"
+},
+{
+"id": 15124,
+"pt": "Ataque preventivo"
+},
+{
+"id": 15125,
+"pt": "Reforços"
+},
+{
+"id": 15126,
+"pt": "Carga de equipamento"
+},
+{
+"id": 15127,
+"pt": "Alma"
+},
+{
+"id": 15128,
+"pt": "Drenagem de Alma"
+},
+{
+"id": 15129,
+"pt": "Se a tendência de Alma for negra..."
+},
+{
+"id": 15130,
+"pt": "Se a tendência de Alma for branca..."
+},
+{
+"id": 15131,
+"pt": "Restos de Alma"
+},
+{
+"id": 15132,
+"pt": "Lado"
+},
+{
+"id": 15133,
+"pt": "Poleiro de atirador"
+},
+{
+"id": 15134,
+"pt": "Ataque padrão"
+},
+{
+"id": 15135,
+"pt": "Espada grande"
+},
+{
+"id": 15136,
+"pt": "Horda de inimigos"
+},
+{
+"id": 15137,
+"pt": "Tesouro"
+},
+{
+"id": 15138,
+"pt": "Ataque contundente"
+},
+{
+"id": 15139,
+"pt": "Ataque em rajada"
+},
+{
+"id": 15140,
+"pt": "Escudo"
+},
+{
+"id": 15141,
+"pt": "Guarda"
+},
+{
+"id": 15142,
+"pt": "Quebra de guarda"
+},
+{
+"id": 15143,
+"pt": "Adaga"
+},
+{
+"id": 15144,
+"pt": "Empurrão poderoso"
+},
+{
+"id": 15145,
+"pt": "Terreno"
+},
+{
+"id": 15146,
+"pt": "Desafiante"
+},
+{
+"id": 15147,
+"pt": "Espada reta"
+},
+{
+"id": 15148,
+"pt": "Pedra da Lua Sombria"
+},
+{
+"id": 15149,
+"pt": "Martelo"
+},
+{
+"id": 15150,
+"pt": "Arma forte"
+},
+{
+"id": 15151,
+"pt": "Durão"
+},
+{
+"id": 15152,
+"pt": "Adversário"
+},
+{
+"id": 15153,
+"pt": "Fuga"
+},
+{
+"id": 15154,
+"pt": "Ladrão"
+},
+{
+"id": 15155,
+"pt": "Veneno"
+},
+{
+"id": 15156,
+"pt": "Espada gigante"
+},
+{
+"id": 15157,
+"pt": "Pântano venenoso"
+},
+{
+"id": 15158,
+"pt": "Resistência a veneno"
+},
+{
+"id": 15159,
+"pt": "Em qualquer lugar"
+},
+{
+"id": 15160,
+"pt": "Porta fechada"
+},
+{
+"id": 15161,
+"pt": "Portão fechado"
+},
+{
+"id": 15162,
+"pt": "Investida"
+},
+{
+"id": 15163,
+"pt": "Projétil"
+},
+{
+"id": 15164,
+"pt": "Porta"
+},
+{
+"id": 15165,
+"pt": "Pedra Cinzenta"
+},
+{
+"id": 15166,
+"pt": "Rota de fuga"
+},
+{
+"id": 15167,
+"pt": "PV restantes"
+},
+{
+"id": 15168,
+"pt": "PM restantes"
+},
+{
+"id": 15169,
+"pt": "Retaguarda"
+},
+{
+"id": 15170,
+"pt": "Parte de trás"
+},
+{
+"id": 15171,
+"pt": "Pedra dos Olhos Efêmeros"
+},
+{
+"id": 15172,
+"pt": "Ataque em pinça"
+},
+{
+"id": 15173,
+"pt": "Baú"
+},
+{
+"id": 15174,
+"pt": "Aparo"
+},
+{
+"id": 15175,
+"pt": "Selvagem"
+},
+{
+"id": 15176,
+"pt": "Reluzente"
+},
+{
+"id": 15177,
+"pt": "Claro"
+},
+{
+"id": 15178,
+"pt": "Pedra Tênue"
+},
+{
+"id": 15179,
+"pt": "Esquerda"
+},
+{
+"id": 15180,
+"pt": "Sentido anti-horário"
+},
+{
+"id": 15181,
+"pt": "Área aberta"
+},
+{
+"id": 15182,
+"pt": "Ataque furtivo"
+},
+{
+"id": 15183,
+"pt": "Perseguição intensa"
+},
+{
+"id": 15184,
+"pt": "Arma"
+},
+{
+"id": 15185,
+"pt": "Beco sem saída"
+},
+{
+"id": 15186,
+"pt": "Corrosão"
+},
+{
+"id": 15187,
+"pt": "Ataque desestabilizador"
+},
+{
+"id": 15188,
+"pt": "Virote"
+},
+{
+"id": 15189,
+"pt": "Soldado"
+},
+{
+"id": 15190,
+"pt": "Lótus do Soldado"
+},
+{
+"id": 15191,
+"pt": "Veterano"
+},
+{
+"id": 15192,
+"pt": "Se você se disfarçar..."
+},
+{
+"id": 15193,
+"pt": "Item estranho"
+},
+{
+"id": 15194,
+"pt": "Item de recuperação estranho"
+},
+{
+"id": 15195,
+"pt": "Minério estranho"
+},
+{
+"id": 15196,
+"pt": "Inimigo estranho"
+},
+{
+"id": 15197,
+"pt": "Arma estranha"
+},
+{
+"id": 15198,
+"pt": "Armadura estranha"
+},
+{
+"id": 15199,
+"pt": "Anel estranho"
+},
+{
+"id": 15200,
+"pt": "Armadura"
+},
+{
+"id": 15201,
+"pt": "Rugido"
+},
+{
+"id": 15202,
+"pt": "Andarilho"
+},
+{
+"id": 15203,
+"pt": "Uivo"
+},
+{
+"id": 15204,
+"pt": "Outros"
+},
+{
+"id": 15205,
+"pt": "Fogo"
+},
+{
+"id": 15206,
+"pt": "Defesa a fogo"
+},
+{
+"id": 15207,
+"pt": "Arma de chamas"
+},
+{
+"id": 15208,
+"pt": "Mago"
+},
+{
+"id": 15209,
+"pt": "Emboscada"
+},
+{
+"id": 15210,
+"pt": "Terebintina"
+},
+{
+"id": 15211,
+"pt": "Magia"
+},
+{
+"id": 15212,
+"pt": "Defesa mágica"
+},
+{
+"id": 15213,
+"pt": "Arma mágica"
+},
+{
+"id": 15214,
+"pt": "Caminho ilusório"
+},
+{
+"id": 15215,
+"pt": "Inimigo invisível"
+},
+{
+"id": 15216,
+"pt": "Direita"
+},
+{
+"id": 15217,
+"pt": "Sentido horário"
+},
+{
+"id": 15218,
+"pt": "Augita da Orientação"
+},
+{
+"id": 15219,
+"pt": "Pedra Clara"
+},
+{
+"id": 15220,
+"pt": "Ilusão"
+},
+{
+"id": 15222,
+"pt": "Mensagem"
+},
+{
+"id": 15223,
+"pt": "Mercador"
+},
+{
+"id": 15224,
+"pt": "Sons"
+},
+{
+"id": 15225,
+"pt": "Portão"
+},
+{
+"id": 15226,
+"pt": "Flecha"
+},
+{
+"id": 15227,
+"pt": "Pedra-Lâmina"
+},
+{
+"id": 15228,
+"pt": "Lança"
+},
+{
+"id": 15229,
+"pt": "Amigo"
+},
+{
+"id": 15230,
+"pt": "Anel"
+},
+{
+"id": 15231,
+"pt": "Reverência"
+},
+{
+"id": 15233,
+"pt": "Pedra Derretida"
+},
+{
+"id": 15234,
+"pt": "Preste atenção"
+},
+{
+"id": 15235,
+"pt": "Fracote"
+},
+{
+"id": 15236,
+"pt": "Queda"
+},
+{
+"id": 15237,
+"pt": "Ritmo"
+},
+{
+"id": 15238,
+"pt": "Pedra-Dragão"
+},
+{
+"id": 15239,
+"pt": "Ataque com duas mãos"
+},
+{
+"id": 15240,
+"pt": "Alavanca"
+},
+{
+"id": 15241,
+"pt": "Se você usar a alavanca..."
+},
+{
+"id": 15242,
+"pt": "Ataque em combo"
+},
+{
+"id": 15243,
+"pt": "Após o combo"
+},
+{
+"id": 15244,
+"pt": "Durante o combo"
+},
+{
+"id": 15245,
+"pt": "Encruzilhada"
+},
+{
+"id": 15246,
+"pt": "Armadilha"
+},
+{
+"id": 30001,
+"pt": "pegar a chave"
+},
+{
+"id": 30002,
+"pt": "usar a alavanca"
+},
+{
+"id": 30003,
+"pt": "tiver Tendência de Alma branca"
+},
+{
+"id": 30004,
+"pt": "tiver Tendência de Alma negra"
+},
+{
+"id": 30005,
+"pt": "seguir em frente"
+},
+{
+"id": 30006,
+"pt": "continuar tentando"
+},
+{
+"id": 30007,
+"pt": "não desistir"
+},
+{
+"id": 30008,
+"pt": "se disfarçar"
+},
+{
+"id": 33001,
+"pt": "uma armadilha"
+},
+{
+"id": 33003,
+"pt": "o teto"
+},
+{
+"id": 33004,
+"pt": "o chão"
+},
+{
+"id": 33005,
+"pt": "a área traseira"
+},
+{
+"id": 33006,
+"pt": "uma queda"
+},
+{
+"id": 33007,
+"pt": "a mancha de sangue"
+},
+{
+"id": 33008,
+"pt": "a mensagem"
+},
+{
+"id": 33009,
+"pt": "um evento de Tendência do Mundo"
+},
+{
+"id": 33010,
+"pt": "o pântano venenoso"
+},
+{
+"id": 33011,
+"pt": "a lava"
+},
+{
+"id": 33012,
+"pt": "a encruzilhada"
+},
+{
+"id": 33013,
+"pt": "um caminho ilusório"
+},
+{
+"id": 33014,
+"pt": "os sons"
+},
+{
+"id": 33015,
+"pt": "os passos"
+},
+{
+"id": 33016,
+"pt": "a voz cantante"
+},
+{
+"id": 33017,
+"pt": "a escuridão"
+},
+{
+"id": 33018,
+"pt": "a luz"
+},
+{
+"id": 33019,
+"pt": "uma distração"
+},
+{
+"id": 33020,
+"pt": "a falta de cautela"
+},
+{
+"id": 33021,
+"pt": "o mal-entendido"
+},
+{
+"id": 33022,
+"pt": "uma ilusão"
+},
+{
+"id": 33023,
+"pt": "o mentiroso"
+},
+{
+"id": 33024,
+"pt": "o adversário"
+},
+{
+"id": 33025,
+"pt": "o inimigo formidável"
+},
+{
+"id": 33026,
+"pt": "a horda de inimigos"
+},
+{
+"id": 33027,
+"pt": "o inimigo perigoso"
+},
+{
+"id": 33028,
+"pt": "o inimigo invisível"
+},
+{
+"id": 33029,
+"pt": "o inimigo bizarro"
+},
+{
+"id": 33030,
+"pt": "o inimigo aterrorizante"
+},
+{
+"id": 33031,
+"pt": "o inimigo fofo"
+},
+{
+"id": 33032,
+"pt": "o Fantasma Negro"
+},
+{
+"id": 33033,
+"pt": "os arqueiros"
+},
+{
+"id": 33034,
+"pt": "ataques à distância"
+},
+{
+"id": 33035,
+"pt": "os usuários de magia"
+},
+{
+"id": 33036,
+"pt": "os usuários de milagres"
+},
+{
+"id": 33037,
+"pt": "o fogo"
+},
+{
+"id": 33038,
+"pt": "o sangramento"
+},
+{
+"id": 33039,
+"pt": "o veneno"
+},
+{
+"id": 33040,
+"pt": "a praga"
+},
+{
+"id": 33041,
+"pt": "a paralisia"
+},
+{
+"id": 33042,
+"pt": "a corrosão"
+},
+{
+"id": 33043,
+"pt": "Drenagem de Alma"
+},
+{
+"id": 33044,
+"pt": "seus PV restantes"
+},
+{
+"id": 33045,
+"pt": "seus PM restantes"
+},
+{
+"id": 33046,
+"pt": "seu Vigor"
+},
+{
+"id": 33047,
+"pt": "sua carga de equipamento"
+},
+{
+"id": 33048,
+"pt": "sua carga de itens"
+},
+{
+"id": 34001,
+"pt": "a emboscada"
+},
+{
+"id": 34002,
+"pt": "o ataque furtivo"
+},
+{
+"id": 34003,
+"pt": "a rajada"
+},
+{
+"id": 34004,
+"pt": "os reforços"
+},
+{
+"id": 34005,
+"pt": "a fuga"
+},
+{
+"id": 34006,
+"pt": "a perseguição intensa"
+},
+{
+"id": 34007,
+"pt": "o movimento"
+},
+{
+"id": 34008,
+"pt": "o ritmo"
+},
+{
+"id": 34009,
+"pt": "o perímetro"
+},
+{
+"id": 34010,
+"pt": "o terreno"
+},
+{
+"id": 34011,
+"pt": "ataques fortes"
+},
+{
+"id": 34012,
+"pt": "ataques críticos"
+},
+{
+"id": 34013,
+"pt": "ataques em combo"
+},
+{
+"id": 34014,
+"pt": "a investida"
+},
+{
+"id": 34015,
+"pt": "ataques desestabilizadores"
+},
+{
+"id": 34016,
+"pt": "a quebra de guarda"
+},
+{
+"id": 34017,
+"pt": "a esquiva"
+},
+{
+"id": 34018,
+"pt": "a guarda"
+},
+{
+"id": 34019,
+"pt": "os aparos"
+},
+{
+"id": 34020,
+"pt": "a repulsão"
+},
+{
+"id": 34021,
+"pt": "o chute"
+},
+{
+"id": 34022,
+"pt": "o rugido"
+},
+{
+"id": 34023,
+"pt": "o uivo"
+},
+{
+"id": 34024,
+"pt": "os arcos"
+},
+{
+"id": 34025,
+"pt": "ataques à distância"
+},
+{
+"id": 34026,
+"pt": "as magias"
+},
+{
+"id": 34027,
+"pt": "os milagres"
+},
+{
+"id": 34028,
+"pt": "ataques de fogo"
+},
+{
+"id": 34029,
+"pt": "a sangria"
+},
+{
+"id": 34030,
+"pt": "o veneno"
+},
+{
+"id": 34031,
+"pt": "a praga"
+},
+{
+"id": 34032,
+"pt": "a paralisia"
+},
+{
+"id": 34033,
+"pt": "a decomposição"
+},
+{
+"id": 34034,
+"pt": "Drenagem de Alma"
+},
+{
+"id": 34035,
+"pt": "a fofura"
+},
+{
+"id": 40001,
+"pt": "armadilhas"
+},
+{
+"id": 40002,
+"pt": "o tesouro"
+},
+{
+"id": 40003,
+"pt": "o tesouro valioso"
+},
+{
+"id": 40004,
+"pt": "chaves"
+},
+{
+"id": 40005,
+"pt": "uma Arquipedra"
+},
+{
+"id": 40006,
+"pt": "manchas de sangue"
+},
+{
+"id": 40007,
+"pt": "mensagens"
+},
+{
+"id": 40008,
+"pt": "uma alavanca"
+},
+{
+"id": 40009,
+"pt": "uma porta"
+},
+{
+"id": 40010,
+"pt": "um portão"
+},
+{
+"id": 40011,
+"pt": "uma porta fechada"
+},
+{
+"id": 40012,
+"pt": "um portão fechado"
+},
+{
+"id": 40013,
+"pt": "uma rota de fuga"
+},
+{
+"id": 40014,
+"pt": "um beco sem saída"
+},
+{
+"id": 40015,
+"pt": "um caminho sem volta"
+},
+{
+"id": 40016,
+"pt": "uma passagem oculta"
+},
+{
+"id": 40017,
+"pt": "uma armadilha de fosso"
+},
+{
+"id": 40018,
+"pt": "uma queda"
+},
+{
+"id": 40019,
+"pt": "escadas subindo"
+},
+{
+"id": 40020,
+"pt": "escadas descendo"
+},
+{
+"id": 40021,
+"pt": "uma escada de mão subindo"
+},
+{
+"id": 40022,
+"pt": "uma escada de mão descendo"
+},
+{
+"id": 40023,
+"pt": "um lugar estreito"
+},
+{
+"id": 40024,
+"pt": "um lugar aberto"
+},
+{
+"id": 40025,
+"pt": "um lugar seguro"
+},
+{
+"id": 40026,
+"pt": "um poleiro de atirador"
+},
+{
+"id": 40027,
+"pt": "uma vista ampla"
+},
+{
+"id": 40101,
+"pt": "mercador"
+},
+{
+"id": 40103,
+"pt": "amigo"
+},
+{
+"id": 40104,
+"pt": "bom sujeito"
+},
+{
+"id": 40105,
+"pt": "pobre coitado"
+},
+{
+"id": 40106,
+"pt": "sujeito ruim"
+},
+{
+"id": 40107,
+"pt": "durão"
+},
+{
+"id": 40108,
+"pt": "fracote"
+},
+{
+"id": 40109,
+"pt": "mentiroso"
+},
+{
+"id": 40110,
+"pt": "vilão"
+},
+{
+"id": 40111,
+"pt": "inimigo formidável"
+},
+{
+"id": 40112,
+"pt": "horda de inimigos"
+},
+{
+"id": 40113,
+"pt": "inimigo perigoso"
+},
+{
+"id": 40114,
+"pt": "inimigo escondido"
+},
+{
+"id": 40115,
+"pt": "inimigo estranho"
+},
+{
+"id": 40116,
+"pt": "inimigo aterrorizante"
+},
+{
+"id": 40117,
+"pt": "inimigo fofo"
+},
+{
+"id": 40118,
+"pt": "Fantasma Negro"
+},
+{
+"id": 40119,
+"pt": "Lagarto de Cristal"
+},
+{
+"id": 40120,
+"pt": "Demônio Primordial"
+},
+{
+"id": 40201,
+"pt": "uma arma"
+},
+{
+"id": 40202,
+"pt": "armadura"
+},
+{
+"id": 40203,
+"pt": "um anel"
+},
+{
+"id": 40204,
+"pt": "minério"
+},
+{
+"id": 40205,
+"pt": "um item de recuperação"
+},
+{
+"id": 40206,
+"pt": "um item"
+},
+{
+"id": 40207,
+"pt": "Almas"
+},
+{
+"id": 40208,
+"pt": "uma arma valiosa"
+},
+{
+"id": 40209,
+"pt": "armadura valiosa"
+},
+{
+"id": 40210,
+"pt": "um anel valioso"
+},
+{
+"id": 40211,
+"pt": "minério valioso"
+},
+{
+"id": 40212,
+"pt": "um item de recuperação valioso"
+},
+{
+"id": 40213,
+"pt": "um item valioso"
+},
+{
+"id": 40214,
+"pt": "uma arma estranha"
+},
+{
+"id": 40215,
+"pt": "armadura estranha"
+},
+{
+"id": 40216,
+"pt": "um anel estranho"
+},
+{
+"id": 40217,
+"pt": "minério estranho"
+},
+{
+"id": 40218,
+"pt": "um item de recuperação estranho"
+},
+{
+"id": 40219,
+"pt": "um item estranho"
+},
+{
+"id": 40220,
+"pt": "uma Pedra Dura"
+},
+{
+"id": 40221,
+"pt": "uma Pedra Afiada"
+},
+{
+"id": 40222,
+"pt": "uma Pedra Clara"
+},
+{
+"id": 40223,
+"pt": "uma Pedra Cinzenta"
+},
+{
+"id": 40224,
+"pt": "uma Pedra-Lâmina"
+},
+{
+"id": 40225,
+"pt": "uma Pedra-Dragão"
+},
+{
+"id": 40226,
+"pt": "uma Pedra-Ventosa"
+},
+{
+"id": 40227,
+"pt": "uma Pedra-Mercúrio"
+},
+{
+"id": 40228,
+"pt": "uma Pedra-Tutano"
+},
+{
+"id": 40229,
+"pt": "uma Pedra-Aranha"
+},
+{
+"id": 40230,
+"pt": "uma Pedra-Luar"
+},
+{
+"id": 40231,
+"pt": "uma Pedra da Lua Sombria"
+},
+{
+"id": 40232,
+"pt": "uma Pedra Tênue"
+},
+{
+"id": 40233,
+"pt": "uma Pedra-Nuvem"
+},
+{
+"id": 40234,
+"pt": "uma Pedra Derretida"
+},
+{
+"id": 40235,
+"pt": "coisas reluzentes"
+},
+{
+"id": 40236,
+"pt": "coisas cintilantes"
+},
+{
+"id": 40237,
+"pt": "o amor verdadeiro"
+},
+{
+"id": 40301,
+"pt": "ataques contundentes"
+},
+{
+"id": 40302,
+"pt": "ataques cortantes"
+},
+{
+"id": 40303,
+"pt": "ataques perfurantes"
+},
+{
+"id": 40304,
+"pt": "ataques com uma mão"
+},
+{
+"id": 40305,
+"pt": "ataques com duas mãos"
+},
+{
+"id": 40306,
+"pt": "adagas"
+},
+{
+"id": 40307,
+"pt": "espadas retas"
+},
+{
+"id": 40308,
+"pt": "espadas grandes"
+},
+{
+"id": 40309,
+"pt": "espadas gigantes"
+},
+{
+"id": 40310,
+"pt": "espadas curvas"
+},
+{
+"id": 40312,
+"pt": "rapieiras"
+},
+{
+"id": 40313,
+"pt": "machados"
+},
+{
+"id": 40314,
+"pt": "machados grandes"
+},
+{
+"id": 40315,
+"pt": "martelos"
+},
+{
+"id": 40316,
+"pt": "martelos grandes"
+},
+{
+"id": 40317,
+"pt": "armas de punho"
+},
+{
+"id": 40318,
+"pt": "lanças"
+},
+{
+"id": 40319,
+"pt": "armas de haste"
+},
+{
+"id": 40320,
+"pt": "armas fortes"
+},
+{
+"id": 40321,
+"pt": "armas mágicas"
+},
+{
+"id": 40322,
+"pt": "armas de chamas"
+},
+{
+"id": 40323,
+"pt": "os arcos"
+},
+{
+"id": 40324,
+"pt": "flechas"
+},
+{
+"id": 40325,
+"pt": "bestas"
+},
+{
+"id": 40326,
+"pt": "virotes"
+},
+{
+"id": 40327,
+"pt": "projéteis"
+},
+{
+"id": 40328,
+"pt": "as magias"
+},
+{
+"id": 40329,
+"pt": "os milagres"
+},
+{
+"id": 40330,
+"pt": "escudos"
+},
+{
+"id": 40331,
+"pt": "escudos grandes"
+},
+{
+"id": 40332,
+"pt": "o fogo"
+},
+{
+"id": 40333,
+"pt": "ataques de sangramento"
+},
+{
+"id": 40334,
+"pt": "o veneno"
+},
+{
+"id": 40335,
+"pt": "a praga"
+},
+{
+"id": 40336,
+"pt": "a decomposição"
+},
+{
+"id": 40337,
+"pt": "Drenagem de Alma"
+},
+{
+"id": 40338,
+"pt": "ataques desestabilizadores"
+},
+{
+"id": 40339,
+"pt": "quebras de guarda"
+},
+{
+"id": 40340,
+"pt": "esquivas"
+},
+{
+"id": 40341,
+"pt": "guardas de escudo"
+},
+{
+"id": 40342,
+"pt": "os aparos"
+},
+{
+"id": 40343,
+"pt": "ataques de repulsão"
+},
+{
+"id": 40344,
+"pt": "esquivas no sentido horário"
+},
+{
+"id": 40345,
+"pt": "esquivas no sentido anti-horário"
+},
+{
+"id": 40346,
+"pt": "ataques em pinça"
+},
+{
+"id": 40347,
+"pt": "táticas de dividir para conquistar"
+},
+{
+"id": 40348,
+"pt": "táticas de atração"
+},
+{
+"id": 40349,
+"pt": "empurrões poderosos"
+},
+{
+"id": 40350,
+"pt": "ataques preventivos"
+},
+{
+"id": 40351,
+"pt": "ataques padrão"
+},
+{
+"id": 40352,
+"pt": "o desgaste"
+},
+{
+"id": 40353,
+"pt": "a observação"
+},
+{
+"id": 40354,
+"pt": "passos furtivos"
+},
+{
+"id": 40355,
+"pt": "nada"
+},
+{
+"id": 40356,
+"pt": "a força de vontade"
+},
+{
+"id": 40357,
+"pt": "a sorte"
+},
+{
+"id": 40400,
+"pt": "Num aperto"
+},
+{
+"id": 40501,
+"pt": "a cabeça dele"
+},
+{
+"id": 40502,
+"pt": "os pés dele"
+},
+{
+"id": 40503,
+"pt": "as costas dele"
+},
+{
+"id": 40504,
+"pt": "o peito dele"
+},
+{
+"id": 40505,
+"pt": "a frente dele"
+},
+{
+"id": 40506,
+"pt": "o flanco dele"
+},
+{
+"id": 40507,
+"pt": "as costas dele"
+},
+{
+"id": 40508,
+"pt": "durante o ataque dele"
+},
+{
+"id": 40509,
+"pt": "após o ataque dele"
+},
+{
+"id": 40510,
+"pt": "durante o combo dele"
+},
+{
+"id": 40511,
+"pt": "após o combo dele"
+},
+{
+"id": 40512,
+"pt": "durante a recuperação dele"
+},
+{
+"id": 40513,
+"pt": "quando ele gira"
+},
+{
+"id": 40514,
+"pt": "quando ele conjura"
+},
+{
+"id": 40515,
+"pt": "acima"
+},
+{
+"id": 40516,
+"pt": "abaixo"
+},
+{
+"id": 40517,
+"pt": "à esquerda"
+},
+{
+"id": 40518,
+"pt": "à direita"
+},
+{
+"id": 40519,
+"pt": "não o que você pensa"
+},
+{
+"id": 40520,
+"pt": "em qualquer lugar"
+},
+{
+"id": 40521,
+"pt": "em seu coração"
+},
+{
+"id": 40522,
+"pt": "você"
+},
+{
+"id": 40601,
+"pt": "uma adaga"
+},
+{
+"id": 40602,
+"pt": "uma espada reta"
+},
+{
+"id": 40603,
+"pt": "uma espada grande"
+},
+{
+"id": 40604,
+"pt": "uma espada gigante"
+},
+{
+"id": 40605,
+"pt": "uma espada curva"
+},
+{
+"id": 40606,
+"pt": "uma katana"
+},
+{
+"id": 40607,
+"pt": "uma rapieira"
+},
+{
+"id": 40608,
+"pt": "um machado"
+},
+{
+"id": 40609,
+"pt": "um machado grande"
+},
+{
+"id": 40610,
+"pt": "um martelo"
+},
+{
+"id": 40611,
+"pt": "um martelo grande"
+},
+{
+"id": 40612,
+"pt": "uma arma de punho"
+},
+{
+"id": 40613,
+"pt": "uma lança"
+},
+{
+"id": 40614,
+"pt": "uma arma de haste"
+},
+{
+"id": 40615,
+"pt": "uma arma forte"
+},
+{
+"id": 40616,
+"pt": "uma arma mágica"
+},
+{
+"id": 40617,
+"pt": "uma arma de chamas"
+},
+{
+"id": 40618,
+"pt": "um arco"
+},
+{
+"id": 40619,
+"pt": "flechas"
+},
+{
+"id": 40620,
+"pt": "uma besta"
+},
+{
+"id": 40621,
+"pt": "virotes"
+},
+{
+"id": 40622,
+"pt": "projéteis"
+},
+{
+"id": 40623,
+"pt": "as magias"
+},
+{
+"id": 40624,
+"pt": "os milagres"
+},
+{
+"id": 40625,
+"pt": "um escudo"
+},
+{
+"id": 40626,
+"pt": "um escudo grande"
+},
+{
+"id": 40627,
+"pt": "resistência a magia"
+},
+{
+"id": 40628,
+"pt": "defesa a fogo"
+},
+{
+"id": 40629,
+"pt": "resistência a sangramento"
+},
+{
+"id": 40630,
+"pt": "resistência a veneno"
+},
+{
+"id": 40631,
+"pt": "resistência à praga"
+},
+{
+"id": 40632,
+"pt": "itens de recuperação"
+},
+{
+"id": 40633,
+"pt": "um Lótus do Soldado"
+},
+{
+"id": 40634,
+"pt": "um Lótus Real"
+},
+{
+"id": 40635,
+"pt": "um Lótus da Viúva"
+},
+{
+"id": 40636,
+"pt": "itens de recuperação de PM"
+},
+{
+"id": 40637,
+"pt": "uma pedra de amolar"
+},
+{
+"id": 40638,
+"pt": "uma Pedra dos Olhos Efêmeros"
+},
+{
+"id": 40639,
+"pt": "um Fragmento de Arquipedra"
+},
+{
+"id": 40640,
+"pt": "uma Augita da Orientação"
+},
+{
+"id": 40641,
+"pt": "restos de Alma"
+},
+{
+"id": 40642,
+"pt": "Terebintina"
+},
+{
+"id": 40643,
+"pt": "Terebintina Negra"
+},
+{
+"id": 40644,
+"pt": "Gosma Branca"
+},
+{
+"id": 40645,
+"pt": "Bombas Incendiárias"
+},
+{
+"id": 40801,
+"pt": "Iniciantes"
+},
+{
+"id": 40802,
+"pt": "Veteranos"
+},
+{
+"id": 40803,
+"pt": "Os confiantes"
+},
+{
+"id": 40804,
+"pt": "Covardes"
+},
+{
+"id": 40805,
+"pt": "Desafiantes"
+},
+{
+"id": 40806,
+"pt": "Soldados"
+},
+{
+"id": 40807,
+"pt": "Cavaleiros"
+},
+{
+"id": 40808,
+"pt": "Caçadores"
+},
+{
+"id": 40809,
+"pt": "Sacerdotes"
+},
+{
+"id": 40810,
+"pt": "Magos"
+},
+{
+"id": 40811,
+"pt": "Andarilhos"
+},
+{
+"id": 40812,
+"pt": "Bárbaros"
+},
+{
+"id": 40813,
+"pt": "Ladrões"
+},
+{
+"id": 40814,
+"pt": "Cavaleiros do Templo"
+},
+{
+"id": 40815,
+"pt": "Realeza"
+},
+{
+"id": 50000,
+"pt": "Nome do Inimigo"
+},
+{
+"id": 51000,
+"pt": "Nome do Item"
+},
+{
+"id": 52000,
+"pt": "Nome da Arma"
+},
+{
+"id": 53000,
+"pt": "Nome da Magia"
+},
+{
+"id": 54000,
+"pt": "Nome da Habilidade"
+}
+]
+}

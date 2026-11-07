@@ -1,0 +1,113 @@
+{
+"fmg": 23,
+"category": "accessory_desc",
+"bnd": "item",
+"jp_name": "アクセサリ説明.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100,
+"pt": "Aumenta a carga máxima de equipamento"
+},
+{
+"id": 101,
+"pt": "Aumenta a carga máxima de itens"
+},
+{
+"id": 102,
+"pt": "O poder de ataque aumenta com 30─ ou menos de PV"
+},
+{
+"id": 103,
+"pt": "A defesa aumenta com 30─ ou menos de PV"
+},
+{
+"id": 104,
+"pt": "Aumenta a taxa de recuperação de Vigor"
+},
+{
+"id": 105,
+"pt": "Recupera PM aos poucos"
+},
+{
+"id": 106,
+"pt": "Recupera PV aos poucos"
+},
+{
+"id": 107,
+"pt": "Aumenta a resistência ao fogo"
+},
+{
+"id": 108,
+"pt": "Aumenta a resistência ao veneno"
+},
+{
+"id": 109,
+"pt": "Aumenta o poder mágico, reduz a defesa mágica"
+},
+{
+"id": 110,
+"pt": "Reduz o poder mágico, aumenta a defesa mágica"
+},
+{
+"id": 111,
+"pt": "Aumenta a capacidade de memória de magias"
+},
+{
+"id": 112,
+"pt": "Aumenta o poder e o tempo de conjuração de milagres"
+},
+{
+"id": 113,
+"pt": "Perde menos PV na forma de Alma"
+},
+{
+"id": 114,
+"pt": "Aumenta o poder de ataque como Fantasma"
+},
+{
+"id": 115,
+"pt": "Aumenta o poder de ataque como Fantasma Negro"
+},
+{
+"id": 116,
+"pt": "Dificulta a detecção pelos inimigos"
+},
+{
+"id": 117,
+"pt": "Dificulta a detecção pelos Fantasmas Negros"
+},
+{
+"id": 118,
+"pt": "Reduz o dano de quedas"
+},
+{
+"id": 119,
+"pt": "Torna-se a principal prioridade de ataque dos inimigos"
+},
+{
+"id": 120,
+"pt": "Obtém mais Almas ao derrotar inimigos"
+},
+{
+"id": 121,
+"pt": "Reduz a taxa de desgaste das armas"
+},
+{
+"id": 123,
+"pt": "Aumenta o dano de acerto direto, reduz os demais"
+},
+{
+"id": 124,
+"pt": "Aumenta a capacidade de memória de milagres"
+},
+{
+"id": 125,
+"pt": "Aumenta a resistência a sangramento"
+},
+{
+"id": 126,
+"pt": "Aumenta a resistência à praga"
+}
+]
+}

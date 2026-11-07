@@ -1,0 +1,113 @@
+{
+"fmg": 27,
+"category": "accessory_lore",
+"bnd": "item",
+"jp_name": "アクセサリうんちく.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100,
+"pt": "Um anel dado às Presas Duplas do Rei Allant.\nAumenta a carga máxima de equipamento.\n\nCom este grande poder, Biorr das Presas Duplas\nempunhava com facilidade um enorme escudo de\naço, uma grande besta e uma espada colossal."
+},
+{
+"id": 101,
+"pt": "Um anel que Thomas, o Estocador, encontrou\num dia na rua.\nAumenta a carga máxima de itens."
+},
+{
+"id": 102,
+"pt": "Um simples anel de ouro com o selo de um\npequeno animal gravado.\nAumenta o poder de ataque quando os PV estão\nabaixo de 30─.\n\nPertencia ao Lorde Rydell, conhecido como\nPequeno Allant. Existe também o Anel do Rato\nTapado, que forma um par com este anel."
+},
+{
+"id": 103,
+"pt": "Um simples anel de ouro com o selo de um\npequeno animal gravado.\nAumenta a defesa quando os PV estão abaixo de\n30─.\n\nPertencia ao Lorde Rydell, conhecido como\nPequeno Allant. Existe também o Anel do Rato\nAstuto, que forma um par com este anel."
+},
+{
+"id": 104,
+"pt": "Um velho anel de bronze usado pelo Velho Rei\nDoran.\nAumenta a taxa de recuperação de Vigor.\n\nO herói Doran, protetor da família real de\nBoletaria, vive para sempre como semideus."
+},
+{
+"id": 105,
+"pt": "Um anel de nobre, forjado com especiarias.\nRecupera PM aos poucos.\n\nUma obra extremamente rara e delicada."
+},
+{
+"id": 106,
+"pt": "Um estranho anel de origem desconhecida.\nRecupera PV aos poucos.\n\nHá uma joia verde no centro de seu desenho\nsingular, e dentro dela está contido um\nlíquido espesso."
+},
+{
+"id": 107,
+"pt": "Um anel macio com um selo vermelho-escuro.\nAumenta a defesa contra fogo.\n\nFeito por Geri, amigo do Sábio Freke, o\nVisionário, conhecido por seus trabalhos\nmágicos. O desenho do selo é uma chama."
+},
+{
+"id": 108,
+"pt": "Um anel macio com um selo verde-escuro.\nAumenta a defesa contra veneno.\n\nFeito por Geri, amigo do Sábio Freke, o\nVisionário, conhecido por seus trabalhos\nmágicos. O desenho do selo é uma caveira."
+},
+{
+"id": 109,
+"pt": "Um anel macio com um selo verde-claro.\nAumenta o poder de ataque mágico e diminui a\ndefesa contra magia.\n\nFeito por Geri, amigo do Sábio Freke, o\nVisionário, conhecido por seus trabalhos\nmágicos. O desenho do selo é um homem voltado\npara a esquerda."
+},
+{
+"id": 110,
+"pt": "Um anel macio com um selo verde-claro.\nDiminui o poder de ataque mágico e aumenta a\ndefesa contra magia.\n\nFeito por Geri, amigo do Sábio Freke, o\nVisionário, conhecido por seus trabalhos\nmágicos. O desenho do selo é um homem voltado\npara a direita."
+},
+{
+"id": 111,
+"pt": "Um anel frio.\nAumenta a capacidade de memória de magias.\n\nDiz a lenda que bruxas amaldiçoadas nascem\nsegurando-o. Os nativos de terras selvagens o\nevitam a todo custo."
+},
+{
+"id": 112,
+"pt": "Aumenta o poder dos milagres e o tempo de\nvulnerabilidade ao conjurá-los.\n\nDiz-se que foi encontrado um dia pela jovem\nSexta Santa Astraea como uma das Revelações de\nDeus."
+},
+{
+"id": 113,
+"pt": "Um misterioso anel forjado em forma de olho.\nO personagem perde menos PV depois de se\ntornar uma Alma."
+},
+{
+"id": 114,
+"pt": "Um misterioso anel azul dado pelo Monumental.\nAumenta o poder de ataque como Fantasma.\n\nEste misterioso anel fomenta a camaradagem com\nos outros, pois seu portador auxilia\nguerreiros de outros mundos e é auxiliado por\neles. Esse foi o desejo do último Monumental.\nO Anel do Inimigo forma um par com este anel."
+},
+{
+"id": 115,
+"pt": "Um misterioso anel vermelho e negro de\nMefistófeles.\nAumenta o poder de ataque como Fantasma Negro.\n\nEste misterioso anel fomenta a traição contra\nos outros, pois seu portador invade guerreiros\nde outros mundos e devora suas Almas. O Anel\ndo Amigo forma um par com este anel."
+},
+{
+"id": 116,
+"pt": "Um antigo anel de safira.\nSuaviza a sua presença, dificultando a\ndetecção pelos inimigos."
+},
+{
+"id": 117,
+"pt": "Um antigo anel de topázio.\nSuaviza a sua Alma, dificultando a detecção\npelos Fantasmas Negros."
+},
+{
+"id": 118,
+"pt": "Um simples anel com o selo de um gato gravado.\nReduz o dano ao cair de lugares altos.\n\nContudo, se você cair de uma altura excessiva,\nmorrerá como de costume."
+},
+{
+"id": 119,
+"pt": "Um fino anel dourado em forma de serpente.\nAtrai os ataques de todos os inimigos.\n\nUsado outrora para marcar criminosos, seu\nportador era apedrejado e cuspido sem parar."
+},
+{
+"id": 120,
+"pt": "Um luxuoso anel de ouro com uma grande joia.\nPermite ao usuário obter mais Almas ao\nderrotar inimigos.\n\nFoi um dia símbolo de riqueza e devassidão."
+},
+{
+"id": 121,
+"pt": "Um anel feito de corda de palha.\nReduz o desgaste das armas.\n\nUm anel de uma terra distante, conhecida pela\nforja de espadas. Diz-se que está imbuído de\num feitiço particular."
+},
+{
+"id": 123,
+"pt": "Um anel feito de corda de palha.\nO dano de acertos diretos aumenta, enquanto o\ndano de todos os outros ataques diminui.\n\nUm anel de uma terra distante, conhecida pela\nforja de espadas. Diz-se que está imbuído de\num feitiço particular."
+},
+{
+"id": 124,
+"pt": "Um anel de prata branca extremamente simples.\nAumenta a capacidade de memória de milagres.\n\nSímbolo de alto posto na igreja, é dado apenas\nàqueles devotados ao serviço puro e eterno a\nDeus e à oração devota constante."
+},
+{
+"id": 125,
+"pt": "Um anel macio com um selo vermelho-vivo.\nAumenta a resistência a sangramento.\n\nFeito por Geri, amigo do Sábio Freke, o\nVisionário, conhecido por seus trabalhos\nmágicos. O desenho do selo é uma fissura."
+},
+{
+"id": 126,
+"pt": "Um anel macio com um selo roxo-escuro.\nAumenta a resistência à praga.\n\nFeito por Geri, amigo do Sábio Freke, o\nVisionário, conhecido por seus trabalhos\nmágicos. O desenho do selo é uma garra de\nrato."
+}
+]
+}

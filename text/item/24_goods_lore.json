@@ -1,0 +1,517 @@
+{
+"fmg": 24,
+"category": "goods_lore",
+"bnd": "item",
+"jp_name": "アイテムうんちく.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 6,
+"pt": "Chave do Campo de Execução."
+},
+{
+"id": 7,
+"pt": "A alma do Demônio “Falso Rei”. Irradia um\npoder enorme...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 8,
+"pt": "Uma argola de chaves de ferro. Todas parecem\niguais..."
+},
+{
+"id": 9,
+"pt": "Uma simples chave de cobre. É possível notar\nvagamente um pouco de mofo sobre ela."
+},
+{
+"id": 10,
+"pt": "Uma chave de ferro com um “I” gravado. Abre o\ncorredor trancado do 1º andar da Prisão da\nEsperança."
+},
+{
+"id": 11,
+"pt": "Uma chave de ferro com um “II” gravado. Abre o\ncorredor trancado do 2º andar da Prisão da\nEsperança."
+},
+{
+"id": 12,
+"pt": "Uma chave de ferro com um “III” gravado. Abre\no corredor trancado do 3º andar da Prisão da\nEsperança."
+},
+{
+"id": 13,
+"pt": "Uma chave de ferro com um “IV” gravado. Abre o\ncorredor trancado do 4º andar da Prisão da\nEsperança."
+},
+{
+"id": 14,
+"pt": "Uma chave de ferro sem marca. Usada para\nentrar no salão do Carcereiro na Prisão da\nEsperança."
+},
+{
+"id": 15,
+"pt": "A Alma do Demônio “Falange”. Irradia um poder\nintenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 16,
+"pt": "A Alma do Demônio “Cavaleiro da Torre”.\nIrradia um poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 17,
+"pt": "A Alma do Demônio “Penetrador”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 18,
+"pt": "A Alma do Demônio “Juiz”. Irradia um poder\nintenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 19,
+"pt": "A Alma do Demônio “Velho Herói”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 20,
+"pt": "A Alma do Demônio “Rei da Tempestade”. Irradia\num poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 21,
+"pt": "A Alma do Demônio “Ídolo do Tolo”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 22,
+"pt": "A Alma do Demônio “Devorador de Homens”.\nIrradia um poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 23,
+"pt": "A Alma do Demônio “Velho Monge”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 24,
+"pt": "A Alma do Demônio “Sanguessugueiro”. Irradia\num poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 25,
+"pt": "A Alma do Demônio “Colosso Imundo”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 26,
+"pt": "A Alma do Demônio “Senhora Astraea”. Irradia\num poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 27,
+"pt": "A Alma do Demônio “Aranha Blindada”. Irradia\num poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 28,
+"pt": "A Alma do Demônio “Espreitador de Chamas”.\nIrradia um poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 29,
+"pt": "A Alma do Demônio “Deus-Dragão”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 30,
+"pt": "A Alma do Demônio “Dama de Preto”. Irradia\num poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 31,
+"pt": "A Alma do Demônio “Vanguarda”. Irradia um\npoder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 32,
+"pt": "A Alma do Demônio “Dragão Voador Vermelho”.\nIrradia um poder intenso...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada."
+},
+{
+"id": 33,
+"pt": "A Alma do Demônio “Dragão Voador Azul”.\nIrradia um poder intensíssimo...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada."
+},
+{
+"id": 34,
+"pt": "A Alma de um Demônio Primordial. Você não\nsente poder algum nela...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada. Também pode ser\ntransformada em magias, milagres ou armas."
+},
+{
+"id": 35,
+"pt": "Chave de agalmatolito entalhado. Abre o\nMausoléu da Família Real de Boletaria."
+},
+{
+"id": 36,
+"pt": "Uma pesada chave de ferro incrustada de sangue\nseco."
+},
+{
+"id": 37,
+"pt": "Um pequeno brasão, intrincadamente decorado. O\ndesenho representa Vinland."
+},
+{
+"id": 38,
+"pt": "Um simples enfeite de cabelo de jade.\nPertenceria a uma pobre menina?"
+},
+{
+"id": 39,
+"pt": "Uma chave de ferro fundido com um “I” gravado.\nAbre a cela trancada do 1º andar da Prisão da\nEsperança."
+},
+{
+"id": 40,
+"pt": "Uma chave de ferro fundido com um “II”\ngravado. Abre a cela trancada da ala oeste do\n2º andar da Prisão da Esperança."
+},
+{
+"id": 41,
+"pt": "Uma chave de ferro fundido com um “III”\ngravado. Abre as celas trancadas do 3º andar\nda Prisão da Esperança."
+},
+{
+"id": 42,
+"pt": "Uma chave de ferro fundido com um “IV”\ngravado. Abre a cela trancada do 4º andar da\nPrisão da Esperança."
+},
+{
+"id": 43,
+"pt": "Uma chave de ferro fundido com um “II”\ngravado. Abre a cela trancada da ala leste do\n2º andar da Prisão da Esperança."
+},
+{
+"id": 44,
+"pt": "Uma chave de ferro fundido com a área gravada\nperfurada. Parece ser a chave de uma cela\nespecial."
+},
+{
+"id": 45,
+"pt": "A alma do demônio “O Ancião”. Irradia um poder\ntremendo...\n\nConcede ao portador uma grande quantidade de\nAlmas quando usada."
+},
+{
+"id": 99,
+"pt": "Uma pedra radiante com a luz das Almas. A cor\nda luz muda conforme as Almas da região.\n\nFoi feita por Geri, amigo do Sábio Freke,\nconhecido por seus ofícios mágicos. Por ser\nleve e fácil de manusear, é amplamente usada\npor viajantes."
+},
+{
+"id": 1000,
+"pt": "Uma erva medicinal batizada com a fase da lua.\nRecupera uma pequena quantidade de PV do\nusuário.\n\nO efeito das ervas lunares muda conforme o\nestado em que se encontram. As ervas da Lua\nCrescente são colhidas ainda muito jovens."
+},
+{
+"id": 1001,
+"pt": "Uma erva medicinal batizada com a fase da lua.\nRecupera um pouco dos PV do usuário.\n\nO efeito das ervas lunares muda conforme o\nestado em que se encontram. As ervas da Meia-\nLua são colhidas quando murchas."
+},
+{
+"id": 1002,
+"pt": "Uma erva medicinal batizada com a fase da lua.\nRecupera uma grande quantidade de PV do\nusuário.\n\nO efeito das ervas lunares muda conforme o\nestado em que se encontram. As ervas da Lua\nMinguante são conjuntos de ervas murchas que\nemitem uma luz tênue mesmo assim."
+},
+{
+"id": 1003,
+"pt": "Uma erva medicinal batizada com a fase da lua.\nRecupera quase todos os PV do usuário.\n\nO efeito das ervas lunares muda conforme o\nestado em que se encontram. As ervas da Lua\nCheia são conjuntos de ervas murchas que\nemitem uma luz tênue mesmo assim."
+},
+{
+"id": 1004,
+"pt": "Uma erva medicinal batizada com a fase da lua.\nRecupera todos os PV do usuário.\n\nO efeito das ervas lunares muda conforme o\nestado em que se encontram. As ervas da Lua\nNova são conjuntos de ervas murchas que não se\ndecompuseram nem após muitos anos."
+},
+{
+"id": 1005,
+"pt": "Um tempero de cheiro doce que acalma a alma.\nRecupera um pouco dos PM do usuário.\n\nÉ usado pela realeza como luxo e pelo mago\ncomo necessidade."
+},
+{
+"id": 1006,
+"pt": "Um tempero velho de cheiro adocicado e acre.\nRestaura uma grande quantidade de PM do\nusuário.\n\nÉ feito misturando diversos ingredientes\nfermentados. Devido ao cheiro forte e aos seus\nfabricantes, muitas vezes desprezíveis, foi\nproibido em algumas regiões."
+},
+{
+"id": 1007,
+"pt": "A pétala de uma flor carmesim que flutua sobre\na água. Remove o veneno do corpo do usuário.\n\nEsta flor se tornou famosa como ornamento da\nnobreza por sua beleza."
+},
+{
+"id": 1008,
+"pt": "A pétala de uma flor sombria que flutua sobre\na água. Remove a praga do corpo do usuário.\n\nEsta flor era presa aos corpos dos mortos pela\npraga durante o sepultamento, mas depois\ntornou-se o emblema das pessoas levadas pela\ndoença."
+},
+{
+"id": 1009,
+"pt": "Uma erva medicinal batizada com a fase da lua.\nRestaura totalmente os PV do usuário e cura\ntodas as condições adversas.\n\nO efeito das ervas lunares muda conforme o\nestado em que se encontram. As ervas da Lua\nSombria são raras flores da meia-noite que,\ndizem, derivam das ervas da Lua Nova."
+},
+{
+"id": 1010,
+"pt": "Uma pedra de amolar usada por Ed, o ferreiro\nde Stonefang. Reduz o desgaste da arma da mão\ndireita e restaura sua durabilidade."
+},
+{
+"id": 1011,
+"pt": "Uma faca adaptada para arremesso. Lance-a para\natacar.\n\nCavaleiros de armadura leve costumavam\ncarregá-la como arma reserva."
+},
+{
+"id": 1012,
+"pt": "Uma arma sombria, embebida em veneno, feita\npara arremesso. Lance-a para atacar.\n\nAssim como a katana, é uma arma de terras\ndistantes."
+},
+{
+"id": 1013,
+"pt": "Um barril de óleo com um pano inflamável como\ntampa. Ao ser lançado, produz uma grande\nchama."
+},
+{
+"id": 1014,
+"pt": "Os restos da Alma de um velho herói, à deriva\ne em parte em outro mundo. Atrai aqueles\nfamintos por Almas."
+},
+{
+"id": 1015,
+"pt": "Resina natural colhida de um pinheiro.\nAplique-a na arma da mão direita para envolvê-\nla em fogo.\n\nNão pode ser aplicada em armas de madeira."
+},
+{
+"id": 1016,
+"pt": "Resina natural colhida de um pinheiro negro.\nAplique-a na arma da mão direita para envolvê-\nla em fogo. A chama é muito mais forte que a\nda terebintina comum, mas dura menos.\n\nNão pode ser aplicada em armas de madeira."
+},
+{
+"id": 1017,
+"pt": "Uma substância branca, pegajosa e semelhante a\ncera. Aplique-a na arma da mão direita para\nobter um efeito mágico.\n\nDizem ser o resíduo de uma lesma mágica que se\nbanhou em água fluorescente."
+},
+{
+"id": 1018,
+"pt": "Um raro artefato que usa vidro curvado para\npermitir ao usuário enxergar nitidamente a\ngrandes distâncias.\n\nProvavelmente vem da região comparativamente\navançada do sul de Boletaria."
+},
+{
+"id": 1020,
+"pt": "Um fragmento raspado das Arquipedras\nespalhadas por cada região. Leva o usuário de\nvolta ao Nexus.\n\nAs Arquipedras que o Monumental confiou aos\nanciãos foram esquecidas e agora são deixadas\npara os ratos roerem."
+},
+{
+"id": 1021,
+"pt": "Uma pedra de olho deteriorada em mais da\nmetade. Ressuscita o corpo do usuário.\n\nSó pode ser usada na forma de Alma. Depois de\nusada, desmorona e se perde."
+},
+{
+"id": 1022,
+"pt": "Uma pedra que irradia luz temporariamente ao\nentrar em contato com o ar.\n\nÉ valorizada como joia única, mas, sem\nutilidade na forja, serve quase só como marco\nde orientação."
+},
+{
+"id": 1023,
+"pt": "A pétala de uma flor azul que flutua sobre a\nágua. Estanca o sangramento do usuário.\n\nNas cerimônias de guerra de Boletaria, era\nentregue aos soldados que partiam para a\nbatalha, com um sentido quase simbólico."
+},
+{
+"id": 1024,
+"pt": "Uma curiosa katana curta adaptada para\narremesso. Lance-a na horizontal para atacar.\n\nUma arma de aparência incrivelmente maligna,\nusada por espiões a serviço do Rei."
+},
+{
+"id": 1025,
+"pt": "Os restos do espírito de um soldado anônimo\nque permaneceram em seu cadáver. Use-os e as\nAlmas serão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1026,
+"pt": "Os restos do espírito de um herói anônimo que\npermaneceram em seu cadáver. Use-os e as Almas\nserão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1027,
+"pt": "Os restos do espírito de um soldado renomado\nque permaneceram em seu cadáver. Use-os e as\nAlmas serão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1028,
+"pt": "Os restos do espírito de um herói renomado que\npermaneceram em seu cadáver. Use-os e as Almas\nserão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1029,
+"pt": "Os restos do espírito de um soldado épico que\npermaneceram em seu cadáver. Use-os e as Almas\nserão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1030,
+"pt": "Os restos do espírito de um herói épico que\npermaneceram em seu cadáver. Use-os e as Almas\nserão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1031,
+"pt": "Os restos do espírito de um soldado lendário\nque permaneceram em seu cadáver. Use-os e as\nAlmas serão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1032,
+"pt": "Os restos do espírito de um herói lendário que\npermaneceram em seu cadáver. Use-os e as Almas\nserão somadas ao seu estoque.\n\nMesmo que você os deixe de lado, servirão\napenas de alimento aos demônios. Nesse caso..."
+},
+{
+"id": 1033,
+"pt": "O símbolo dos aprisionados no Nexus. Possuí-lo\no liga ao Nexus; mesmo que perca o corpo\nfísico, você não pode morrer, e sua alma\npermanece presa no Nexus.\n\nO Vínculo do Nexus leva o usuário de volta ao\nNexus ao morrer, mas todas as Almas coletadas\nsão perdidas."
+},
+{
+"id": 2000,
+"pt": "Um fragmento de minério duro. Fortalece\nespadas retas, machados, martelos e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Duras até o nível máximo 10."
+},
+{
+"id": 2001,
+"pt": "Um grande fragmento de minério duro. Fortalece\nespadas retas, machados, martelos e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Duras até o nível máximo 10."
+},
+{
+"id": 2002,
+"pt": "Um bloco de minério duro. Fortalece espadas\nretas, machados, martelos e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Duras até o nível máximo 10."
+},
+{
+"id": 2003,
+"pt": "Valiosa Pedra Dura pura. Fortalece espadas\nretas, machados, martelos e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Duras até o nível máximo 10."
+},
+{
+"id": 2004,
+"pt": "Um fragmento de minério afiado. Fortalece\nadagas, espadas curvas, lanças e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Afiadas até o nível máximo 10."
+},
+{
+"id": 2005,
+"pt": "Um grande fragmento de minério afiado.\nFortalece adagas, espadas curvas, lanças e\nafins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Afiadas até o nível máximo 10."
+},
+{
+"id": 2006,
+"pt": "Um bloco de minério afiado. Fortalece adagas,\nespadas curvas, lanças e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Afiadas até o nível máximo 10."
+},
+{
+"id": 2007,
+"pt": "Valiosa Pedra Afiada pura. Fortalece adagas,\nespadas curvas, lanças e afins.\n\nUm minério básico que aumenta o poder da arma\nde modo uniforme. Armas podem ser fortalecidas\ncom Pedras Afiadas até o nível máximo 10."
+},
+{
+"id": 2012,
+"pt": "Um fragmento de minério branco cristalizado.\nCapaz de fortalecer diversas armas.\n\nUm minério que exige habilidade e perícia para\nforjar armas de alta qualidade. Armas podem\nser fortalecidas com Pedras Claras até o nível\nmáximo 5."
+},
+{
+"id": 2013,
+"pt": "Um bloco de minério branco cristalizado. Capaz\nde fortalecer diversas armas.\n\nUm minério que exige habilidade e perícia para\nforjar armas de alta qualidade. Armas podem\nser fortalecidas com Pedras Claras até o nível\nmáximo 5."
+},
+{
+"id": 2014,
+"pt": "Valiosíssima Pedra Clara pura. Capaz de\nfortalecer diversas armas.\n\nUm minério que exige habilidade e perícia para\nforjar armas de alta qualidade. Armas podem\nser fortalecidas com Pedras Claras até o nível\nmáximo 5."
+},
+{
+"id": 2015,
+"pt": "Um fragmento de minério cinzento de brilho\nopaco. Fortalece espadas retas, machados,\nmartelos e afins.\n\nUm minério usado para forjar armas cuja pura\nforça esmaga os inimigos. Armas podem ser\nfortalecidas com Pedras Cinzentas até o nível\nmáximo 5."
+},
+{
+"id": 2016,
+"pt": "Um bloco de minério cinzento de brilho opaco.\nFortalece espadas retas, machados, martelos e\nafins.\n\nUm minério usado para forjar armas cuja pura\nforça esmaga os inimigos. Armas podem ser\nfortalecidas com Pedras Cinzentas até o nível\nmáximo 5."
+},
+{
+"id": 2017,
+"pt": "Valiosíssima Pedra Cinzenta pura. Fortalece\nespadas retas, machados, martelos e afins.\n\nUm minério usado para forjar armas cuja pura\nforça esmaga os inimigos. Armas podem ser\nfortalecidas com Pedras Cinzentas até o nível\nmáximo 5."
+},
+{
+"id": 2021,
+"pt": "Um fragmento de minério molhado de orvalho.\nFortalece facas, espadas curvas, lanças e\nafins.\n\nUm minério usado para forjar armas que exigem\ntécnica para dilacerar inimigos. Armas podem\nser fortalecidas com Pedras-Lâmina até o nível\nmáximo 5. Fortalecer uma arma com Pedras-\nLâmina pode torná-la frágil; tenha cautela."
+},
+{
+"id": 2022,
+"pt": "Um bloco de minério molhado de orvalho.\nFortalece facas, espadas curvas, lanças e\nafins.\n\nUm minério usado para forjar armas que exigem\ntécnica para dilacerar inimigos. Armas podem\nser fortalecidas com Pedras-Lâmina até o nível\nmáximo 5. Fortalecer uma arma com Pedras-\nLâmina pode torná-la frágil; tenha cautela."
+},
+{
+"id": 2023,
+"pt": "Valiosíssima Pedra-Lâmina pura. Fortalece\nfacas, espadas curvas, lanças e afins.\n\nUm minério usado para forjar armas que exigem\ntécnica para dilacerar inimigos. Armas podem\nser fortalecidas com Pedras-Lâmina até o nível\nmáximo 5. Fortalecer uma arma com Pedras-\nLâmina pode torná-la frágil; tenha cautela."
+},
+{
+"id": 2024,
+"pt": "Um fragmento de minério transparente como\ntecido. Usado principalmente para fortalecer\narcos.\n\nUm minério usado para fazer arcos delicados.\nArmas podem ser fortalecidas com Pedras-Aranha\naté o nível máximo 5."
+},
+{
+"id": 2025,
+"pt": "Um bloco de minério transparente como tecido.\nUsado principalmente para fortalecer arcos.\n\nUm minério usado para fazer arcos delicados.\nArmas podem ser fortalecidas com Pedras-Aranha\naté o nível máximo 5."
+},
+{
+"id": 2026,
+"pt": "Valiosíssima Pedra-Aranha pura. Usado\nprincipalmente para fortalecer arcos.\n\nUm minério usado para fazer arcos delicados.\nArmas podem ser fortalecidas com Pedras-Aranha\naté o nível máximo 5."
+},
+{
+"id": 2027,
+"pt": "Um fragmento de minério venenoso e derretido.\nFortalece facas, espadas curvas, lanças e\nafins.\n\nUm minério que aplica um forte veneno à arma.\nArmas podem ser fortalecidas com Pedras-\nMercúrio até o nível máximo 5."
+},
+{
+"id": 2028,
+"pt": "Um bloco de minério venenoso e derretido.\nFortalece facas, espadas curvas, lanças e\nafins.\n\nUm minério que aplica um forte veneno à arma.\nArmas podem ser fortalecidas com Pedras-\nMercúrio até o nível máximo 5."
+},
+{
+"id": 2029,
+"pt": "Rara Pedra-Mercúrio pura. Fortalece facas,\nespadas curvas, lanças e afins.\n\nUm minério que aplica um forte veneno à arma.\nArmas podem ser fortalecidas com Pedras-\nMercúrio até o nível máximo 5."
+},
+{
+"id": 2030,
+"pt": "Um fragmento de osso de dragão fossilizado\npela lava. Fortalece espadas retas, machados,\nmartelos e afins.\n\nUm minério que confere o poder do fogo à arma.\nArmas podem ser fortalecidas com Pedras-Dragão\naté o nível máximo 5."
+},
+{
+"id": 2031,
+"pt": "Um bloco de osso de dragão fossilizado pela\nlava. Fortalece espadas retas, machados,\nmartelos e afins.\n\nUm minério que confere o poder do fogo à arma.\nArmas podem ser fortalecidas com Pedras-Dragão\naté o nível máximo 5."
+},
+{
+"id": 2032,
+"pt": "Rara Pedra-Dragão pura. Fortalece espadas\nretas, machados, martelos e afins.\n\nUm minério que confere o poder do fogo à arma.\nArmas podem ser fortalecidas com Pedras-Dragão\naté o nível máximo 5."
+},
+{
+"id": 2033,
+"pt": "Um fragmento de minério vampiro que gruda na\npele. Fortalece espadas curvas, katanas e\nafins.\n\nUm minério que confere à arma um forte efeito\nde sangramento. Armas podem ser fortalecidas\ncom Pedras-Ventosa até o nível máximo 5."
+},
+{
+"id": 2034,
+"pt": "Um bloco de minério vampiro que gruda na pele.\nFortalece espadas curvas, katanas e afins.\n\nUm minério que confere à arma um forte efeito\nde sangramento. Armas podem ser fortalecidas\ncom Pedras-Ventosa até o nível máximo 5."
+},
+{
+"id": 2035,
+"pt": "Rara Pedra-Ventosa pura. Fortalece espadas\ncurvas, katanas e afins.\n\nUm minério que confere à arma um forte efeito\nde sangramento. Armas podem ser fortalecidas\ncom Pedras-Ventosa até o nível máximo 5."
+},
+{
+"id": 2036,
+"pt": "Um fragmento de minério finíssimo e\npontiagudo. Fortalece adagas, facas, lanças e\nafins.\n\nUm minério usado para forjar armas perfurantes\nde curto alcance, que desferem golpes críticos\ncom facilidade. Acredita-se ser a forma\ncristalizada dos minerais do sangue humano.\nArmas podem ser fortalecidas com Pedras-Tutano\naté o nível máximo 5."
+},
+{
+"id": 2037,
+"pt": "Um bloco de minério finíssimo e pontiagudo.\nFortalece adagas, facas, lanças e afins.\n\nUm minério usado para forjar armas perfurantes\nde curto alcance, que desferem golpes críticos\ncom facilidade. Acredita-se ser a forma\ncristalizada dos minerais do sangue humano.\nArmas podem ser fortalecidas com Pedras-Tutano\naté o nível máximo 5."
+},
+{
+"id": 2038,
+"pt": "Rara Pedra-Tutano pura. Fortalece adagas,\nfacas, lanças e afins.\n\nUm minério usado para forjar armas perfurantes\nde curto alcance, que desferem golpes críticos\ncom facilidade. Acredita-se ser a forma\ncristalizada dos minerais do sangue humano.\nArmas podem ser fortalecidas com Pedras-Tutano\naté o nível máximo 5."
+},
+{
+"id": 2039,
+"pt": "Um fragmento de minério que reflete o luar.\nFortalece espadas retas, espadas curvas,\nmachados, martelos e afins.\n\nUm minério que confere à arma um forte efeito\nmágico. Armas podem ser fortalecidas com\nPedras-Luar até o nível máximo 5."
+},
+{
+"id": 2040,
+"pt": "Um bloco de minério que reflete o luar.\nFortalece espadas retas, espadas curvas,\nmachados, martelos e afins.\n\nUm minério que confere à arma um forte efeito\nmágico. Armas podem ser fortalecidas com\nPedras-Luar até o nível máximo 5."
+},
+{
+"id": 2041,
+"pt": "Raríssima Pedra-Luar pura. Fortalece espadas\nretas, espadas curvas, machados, martelos e\nafins.\n\nUm minério que confere à arma um forte efeito\nmágico. Armas podem ser fortalecidas com\nPedras-Luar até o nível máximo 5."
+},
+{
+"id": 2042,
+"pt": "Um fragmento de sombra lunar. Fortalece\nadagas, facas e afins.\n\nO poder da Pedra da Lua Sombria também faz o\nusuário de uma arma fortalecida com ela\nrecuperar PM lentamente. Armas podem ser\nfortalecidas com Pedras da Lua Sombria até o\nnível máximo 5."
+},
+{
+"id": 2043,
+"pt": "Um bloco de sombra lunar. Fortalece adagas,\nfacas e afins.\n\nO poder da Pedra da Lua Sombria também faz o\nusuário de uma arma fortalecida com ela\nrecuperar PM lentamente. Armas podem ser\nfortalecidas com Pedras da Lua Sombria até o\nnível máximo 5."
+},
+{
+"id": 2044,
+"pt": "Raríssima Pedra da Lua Sombria pura. Fortalece\nadagas, facas e afins.\n\nO poder da Pedra da Lua Sombria também faz o\nusuário de uma arma fortalecida com ela\nrecuperar PM lentamente. Armas podem ser\nfortalecidas com Pedras da Lua Sombria até o\nnível máximo 5."
+},
+{
+"id": 2045,
+"pt": "Um fragmento de minério sagrado e frio que\nbrilha tenuemente. Fortalece espadas retas,\nmachados, martelos e afins.\n\nO poder da Pedra Tênue também faz o usuário de\numa arma abençoada com ela recuperar PV\nlentamente. Armas podem ser fortalecidas com\nPedras Tênues até o nível máximo 5."
+},
+{
+"id": 2046,
+"pt": "Um bloco de minério sagrado e frio que brilha\ntenuemente. Fortalece espadas retas, machados,\nmartelos e afins.\n\nO poder da Pedra Tênue também faz o usuário de\numa arma abençoada com ela recuperar PV\nlentamente. Armas podem ser fortalecidas com\nPedras Tênues até o nível máximo 5."
+},
+{
+"id": 2047,
+"pt": "Raríssima Pedra Tênue pura. Fortalece espadas\nretas, machados, martelos e afins.\n\nO poder da Pedra Tênue também faz o usuário de\numa arma abençoada com ela recuperar PV\nlentamente. Armas podem ser fortalecidas com\nPedras Tênues até o nível máximo 5."
+},
+{
+"id": 2048,
+"pt": "Um fragmento de minério verde que dizem\nexistir no céu. Fortalece escudos em\nparticular.\n\nUm minério que bloqueia a luz e aumenta a\ncapacidade do escudo de bloquear magia.\nEscudos podem ser fortalecidos com Pedras-\nNuvem até o nível máximo 5."
+},
+{
+"id": 2049,
+"pt": "Um bloco de minério verde que dizem existir no\ncéu. Fortalece escudos em particular.\n\nUm minério que bloqueia a luz e aumenta a\ncapacidade do escudo de bloquear magia.\nEscudos podem ser fortalecidos com Pedras-\nNuvem até o nível máximo 5."
+},
+{
+"id": 2050,
+"pt": "Raríssima Pedra-Nuvem pura. Fortalece escudos\nem particular.\n\nUm minério que bloqueia a luz e aumenta a\ncapacidade do escudo de bloquear magia.\nEscudos podem ser fortalecidos com Pedras-\nNuvem até o nível máximo 5."
+},
+{
+"id": 2054,
+"pt": "Um fragmento de lava que contém calor intenso.\n\nEste minério singular derrete todos os outros\nminérios e devolve uma arma fortalecida ao seu\nestado original."
+},
+{
+"id": 2055,
+"pt": "Grande fragmento de Pedra Clara."
+},
+{
+"id": 2056,
+"pt": "Grande fragmento de Pedra Cinzenta."
+},
+{
+"id": 2057,
+"pt": "Grande fragmento de Pedra-Lâmina."
+},
+{
+"id": 9995,
+"pt": "Uma pedra de olho roubada de um Fantasma\nNegro. Prova de um humano corrompido. Quando\nvocê morrer e entrar na forma de Alma, use\neste item para invadir outro mundo. (Só pode\nser usada na forma de Alma.)\n\nAo entrar em outro mundo, você se torna um\nFantasma Negro. Se derrotar o guerreiro\ndaquele mundo, ressuscitará com o seu corpo."
+},
+{
+"id": 9996,
+"pt": "Prova de ter sido engolido pelo Ancião,\ntornando-se um demônio no processo. Use-a para\nenviar um Sinal de Alma vermelho. (Este item\npode ser usado a qualquer momento.)\n\nUm Sinal de Alma vermelho é enviado a outros\nmundos, e você é invocado desses mundos como\num Fantasma Negro. No outro mundo, você aposta\nAlmas em combate contra quem o invocou."
+},
+{
+"id": 9997,
+"pt": "Prova de que o Monumental o aceitou como algoz\nde demônios. Quando morrer e entrar na forma\nde Alma, use-a para enviar um Sinal de Alma.\nEste item só pode ser usado na forma de Alma.\n\nUm Sinal de Alma é enviado a outros mundos, e\nvocê é invocado desses mundos como um\nFantasma. Se ajudar o invocador a derrotar um\ndemônio, recuperará o seu corpo."
+},
+{
+"id": 9998,
+"pt": "Força um fantasma branco a deixar a sala"
+},
+{
+"id": 9999,
+"pt": "A sombra branca de todas as pedras de olho.\nControla a invocação de Fantasmas.\n\nUse-a para enviar os Fantasmas invocados de\nvolta ao seu mundo de origem. (Fantasmas\nbanidos não serão ressuscitados.) Você também\npode voltar ao seu próprio mundo depois de\ninvocado como Fantasma, mas não será\nressuscitado."
+}
+]
+}

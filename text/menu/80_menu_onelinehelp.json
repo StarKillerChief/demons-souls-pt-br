@@ -1,0 +1,413 @@
+{
+"fmg": 80,
+"category": "menu_onelinehelp",
+"bnd": "menu",
+"jp_name": "一行ヘルプ.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 10001,
+"pt": "Veja, use e descarte os itens que você carrega."
+},
+{
+"id": 10002,
+"pt": "Altere o equipamento."
+},
+{
+"id": 10003,
+"pt": "Veja as informações do personagem."
+},
+{
+"id": 10004,
+"pt": "Verifique a Tendência do Mundo."
+},
+{
+"id": 10005,
+"pt": "Saia do jogo, carregue um perfil ou configure as opções do jogo."
+},
+{
+"id": 11000,
+"pt": "Escolha um item."
+},
+{
+"id": 11001,
+"pt": "Escolha um item."
+},
+{
+"id": 11002,
+"pt": "Selecione um item para ordenar."
+},
+{
+"id": 11003,
+"pt": "Selecione uma nova posição para o item."
+},
+{
+"id": 11004,
+"pt": "Descarte os itens selecionados."
+},
+{
+"id": 11005,
+"pt": "Ordene os itens manualmente."
+},
+{
+"id": 11006,
+"pt": "Ordene os itens automaticamente."
+},
+{
+"id": 11007,
+"pt": "Use o item selecionado."
+},
+{
+"id": 12000,
+"pt": "Selecione o tipo de equipamento a alterar."
+},
+{
+"id": 12001,
+"pt": "Selecione um item para equipar."
+},
+{
+"id": 14000,
+"pt": "Exibe o status do jogador."
+},
+{
+"id": 15000,
+"pt": "Exibe a Tendência de Alma de cada área e do jogador."
+},
+{
+"id": 16000,
+"pt": "Ajuste as configurações."
+},
+{
+"id": 16001,
+"pt": "Ajuste as configurações."
+},
+{
+"id": 16003,
+"pt": "Confirme as alterações das configurações."
+},
+{
+"id": 16004,
+"pt": "Confirme as configurações e continue."
+},
+{
+"id": 16005,
+"pt": "Restaure as configurações padrão."
+},
+{
+"id": 16006,
+"pt": "Restaure as configurações padrão."
+},
+{
+"id": 16500,
+"pt": "Configure cada opção individualmente."
+},
+{
+"id": 16501,
+"pt": "Carregue outro perfil."
+},
+{
+"id": 16502,
+"pt": "Saia do jogo e volte à Tela de Título."
+},
+{
+"id": 17400,
+"pt": "O que deseja fazer?"
+},
+{
+"id": 17800,
+"pt": "Selecione um jogador para avaliar."
+},
+{
+"id": 17801,
+"pt": "Selecione uma avaliação para este jogador."
+},
+{
+"id": 18000,
+"pt": "Selecione um destino."
+},
+{
+"id": 18200,
+"pt": "Registros do jogador ao concluir o jogo."
+},
+{
+"id": 18201,
+"pt": "Status do jogador ao concluir o jogo."
+},
+{
+"id": 18202,
+"pt": "Equipamento do jogador ao concluir o jogo."
+},
+{
+"id": 20000,
+"pt": "Selecione um item para aprimorar."
+},
+{
+"id": 20001,
+"pt": "Selecione um item para aprimorar."
+},
+{
+"id": 22000,
+"pt": "Selecione uma magia."
+},
+{
+"id": 22001,
+"pt": "Selecione uma magia."
+},
+{
+"id": 22002,
+"pt": "Selecione um milagre."
+},
+{
+"id": 22003,
+"pt": "Selecione um milagre."
+},
+{
+"id": 23000,
+"pt": "Selecione um item para depositar."
+},
+{
+"id": 23001,
+"pt": "Escolha um item."
+},
+{
+"id": 23003,
+"pt": "Selecione um item para ordenar."
+},
+{
+"id": 23004,
+"pt": "Selecione uma nova posição para o item."
+},
+{
+"id": 23005,
+"pt": "Descarte os itens selecionados."
+},
+{
+"id": 23006,
+"pt": "Ordene os itens manualmente."
+},
+{
+"id": 23007,
+"pt": "Ordene os itens automaticamente."
+},
+{
+"id": 23008,
+"pt": "Use o item selecionado."
+},
+{
+"id": 30000,
+"pt": "Selecione um item."
+},
+{
+"id": 31000,
+"pt": "Selecione um equipamento para reparar."
+},
+{
+"id": 32000,
+"pt": "Escolha um equipamento para aprimorar."
+},
+{
+"id": 32001,
+"pt": "Escolha um equipamento para aprimorar."
+},
+{
+"id": 34000,
+"pt": "Selecione a informação que deseja comprar."
+},
+{
+"id": 34001,
+"pt": "Selecione a informação que deseja consultar."
+},
+{
+"id": 35000,
+"pt": "Selecione a magia desejada."
+},
+{
+"id": 35300,
+"pt": "Selecione o milagre desejado."
+},
+{
+"id": 41000,
+"pt": "Selecione um perfil para usar no jogo."
+},
+{
+"id": 41001,
+"pt": "Selecione um perfil para excluir."
+},
+{
+"id": 41002,
+"pt": "Selecione um perfil para usar no jogo."
+},
+{
+"id": 42000,
+"pt": "Insira o nome do seu personagem."
+},
+{
+"id": 42001,
+"pt": "Selecione um gênero."
+},
+{
+"id": 42002,
+"pt": "Selecione uma classe inicial."
+},
+{
+"id": 42003,
+"pt": "Edite a aparência do seu personagem."
+},
+{
+"id": 42004,
+"pt": "Confirme o estado atual e continue."
+},
+{
+"id": 43001,
+"pt": "Selecione uma origem."
+},
+{
+"id": 43002,
+"pt": "Gere uma aparência aleatória com base na origem selecionada."
+},
+{
+"id": 43003,
+"pt": "Restaure a aparência editada às configurações padrão."
+},
+{
+"id": 43004,
+"pt": "Configure a idade do personagem."
+},
+{
+"id": 43005,
+"pt": "Ajuste a feminilidade/masculinidade."
+},
+{
+"id": 43006,
+"pt": "Edite os detalhes da aparência do personagem."
+},
+{
+"id": 43011,
+"pt": "Selecione um penteado."
+},
+{
+"id": 43012,
+"pt": "Ajuste a cor do cabelo."
+},
+{
+"id": 43101,
+"pt": "Ajuste o equilíbrio do rosto e a cor da pele."
+},
+{
+"id": 43102,
+"pt": "Ajuste a testa e a linha das sobrancelhas."
+},
+{
+"id": 43103,
+"pt": "Ajuste os detalhes das sobrancelhas."
+},
+{
+"id": 43104,
+"pt": "Ajuste a estrutura e a coloração dos olhos."
+},
+{
+"id": 43105,
+"pt": "Ajuste os detalhes do nariz."
+},
+{
+"id": 43106,
+"pt": "Ajuste os detalhes das bochechas."
+},
+{
+"id": 43107,
+"pt": "Ajuste os detalhes da boca e dos lábios."
+},
+{
+"id": 43108,
+"pt": "Ajuste o formato da mandíbula e do queixo e os pelos faciais."
+},
+{
+"id": 43109,
+"pt": "Ajuste a cor personalizada do cabelo."
+},
+{
+"id": 43201,
+"pt": "Ajuste o equilíbrio e a cor do rosto."
+},
+{
+"id": 43202,
+"pt": "Ajuste o equilíbrio e a cor do rosto."
+},
+{
+"id": 43203,
+"pt": "Ajuste a testa e a linha das sobrancelhas."
+},
+{
+"id": 43204,
+"pt": "Ajuste a arcada e as sobrancelhas."
+},
+{
+"id": 43205,
+"pt": "Ajuste a arcada e as sobrancelhas."
+},
+{
+"id": 43206,
+"pt": "Ajuste a estrutura e a coloração dos olhos."
+},
+{
+"id": 43207,
+"pt": "Ajuste a estrutura e a coloração dos olhos."
+},
+{
+"id": 43208,
+"pt": "Ajuste as narinas e a ponte do nariz."
+},
+{
+"id": 43209,
+"pt": "Ajuste as narinas e a ponte do nariz."
+},
+{
+"id": 43210,
+"pt": "Ajuste as bochechas."
+},
+{
+"id": 43211,
+"pt": "Ajuste os lábios, a boca e a cor dos lábios."
+},
+{
+"id": 43212,
+"pt": "Ajuste os lábios, a boca e a cor dos lábios."
+},
+{
+"id": 43213,
+"pt": "Ajuste os lábios, a boca e a cor dos lábios."
+},
+{
+"id": 43214,
+"pt": "Ajuste a mandíbula, o queixo e os pelos faciais."
+},
+{
+"id": 43215,
+"pt": "Ajuste a mandíbula, o queixo e os pelos faciais."
+},
+{
+"id": 43216,
+"pt": "Ajuste a mandíbula, o queixo e os pelos faciais."
+},
+{
+"id": 43501,
+"pt": "Faça os seus ajustes."
+},
+{
+"id": 43502,
+"pt": "Selecione o conteúdo."
+},
+{
+"id": 43503,
+"pt": "Confirme o conteúdo e volte."
+},
+{
+"id": 44000,
+"pt": "Selecione o corpo da mensagem."
+},
+{
+"id": 44001,
+"pt": "Escolha o que preencher no espaço em branco."
+}
+]
+}

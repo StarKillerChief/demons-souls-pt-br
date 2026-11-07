@@ -1,0 +1,1477 @@
+{
+"fmg": 77,
+"category": "menu_misc",
+"bnd": "menu",
+"jp_name": "メニューその他.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 10001,
+"pt": "Aprimorar <?primParam?>"
+},
+{
+"id": 11021,
+"pt": "Custo Nec./## de Almas"
+},
+{
+"id": 14000,
+"pt": "Pegar Alma"
+},
+{
+"id": 14001,
+"pt": "Memorizar Milagre"
+},
+{
+"id": 14002,
+"pt": "Memorizar Magia"
+},
+{
+"id": 14003,
+"pt": "Depositar"
+},
+{
+"id": 14004,
+"pt": "Resgatar"
+},
+{
+"id": 20001,
+"pt": "Comprar"
+},
+{
+"id": 20002,
+"pt": "Reparar"
+},
+{
+"id": 20003,
+"pt": "Forjar"
+},
+{
+"id": 20005,
+"pt": "Aprender Milagre"
+},
+{
+"id": 20006,
+"pt": "Aprender Magia"
+},
+{
+"id": 23001,
+"pt": "Forjar"
+},
+{
+"id": 30000,
+"pt": "PRESSIONE O BOTÃO START"
+},
+{
+"id": 30001,
+"pt": "NOVO JOGO"
+},
+{
+"id": 30002,
+"pt": "CARREGAR JOGO"
+},
+{
+"id": 30201,
+"pt": "Aceitar"
+},
+{
+"id": 30202,
+"pt": "Não Aceitar"
+},
+{
+"id": 30901,
+"pt": "Lista de Perfis"
+},
+{
+"id": 30902,
+"pt": "Criar Perfil"
+},
+{
+"id": 30903,
+"pt": "Editar Aparência"
+},
+{
+"id": 30906,
+"pt": "Arquétipo"
+},
+{
+"id": 31001,
+"pt": "Nenhum dado de perfil encontrado."
+},
+{
+"id": 31002,
+"pt": "Nível de Alma"
+},
+{
+"id": 32000,
+"pt": "Gênero"
+},
+{
+"id": 32001,
+"pt": "Classe"
+},
+{
+"id": 32002,
+"pt": "Nome"
+},
+{
+"id": 32003,
+"pt": "Editar Aparência"
+},
+{
+"id": 32110,
+"pt": "Masculino"
+},
+{
+"id": 32111,
+"pt": "Feminino"
+},
+{
+"id": 32200,
+"pt": "Insira um nome"
+},
+{
+"id": 32201,
+"pt": "NOME DO JOGADOR"
+},
+{
+"id": 33000,
+"pt": "Ajuste de Brilho"
+},
+{
+"id": 33010,
+"pt": "Ajuste o brilho até o escudo ficar"
+},
+{
+"id": 33011,
+"pt": "visível e o dragão, invisível."
+},
+{
+"id": 34000,
+"pt": "Mensagem"
+},
+{
+"id": 35000,
+"pt": "Gerar"
+},
+{
+"id": 35001,
+"pt": "Personalizar"
+},
+{
+"id": 35010,
+"pt": "Origem"
+},
+{
+"id": 35011,
+"pt": "Aleatório"
+},
+{
+"id": 35012,
+"pt": "Padrão"
+},
+{
+"id": 35013,
+"pt": "Idade"
+},
+{
+"id": 35014,
+"pt": "Gênero"
+},
+{
+"id": 35015,
+"pt": "Detalhes"
+},
+{
+"id": 35016,
+"pt": "Penteado"
+},
+{
+"id": 35017,
+"pt": "Cor do Cabelo"
+},
+{
+"id": 35030,
+"pt": "Sul"
+},
+{
+"id": 35031,
+"pt": "Leste"
+},
+{
+"id": 35032,
+"pt": "Norte"
+},
+{
+"id": 35033,
+"pt": "Oeste"
+},
+{
+"id": 35050,
+"pt": "Masculino"
+},
+{
+"id": 35051,
+"pt": "Feminino"
+},
+{
+"id": 35060,
+"pt": "Jovem"
+},
+{
+"id": 35061,
+"pt": "Velho"
+},
+{
+"id": 35070,
+"pt": "Castanho-escuro"
+},
+{
+"id": 35071,
+"pt": "Ruivo"
+},
+{
+"id": 35072,
+"pt": "Preto"
+},
+{
+"id": 35073,
+"pt": "Castanho-claro"
+},
+{
+"id": 35074,
+"pt": "Loiro"
+},
+{
+"id": 35075,
+"pt": "Grisalho"
+},
+{
+"id": 35076,
+"pt": "Branco"
+},
+{
+"id": 35077,
+"pt": "Personalizado"
+},
+{
+"id": 35200,
+"pt": "Geral"
+},
+{
+"id": 35201,
+"pt": "Testa"
+},
+{
+"id": 35202,
+"pt": "Sobrancelhas"
+},
+{
+"id": 35203,
+"pt": "Olhos"
+},
+{
+"id": 35204,
+"pt": "Nariz"
+},
+{
+"id": 35205,
+"pt": "Maçãs do Rosto"
+},
+{
+"id": 35206,
+"pt": "Boca"
+},
+{
+"id": 35207,
+"pt": "Mandíbula"
+},
+{
+"id": 35208,
+"pt": "Cor do Cabelo"
+},
+{
+"id": 35210,
+"pt": "Formato"
+},
+{
+"id": 35211,
+"pt": "Tom de Pele"
+},
+{
+"id": 35230,
+"pt": "Sobrancelha/Testa"
+},
+{
+"id": 35250,
+"pt": "Arcada Superciliar"
+},
+{
+"id": 35251,
+"pt": "Sobrancelhas"
+},
+{
+"id": 35270,
+"pt": "Olhos"
+},
+{
+"id": 35271,
+"pt": "Área dos Olhos"
+},
+{
+"id": 35290,
+"pt": "Dorso do Nariz"
+},
+{
+"id": 35291,
+"pt": "Narinas"
+},
+{
+"id": 35310,
+"pt": "Maçãs do Rosto"
+},
+{
+"id": 35330,
+"pt": "Lábios"
+},
+{
+"id": 35331,
+"pt": "Boca"
+},
+{
+"id": 35332,
+"pt": "Cor dos Lábios"
+},
+{
+"id": 35350,
+"pt": "Queixo"
+},
+{
+"id": 35351,
+"pt": "Mandíbula"
+},
+{
+"id": 35352,
+"pt": "Pelos Faciais"
+},
+{
+"id": 36000,
+"pt": "Tamanho do Nariz"
+},
+{
+"id": 36001,
+"pt": "Largo"
+},
+{
+"id": 36002,
+"pt": "Estreito"
+},
+{
+"id": 36010,
+"pt": "Tam. do Nariz/Testa"
+},
+{
+"id": 36011,
+"pt": "Nariz"
+},
+{
+"id": 36012,
+"pt": "Testa"
+},
+{
+"id": 36020,
+"pt": "Proporções do Rosto"
+},
+{
+"id": 36030,
+"pt": "Aspereza do Rosto"
+},
+{
+"id": 36031,
+"pt": "Côncavo"
+},
+{
+"id": 36032,
+"pt": "Convexo"
+},
+{
+"id": 36040,
+"pt": "Espaçamento Vertical"
+},
+{
+"id": 36041,
+"pt": "Largo"
+},
+{
+"id": 36042,
+"pt": "Estreito"
+},
+{
+"id": 36050,
+"pt": "Inclinação das Feições"
+},
+{
+"id": 36051,
+"pt": "Cima"
+},
+{
+"id": 36052,
+"pt": "Baixo"
+},
+{
+"id": 36060,
+"pt": "Espaçamento Horizontal"
+},
+{
+"id": 36061,
+"pt": "Largo"
+},
+{
+"id": 36062,
+"pt": "Estreito"
+},
+{
+"id": 36100,
+"pt": "Cor da Pele"
+},
+{
+"id": 36101,
+"pt": "Corada"
+},
+{
+"id": 36102,
+"pt": "Pálida"
+},
+{
+"id": 36110,
+"pt": "Pigmento"
+},
+{
+"id": 36111,
+"pt": "Escuro"
+},
+{
+"id": 36112,
+"pt": "Claro"
+},
+{
+"id": 36120,
+"pt": "Cor da Pele"
+},
+{
+"id": 36121,
+"pt": "Laranja"
+},
+{
+"id": 36122,
+"pt": "Azul"
+},
+{
+"id": 36130,
+"pt": "Cor da Pele"
+},
+{
+"id": 36131,
+"pt": "Roxo"
+},
+{
+"id": 36132,
+"pt": "Amarelo"
+},
+{
+"id": 36140,
+"pt": "Cor da Pele"
+},
+{
+"id": 36141,
+"pt": "Ruivo"
+},
+{
+"id": 36142,
+"pt": "Verde"
+},
+{
+"id": 36150,
+"pt": "Cor da Ponte do Nariz"
+},
+{
+"id": 36151,
+"pt": "Pálida"
+},
+{
+"id": 36152,
+"pt": "Ruivo"
+},
+{
+"id": 36160,
+"pt": "Cor das Bochechas"
+},
+{
+"id": 36161,
+"pt": "Branco"
+},
+{
+"id": 36162,
+"pt": "Ruivo"
+},
+{
+"id": 36200,
+"pt": "Largura da Sobrancelha"
+},
+{
+"id": 36201,
+"pt": "Estreito"
+},
+{
+"id": 36202,
+"pt": "Largo"
+},
+{
+"id": 36210,
+"pt": "Profundidade da Sobrancelha"
+},
+{
+"id": 36211,
+"pt": "Leve"
+},
+{
+"id": 36212,
+"pt": "Profundo"
+},
+{
+"id": 36220,
+"pt": "Aspereza da Sobrancelha"
+},
+{
+"id": 36221,
+"pt": "Convexo"
+},
+{
+"id": 36222,
+"pt": "Côncavo"
+},
+{
+"id": 36230,
+"pt": "Altura da Ponte do Nariz"
+},
+{
+"id": 36231,
+"pt": "Baixo"
+},
+{
+"id": 36232,
+"pt": "Alto"
+},
+{
+"id": 36240,
+"pt": "Aspereza da Ponte 1"
+},
+{
+"id": 36241,
+"pt": "Côncavo"
+},
+{
+"id": 36242,
+"pt": "Convexo"
+},
+{
+"id": 36250,
+"pt": "Aspereza da Ponte 2"
+},
+{
+"id": 36251,
+"pt": "Côncavo"
+},
+{
+"id": 36252,
+"pt": "Convexo"
+},
+{
+"id": 36260,
+"pt": "Largura da Ponte do Nariz"
+},
+{
+"id": 36261,
+"pt": "Estreito"
+},
+{
+"id": 36262,
+"pt": "Largo"
+},
+{
+"id": 36300,
+"pt": "Altura da Arcada"
+},
+{
+"id": 36301,
+"pt": "Alto"
+},
+{
+"id": 36302,
+"pt": "Baixo"
+},
+{
+"id": 36310,
+"pt": "Arcada Interna"
+},
+{
+"id": 36311,
+"pt": "Baixo"
+},
+{
+"id": 36312,
+"pt": "Alto"
+},
+{
+"id": 36320,
+"pt": "Arcada Externa"
+},
+{
+"id": 36321,
+"pt": "Alto"
+},
+{
+"id": 36322,
+"pt": "Baixo"
+},
+{
+"id": 36400,
+"pt": "Densidade das Sobrancelhas"
+},
+{
+"id": 36401,
+"pt": "Densas"
+},
+{
+"id": 36402,
+"pt": "Ralas"
+},
+{
+"id": 36410,
+"pt": "Posição das Sobrancelhas"
+},
+{
+"id": 36411,
+"pt": "Baixo"
+},
+{
+"id": 36412,
+"pt": "Alto"
+},
+{
+"id": 36420,
+"pt": "Espessura da Sobrancelha 1"
+},
+{
+"id": 36421,
+"pt": "Grossa"
+},
+{
+"id": 36422,
+"pt": "Fina"
+},
+{
+"id": 36430,
+"pt": "Espessura da Sobrancelha 2"
+},
+{
+"id": 36431,
+"pt": "Fina"
+},
+{
+"id": 36432,
+"pt": "Grossa"
+},
+{
+"id": 36440,
+"pt": "Sobrancelha Inferior"
+},
+{
+"id": 36441,
+"pt": "Ralas"
+},
+{
+"id": 36442,
+"pt": "Densas"
+},
+{
+"id": 36450,
+"pt": "Sobrancelha Externa"
+},
+{
+"id": 36451,
+"pt": "Ralas"
+},
+{
+"id": 36452,
+"pt": "Densas"
+},
+{
+"id": 36460,
+"pt": "Sobrancelha Superior"
+},
+{
+"id": 36461,
+"pt": "Densas"
+},
+{
+"id": 36462,
+"pt": "Ralas"
+},
+{
+"id": 36500,
+"pt": "Posição dos Olhos"
+},
+{
+"id": 36501,
+"pt": "Baixo"
+},
+{
+"id": 36502,
+"pt": "Cima"
+},
+{
+"id": 36510,
+"pt": "Tamanho dos Olhos"
+},
+{
+"id": 36511,
+"pt": "Pequeno"
+},
+{
+"id": 36512,
+"pt": "Grande"
+},
+{
+"id": 36520,
+"pt": "Inclinação dos Olhos"
+},
+{
+"id": 36521,
+"pt": "Para Dentro"
+},
+{
+"id": 36522,
+"pt": "Para Fora"
+},
+{
+"id": 36530,
+"pt": "Distância entre os Olhos"
+},
+{
+"id": 36531,
+"pt": "Largo"
+},
+{
+"id": 36532,
+"pt": "Estreito"
+},
+{
+"id": 36540,
+"pt": "Brilho da Esclera"
+},
+{
+"id": 36541,
+"pt": "Escuro"
+},
+{
+"id": 36542,
+"pt": "Claro"
+},
+{
+"id": 36550,
+"pt": "Cor dos Olhos"
+},
+{
+"id": 36551,
+"pt": "Âmbar"
+},
+{
+"id": 36552,
+"pt": "Cinza"
+},
+{
+"id": 36560,
+"pt": "Brilho dos Olhos"
+},
+{
+"id": 36561,
+"pt": "Escuro"
+},
+{
+"id": 36562,
+"pt": "Claro"
+},
+{
+"id": 36600,
+"pt": "Cor das Órbitas"
+},
+{
+"id": 36601,
+"pt": "Escuro"
+},
+{
+"id": 36602,
+"pt": "Claro"
+},
+{
+"id": 36610,
+"pt": "Brilho das Órbitas"
+},
+{
+"id": 36611,
+"pt": "Escuro"
+},
+{
+"id": 36612,
+"pt": "Claro"
+},
+{
+"id": 36620,
+"pt": "Brilho das Pálpebras"
+},
+{
+"id": 36621,
+"pt": "Claro"
+},
+{
+"id": 36622,
+"pt": "Escuro"
+},
+{
+"id": 36630,
+"pt": "Cor das Pálpebras"
+},
+{
+"id": 36631,
+"pt": "Pálida"
+},
+{
+"id": 36632,
+"pt": "Ruivo"
+},
+{
+"id": 36640,
+"pt": "Delineador"
+},
+{
+"id": 36641,
+"pt": "Claro"
+},
+{
+"id": 36642,
+"pt": "Escuro"
+},
+{
+"id": 36650,
+"pt": "Sombra"
+},
+{
+"id": 36651,
+"pt": "Claro"
+},
+{
+"id": 36652,
+"pt": "Escuro"
+},
+{
+"id": 36700,
+"pt": "Profundidade do Dorso do Nariz"
+},
+{
+"id": 36701,
+"pt": "Curto"
+},
+{
+"id": 36702,
+"pt": "Longo"
+},
+{
+"id": 36710,
+"pt": "Comprimento do Dorso do Nariz"
+},
+{
+"id": 36711,
+"pt": "Curto"
+},
+{
+"id": 36712,
+"pt": "Longo"
+},
+{
+"id": 36720,
+"pt": "Posição do Nariz"
+},
+{
+"id": 36721,
+"pt": "Baixo"
+},
+{
+"id": 36722,
+"pt": "Cima"
+},
+{
+"id": 36730,
+"pt": "Altura da Ponta do Nariz"
+},
+{
+"id": 36731,
+"pt": "Baixo"
+},
+{
+"id": 36732,
+"pt": "Alto"
+},
+{
+"id": 36740,
+"pt": "Aspereza do Nariz"
+},
+{
+"id": 36741,
+"pt": "Côncavo"
+},
+{
+"id": 36742,
+"pt": "Convexo"
+},
+{
+"id": 36750,
+"pt": "Altura do Nariz"
+},
+{
+"id": 36751,
+"pt": "Baixo"
+},
+{
+"id": 36752,
+"pt": "Alto"
+},
+{
+"id": 36760,
+"pt": "Inclinação do Nariz"
+},
+{
+"id": 36761,
+"pt": "Baixo"
+},
+{
+"id": 36762,
+"pt": "Cima"
+},
+{
+"id": 36800,
+"pt": "Inclinação das Narinas"
+},
+{
+"id": 36801,
+"pt": "Baixo"
+},
+{
+"id": 36802,
+"pt": "Cima"
+},
+{
+"id": 36810,
+"pt": "Tamanho das Narinas"
+},
+{
+"id": 36811,
+"pt": "Pequeno"
+},
+{
+"id": 36812,
+"pt": "Grande"
+},
+{
+"id": 36820,
+"pt": "Largura das Narinas"
+},
+{
+"id": 36821,
+"pt": "Largo"
+},
+{
+"id": 36822,
+"pt": "Estreito"
+},
+{
+"id": 36830,
+"pt": "Tamanho Nasal"
+},
+{
+"id": 36831,
+"pt": "Pequeno"
+},
+{
+"id": 36832,
+"pt": "Grande"
+},
+{
+"id": 36900,
+"pt": "Altura das Maçãs do Rosto"
+},
+{
+"id": 36901,
+"pt": "Baixo"
+},
+{
+"id": 36902,
+"pt": "Alto"
+},
+{
+"id": 36910,
+"pt": "Profundidade das Maçãs do Rosto"
+},
+{
+"id": 36911,
+"pt": "Baixo"
+},
+{
+"id": 36912,
+"pt": "Alto"
+},
+{
+"id": 36920,
+"pt": "Largura das Maçãs do Rosto"
+},
+{
+"id": 36921,
+"pt": "Baixo"
+},
+{
+"id": 36922,
+"pt": "Alto"
+},
+{
+"id": 36930,
+"pt": "Aspereza das Maçãs do Rosto"
+},
+{
+"id": 36931,
+"pt": "Côncavo"
+},
+{
+"id": 36932,
+"pt": "Convexo"
+},
+{
+"id": 36940,
+"pt": "Maçãs do Rosto"
+},
+{
+"id": 36941,
+"pt": "Gordo"
+},
+{
+"id": 36942,
+"pt": "Fina"
+},
+{
+"id": 36950,
+"pt": "Sulco Nasolabial"
+},
+{
+"id": 36951,
+"pt": "Claro"
+},
+{
+"id": 36952,
+"pt": "Escuro"
+},
+{
+"id": 37000,
+"pt": "Formato dos Lábios"
+},
+{
+"id": 37001,
+"pt": "Aberto"
+},
+{
+"id": 37002,
+"pt": "Franzido"
+},
+{
+"id": 37010,
+"pt": "Expressão da Boca"
+},
+{
+"id": 37011,
+"pt": "Feliz"
+},
+{
+"id": 37012,
+"pt": "Triste"
+},
+{
+"id": 37020,
+"pt": "Volume dos Lábios"
+},
+{
+"id": 37021,
+"pt": "Pequeno"
+},
+{
+"id": 37022,
+"pt": "Grande"
+},
+{
+"id": 37030,
+"pt": "Tamanho dos Lábios"
+},
+{
+"id": 37031,
+"pt": "Grande"
+},
+{
+"id": 37032,
+"pt": "Pequeno"
+},
+{
+"id": 37040,
+"pt": "Aspereza dos Lábios"
+},
+{
+"id": 37041,
+"pt": "Convexo"
+},
+{
+"id": 37042,
+"pt": "Côncavo"
+},
+{
+"id": 37050,
+"pt": "Espessura dos Lábios"
+},
+{
+"id": 37051,
+"pt": "Fina"
+},
+{
+"id": 37052,
+"pt": "Grossa"
+},
+{
+"id": 37100,
+"pt": "Aspereza da Boca"
+},
+{
+"id": 37101,
+"pt": "Convexo"
+},
+{
+"id": 37102,
+"pt": "Côncavo"
+},
+{
+"id": 37110,
+"pt": "Inclinação da Boca"
+},
+{
+"id": 37111,
+"pt": "Cima"
+},
+{
+"id": 37112,
+"pt": "Baixo"
+},
+{
+"id": 37120,
+"pt": "Oclusão"
+},
+{
+"id": 37121,
+"pt": "Baixo"
+},
+{
+"id": 37122,
+"pt": "Cima"
+},
+{
+"id": 37130,
+"pt": "Posição da Boca"
+},
+{
+"id": 37131,
+"pt": "Cima"
+},
+{
+"id": 37132,
+"pt": "Baixo"
+},
+{
+"id": 37140,
+"pt": "Largura da Boca"
+},
+{
+"id": 37141,
+"pt": "Largo"
+},
+{
+"id": 37142,
+"pt": "Estreito"
+},
+{
+"id": 37150,
+"pt": "Distância Boca-Queixo"
+},
+{
+"id": 37151,
+"pt": "Curto"
+},
+{
+"id": 37152,
+"pt": "Longo"
+},
+{
+"id": 37200,
+"pt": "Cor dos Lábios"
+},
+{
+"id": 37201,
+"pt": "Rubor"
+},
+{
+"id": 37202,
+"pt": "Pálida"
+},
+{
+"id": 37210,
+"pt": "Cor dos Lábios"
+},
+{
+"id": 37211,
+"pt": "Vermelho-escuro"
+},
+{
+"id": 37212,
+"pt": "Cinza"
+},
+{
+"id": 37220,
+"pt": "Cor dos Lábios"
+},
+{
+"id": 37221,
+"pt": "Azul-escuro"
+},
+{
+"id": 37222,
+"pt": "Vermelho-vivo"
+},
+{
+"id": 37300,
+"pt": "Posição da Ponta do Queixo"
+},
+{
+"id": 37301,
+"pt": "Frente"
+},
+{
+"id": 37302,
+"pt": "Trás"
+},
+{
+"id": 37310,
+"pt": "Comprimento do Queixo"
+},
+{
+"id": 37311,
+"pt": "Longo"
+},
+{
+"id": 37312,
+"pt": "Curto"
+},
+{
+"id": 37320,
+"pt": "Protrusão do Queixo"
+},
+{
+"id": 37321,
+"pt": "Pequeno"
+},
+{
+"id": 37322,
+"pt": "Grande"
+},
+{
+"id": 37330,
+"pt": "Profundidade do Queixo"
+},
+{
+"id": 37331,
+"pt": "Leve"
+},
+{
+"id": 37332,
+"pt": "Profundo"
+},
+{
+"id": 37340,
+"pt": "Tamanho do Queixo"
+},
+{
+"id": 37341,
+"pt": "Pequeno"
+},
+{
+"id": 37342,
+"pt": "Grande"
+},
+{
+"id": 37350,
+"pt": "Altura do Queixo"
+},
+{
+"id": 37351,
+"pt": "Baixo"
+},
+{
+"id": 37352,
+"pt": "Alto"
+},
+{
+"id": 37360,
+"pt": "Largura do Queixo"
+},
+{
+"id": 37361,
+"pt": "Largo"
+},
+{
+"id": 37362,
+"pt": "Estreito"
+},
+{
+"id": 37400,
+"pt": "Protrusão da Mandíbula"
+},
+{
+"id": 37401,
+"pt": "Pequeno"
+},
+{
+"id": 37402,
+"pt": "Grande"
+},
+{
+"id": 37410,
+"pt": "Largura da Mandíbula"
+},
+{
+"id": 37411,
+"pt": "Largo"
+},
+{
+"id": 37412,
+"pt": "Estreito"
+},
+{
+"id": 37420,
+"pt": "Mandíbula Inferior"
+},
+{
+"id": 37421,
+"pt": "Alto"
+},
+{
+"id": 37422,
+"pt": "Baixo"
+},
+{
+"id": 37430,
+"pt": "Contorno da Mandíbula"
+},
+{
+"id": 37431,
+"pt": "Fina"
+},
+{
+"id": 37432,
+"pt": "Grossa"
+},
+{
+"id": 37500,
+"pt": "Cor dos Pelos Faciais"
+},
+{
+"id": 37501,
+"pt": "Ruivo"
+},
+{
+"id": 37502,
+"pt": "Azul"
+},
+{
+"id": 37510,
+"pt": "Barba Inteira"
+},
+{
+"id": 37511,
+"pt": "Ralas"
+},
+{
+"id": 37512,
+"pt": "Densas"
+},
+{
+"id": 37520,
+"pt": "Costeletas"
+},
+{
+"id": 37521,
+"pt": "Ralas"
+},
+{
+"id": 37522,
+"pt": "Densas"
+},
+{
+"id": 37530,
+"pt": "Ao Redor da Boca"
+},
+{
+"id": 37531,
+"pt": "Ralas"
+},
+{
+"id": 37532,
+"pt": "Densas"
+},
+{
+"id": 37540,
+"pt": "Cavanhaque"
+},
+{
+"id": 37541,
+"pt": "Ralas"
+},
+{
+"id": 37542,
+"pt": "Densas"
+},
+{
+"id": 37550,
+"pt": "Bigode"
+},
+{
+"id": 37551,
+"pt": "Ralas"
+},
+{
+"id": 37552,
+"pt": "Densas"
+},
+{
+"id": 37600,
+"pt": "Ruivo"
+},
+{
+"id": 37601,
+"pt": "Verde"
+},
+{
+"id": 37602,
+"pt": "Azul"
+}
+]
+}

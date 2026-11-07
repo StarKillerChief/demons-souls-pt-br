@@ -1,0 +1,145 @@
+{
+"fmg": 29,
+"category": "magic_lore",
+"bnd": "item",
+"jp_name": "魔法うんちく.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 1000,
+"pt": "Magia Padrão\n\nDispara uma Flecha de Alma.\n\nAs propriedades mágicas das Flechas de Alma as\ntornam eficazes contra armaduras de ouro,\nescamas duras e outros materiais difíceis de\npenetrar com ataques físicos."
+},
+{
+"id": 1001,
+"pt": "Magia Padrão\n\nDispara um jato de fogo.\n\nExplode ao impacto, causando dano de fogo ao\nalvo. Costuma ser a primeira magia aprendida\npelos magos da cidade."
+},
+{
+"id": 1002,
+"pt": "Magia da Alma do Demônio Senhora Astraea\n\nRecupera totalmente quem for tocado.\n\nEmbora Astraea seja a mais impura de todos os\ndemônios, suas obras se igualam às dos seres\ndivinos."
+},
+{
+"id": 1003,
+"pt": "Magia de Alto Nível\n\nFortalece a arma da mão direita. (Usada com um\ncatalisador equipado na mão esquerda.)\n\nArmas encantadas possuem propriedades mágicas,\no que as torna eficazes contra armaduras de\nouro e escamas duras que resistem a ataques\nfísicos."
+},
+{
+"id": 1004,
+"pt": "Magia da Alma do Demônio Penetrador\n\nFortalece e amaldiçoa a arma da mão direita.\n(Usada com um catalisador equipado na mão\nesquerda.)\n\nSimboliza a enorme espada empunhada pelo\nPenetrador, que abateu muitos guerreiros que\ntentaram destruir o demônio."
+},
+{
+"id": 1005,
+"pt": "Magia da Alma do Demônio Velho Monge\n\nEnquanto ativa, derrotar inimigos rende mais\nAlmas.\n\nEsta magia dá ao usuário sede de Almas,\ntomando do alvo o máximo possível. O\ncomportamento do conjurador espelha o dos\ndemônios."
+},
+{
+"id": 1006,
+"pt": "Magia da Alma do Demônio Sanguessugueiro\n\nGera uma nuvem de veneno."
+},
+{
+"id": 1007,
+"pt": "Magia de Apoio\n\nGera um forte ruído em um lugar distante.\n\nTem pouco efeito direto, de modo que o\nconjurador deve pensar com criatividade para\nfazer bom uso dela."
+},
+{
+"id": 1008,
+"pt": "Magia da Alma do Demônio Deus-Dragão\n\nDispara uma bola de fogo e provoca uma\nexplosão.\n\nNascido de ossos de dragão embebidos em lava,\neste demônio era a encarnação do poder\ninerente às chamas colossais."
+},
+{
+"id": 1009,
+"pt": "Magia da Alma do Demônio Aranha Blindada\n\nGera uma grande chama nos dedos do usuário.\n\nUm tipo extremamente rudimentar de magia de\nfogo."
+},
+{
+"id": 1010,
+"pt": "Magia da Alma do Demônio Ídolo do Tolo\n\nDispara um raio de luz que perfura o alvo.\n\nO ídolo de que esta magia deriva tinha a forma\nda rainha da hoje perdida Latria. Esta magia\nmostra uma fração do poder da rainha como\nfeiticeira talentosa."
+},
+{
+"id": 1011,
+"pt": "Magia da Alma do Demônio Velho Monge\n\nProduz uma Flecha de Alma que persegue o alvo.\n\nO velho era apenas um médium para o manto que\nleva os homens à loucura. Esta magia reflete a\nnatureza do velho, que ansiava por um poder\nque não era seu."
+},
+{
+"id": 1012,
+"pt": "Magia de Apoio\n\nOculta a presença do usuário, dificultando a\ndetecção pelos inimigos.\n\nEsta magia pode ser útil ao se esgueirar atrás\nde um inimigo ou ao fugir em silêncio."
+},
+{
+"id": 1013,
+"pt": "Magia de Alto Nível\n\nReduz levemente o dano recebido.\n\nEsta magia só é eficaz para proteger o usuário\nde ataques físicos."
+},
+{
+"id": 1014,
+"pt": "Magia da Alma do Demônio Penetrador\n\nFortalece muito a arma da mão direita. (Usada\ncom um catalisador equipado na mão esquerda.)\n\nSimboliza a gigantesca espada do Penetrador."
+},
+{
+"id": 1015,
+"pt": "Magia de Apoio\n\nCobre o usuário com uma lâmina de água,\nreduzindo levemente o dano de fogo.\n\nO fogo é um método de ataque comum, tanto em\nsua forma natural quanto mágica. Esta magia\ndeve se mostrar útil com frequência."
+},
+{
+"id": 1016,
+"pt": "Magia da Alma do Demônio Senhora Astraea\n\nGera uma nuvem de praga.\n\nÉ natural que aqueles que acolhem tudo o que é\nimpuro sejam eles mesmos os mais impuros de\ntodos."
+},
+{
+"id": 1017,
+"pt": "Magia da Alma do Demônio Aranha Blindada\n\nDispara uma pequena bola de fogo. Pode ser\nlançada continuamente e em movimento."
+},
+{
+"id": 1018,
+"pt": "Magia da Alma do Demônio Dama de Preto\n\nSuga a alma de quem for tocado.\n\nA Dama de Preto, que auxilia os algozes de\ndemônios com seu domínio sobre o poder das\nAlmas, foi um dia um dos mais antigos e\nperigosos demônios."
+},
+{
+"id": 1019,
+"pt": "Magia da Alma do Demônio Colosso Imundo\n\nGera uma nuvem de ácido que corrói as\narmaduras e armas equipadas."
+},
+{
+"id": 1020,
+"pt": "Magia da Alma do Demônio Cavaleiro da Torre\n\nReduz muito o dano recebido.\n\nEsta magia lembra o enorme escudo empunhado\npelo Cavaleiro da Torre."
+},
+{
+"id": 1021,
+"pt": "Magia da Alma do Demônio Deus-Dragão\n\nGera uma tempestade de fogo ao redor do\nconjurador.\n\nUma magia que imita o poder bruto do Deus\nDragão, Sultão do Caos. Sua chama devastadora\né impossível de controlar."
+},
+{
+"id": 2000,
+"pt": "Milagre da Alma do Demônio Deus-Dragão\n\nGera uma forte explosão de força ao redor do\nconjurador.\n\nEste milagre representa o poder de Deus contra\na malícia descomunal. É um dos maiores\nmilagres, que auxilia todos os justos."
+},
+{
+"id": 2001,
+"pt": "Milagre da Alma do Demônio Rei da Tempestade\n\nGera ao redor do usuário um campo que impede o\nuso de magia.\n\nEste milagre representa o poder de Deus contra\na malícia descomunal. É um dos maiores\nmilagres, que auxilia todos os justos."
+},
+{
+"id": 2002,
+"pt": "Milagre da Alma de um Demônio Primordial\n\nRecupera muito os PV do conjurador.\n\nPara combater o mal, Deus dotou a humanidade\nde um poder especial."
+},
+{
+"id": 2003,
+"pt": "Milagre da Alma do Demônio Velho Herói\n\nRevive o usuário da morte uma única vez.\n\nEste milagre é um contrassigno contra os\npagãos que adoram a morte e os mortos."
+},
+{
+"id": 2004,
+"pt": "Milagre da Alma do Demônio Juiz\n\nRecupera os PV do usuário aos poucos.\n\nEste milagre é um contrassigno contra o Juiz\npagão, que devora humanos."
+},
+{
+"id": 2005,
+"pt": "Milagre da Alma do Demônio Senhora Astraea\n\nDevolve qualquer Fantasma próximo ao\nconjurador ao seu próprio mundo, concedendo-\nlhe o corpo vivo.\n\nEste milagre é um contrassigno da corrompida\nAstraea, antiga Sexta Santa."
+},
+{
+"id": 2006,
+"pt": "Milagre da Alma do Demônio Sanguessugueiro\n\nCura o usuário de qualquer condição adversa.\n\nEste milagre é um contrassigno contra o veneno\ne a doença acumulados no fundo imundo do vale."
+},
+{
+"id": 2007,
+"pt": "Um novo milagre, encontrado em Boletaria\n\nOculta a Alma do conjurador, dificultando a\ndetecção pelos Fantasmas Negros.\n\nOs Fantasmas Negros que rondam a terra de\nBoletaria são extremamente perigosos e\ninimigos tanto de Deus quanto dos homens."
+},
+{
+"id": 2008,
+"pt": "Um novo milagre, encontrado em Boletaria\n\nLeva o usuário de volta ao Nexus.\n\nO Nexus prende Almas poderosas. Este milagre\naproveita esse poder."
+},
+{
+"id": 2009,
+"pt": "Milagre da Alma do Demônio Velho Monge\n\nBane os Fantasmas Negros próximos ao\nconjurador para o seu próprio mundo.\n\nEste milagre é um contrassigno contra o velho\ninsano que invocava e escravizava Fantasmas\nNegros."
+},
+{
+"id": 2010,
+"pt": "Um milagre muito elementar\n\nRecupera os PV do usuário.\n\nUma simples expressão do poder de Deus.\nGuerreiros sagrados recorrem a este milagre\ndurante suas jornadas solitárias."
+},
+{
+"id": 2011,
+"pt": "Um milagre muito elementar\n\nCura o usuário do envenenamento."
+}
+]
+}

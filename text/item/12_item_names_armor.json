@@ -1,0 +1,453 @@
+{
+"fmg": 12,
+"category": "item_names_armor",
+"bnd": "item",
+"jp_name": "防具名.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 100000,
+"pt": "Máscara Dourada"
+},
+{
+"id": 100100,
+"pt": "Coroa de Prata"
+},
+{
+"id": 100200,
+"pt": "Máscara do Assassino"
+},
+{
+"id": 100300,
+"pt": "Gorro de Couro"
+},
+{
+"id": 100400,
+"pt": "Elmo de Malha"
+},
+{
+"id": 100500,
+"pt": "Elmo Mirdan"
+},
+{
+"id": 100600,
+"pt": "Elmo de Placas"
+},
+{
+"id": 100700,
+"pt": "Elmo Estriado"
+},
+{
+"id": 100800,
+"pt": "Elmo de Gravetos"
+},
+{
+"id": 100900,
+"pt": "Elmo de Prata Escura"
+},
+{
+"id": 101000,
+"pt": "Elmo Sombrio"
+},
+{
+"id": 101100,
+"pt": "Máscara do Rei Antigo"
+},
+{
+"id": 101400,
+"pt": "Capuz do Sábio Venerável"
+},
+{
+"id": 101700,
+"pt": "Sem Equipamento"
+},
+{
+"id": 101800,
+"pt": "Gorro do Oficial"
+},
+{
+"id": 101900,
+"pt": "Elmo de Ouro Fosco"
+},
+{
+"id": 102000,
+"pt": "Capuz Atado"
+},
+{
+"id": 102100,
+"pt": "Chapéu de Três Pontas"
+},
+{
+"id": 180000,
+"pt": "Faixas do Monge"
+},
+{
+"id": 190000,
+"pt": "Mago Errante"
+},
+{
+"id": 190100,
+"pt": "Caçador Errante"
+},
+{
+"id": 190200,
+"pt": "Clérigo Errante"
+},
+{
+"id": 190300,
+"pt": "Guerreiro Errante"
+},
+{
+"id": 200000,
+"pt": "Vestes do Xamã"
+},
+{
+"id": 200100,
+"pt": "Vestes do Mago"
+},
+{
+"id": 200200,
+"pt": "Couro Negro"
+},
+{
+"id": 200300,
+"pt": "Armadura de Couro"
+},
+{
+"id": 200400,
+"pt": "Cota de Malha"
+},
+{
+"id": 200500,
+"pt": "Cota de Escamas Mirdan"
+},
+{
+"id": 200600,
+"pt": "Couraça de Placas"
+},
+{
+"id": 200700,
+"pt": "Armadura Estriada"
+},
+{
+"id": 200800,
+"pt": "Armadura de Gravetos"
+},
+{
+"id": 200900,
+"pt": "Armadura de Prata Escura"
+},
+{
+"id": 201000,
+"pt": "Armadura Sombria"
+},
+{
+"id": 201100,
+"pt": "Peitoral do Rei Antigo"
+},
+{
+"id": 201200,
+"pt": "Manto do Santo"
+},
+{
+"id": 201400,
+"pt": "Manto do Sábio Venerável"
+},
+{
+"id": 201700,
+"pt": "Sem Equipamento"
+},
+{
+"id": 201800,
+"pt": "Roupas do Velhaco"
+},
+{
+"id": 201900,
+"pt": "Armadura de Ouro Fosco"
+},
+{
+"id": 202000,
+"pt": "Cruz Atada"
+},
+{
+"id": 202100,
+"pt": "Velhos Trapos"
+},
+{
+"id": 290000,
+"pt": "Mago Errante"
+},
+{
+"id": 290100,
+"pt": "Caçador Errante"
+},
+{
+"id": 290200,
+"pt": "Clérigo Errante"
+},
+{
+"id": 290300,
+"pt": "Guerreiro Errante"
+},
+{
+"id": 300000,
+"pt": "Braçadeiras do Xamã"
+},
+{
+"id": 300100,
+"pt": "Luvas do Mago"
+},
+{
+"id": 300200,
+"pt": "Luvas Negras"
+},
+{
+"id": 300300,
+"pt": "Luvas de Couro"
+},
+{
+"id": 300400,
+"pt": "Luvas de Malha"
+},
+{
+"id": 300500,
+"pt": "Manoplas Mirdan"
+},
+{
+"id": 300600,
+"pt": "Manoplas de Placas"
+},
+{
+"id": 300700,
+"pt": "Manoplas Estriadas"
+},
+{
+"id": 300800,
+"pt": "Manoplas de Gravetos"
+},
+{
+"id": 300900,
+"pt": "Manoplas de Prata Escura"
+},
+{
+"id": 301000,
+"pt": "Manoplas Sombrias"
+},
+{
+"id": 301100,
+"pt": "Manoplas do Rei Antigo"
+},
+{
+"id": 301200,
+"pt": "Luvas do Santo"
+},
+{
+"id": 301400,
+"pt": "Luvas do Sábio Venerável"
+},
+{
+"id": 301500,
+"pt": "Sem Equipamento"
+},
+{
+"id": 301700,
+"pt": "Braceletes de Prata"
+},
+{
+"id": 301800,
+"pt": "Luvas do Velhaco"
+},
+{
+"id": 301900,
+"pt": "Manoplas de Ouro Fosco"
+},
+{
+"id": 302000,
+"pt": "Luvas Atadas"
+},
+{
+"id": 302100,
+"pt": "Velhas Luvas Rasgadas"
+},
+{
+"id": 390000,
+"pt": "Mago Errante"
+},
+{
+"id": 390100,
+"pt": "Caçador Errante"
+},
+{
+"id": 390200,
+"pt": "Clérigo Errante"
+},
+{
+"id": 390300,
+"pt": "Guerreiro Errante"
+},
+{
+"id": 400000,
+"pt": "Tabi do Xamã"
+},
+{
+"id": 400100,
+"pt": "Sapatos do Mago"
+},
+{
+"id": 400200,
+"pt": "Botas Negras"
+},
+{
+"id": 400300,
+"pt": "Botas de Couro"
+},
+{
+"id": 400400,
+"pt": "Botas de Couro Rígido"
+},
+{
+"id": 400500,
+"pt": "Perneiras Mirdan"
+},
+{
+"id": 400600,
+"pt": "Perneiras de Placas"
+},
+{
+"id": 400700,
+"pt": "Perneiras Estriadas"
+},
+{
+"id": 400800,
+"pt": "Perneiras de Gravetos"
+},
+{
+"id": 400900,
+"pt": "Perneiras de Prata Escura"
+},
+{
+"id": 401000,
+"pt": "Perneiras Sombrias"
+},
+{
+"id": 401100,
+"pt": "Perneiras do Rei Antigo"
+},
+{
+"id": 401200,
+"pt": "Botas do Santo"
+},
+{
+"id": 401400,
+"pt": "Botas do Sábio Venerável"
+},
+{
+"id": 401500,
+"pt": "Sem Equipamento"
+},
+{
+"id": 401800,
+"pt": "Botas do Velhaco"
+},
+{
+"id": 401900,
+"pt": "Perneiras de Ouro Fosco"
+},
+{
+"id": 402000,
+"pt": "Botas Atadas"
+},
+{
+"id": 402100,
+"pt": "Velhas Botas Rasgadas"
+},
+{
+"id": 490000,
+"pt": "Mago Errante"
+},
+{
+"id": 490100,
+"pt": "Caçador Errante"
+},
+{
+"id": 490200,
+"pt": "Clérigo Errante"
+},
+{
+"id": 490300,
+"pt": "Guerreiro Errante"
+},
+{
+"id": 500000,
+"pt": "Raspado"
+},
+{
+"id": 500100,
+"pt": "Rente"
+},
+{
+"id": 500200,
+"pt": "Arrepiado"
+},
+{
+"id": 500300,
+"pt": "Tigela"
+},
+{
+"id": 500400,
+"pt": "Para Trás"
+},
+{
+"id": 500500,
+"pt": "Repartido ao Meio"
+},
+{
+"id": 500700,
+"pt": "Ondulado"
+},
+{
+"id": 500800,
+"pt": "Selvagem"
+},
+{
+"id": 500900,
+"pt": "Rabo de Cavalo"
+},
+{
+"id": 501000,
+"pt": "Raspado"
+},
+{
+"id": 501100,
+"pt": "Rente"
+},
+{
+"id": 501200,
+"pt": "Ondulado Curto"
+},
+{
+"id": 501300,
+"pt": "Ondulado Longo"
+},
+{
+"id": 501400,
+"pt": "Curto"
+},
+{
+"id": 501500,
+"pt": "Longo"
+},
+{
+"id": 501700,
+"pt": "Selvagem"
+},
+{
+"id": 501800,
+"pt": "Rabo de Cavalo"
+},
+{
+"id": 501900,
+"pt": "Coque"
+}
+]
+}

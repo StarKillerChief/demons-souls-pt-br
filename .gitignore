@@ -1,0 +1,9 @@
+.sync_src
+__pycache__/
+*.ccm
+*.tpf
+*.dcx
+*.msgbnd
+*.fmg
+*.png
+*.bnd

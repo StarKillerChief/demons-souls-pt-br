@@ -1,0 +1,733 @@
+{
+"fmg": 70,
+"category": "menu_ingame",
+"bnd": "menu",
+"jp_name": "インゲームメニュー.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 1,
+"pt": "Inventário"
+},
+{
+"id": 2,
+"pt": "Equipamento"
+},
+{
+"id": 3,
+"pt": "Missão"
+},
+{
+"id": 5,
+"pt": "Tendência do Mundo"
+},
+{
+"id": 6,
+"pt": "Opções"
+},
+{
+"id": 7,
+"pt": "Sistema"
+},
+{
+"id": 1000,
+"pt": "MENU DE COMANDOS"
+},
+{
+"id": 1010,
+"pt": "Descartar"
+},
+{
+"id": 1011,
+"pt": "Reorganizar"
+},
+{
+"id": 1012,
+"pt": "Ordenar Auto."
+},
+{
+"id": 1013,
+"pt": "Usar Item"
+},
+{
+"id": 2000,
+"pt": "Proteção"
+},
+{
+"id": 2001,
+"pt": "Elmo"
+},
+{
+"id": 2002,
+"pt": "Armadura"
+},
+{
+"id": 2003,
+"pt": "Manoplas"
+},
+{
+"id": 2004,
+"pt": "Perneiras"
+},
+{
+"id": 2010,
+"pt": "Armas"
+},
+{
+"id": 2011,
+"pt": "Mão Direita"
+},
+{
+"id": 2012,
+"pt": "Mão Esquerda"
+},
+{
+"id": 2013,
+"pt": "Flechas"
+},
+{
+"id": 2014,
+"pt": "Virotes"
+},
+{
+"id": 2020,
+"pt": "Anel"
+},
+{
+"id": 2030,
+"pt": "Itens Consumíveis"
+},
+{
+"id": 5000,
+"pt": "O Nexus"
+},
+{
+"id": 5001,
+"pt": "Palácio de Boletaria"
+},
+{
+"id": 5002,
+"pt": "Santuário das Tempestades"
+},
+{
+"id": 5003,
+"pt": "Torre de Latria"
+},
+{
+"id": 5004,
+"pt": "Vale da Profanação"
+},
+{
+"id": 5005,
+"pt": "Túnel de Stonefang"
+},
+{
+"id": 6000,
+"pt": "CONTROLES"
+},
+{
+"id": 6001,
+"pt": "Escolher Teclas"
+},
+{
+"id": 6002,
+"pt": "Câmera Esquerda/Direita"
+},
+{
+"id": 6003,
+"pt": "Câmera Cima/Baixo"
+},
+{
+"id": 6004,
+"pt": "Velocidade da Câmera"
+},
+{
+"id": 6005,
+"pt": "Redefinir Controles"
+},
+{
+"id": 6006,
+"pt": "Vibração"
+},
+{
+"id": 6100,
+"pt": "TELA"
+},
+{
+"id": 6101,
+"pt": "Mostrar Sangue"
+},
+{
+"id": 6102,
+"pt": "Legendas"
+},
+{
+"id": 6103,
+"pt": "Brilho"
+},
+{
+"id": 6200,
+"pt": "SOM"
+},
+{
+"id": 6201,
+"pt": "Acústica"
+},
+{
+"id": 6202,
+"pt": "Música"
+},
+{
+"id": 6203,
+"pt": "Efeitos Sonoros"
+},
+{
+"id": 6204,
+"pt": "Voz"
+},
+{
+"id": 6400,
+"pt": "PADRÃO"
+},
+{
+"id": 6500,
+"pt": "LIG."
+},
+{
+"id": 6501,
+"pt": "DESL."
+},
+{
+"id": 6502,
+"pt": "ESTÉREO"
+},
+{
+"id": 6505,
+"pt": "Invertido"
+},
+{
+"id": 6507,
+"pt": "Suave"
+},
+{
+"id": 6900,
+"pt": "Opções"
+},
+{
+"id": 6901,
+"pt": "Carregar Perfil"
+},
+{
+"id": 6902,
+"pt": "Sair do Jogo"
+},
+{
+"id": 7500,
+"pt": "Nome"
+},
+{
+"id": 7501,
+"pt": "Sessões Multijogador"
+},
+{
+"id": 7502,
+"pt": "Histórico de Avaliações"
+},
+{
+"id": 7510,
+"pt": "Concluir"
+},
+{
+"id": 7511,
+"pt": "Tempo Restante"
+},
+{
+"id": 7520,
+"pt": "Avaliação"
+},
+{
+"id": 7530,
+"pt": "As Almas obtidas ao derrotar demônios serão divididas\nentre Fantasmas e invocadores conforme a avaliação."
+},
+{
+"id": 7540,
+"pt": "Jogadores que deixarem o Multijogador serão avaliados.\nAs Almas não serão divididas."
+},
+{
+"id": 7600,
+"pt": "Sinal de Fantasma"
+},
+{
+"id": 7610,
+"pt": "Invocar este Fantasma?"
+},
+{
+"id": 7611,
+"pt": "Invocar este Fantasma Negro?"
+},
+{
+"id": 7612,
+"pt": "Remover o Sinal de Alma?"
+},
+{
+"id": 7613,
+"pt": "Remover o Sinal de Alma Vermelho?"
+},
+{
+"id": 7701,
+"pt": "Escrever Mensagem"
+},
+{
+"id": 7702,
+"pt": "Recomendar Mensagem"
+},
+{
+"id": 7703,
+"pt": "Avaliar Outro Jogador"
+},
+{
+"id": 7900,
+"pt": "Ir para Outro Mundo"
+},
+{
+"id": 8001,
+"pt": "Não é possível carregar; você ficaria sobrecarregado."
+},
+{
+"id": 8002,
+"pt": "Você não pode carregar mais destes."
+},
+{
+"id": 8003,
+"pt": "Você não pode carregar mais itens."
+},
+{
+"id": 8101,
+"pt": "Dispensar um Fantasma."
+},
+{
+"id": 8110,
+"pt": "Condições"
+},
+{
+"id": 8111,
+"pt": "Não, obrigado"
+},
+{
+"id": 8112,
+"pt": "Com gratidão"
+},
+{
+"id": 8201,
+"pt": "Mais Almas Obtidas"
+},
+{
+"id": 8202,
+"pt": "Mais Troféus Obtidos"
+},
+{
+"id": 8203,
+"pt": "Mais Fantasmas Salvos"
+},
+{
+"id": 8204,
+"pt": "Mais Fantasmas Negros Mortos"
+},
+{
+"id": 8205,
+"pt": "Unificadores do Mundo"
+},
+{
+"id": 8206,
+"pt": "Unificadores do Mundo (Local)"
+},
+{
+"id": 8401,
+"pt": "Avaliação"
+},
+{
+"id": 8501,
+"pt": "Acenar"
+},
+{
+"id": 8502,
+"pt": "Apontar"
+},
+{
+"id": 8503,
+"pt": "Viva!"
+},
+{
+"id": 8504,
+"pt": "Reverência"
+},
+{
+"id": 8505,
+"pt": "Aclamar"
+},
+{
+"id": 8506,
+"pt": "Suspirar"
+},
+{
+"id": 8507,
+"pt": "Cumprimentar"
+},
+{
+"id": 8508,
+"pt": "Nada"
+},
+{
+"id": 8521,
+"pt": "Mover para Cima"
+},
+{
+"id": 8522,
+"pt": "Mover para Baixo"
+},
+{
+"id": 8523,
+"pt": "Mover para a Direita"
+},
+{
+"id": 8524,
+"pt": "Mover para a Esquerda"
+},
+{
+"id": 8525,
+"pt": "Golpear à frente, à direita"
+},
+{
+"id": 8526,
+"pt": "Golpear à frente, à esquerda"
+},
+{
+"id": 8527,
+"pt": "Cumprimentar"
+},
+{
+"id": 8530,
+"pt": "Menu de Gestos"
+},
+{
+"id": 8805,
+"pt": "Procurando mundo para invadir"
+},
+{
+"id": 8810,
+"pt": "Invocando Fantasma"
+},
+{
+"id": 8811,
+"pt": "Invocando Fantasma Negro"
+},
+{
+"id": 8813,
+"pt": "Você está sendo invocado"
+},
+{
+"id": 8814,
+"pt": "Você está sendo invocado"
+},
+{
+"id": 8815,
+"pt": "Invadindo"
+},
+{
+"id": 8816,
+"pt": "Você está sendo invocado"
+},
+{
+"id": 8823,
+"pt": "Indo para outro mundo como Fantasma."
+},
+{
+"id": 8824,
+"pt": "Indo para outro mundo como Fantasma Negro."
+},
+{
+"id": 8825,
+"pt": "Invadindo outro mundo como Fantasma Negro."
+},
+{
+"id": 8826,
+"pt": "Indo para outro mundo como Fantasma Negro."
+},
+{
+"id": 8830,
+"pt": "Você invocou o Fantasma <?joinChara?>."
+},
+{
+"id": 8831,
+"pt": "Você invocou o Fantasma Negro <?joinChara?>."
+},
+{
+"id": 8832,
+"pt": "O Fantasma Negro <?joinChara?> invadiu!"
+},
+{
+"id": 8833,
+"pt": "Invocado ao mundo de <?liveChara?>."
+},
+{
+"id": 8834,
+"pt": "Invocado ao mundo de <?liveChara?>."
+},
+{
+"id": 8835,
+"pt": "Você invadiu o mundo de <?liveChara?>."
+},
+{
+"id": 8836,
+"pt": "Você invadiu o mundo de <?liveChara?>."
+},
+{
+"id": 8843,
+"pt": "Você invocou o Fantasma <?joinChara?>."
+},
+{
+"id": 8844,
+"pt": "Você invocou o Fantasma Negro <?joinChara?>."
+},
+{
+"id": 8845,
+"pt": "O Fantasma Negro <?joinChara?> invadiu!"
+},
+{
+"id": 8846,
+"pt": "O Fantasma Negro <?joinChara?> invadiu!"
+},
+{
+"id": 8850,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8851,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8853,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8854,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8855,
+"pt": "Falha na Invasão"
+},
+{
+"id": 8856,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8863,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8864,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8865,
+"pt": "Falha na Invasão"
+},
+{
+"id": 8866,
+"pt": "Falha na Invocação"
+},
+{
+"id": 8870,
+"pt": "Não foi possível responder à invocação."
+},
+{
+"id": 8914,
+"pt": "Você tomou a Alma de um Humano. Que demônio magnífico!"
+},
+{
+"id": 8915,
+"pt": "Você tomou a Alma de um Humano. Que demônio magnífico!"
+},
+{
+"id": 8933,
+"pt": "Objetivo cumprido. Ressuscitando em seu próprio mundo."
+},
+{
+"id": 8934,
+"pt": "Objetivo cumprido. Ressuscitando em seu próprio mundo."
+},
+{
+"id": 8935,
+"pt": "Objetivo cumprido. Ressuscitando em seu próprio mundo."
+},
+{
+"id": 8936,
+"pt": "Objetivo cumprido. Ressuscitando em seu próprio mundo."
+},
+{
+"id": 8937,
+"pt": "Objetivo cumprido. Tomando a Alma e retornando ao seu mundo."
+},
+{
+"id": 8943,
+"pt": "<?liveChara?> morreu. Retornando ao seu mundo."
+},
+{
+"id": 8944,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8945,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8946,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8953,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8954,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8955,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8956,
+"pt": "Objetivo fracassado. Retornando ao seu mundo."
+},
+{
+"id": 8971,
+"pt": "Fantasmas Negros são Humanos possuídos por Almas de demônios.\nLogo voltarão a ameaçá-lo..."
+},
+{
+"id": 8972,
+"pt": "Fantasmas Negros são Humanos possuídos por Almas de demônios.\nLogo voltarão a ameaçá-lo..."
+},
+{
+"id": 8980,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8981,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8982,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8983,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8984,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8985,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8986,
+"pt": "O Fantasma <?deadChara?> foi morto."
+},
+{
+"id": 8990,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 8991,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 8992,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 8993,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 8994,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 8995,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 8996,
+"pt": "O Fantasma Negro <?deadChara?> foi morto."
+},
+{
+"id": 9500,
+"pt": "A Área do Demônio foi desbloqueada."
+},
+{
+"id": 10000,
+"pt": "Sua mensagem foi recomendada."
+},
+{
+"id": 11001,
+"pt": "Você recuperou o seu corpo."
+},
+{
+"id": 11002,
+"pt": "Traga mais almas, algoz de demônios."
+},
+{
+"id": 11011,
+"pt": "Você tocou a marca da própria morte."
+},
+{
+"id": 11012,
+"pt": "Traga mais almas, algoz de demônios."
+},
+{
+"id": 11021,
+"pt": "Obtereis a Alma de Demônio... e um poder"
+},
+{
+"id": 11022,
+"pt": "além da imaginação humana."
+},
+{
+"id": 11031,
+"pt": "Você tomou a Alma de um humano."
+},
+{
+"id": 11032,
+"pt": "Que demônio magnífico!"
+},
+{
+"id": 11041,
+"pt": "Contudo, o Nexus vos aprisiona. Permanecereis"
+},
+{
+"id": 11042,
+"pt": "neste mundo como Alma, para sempre."
+},
+{
+"id": 11051,
+"pt": "Fantasma, você não conseguiu cumprir o seu objetivo."
+},
+{
+"id": 11052,
+"pt": "Você deve deixar este mundo."
+},
+{
+"id": 11061,
+"pt": "Fantasmas Negros são humanos possuídos por Almas de demônios."
+},
+{
+"id": 11062,
+"pt": "Logo voltarão a ameaçá-lo..."
+}
+]
+}

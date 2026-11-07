@@ -1,0 +1,389 @@
+{
+"fmg": 76,
+"category": "menu_common",
+"bnd": "menu",
+"jp_name": "メニュー共通テキスト.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 1001,
+"pt": "Vitalidade"
+},
+{
+"id": 1002,
+"pt": "Inteligência"
+},
+{
+"id": 1003,
+"pt": "Resistência"
+},
+{
+"id": 1004,
+"pt": "Força"
+},
+{
+"id": 1005,
+"pt": "Destreza"
+},
+{
+"id": 1006,
+"pt": "Magia"
+},
+{
+"id": 1007,
+"pt": "Fé"
+},
+{
+"id": 1008,
+"pt": "Sorte"
+},
+{
+"id": 1009,
+"pt": "Total de Pontos"
+},
+{
+"id": 1104,
+"pt": "PM"
+},
+{
+"id": 1105,
+"pt": "Vigor"
+},
+{
+"id": 1106,
+"pt": "Almas"
+},
+{
+"id": 1107,
+"pt": "Nível de Alma"
+},
+{
+"id": 1122,
+"pt": "Anel"
+},
+{
+"id": 1123,
+"pt": "Arma Esq. 1"
+},
+{
+"id": 1124,
+"pt": "Arma Esq. 2"
+},
+{
+"id": 1125,
+"pt": "Arma Dir. 1"
+},
+{
+"id": 1126,
+"pt": "Arma Dir. 2"
+},
+{
+"id": 1127,
+"pt": "Defesa Física"
+},
+{
+"id": 1128,
+"pt": "Def. a Corte"
+},
+{
+"id": 1129,
+"pt": "Def. a Contusão"
+},
+{
+"id": 1130,
+"pt": "Def. a Perfuração"
+},
+{
+"id": 1131,
+"pt": "Defesa Mágica"
+},
+{
+"id": 1132,
+"pt": "Defesa a Fogo"
+},
+{
+"id": 1133,
+"pt": "Res. a Veneno"
+},
+{
+"id": 1134,
+"pt": "Res. a Praga"
+},
+{
+"id": 1135,
+"pt": "Res. a Sangramento"
+},
+{
+"id": 1161,
+"pt": "Corte"
+},
+{
+"id": 1162,
+"pt": "Contusão"
+},
+{
+"id": 1163,
+"pt": "Perfuração"
+},
+{
+"id": 1164,
+"pt": "À Distância"
+},
+{
+"id": 1165,
+"pt": "Magias"
+},
+{
+"id": 1166,
+"pt": "Milagres"
+},
+{
+"id": 1210,
+"pt": "PV"
+},
+{
+"id": 1215,
+"pt": "Carga de Itens"
+},
+{
+"id": 1216,
+"pt": "Carga de Equip."
+},
+{
+"id": 1220,
+"pt": "Poder de Ataque"
+},
+{
+"id": 1230,
+"pt": "Poder de Milagre"
+},
+{
+"id": 1231,
+"pt": "Poder Mágico"
+},
+{
+"id": 1240,
+"pt": "Defesa a Fogo"
+},
+{
+"id": 1241,
+"pt": "Defesa Mágica"
+},
+{
+"id": 1250,
+"pt": "Taxa de Queda"
+},
+{
+"id": 1260,
+"pt": "Queda Segura"
+},
+{
+"id": 1270,
+"pt": "Memória de Magias"
+},
+{
+"id": 1271,
+"pt": "Memória de Milagres"
+},
+{
+"id": 1300,
+"pt": "Em mãos"
+},
+{
+"id": 1301,
+"pt": "Almas Necessárias"
+},
+{
+"id": 1302,
+"pt": "Itens Necessários"
+},
+{
+"id": 1304,
+"pt": "Necessário/Total"
+},
+{
+"id": 1305,
+"pt": "Possui"
+},
+{
+"id": 1500,
+"pt": "Custo de PM"
+},
+{
+"id": 1501,
+"pt": "Poder"
+},
+{
+"id": 2200,
+"pt": "Peso"
+},
+{
+"id": 2201,
+"pt": "Almas Necessárias"
+},
+{
+"id": 2202,
+"pt": "Durabilidade"
+},
+{
+"id": 2311,
+"pt": "Ataque Físico"
+},
+{
+"id": 2312,
+"pt": "Ataque Mágico"
+},
+{
+"id": 2313,
+"pt": "Ataque de Fogo"
+},
+{
+"id": 2314,
+"pt": "Auxílio de Magia"
+},
+{
+"id": 2315,
+"pt": "Auxílio de Milagre"
+},
+{
+"id": 2316,
+"pt": "Alcance"
+},
+{
+"id": 2321,
+"pt": "Atributos Necessários"
+},
+{
+"id": 2331,
+"pt": "Tipo Atq. Esq."
+},
+{
+"id": 2341,
+"pt": "Redução Física ─"
+},
+{
+"id": 2342,
+"pt": "Redução Mágica ─"
+},
+{
+"id": 2343,
+"pt": "Redução de Fogo ─"
+},
+{
+"id": 2344,
+"pt": "Redução de Dano ─"
+},
+{
+"id": 2345,
+"pt": "Red. de Quebra de Guarda"
+},
+{
+"id": 2351,
+"pt": "Bônus de Atributos"
+},
+{
+"id": 2352,
+"pt": "Efeitos Especiais"
+},
+{
+"id": 2411,
+"pt": "Gênero do Equip."
+},
+{
+"id": 2421,
+"pt": "Defesa Física"
+},
+{
+"id": 2422,
+"pt": "Def. a Corte"
+},
+{
+"id": 2423,
+"pt": "Def. a Contusão"
+},
+{
+"id": 2424,
+"pt": "Defesa a Estocada"
+},
+{
+"id": 2425,
+"pt": "Defesa Mágica"
+},
+{
+"id": 2426,
+"pt": "Defesa a Fogo"
+},
+{
+"id": 2431,
+"pt": "Resistências"
+},
+{
+"id": 2711,
+"pt": "Tipo de Guarda"
+},
+{
+"id": 2712,
+"pt": "Tipo de Ataque"
+},
+{
+"id": 2713,
+"pt": "Tipo de Aparo"
+},
+{
+"id": 2722,
+"pt": "Masculino"
+},
+{
+"id": 2723,
+"pt": "Feminino"
+},
+{
+"id": 3001,
+"pt": "CANCELAR"
+},
+{
+"id": 3002,
+"pt": "SIM"
+},
+{
+"id": 3003,
+"pt": "NÃO"
+},
+{
+"id": 3004,
+"pt": "CONFIRMAR"
+},
+{
+"id": 3005,
+"pt": "CANCELAR"
+},
+{
+"id": 4000,
+"pt": "Horas Jogadas"
+},
+{
+"id": 4001,
+"pt": "Fantasmas Salvos"
+},
+{
+"id": 4002,
+"pt": "Fantasmas Negros Mortos"
+},
+{
+"id": 4003,
+"pt": "Troféus"
+},
+{
+"id": 4004,
+"pt": "Total de Mortes"
+},
+{
+"id": 4005,
+"pt": "Mortes Verdadeiras"
+},
+{
+"id": 4006,
+"pt": "Total de Almas Obtidas"
+}
+]
+}

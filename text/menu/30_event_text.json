@@ -1,0 +1,1305 @@
+{
+"fmg": 30,
+"category": "event_text",
+"bnd": "menu",
+"jp_name": "イベントテキスト.fmg",
+"flags": 33488896,
+"entries": [
+{
+"id": 10010100,
+"pt": "Examinar"
+},
+{
+"id": 10010101,
+"pt": "Examinar Restos"
+},
+{
+"id": 10010102,
+"pt": "Examinar Cadáver"
+},
+{
+"id": 10010103,
+"pt": "Pegar item"
+},
+{
+"id": 10010104,
+"pt": "Pegar item"
+},
+{
+"id": 10010105,
+"pt": "Ler inscrição na placa de ferro"
+},
+{
+"id": 10010125,
+"pt": "Retirar arma"
+},
+{
+"id": 10010130,
+"pt": "Retirar arma"
+},
+{
+"id": 10010135,
+"pt": "Retirar arma"
+},
+{
+"id": 10010140,
+"pt": "Retirar arma"
+},
+{
+"id": 10010145,
+"pt": "Retirar arma"
+},
+{
+"id": 10010146,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010147,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010148,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010149,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010150,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010151,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010152,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010153,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010154,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010155,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010156,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010157,
+"pt": "Pegar chave da parede"
+},
+{
+"id": 10010158,
+"pt": "Retirar Espada"
+},
+{
+"id": 10010160,
+"pt": "Parece estar trancado."
+},
+{
+"id": 10010170,
+"pt": "Parece estar imóvel."
+},
+{
+"id": 10010180,
+"pt": "Tocar Arquipedra"
+},
+{
+"id": 10010190,
+"pt": "Esta Arquipedra está selada."
+},
+{
+"id": 10010195,
+"pt": "Uma névoa espessa e incolor o detém.\nSomente quem derrotou um Arquidemônio\npode passar deste ponto."
+},
+{
+"id": 10010200,
+"pt": "Conversar"
+},
+{
+"id": 10010300,
+"pt": "Subir"
+},
+{
+"id": 10010301,
+"pt": "Descer"
+},
+{
+"id": 10010400,
+"pt": "Aberto"
+},
+{
+"id": 10010401,
+"pt": "Fechar"
+},
+{
+"id": 10010403,
+"pt": "Entrar na Névoa"
+},
+{
+"id": 10010404,
+"pt": "Sair da Névoa"
+},
+{
+"id": 10010405,
+"pt": "Sair da Névoa"
+},
+{
+"id": 10010406,
+"pt": "Tocar a Porta do Panteão?"
+},
+{
+"id": 10010500,
+"pt": "Operar"
+},
+{
+"id": 10010501,
+"pt": "Puxar Alavanca"
+},
+{
+"id": 10010503,
+"pt": "Girar Manivela"
+},
+{
+"id": 10010605,
+"pt": "Ir ao Limite Norte 1 (Primeira Arquipedra)"
+},
+{
+"id": 10010606,
+"pt": "Tocar Arquipedra"
+},
+{
+"id": 10010613,
+"pt": "Ir ao Limite Norte 2 (Arquipedra Extinta)"
+},
+{
+"id": 10010619,
+"pt": "Ir ao Limite Norte 3 (Arquipedra Extinta)"
+},
+{
+"id": 10010626,
+"pt": "Ir ao Limite Norte 3 (Arquipedra Extinta)"
+},
+{
+"id": 10010650,
+"pt": "Tocar Arquipedra do Rei Ganancioso"
+},
+{
+"id": 10010651,
+"pt": "Tocar Arquipedra dos Sombrios"
+},
+{
+"id": 10010652,
+"pt": "Tocar Arquipedra da Rainha da Torre"
+},
+{
+"id": 10010653,
+"pt": "Tocar Arquipedra do Chefe"
+},
+{
+"id": 10010654,
+"pt": "Tocar Arquipedra do Rei Escavador"
+},
+{
+"id": 10010655,
+"pt": "Tocar Arquipedra Quebrada"
+},
+{
+"id": 10010710,
+"pt": "Voltar ao Nexus?"
+},
+{
+"id": 10010712,
+"pt": "Abrir mão de todas as Almas e voltar?"
+},
+{
+"id": 10010720,
+"pt": "Você não pode voltar durante o multijogador."
+},
+{
+"id": 10010730,
+"pt": "Ir para baixo do Nexus?"
+},
+{
+"id": 10010750,
+"pt": "Você obteve a Alma de um Arquidemônio.\nA espessa névoa incolor não o\noprimirá mais."
+},
+{
+"id": 10010760,
+"pt": "Pelo poder dos Monumentais,\nas quatro Arquipedras seladas foram liberadas."
+},
+{
+"id": 10010770,
+"pt": "! SANGRAMENTO !"
+},
+{
+"id": 10010771,
+"pt": "! ENVENENADO !"
+},
+{
+"id": 10010772,
+"pt": "! CONTRAIU A PRAGA !"
+},
+{
+"id": 10010773,
+"pt": "! ARMA QUEBRADA !"
+},
+{
+"id": 10010774,
+"pt": "! NÍVEL DE ALMA DRENADO !"
+},
+{
+"id": 10010775,
+"pt": "! ARMADURA QUEBRADA !"
+},
+{
+"id": 10010781,
+"pt": "Prisão da Esperança, Oeste-4º And."
+},
+{
+"id": 10010782,
+"pt": "Prisão da Esperança, Leste-4º And."
+},
+{
+"id": 10010783,
+"pt": "Prisão da Esperança, Oeste-3º And."
+},
+{
+"id": 10010784,
+"pt": "Prisão da Esperança, Leste-3º And."
+},
+{
+"id": 10010785,
+"pt": "Prisão da Esperança, Oeste-2º And."
+},
+{
+"id": 10010786,
+"pt": "Prisão da Esperança, Leste-2º And."
+},
+{
+"id": 10010787,
+"pt": "Prisão da Esperança, Oeste-1º And."
+},
+{
+"id": 10010788,
+"pt": "Prisão da Esperança, Leste-1º And."
+},
+{
+"id": 10010802,
+"pt": "Usou <?gdsparam@8?>"
+},
+{
+"id": 10010803,
+"pt": "Usou <?gdsparam@9?>"
+},
+{
+"id": 10010804,
+"pt": "Usou <?gdsparam@10?>"
+},
+{
+"id": 10010805,
+"pt": "Usou <?gdsparam@11?>"
+},
+{
+"id": 10010806,
+"pt": "Usou <?gdsparam@12?>"
+},
+{
+"id": 10010807,
+"pt": "Usou <?gdsparam@13?>"
+},
+{
+"id": 10010808,
+"pt": "Usou <?gdsparam@14?>"
+},
+{
+"id": 10010829,
+"pt": "Usou <?gdsparam@35?>"
+},
+{
+"id": 10010830,
+"pt": "Usou <?gdsparam@36?>"
+},
+{
+"id": 10010839,
+"pt": "Usou <?gdsparam@39?>"
+},
+{
+"id": 10010840,
+"pt": "Usou <?gdsparam@40?>"
+},
+{
+"id": 10010841,
+"pt": "Usou <?gdsparam@41?>"
+},
+{
+"id": 10010842,
+"pt": "Usou <?gdsparam@42?>"
+},
+{
+"id": 10010843,
+"pt": "Usou <?gdsparam@43?>"
+},
+{
+"id": 10010844,
+"pt": "Usou <?gdsparam@44?>"
+},
+{
+"id": 10010900,
+"pt": "Tocar a Porta do Panteão?"
+},
+{
+"id": 10020000,
+"pt": "SIM"
+},
+{
+"id": 10020001,
+"pt": "NÃO"
+},
+{
+"id": 10020010,
+"pt": "Dar <?gdsparam@38?>?"
+},
+{
+"id": 10020020,
+"pt": "Dar <?wepparam@40700?>?"
+},
+{
+"id": 10020021,
+"pt": "Dar <?wepparam@40701?>?"
+},
+{
+"id": 10020022,
+"pt": "Dar <?wepparam@40702?>?"
+},
+{
+"id": 10020023,
+"pt": "Dar <?wepparam@40703?>?"
+},
+{
+"id": 10020024,
+"pt": "Dar <?wepparam@40704?>?"
+},
+{
+"id": 10020025,
+"pt": "Dar <?wepparam@40705?>?"
+},
+{
+"id": 10020030,
+"pt": "Dar <?gdsparam@11?>?"
+},
+{
+"id": 10020040,
+"pt": "Dar <?gdsparam@37?>?"
+},
+{
+"id": 10020050,
+"pt": "Aceitar a oferta?"
+},
+{
+"id": 10020060,
+"pt": "Aceitar a missão?"
+},
+{
+"id": 10020070,
+"pt": "Buscar Poder de Alma?"
+},
+{
+"id": 10020080,
+"pt": "Dar <?gdsparam@28?>?"
+},
+{
+"id": 10020090,
+"pt": "Abrir a cela?"
+},
+{
+"id": 10030000,
+"pt": "Apagar o seu Sinal de Alma?"
+},
+{
+"id": 10030010,
+"pt": "Apagar a sua Mensagem?"
+},
+{
+"id": 10030020,
+"pt": "Usar esta Alma de Demônio?"
+},
+{
+"id": 15000000,
+"pt": "Conversar"
+},
+{
+"id": 15000005,
+"pt": "Sair"
+},
+{
+"id": 15000010,
+"pt": "Comprar Item"
+},
+{
+"id": 15000015,
+"pt": "Aprimorar Arma"
+},
+{
+"id": 15000020,
+"pt": "Reparar Equipamento"
+},
+{
+"id": 15000025,
+"pt": "Buscar Poder de Alma"
+},
+{
+"id": 15000030,
+"pt": "Aprender Magia"
+},
+{
+"id": 15000035,
+"pt": "Lembrar Magia"
+},
+{
+"id": 15000040,
+"pt": "Aprender Milagre"
+},
+{
+"id": 15000045,
+"pt": "Lembrar Milagre"
+},
+{
+"id": 15000050,
+"pt": "Pegar Item"
+},
+{
+"id": 15000051,
+"pt": "Depositar Item"
+},
+{
+"id": 15001000,
+"pt": "Mais Almas Obtidas"
+},
+{
+"id": 15002000,
+"pt": "2º Mais Almas Obtidas"
+},
+{
+"id": 15003000,
+"pt": "3º Mais Almas Obtidas"
+},
+{
+"id": 15004000,
+"pt": "4º Mais Almas Obtidas"
+},
+{
+"id": 15005000,
+"pt": "5º Mais Almas Obtidas"
+},
+{
+"id": 15006000,
+"pt": "6º Mais Almas Obtidas"
+},
+{
+"id": 15007000,
+"pt": "7º Mais Almas Obtidas"
+},
+{
+"id": 15008000,
+"pt": "8º Mais Almas Obtidas"
+},
+{
+"id": 15009000,
+"pt": "9º Mais Almas Obtidas"
+},
+{
+"id": 15010000,
+"pt": "10º Mais Almas Obtidas"
+},
+{
+"id": 15011000,
+"pt": "11º Mais Almas Obtidas"
+},
+{
+"id": 15012000,
+"pt": "12º Mais Almas Obtidas"
+},
+{
+"id": 15013000,
+"pt": "13º Mais Almas Obtidas"
+},
+{
+"id": 15014000,
+"pt": "14º Mais Almas Obtidas"
+},
+{
+"id": 15015000,
+"pt": "15º Mais Almas Obtidas"
+},
+{
+"id": 15016000,
+"pt": "16º Mais Almas Obtidas"
+},
+{
+"id": 15017000,
+"pt": "17º Mais Almas Obtidas"
+},
+{
+"id": 15018000,
+"pt": "18º Mais Almas Obtidas"
+},
+{
+"id": 15019000,
+"pt": "19º Mais Almas Obtidas"
+},
+{
+"id": 15020000,
+"pt": "20º Mais Almas Obtidas"
+},
+{
+"id": 15021000,
+"pt": "21º Mais Almas Obtidas"
+},
+{
+"id": 15022000,
+"pt": "22º Mais Almas Obtidas"
+},
+{
+"id": 15023000,
+"pt": "23º Mais Almas Obtidas"
+},
+{
+"id": 15024000,
+"pt": "24º Mais Almas Obtidas"
+},
+{
+"id": 15025000,
+"pt": "25º Mais Almas Obtidas"
+},
+{
+"id": 15026000,
+"pt": "26º Mais Almas Obtidas"
+},
+{
+"id": 15027000,
+"pt": "27º Mais Almas Obtidas"
+},
+{
+"id": 15028000,
+"pt": "28º Mais Almas Obtidas"
+},
+{
+"id": 15029000,
+"pt": "29º Mais Almas Obtidas"
+},
+{
+"id": 15030000,
+"pt": "30º Mais Almas Obtidas"
+},
+{
+"id": 15031000,
+"pt": "31º Mais Almas Obtidas"
+},
+{
+"id": 15032000,
+"pt": "32º Mais Almas Obtidas"
+},
+{
+"id": 15033000,
+"pt": "33º Mais Almas Obtidas"
+},
+{
+"id": 15034000,
+"pt": "34º Mais Almas Obtidas"
+},
+{
+"id": 15035000,
+"pt": "35º Mais Almas Obtidas"
+},
+{
+"id": 15036000,
+"pt": "36º Mais Almas Obtidas"
+},
+{
+"id": 15037000,
+"pt": "37º Mais Almas Obtidas"
+},
+{
+"id": 15101000,
+"pt": "Mais Troféus Obtidos"
+},
+{
+"id": 15102000,
+"pt": "2º Mais Troféus Obtidos"
+},
+{
+"id": 15103000,
+"pt": "3º Mais Troféus Obtidos"
+},
+{
+"id": 15104000,
+"pt": "4º Mais Troféus Obtidos"
+},
+{
+"id": 15105000,
+"pt": "5º Mais Troféus Obtidos"
+},
+{
+"id": 15106000,
+"pt": "6º Mais Troféus Obtidos"
+},
+{
+"id": 15107000,
+"pt": "7º Mais Troféus Obtidos"
+},
+{
+"id": 15108000,
+"pt": "8º Mais Troféus Obtidos"
+},
+{
+"id": 15109000,
+"pt": "9º Mais Troféus Obtidos"
+},
+{
+"id": 15110000,
+"pt": "10º Mais Troféus Obtidos"
+},
+{
+"id": 15201000,
+"pt": "Mais Fantasmas Salvos"
+},
+{
+"id": 15202000,
+"pt": "2º Mais Fantasmas Salvos"
+},
+{
+"id": 15203000,
+"pt": "3º Mais Fantasmas Salvos"
+},
+{
+"id": 15204000,
+"pt": "4º Mais Fantasmas Salvos"
+},
+{
+"id": 15205000,
+"pt": "5º Mais Fantasmas Salvos"
+},
+{
+"id": 15206000,
+"pt": "6º Mais Fantasmas Salvos"
+},
+{
+"id": 15207000,
+"pt": "7º Mais Fantasmas Salvos"
+},
+{
+"id": 15301000,
+"pt": "Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15302000,
+"pt": "2º Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15303000,
+"pt": "3º Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15304000,
+"pt": "4º Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15305000,
+"pt": "5º Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15306000,
+"pt": "6º Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15307000,
+"pt": "7º Mais Fantasmas Negros Mortos"
+},
+{
+"id": 15401000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15402000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15403000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15404000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15405000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15406000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15407000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15408000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15409000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15410000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15411000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15412000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15413000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15414000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15415000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15416000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15417000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15418000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15419000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15420000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15421000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15422000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15423000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15424000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15425000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15426000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15427000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15428000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15429000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15430000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15431000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15432000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15433000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15434000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15435000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15436000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15437000,
+"pt": "Unificador do Mundo"
+},
+{
+"id": 15501000,
+"pt": "Unificador do Mundo (Local)"
+},
+{
+"id": 15502000,
+"pt": "Unificador do Mundo (Local)"
+},
+{
+"id": 15503000,
+"pt": "Unificador do Mundo (Local)"
+},
+{
+"id": 15504000,
+"pt": "Unificador do Mundo (Local)"
+},
+{
+"id": 15600000,
+"pt": "Obtendo Dados do Panteão"
+},
+{
+"id": 15600001,
+"pt": "Não é possível obter os dados do panteão no modo offline."
+},
+{
+"id": 15600002,
+"pt": "Dados do Panteão Obtidos"
+},
+{
+"id": 20000000,
+"pt": "O Sinal de Alma que você deixou desapareceu."
+},
+{
+"id": 20000001,
+"pt": "O Sinal de Alma Vermelho que você deixou\ndesapareceu."
+},
+{
+"id": 20000002,
+"pt": "Os efeitos da Pedra do Olho Negro\nse dissiparam."
+},
+{
+"id": 20000105,
+"pt": "Falha na invocação. O outro usuário não pode mais\nser invocado a partir de seu último Sinal de Alma."
+},
+{
+"id": 20000415,
+"pt": "Você dispensou um Fantasma sem agradecer."
+},
+{
+"id": 20000416,
+"pt": "Você dispensou um Fantasma e agradeceu."
+},
+{
+"id": 20000420,
+"pt": "Você foi dispensado pelo Invocador. Sem a\ngratidão do Invocador, você desperdiçou a\noportunidade de obter mais Almas."
+},
+{
+"id": 20000421,
+"pt": "Você foi dispensado pelo Invocador. Com a\ngratidão do Invocador, você poderá obter mais Almas."
+},
+{
+"id": 20000425,
+"pt": "<?leaveChara?> voltou ao seu próprio mundo."
+},
+{
+"id": 20000430,
+"pt": "Você voltou ao seu próprio mundo."
+},
+{
+"id": 20000431,
+"pt": "Voltar ao seu próprio mundo?"
+},
+{
+"id": 20000432,
+"pt": "Voltar ao seu próprio mundo?"
+},
+{
+"id": 20000435,
+"pt": "<?leaveChara?> voltou ao seu próprio mundo."
+},
+{
+"id": 20000440,
+"pt": "Invadir outro mundo?"
+},
+{
+"id": 20000445,
+"pt": "Você foi enviado de volta ao seu mundo e\nressuscitado por outro jogador."
+},
+{
+"id": 20000450,
+"pt": "Você foi banido de volta ao seu mundo\npor outro jogador."
+},
+{
+"id": 20001000,
+"pt": "A sessão terminou."
+},
+{
+"id": 20001001,
+"pt": "A conexão de rede está instável.\nEncerrando a sessão..."
+},
+{
+"id": 20001002,
+"pt": "Ocorreu um erro de rede.\nVoltando à Tela de Título..."
+},
+{
+"id": 20001003,
+"pt": "Falha ao criar a sessão."
+},
+{
+"id": 20001004,
+"pt": "Falha ao entrar na sessão."
+},
+{
+"id": 20001005,
+"pt": "Não foi possível conectar ao servidor de\nDemon's Souls. Para saber o estado do Serviço\nOnline, consulte a página de Suporte\nem Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 20001010,
+"pt": "Você se desconectou da\nPlayStation®Network.\nVoltando à Tela de Título..."
+},
+{
+"id": 20001015,
+"pt": "A conexão ponto a ponto foi perdida.\nVoltando à Tela de Título..."
+},
+{
+"id": 20001016,
+"pt": "O servidor de Demon's Souls está em\nmanutenção. Para saber o estado do Serviço\nOnline, consulte a página de Suporte em\nDemons-Souls.com"
+},
+{
+"id": 20001017,
+"pt": "O Serviço Online de Demon's Souls\nfoi encerrado."
+},
+{
+"id": 20001018,
+"pt": "Não foi possível conectar ao servidor de Demon's\nSouls. Voltando à Tela de Título...\nPara saber o estado do Serviço Online,\nconsulte a página de Suporte em Demons-Souls.com.\n(<?serverError?>)"
+},
+{
+"id": 20001020,
+"pt": "<?leaveChara?> saiu."
+},
+{
+"id": 40020100,
+"pt": "Um enorme castelo de pedra no coração\ndo reino setentrional de Boletaria.\n\nSoldados famintos, cujas almas foram\nroubadas por demônios, atacam invasores,\ne dragões terríveis fazem ninho ali."
+},
+{
+"id": 40020200,
+"pt": "Arquipedra do Demônio Falange\n\nApós os enormes portões do castelo de\nBoletaria fica o Caminho do Penhasco, hoje\nterreno de caça de dragões, que leva ao\npátio interno, onde vivem os cavaleiros."
+},
+{
+"id": 40020300,
+"pt": "Arquipedra do Demônio Cavaleiro da Torre\n\nDentro dos portões de Boletaria, onde as\nruas se entrelaçam, jaz uma armadilha\narmada pelo Oficial Gordo, encarnação da\nloucura do Velho Rei Allant."
+},
+{
+"id": 40020400,
+"pt": "Arquipedra do Demônio Penetrador\n\nA Torre do Rei, outrora símbolo de Boletaria,\nestá agora cheia de marcas de garras de\ndragão, e só o Velho Rei observa tudo de\nseu trono quebrado."
+},
+{
+"id": 40020500,
+"pt": "Arquipedra do Demônio Falso Rei\n\nObservando tudo com calma da Torre do\nRei, um impostor demoníaco ocupava o\nlugar do Velho Rei Allant. O verdadeiro Rei\nhabita com uma fera ancestral..."
+},
+{
+"id": 40030100,
+"pt": "O santuário insular dos Sombrios,\nque adoram tempestades e choram os mortos.\n\nAqui as Feras da Tempestade voam no alto,\ne as almas dos mortos habitam esqueletos\nvazios para se moverem livremente."
+},
+{
+"id": 40030200,
+"pt": "Arquipedra do Demônio Juiz\n\nOs mortos, que receberam do Juiz selos de\nheróis, são levados ao santuário dos\nSombrios para serem purificados e\nchorados na tempestade."
+},
+{
+"id": 40030300,
+"pt": "Arquipedra do Demônio Velho Herói\n\nApós a purificação, os restos dos heróis são\noferecidos ao Rei da Tempestade. Suas asas\ncobrem o céu, e ele é acompanhado pelas\nFeras da Tempestade."
+},
+{
+"id": 40030400,
+"pt": "Arquipedra do Demônio Rei da Tempestade\n\nComo uma enorme arraia voadora, o Rei da\nTempestade é a encarnação dos pensamentos\ndos Sombrios de centenas de anos atrás."
+},
+{
+"id": 40040100,
+"pt": "Latria, terra da torre de marfim da Rainha.\n\nUm velho vingou-se da Rainha trancando\nsua família numa prisão com guardas\ndesumanos. Só os gritos dos prisioneiros\nescapam do lugar."
+},
+{
+"id": 40040200,
+"pt": "Arquipedra do Demônio Ídolo do Tolo\n\nA igreja devotada a um ídolo que imita a\nrainha deu esperança aos prisioneiros, mas\na malícia por trás dela esmagará seu tênue\nconsolo..."
+},
+{
+"id": 40040300,
+"pt": "Arquipedra do Demônio Devorador de Homens\n\nMassas de carne cobrem estas prisões\nsuspensas. O atual senhor de Latria, um velho\nque já não é humano, vem criando seus\npróprios demônios..."
+},
+{
+"id": 40040400,
+"pt": "Arquipedra do Demônio Velho Monge\n\nCumprida a sua vingança, o velho definhou,\npossuído por mantos dourados da loucura.\nFraco demais para ser recipiente de um\ndemônio, sua alma foi devorada."
+},
+{
+"id": 40050100,
+"pt": "Este vale úmido é o lugar de repouso\ndaqueles que foram descartados.\n\nDominados pelo veneno e pela praga, os\nhabitantes atacam quem se aventura no vale,\nesperando oferecer almas à mulher que\nmostrou compaixão."
+},
+{
+"id": 40050200,
+"pt": "Arquipedra do Demônio Sanguessugueiro\n\nO Vale da Profanação leva a um enorme\npântano para onde flui tudo o que é impuro,\ntornando-se ninho de putrilagem, pragas\ne imundícies."
+},
+{
+"id": 40050300,
+"pt": "Arquipedra do Demônio Colosso Imundo\n\nNum pântano infestado de criaturas\nvenenosas e vis jaz um vale coberto de\nimundície. Os pobres vão a esse lugar\npodre oferecer suas almas para serem\nlibertados de seu sofrimento."
+},
+{
+"id": 40050400,
+"pt": "Arquipedra do Demônio Astraea\n\nOutrora uma Sexta Santa, Astraea viveu com\nos que aguardavam a morte no Vale da\nProfanação. Ela se entregou à Alma de um\ndemônio, e não a um Deus cruel, para\naliviar a dor daquela gente."
+},
+{
+"id": 40060100,
+"pt": "Cidade dos escavadores, guardiões do\nenorme túnel.\n\nA maioria dos teimosos escavadores que\napoiavam os soldados de Boletaria teve as\nalmas tomadas. Sem vontade própria,\ncontinuam a trabalhar sem pensar."
+},
+{
+"id": 40060200,
+"pt": "Arquipedra do Demônio Aranha Blindada\n\nA Cidade do Túnel... Abaixo das forjas jaz\num enorme túnel digno do nome. Diz-se que\no túmulo de um dragão fica na parte mais\nprofunda da área derretida."
+},
+{
+"id": 40060300,
+"pt": "Arquipedra do Demônio Espreitador de Chamas\n\nDesde tempos antigos, um demônio de fogo\nestá selado num templo subterrâneo cheio\nde ossos de dragão. Mais fundo ainda jaz o\nesqueleto de um dragão ainda maior..."
+},
+{
+"id": 40060400,
+"pt": "Arquipedra do Demônio Deus-Dragão\n\nO santuário subterrâneo foi feito para\nadorar e também selar o Deus-Dragão. Os\nancestrais dos Escavadores o reverenciavam\ncomo um deus e o conservaram bem."
+},
+{
+"id": 50000000,
+"pt": "Tocar Sinal de Alma"
+},
+{
+"id": 50000001,
+"pt": "(Invocando Sinal de Alma)"
+},
+{
+"id": 50000100,
+"pt": "Tocar Mancha de Sangue"
+},
+{
+"id": 50000101,
+"pt": "(Invocando Mancha de Sangue)"
+},
+{
+"id": 50000200,
+"pt": "Tocar a sua Mancha de Sangue"
+},
+{
+"id": 50000210,
+"pt": "Ler Mensagem"
+},
+{
+"id": 50000300,
+"pt": "Tocar Sinal de Alma Vermelho"
+},
+{
+"id": 50000301,
+"pt": "(Invocando Sinal de Alma Vermelho)"
+},
+{
+"id": 50000400,
+"pt": "Examinar o seu Sinal de Alma"
+},
+{
+"id": 50000401,
+"pt": "Examinar o seu Sinal de Alma Vermelho"
+},
+{
+"id": 50000500,
+"pt": "Examinar a sua Mensagem"
+},
+{
+"id": 84000000,
+"pt": "Ir para nova área?"
+},
+{
+"id": 84000100,
+"pt": "Você está preso ao monólito,\nincapaz de morrer."
+},
+{
+"id": 84000101,
+"pt": "Você morreu, mas o Nexus mantém sua\nalma cativa. Não há como escapar dele."
+},
+{
+"id": 84000111,
+"pt": "Contudo, ao capturar Almas de Demônios,\nvocê pode recuperar o seu corpo físico."
+},
+{
+"id": 84001000,
+"pt": "Explicação da Pedra do Olho Azul"
+},
+{
+"id": 84001001,
+"pt": "As pedras de olho conectam temporariamente\nos mundos difusos. Caso você perca\nsua forma física, lembre-se\nda pedra de olho..."
+},
+{
+"id": 84001100,
+"pt": "Aprimoramento de Exp. da Dama de Preto"
+},
+{
+"id": 84001101,
+"pt": "A Donzela controla almas\ndesumanas. Esse poder lhe permite\nauxiliar os algozes de demônios."
+},
+{
+"id": 85000000,
+"pt": "Morte Verdadeira"
+},
+{
+"id": 85000002,
+"pt": "Quando os seus PV chegam a 0 na\nforma de fantasma, ocorre a\nMorte Verdadeira."
+},
+{
+"id": 85000003,
+"pt": "Um jogador com Morte Verdadeira\ntem toda a experiência adquirida\nredefinida."
+},
+{
+"id": 86000000,
+"pt": "Quando um jogador vivo morre,\nele entra na forma de fantasma."
+},
+{
+"id": 86000001,
+"pt": "Para ser revivido, você\ndeve tocar a sua mancha de sangue"
+},
+{
+"id": 86000002,
+"pt": "ou mensagem, ou vencer no multijogador"
+},
+{
+"id": 86000003,
+"pt": "Insira o Sinal de Alma\nque será usado no\nmultijogador"
+},
+{
+"id": 86000004,
+"pt": "Ao selecionar e ativar\no sinal de alma no atalho de\nmagia,"
+},
+{
+"id": 86000005,
+"pt": "você pode escrever\num sinal de alma."
+},
+{
+"id": 86000006,
+"pt": "Contudo, como a invocação\ndepende de outras pessoas, você\nnem sempre será invocado."
+},
+{
+"id": 86001000,
+"pt": "Invocado como Fantasma Branco"
+},
+{
+"id": 86001001,
+"pt": "Auxilie os vivos e derrote\no chefe"
+},
+{
+"id": 86001002,
+"pt": "Os fantasmas são de 2 tipos:\nfantasmas brancos e fantasmas negros"
+},
+{
+"id": 86001003,
+"pt": "Os fantasmas brancos lutam ao lado dos jogadores vivos e podem ser"
+},
+{
+"id": 86001004,
+"pt": "revividos ao derrotar um chefe"
+},
+{
+"id": 86001005,
+"pt": "Os fantasmas negros, ao contrário,\npodem ser revividos ao derrotar"
+},
+{
+"id": 86001006,
+"pt": "jogadores vivos ou fantasmas\nbrancos"
+},
+{
+"id": 86001008,
+"pt": "Se o alinhamento de um jogador\nvivo for próximo ao de um fantasma,"
+},
+{
+"id": 86001009,
+"pt": "ele será invocado como\nfantasma branco"
+},
+{
+"id": 86001010,
+"pt": "Se o alinhamento de um jogador\nvivo for distante do de um fantasma,"
+},
+{
+"id": 86001011,
+"pt": "ele será invocado como\nfantasma negro"
+},
+{
+"id": 86002000,
+"pt": "Invocado como Fantasma Negro"
+},
+{
+"id": 86002001,
+"pt": "Os fantasmas negros, ao contrário,\npodem ser revividos ao derrotar"
+},
+{
+"id": 86002002,
+"pt": "jogadores vivos ou fantasmas\nbrancos\n"
+},
+{
+"id": 86002003,
+"pt": "Portanto, eles se opõem aos\njogadores vivos e fantasmas brancos"
+},
+{
+"id": 86003000,
+"pt": "Se você morrer no modo multijogador,\nenquanto ainda existir, você"
+},
+{
+"id": 86003001,
+"pt": "se torna um fantasma."
+},
+{
+"id": 86003002,
+"pt": "A Morte Verdadeira ocorre quando você morre\nna forma de fantasma. Uma Morte Verdadeira"
+},
+{
+"id": 86003003,
+"pt": "redefine seus itens e status\npara os níveis iniciais."
+},
+{
+"id": 86003004,
+"pt": "Para evitar isso, reescreva um\nsinal de alma e inicie o multijogador"
+},
+{
+"id": 86003005,
+"pt": "ou acesse a marca de sangue encontrada\nno local onde você morreu"
+},
+{
+"id": 88999901,
+"pt": "Quando os seus PV chegam a 0, você morre.\nMantenha distância entre o inimigo\ne você. Ao morrer, você é levado\na um monólito de pedra."
+}
+]
+}

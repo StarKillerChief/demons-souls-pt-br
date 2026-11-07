@@ -15,7 +15,7 @@
 },
 {
 "id": 102,
-"pt": "O poder de ataque aumenta com 30─ ou menos de PV"
+"pt": "Mais ataque com 30─ ou menos de PV"
 },
 {
 "id": 103,
@@ -43,19 +43,19 @@
 },
 {
 "id": 109,
-"pt": "Aumenta o poder mágico, reduz a defesa mágica"
+"pt": "Mais poder mágico, menos defesa mágica"
 },
 {
 "id": 110,
-"pt": "Reduz o poder mágico, aumenta a defesa mágica"
+"pt": "Menos poder mágico, mais defesa mágica"
 },
 {
 "id": 111,
-"pt": "Aumenta a capacidade de memória de magias"
+"pt": "Aumenta a memória de magias"
 },
 {
 "id": 112,
-"pt": "Aumenta o poder e o tempo de conjuração de milagres"
+"pt": "Milagres mais fortes e mais lentos"
 },
 {
 "id": 113,
@@ -67,7 +67,7 @@
 },
 {
 "id": 115,
-"pt": "Aumenta o poder de ataque como Fantasma Negro"
+"pt": "Mais ataque como Fantasma Negro"
 },
 {
 "id": 116,
@@ -83,7 +83,7 @@
 },
 {
 "id": 119,
-"pt": "Torna-se a principal prioridade de ataque dos inimigos"
+"pt": "Os inimigos atacam você primeiro"
 },
 {
 "id": 120,
@@ -95,11 +95,11 @@
 },
 {
 "id": 123,
-"pt": "Aumenta o dano de acerto direto, reduz os demais"
+"pt": "Mais dano de acerto direto, menos o resto"
 },
 {
 "id": 124,
-"pt": "Aumenta a capacidade de memória de milagres"
+"pt": "Aumenta a memória de milagres"
 },
 {
 "id": 125,

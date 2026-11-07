@@ -67,7 +67,7 @@
 },
 {
 "id": 1103,
-"pt": "Atual/máximo. Peso combinado das armas e armaduras equipadas. O movimento fica lento quando sobrecarregado"
+"pt": "Atual/máximo. Peso das armas e armaduras equipadas. Com sobrecarga, o movimento fica lento"
 },
 {
 "id": 1104,
@@ -79,7 +79,7 @@
 },
 {
 "id": 1106,
-"pt": "Almas obtidas. As Almas são perdidas ao morrer, mas podem ser recuperadas tocando a sua mancha de sangue"
+"pt": "Almas obtidas. Perdidas ao morrer, podem ser recuperadas tocando a sua mancha de sangue"
 },
 {
 "id": 1200,

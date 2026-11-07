@@ -315,11 +315,11 @@
 },
 {
 "id": 45100,
-"pt": "Não há espaço livre suficiente no HDD.\nPara jogar Demon's Souls, são necessários pelo menos 53,6 MB.\n\nSaia do jogo e apague do HDD os dados desnecessários."
+"pt": "Não há espaço livre suficiente no HDD. Para jogar Demon's\nSouls, são necessários pelo menos 53,6 MB.\n\nSaia do jogo e apague do HDD os dados desnecessários."
 },
 {
 "id": 45103,
-"pt": "Não há espaço livre suficiente no HDD.\nPara instalar os Dados de Troféus, são necessários\npelo menos <?dataSize?>d KB de espaço.\n\nSelecione [OK] para iniciar o Utilitário de Exclusão de DADOS SALVOS.\nSelecione [CANCELAR] para cancelar a instalação."
+"pt": "Não há espaço livre suficiente no HDD.\nPara instalar os Dados de Troféus, são necessários\npelo menos <?dataSize?>d KB de espaço.\n\nSelecione [OK] para excluir DADOS SALVOS.\nSelecione [CANCELAR] para cancelar a instalação."
 },
 {
 "id": 45110,
@@ -415,7 +415,7 @@
 },
 {
 "id": 50002,
-"pt": "Os dados de ranking não podem ser obtidos no Modo Offline."
+"pt": "Os dados de ranking não podem ser obtidos no Modo\nOffline."
 },
 {
 "id": 50101,
@@ -447,7 +447,7 @@
 },
 {
 "id": 50203,
-"pt": "Você deve concordar com os TERMOS COMPLEMENTARES para\ncriar uma conta. Criação de conta cancelada."
+"pt": "Você deve concordar com os TERMOS\nCOMPLEMENTARES para criar uma conta. Criação de\nconta cancelada."
 },
 {
 "id": 50204,

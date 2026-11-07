@@ -7,7 +7,7 @@
 "entries": [
 {
 "id": 100000,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 100100,
@@ -43,7 +43,7 @@
 },
 {
 "id": 100900,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 101000,
@@ -51,11 +51,11 @@
 },
 {
 "id": 101100,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 101400,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 101700,
@@ -67,15 +67,15 @@
 },
 {
 "id": 101900,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 102000,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 102100,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 180000,
@@ -83,7 +83,7 @@
 },
 {
 "id": 200000,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 200100,
@@ -119,7 +119,7 @@
 },
 {
 "id": 200900,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 201000,
@@ -127,15 +127,15 @@
 },
 {
 "id": 201100,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 201200,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 201400,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 201700,
@@ -143,23 +143,23 @@
 },
 {
 "id": 201800,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 201900,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 202000,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 202100,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 300000,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 300100,
@@ -195,7 +195,7 @@
 },
 {
 "id": 300900,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 301000,
@@ -203,15 +203,15 @@
 },
 {
 "id": 301100,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 301200,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 301400,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 301500,
@@ -219,27 +219,27 @@
 },
 {
 "id": 301700,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 301800,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 301900,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 302000,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 302100,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 400000,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 400100,
@@ -275,7 +275,7 @@
 },
 {
 "id": 400900,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 401000,
@@ -283,15 +283,15 @@
 },
 {
 "id": 401100,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 401200,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 401400,
-"pt": "Apenas Masculino"
+"pt": "Masculino"
 },
 {
 "id": 401500,
@@ -299,19 +299,19 @@
 },
 {
 "id": 401800,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 401900,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 402000,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 },
 {
 "id": 402100,
-"pt": "Apenas Feminino"
+"pt": "Feminino"
 }
 ]
 }

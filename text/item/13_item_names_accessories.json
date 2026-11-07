@@ -35,11 +35,11 @@
 },
 {
 "id": 107,
-"pt": "Anel da Resistência ao Fogo"
+"pt": "Anel Antifogo"
 },
 {
 "id": 108,
-"pt": "Anel da Resistência ao Veneno"
+"pt": "Anel Antiveneno"
 },
 {
 "id": 109,
@@ -103,11 +103,11 @@
 },
 {
 "id": 125,
-"pt": "Anel da Resistência a Cortes"
+"pt": "Anel Anticortes"
 },
 {
 "id": 126,
-"pt": "Anel da Resistência a Doenças"
+"pt": "Anel Antidoenças"
 }
 ]
 }

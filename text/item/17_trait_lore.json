@@ -55,7 +55,7 @@
 },
 {
 "id": 112,
-"pt": "Os efeitos da magia do clérigo ficam mais fortes, mas o movimento do Milagre fica mais longo (intervalo maior)"
+"pt": "Magias de clérigo ficam mais fortes, mas o Milagre demora mais para ser lançado"
 },
 {
 "id": 113,
@@ -75,7 +75,7 @@
 },
 {
 "id": 117,
-"pt": "Dificulta a detecção do jogador pelos Fantasmas Negros inimigos. Versão fraca da magia “Camuflagem Fantasma” do clérigo"
+"pt": "Dificulta que Fantasmas Negros achem o jogador. Versão fraca da “Camuflagem Fantasma”"
 },
 {
 "id": 118,

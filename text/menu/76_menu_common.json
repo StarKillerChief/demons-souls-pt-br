@@ -275,7 +275,7 @@
 },
 {
 "id": 2345,
-"pt": "Red. de Quebra de Guarda"
+"pt": "Red. Quebra de Guarda"
 },
 {
 "id": 2351,
@@ -367,7 +367,7 @@
 },
 {
 "id": 4002,
-"pt": "Fantasmas Negros Mortos"
+"pt": "F. Negros Mortos"
 },
 {
 "id": 4003,
@@ -383,7 +383,7 @@
 },
 {
 "id": 4006,
-"pt": "Total de Almas Obtidas"
+"pt": "Total de Almas"
 }
 ]
 }

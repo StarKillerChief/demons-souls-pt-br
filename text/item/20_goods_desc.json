@@ -23,23 +23,23 @@
 },
 {
 "id": 10,
-"pt": "Abre o corredor trancado do 1º andar da Prisão da Esperança"
+"pt": "Abre o corredor do 1º andar da Prisão"
 },
 {
 "id": 11,
-"pt": "Abre o corredor trancado do 2º andar da Prisão da Esperança"
+"pt": "Abre o corredor do 2º andar da Prisão"
 },
 {
 "id": 12,
-"pt": "Abre o corredor trancado do 3º andar da Prisão da Esperança"
+"pt": "Abre o corredor do 3º andar da Prisão"
 },
 {
 "id": 13,
-"pt": "Abre o corredor trancado do 4º andar da Prisão da Esperança"
+"pt": "Abre o corredor do 4º andar da Prisão"
 },
 {
 "id": 14,
-"pt": "Abre o salão do Carcereiro na Prisão da Esperança"
+"pt": "Abre o salão do Carcereiro na Prisão"
 },
 {
 "id": 15,
@@ -127,11 +127,11 @@
 },
 {
 "id": 36,
-"pt": "Uma chave de ferro incrustada de sangue seco"
+"pt": "Chave de ferro coberta de sangue seco"
 },
 {
 "id": 37,
-"pt": "Um pequeno brasão de ouro que representa Vinland"
+"pt": "Pequeno brasão de ouro de Vinland"
 },
 {
 "id": 38,
@@ -139,23 +139,23 @@
 },
 {
 "id": 39,
-"pt": "Abre a cela trancada do 1º andar da Prisão da Esperança"
+"pt": "Abre a cela do 1º andar da Prisão"
 },
 {
 "id": 40,
-"pt": "Abre a cela oeste trancada do 2º andar da Prisão da Esperança"
+"pt": "Abre a cela oeste do 2º andar da Prisão"
 },
 {
 "id": 41,
-"pt": "Abre a cela trancada do 3º andar da Prisão da Esperança"
+"pt": "Abre a cela do 3º andar da Prisão"
 },
 {
 "id": 42,
-"pt": "Abre a cela trancada do 4º andar da Prisão da Esperança"
+"pt": "Abre a cela do 4º andar da Prisão"
 },
 {
 "id": 43,
-"pt": "Abre a cela leste trancada do 2º andar da Prisão da Esperança"
+"pt": "Abre a cela leste do 2º andar da Prisão"
 },
 {
 "id": 44,
@@ -171,7 +171,7 @@
 },
 {
 "id": 1000,
-"pt": "Recupera uma pequena quantidade de PV do usuário"
+"pt": "Recupera um pouco dos PV do usuário"
 },
 {
 "id": 1001,
@@ -179,7 +179,7 @@
 },
 {
 "id": 1002,
-"pt": "Recupera uma grande quantidade de PV do usuário"
+"pt": "Recupera muitos PV do usuário"
 },
 {
 "id": 1003,
@@ -195,7 +195,7 @@
 },
 {
 "id": 1006,
-"pt": "Recupera uma grande quantidade de PM do usuário"
+"pt": "Recupera muitos PM do usuário"
 },
 {
 "id": 1007,
@@ -207,11 +207,11 @@
 },
 {
 "id": 1009,
-"pt": "Recupera totalmente os PV e as condições adversas"
+"pt": "Recupera todos os PV e condições adversas"
 },
 {
 "id": 1010,
-"pt": "Recupera a durabilidade da arma da mão direita"
+"pt": "Repara a arma da mão direita"
 },
 {
 "id": 1011,
@@ -223,7 +223,7 @@
 },
 {
 "id": 1013,
-"pt": "Barril de óleo. Ao ser lançado, produz uma grande chama"
+"pt": "Barril de óleo que solta uma grande chama"
 },
 {
 "id": 1014,
@@ -231,19 +231,19 @@
 },
 {
 "id": 1015,
-"pt": "Aplique na arma da mão direita para envolvê-la em fogo"
+"pt": "Envolve em fogo a arma da mão direita"
 },
 {
 "id": 1016,
-"pt": "Aplique na arma da mão direita para um fogo mais forte"
+"pt": "Envolve em fogo forte a arma da mão direita"
 },
 {
 "id": 1017,
-"pt": "Aplique na arma da mão direita para encantá-la"
+"pt": "Encanta a arma da mão direita"
 },
 {
 "id": 1018,
-"pt": "Permite enxergar nitidamente a grandes distâncias"
+"pt": "Permite enxergar bem a grandes distâncias"
 },
 {
 "id": 1020,
@@ -251,7 +251,7 @@
 },
 {
 "id": 1021,
-"pt": "Ressuscita o corpo do usuário da forma de Alma"
+"pt": "Ressuscita o usuário da forma de Alma"
 },
 {
 "id": 1022,
@@ -263,39 +263,39 @@
 },
 {
 "id": 1024,
-"pt": "Adaga especial, lançada na horizontal para atacar"
+"pt": "Adaga especial lançada na horizontal"
 },
 {
 "id": 1025,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1026,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1027,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1028,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1029,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1030,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1031,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1032,
-"pt": "Soma ao estoque de Almas do usuário ao ser usada"
+"pt": "Ao ser usada, soma Almas ao seu estoque"
 },
 {
 "id": 1033,
@@ -347,7 +347,7 @@
 },
 {
 "id": 2015,
-"pt": "Fragmento de minério cinzento de brilho opaco"
+"pt": "Fragmento de minério cinzento e opaco"
 },
 {
 "id": 2016,
@@ -371,7 +371,7 @@
 },
 {
 "id": 2024,
-"pt": "Fragmento de minério transparente como tecido"
+"pt": "Fragmento de minério translúcido"
 },
 {
 "id": 2025,
@@ -395,7 +395,7 @@
 },
 {
 "id": 2030,
-"pt": "Fragmento de osso de dragão fossilizado pela lava"
+"pt": "Osso de dragão fossilizado pela lava"
 },
 {
 "id": 2031,
@@ -407,7 +407,7 @@
 },
 {
 "id": 2033,
-"pt": "Fragmento de minério vampiro. Gruda na pele"
+"pt": "Minério vampiro. Gruda na pele"
 },
 {
 "id": 2034,
@@ -443,7 +443,7 @@
 },
 {
 "id": 2042,
-"pt": "Fragmento de minério que reflete a sombra da lua"
+"pt": "Minério que reflete a sombra da lua"
 },
 {
 "id": 2043,
@@ -455,11 +455,11 @@
 },
 {
 "id": 2045,
-"pt": "Fragmento de minério sagrado e frio. Emite uma luz tênue"
+"pt": "Minério sagrado e frio, de luz tênue"
 },
 {
 "id": 2046,
-"pt": "Bloco de minério sagrado e frio. Emite uma luz tênue"
+"pt": "Bloco de minério sagrado e frio, de luz tênue"
 },
 {
 "id": 2047,
@@ -467,11 +467,11 @@
 },
 {
 "id": 2048,
-"pt": "Fragmento de minério verde que dizem existir no céu"
+"pt": "Minério verde que dizem vir do céu"
 },
 {
 "id": 2049,
-"pt": "Bloco de minério verde que dizem existir no céu"
+"pt": "Bloco de minério verde que dizem vir do céu"
 },
 {
 "id": 2050,
@@ -499,11 +499,11 @@
 },
 {
 "id": 9996,
-"pt": "O Sinal de Alma desafia um guerreiro do Outromundo"
+"pt": "O Sinal de Alma desafia um guerreiro"
 },
 {
 "id": 9997,
-"pt": "O Sinal de Alma busca ajudar um guerreiro do Outromundo"
+"pt": "O Sinal de Alma oferece ajuda a um guerreiro"
 },
 {
 "id": 9998,
@@ -511,7 +511,7 @@
 },
 {
 "id": 9999,
-"pt": "Retorna ao seu mundo quando for um Fantasma"
+"pt": "Como Fantasma, retorna ao seu mundo"
 }
 ]
 }

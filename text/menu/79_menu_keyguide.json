@@ -31,11 +31,11 @@
 },
 {
 "id": 11000,
-"pt": "<?selectAll?>:Selecionar　<?conclusion?>:Menu de Comandos　<?cancel?>:Fechar　<?commando?>:Mudar Lista de Itens　<?viewChange?>:Mudar Exibição de Status"
+"pt": "<?selectAll?>:Selecionar　<?conclusion?>:Comandos　<?cancel?>:Fechar　<?commando?>:Trocar Lista　<?viewChange?>:Trocar Status"
 },
 {
 "id": 11001,
-"pt": "<?selectAll?>:Selecionar　<?conclusion?>:Menu de Comandos　<?cancel?>:Fechar　<?commando?>:Mudar Lista de Itens　<?viewChange?>:Mudar Exibição de Status"
+"pt": "<?selectAll?>:Selecionar　<?conclusion?>:Comandos　<?cancel?>:Fechar　<?commando?>:Trocar Lista　<?viewChange?>:Trocar Status"
 },
 {
 "id": 11002,

@@ -895,7 +895,7 @@
 },
 {
 "id": 15600001,
-"pt": "Não é possível obter os dados do panteão no modo offline."
+"pt": "Não é possível obter os dados do panteão no modo\noffline."
 },
 {
 "id": 15600002,
@@ -1227,7 +1227,7 @@
 },
 {
 "id": 86001003,
-"pt": "Os fantasmas brancos lutam ao lado dos jogadores vivos e podem ser"
+"pt": "Os fantasmas brancos lutam ao lado dos jogadores vivos\ne podem ser"
 },
 {
 "id": 86001004,

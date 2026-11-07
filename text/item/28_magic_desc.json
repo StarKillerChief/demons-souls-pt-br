@@ -15,7 +15,7 @@
 },
 {
 "id": 1002,
-"pt": "Cura os PV e as condições do personagem tocado"
+"pt": "Cura PV e condições de quem é tocado"
 },
 {
 "id": 1003,
@@ -23,11 +23,11 @@
 },
 {
 "id": 1004,
-"pt": "Fortalece e amaldiçoa a arma da mão direita"
+"pt": "Fortalece e amaldiçoa a arma direita"
 },
 {
 "id": 1005,
-"pt": "Transforma-se em Fantasma Negro (inválido para Fantasmas)"
+"pt": "Vira Fantasma Negro (não como Fantasma)"
 },
 {
 "id": 1006,
@@ -67,7 +67,7 @@
 },
 {
 "id": 1015,
-"pt": "Uma lâmina de água aumenta a resistência ao fogo"
+"pt": "Lâmina d’água que protege do fogo"
 },
 {
 "id": 1016,
@@ -99,7 +99,7 @@
 },
 {
 "id": 2001,
-"pt": "Cria uma área onde a magia não pode ser usada"
+"pt": "Cria uma área onde não se usa magia"
 },
 {
 "id": 2002,
@@ -115,7 +115,7 @@
 },
 {
 "id": 2005,
-"pt": "Ressuscita Fantasmas em seus próprios mundos"
+"pt": "Ressuscita Fantasmas em seus mundos"
 },
 {
 "id": 2006,
@@ -131,7 +131,7 @@
 },
 {
 "id": 2009,
-"pt": "Envia os Fantasmas Negros de volta ao seu mundo"
+"pt": "Devolve Fantasmas Negros ao seu mundo"
 },
 {
 "id": 2010,

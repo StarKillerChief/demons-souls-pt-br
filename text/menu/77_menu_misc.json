@@ -95,7 +95,7 @@
 },
 {
 "id": 31001,
-"pt": "Nenhum dado de perfil encontrado."
+"pt": "Nenhum perfil encontrado."
 },
 {
 "id": 31002,
@@ -139,11 +139,11 @@
 },
 {
 "id": 33010,
-"pt": "Ajuste o brilho até o escudo ficar"
+"pt": "Ajuste o brilho até ver o escudo"
 },
 {
 "id": 33011,
-"pt": "visível e o dragão, invisível."
+"pt": "e não ver mais o dragão."
 },
 {
 "id": 34000,
@@ -1019,7 +1019,7 @@
 },
 {
 "id": 36910,
-"pt": "Profundidade das Maçãs do Rosto"
+"pt": "Altura das Maçãs do Rosto"
 },
 {
 "id": 36911,

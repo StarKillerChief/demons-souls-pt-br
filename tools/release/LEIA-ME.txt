@@ -1,13 +1,39 @@
-Traducao PT-BR de Demon's Souls para o Soulbrandt (versao de teste, feita por fas, sem vinculo com os donos do jogo).
+﻿TRADUÇÃO PT-BR DE DEMON'S SOULS PARA O SOULBRANDT — v0.1 (versão de teste)
+Feita por fãs, sem fins lucrativos e sem vínculo com os donos do jogo nem com o autor do Soulbrandt.
 
-Como instalar:
-1. Instale e abra o Soulbrandt uma vez, ate ele dizer que o jogo esta pronto. Depois feche.
-2. Extraia a pasta PT-BR dentro da pasta onde esta o Soulbrandt.exe.
-3. Abra a pasta PT-BR e de dois cliques em Instalar-PT-BR.bat.
-   Se o Windows avisar que protegeu o computador, clique em "Mais informacoes" e "Executar assim mesmo".
+O que fica em português: menus, itens, magias, diálogos, legendas dos vídeos e os letreiros
+grandes (VOCÊ MORREU, DEMÔNIO DESTRUÍDO e os outros).
+Testado com o Soulbrandt 0.1.1, versão americana do jogo (BLUS30443).
 
-Depois de atualizar o Soulbrandt, deixe ele preparar o jogo de novo e rode o Instalar-PT-BR.bat mais uma vez.
-Para voltar ao original, use Desinstalar-PT-BR.bat. Seus saves nao sao alterados.
 
-Por enquanto so funciona na versao americana do jogo (BLUS30443).
-Nenhum arquivo do jogo vem neste pacote: as fontes e os textos sao montados no seu PC, a partir da sua copia.
+ANTES DE COMEÇAR
+Você precisa do Soulbrandt já instalado e funcionando: abra o Soulbrandt.exe pelo menos uma vez,
+deixe ele preparar o jogo até o fim e feche. Não precisa instalar mais nada, nem o Python:
+tudo o que o tradutor precisa já vem neste pacote.
+
+
+COMO INSTALAR (3 passos)
+1. Extraia este arquivo .zip DENTRO da pasta onde está o Soulbrandt.exe.
+   Vai aparecer uma pasta chamada PT-BR ao lado do Soulbrandt.exe.
+2. Abra a pasta PT-BR e dê dois cliques em Instalar-PT-BR.bat.
+   Se o Windows mostrar "O Windows protegeu o computador", clique em "Mais informações"
+   e depois em "Executar assim mesmo".
+3. Espere aparecer "Pronto!" (leva alguns segundos), aperte qualquer tecla e abra o Soulbrandt.
+
+
+QUANDO O SOULBRANDT FOR ATUALIZADO
+A atualização apaga a tradução. Abra o Soulbrandt uma vez, deixe ele preparar o jogo de novo,
+feche e dê dois cliques em Instalar-PT-BR.bat outra vez.
+
+
+COMO VOLTAR AO JOGO EM INGLÊS
+Dê dois cliques em Desinstalar-PT-BR.bat, dentro da pasta PT-BR.
+
+
+DÚVIDAS
+- Seus saves não são alterados em nenhum momento.
+- Feche o Soulbrandt antes de instalar ou desinstalar.
+- Nenhum arquivo do jogo vem neste pacote: as letras com acento, os textos e os letreiros
+  são montados no seu PC, a partir da sua própria cópia do jogo.
+- Por enquanto só funciona na versão americana (BLUS30443).
+- Componentes de terceiros e suas licenças: TERCEIROS.txt.

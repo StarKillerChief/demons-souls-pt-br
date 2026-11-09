@@ -1,6 +1,6 @@
 # Pre-publication check (the repository stays private; this is what a public one would contain)
 
-Checked 2026-11-07 on the working tree and on history.
+Checked 2026-11-07 on the working tree and on history; commits after the squash re-checked 2026-11-09 (no local paths, e-mail, keys or game files; author is the noreply address).
 
 | Check | Result |
 |---|---|
@@ -18,4 +18,8 @@ Checked 2026-11-07 on the working tree and on history.
 - Third-party translations are not used or bundled.
 
 ## What a public repository would contain
-`README.md`, `text/` (32 JSON files, 9,763 Portuguese entries), `tools/` (`install_ptbr.py`, `gen_ptbr_glyphs.py`, `fmg_tool.py`, `dcx_tool.py`, `font_mark.py`, `sync_text.py`), `docs/` (this file, `installer.md`, `soulbrandt-test.md`, `fonts.md`, `localization.md`, `glossary-ptbr.md`, `ptbr-translations.md`, `status.md`).
+`README.md`, `text/` (32 JSON files, 9,763 Portuguese entries), `tools/` (`ptbr_soulbrandt.py`, `install_ptbr.py`, `gen_ptbr_glyphs.py`, `gen_ptbr_banners.py`, `fmg_tool.py`, `dcx_tool.py`, `font_mark.py`, `sync_text.py`, `movie_subs/`, `release/`), `docs/` (this file, `installer.md`, `soulbrandt-test.md`, `fonts.md`, `localization.md`, `glossary-ptbr.md`, `ptbr-translations.md`, `status.md`).
+
+## The release zip (built by `tools/release/build_pack.py`, attached to a GitHub release, never committed)
+- Our tools and `text/`, the subtitle stand-in DLL compiled from `tools/movie_subs/avcodec_shim.cpp` (our code, no FFmpeg code), the official Python 3.13.9 embeddable package (PSF licence, checked by SHA-256) and the Pillow 12.0.0 wheel (MIT-CMU/HPND). Their licence texts ship inside the zip; `TERCEIROS.txt` points to them.
+- `gen_ptbr_banners.py` names the five English banner phrases (a few words each) so it can find the letters in the player's own textures; no other game text is quoted.

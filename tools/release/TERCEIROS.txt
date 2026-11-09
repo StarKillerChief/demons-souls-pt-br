@@ -1,0 +1,19 @@
+Componentes de terceiros incluidos neste pacote / Third-party components in this pack
+
+1. Python 3.13.9 (pacote "embeddable" oficial do python.org), na pasta python\
+   Licenca: Python Software Foundation License. Texto completo: python\LICENSE.txt
+   Usado para rodar o instalador. Baixado de python.org e conferido por SHA-256.
+
+2. Pillow 12.0.0 (biblioteca de imagens), na pasta python\Lib\site-packages\PIL
+   Licenca: MIT-CMU (HPND). Texto completo:
+   python\Lib\site-packages\pillow-12.0.0.dist-info\licenses\LICENSE
+   Usado para montar os letreiros grandes (VOCE MORREU e os outros) a partir da sua copia do jogo.
+
+3. pack\tools\movie_subs\avcodec-62.dll
+   Codigo proprio deste projeto (licenca MIT, ver pack\LICENSE). Nao contem codigo do FFmpeg:
+   ela repassa as chamadas para a DLL original do Soulbrandt, que fica guardada como
+   avcodec-62.orig.dll, e so desenha as legendas por cima dos videos.
+
+As ferramentas deste pacote estao sob a licenca MIT (pack\LICENSE).
+O texto em portugues e uma traducao de fas, sem fins lucrativos (pack\NOTICE.md).
+Nenhum arquivo do jogo vem neste pacote.

@@ -32,7 +32,7 @@ subprocess.run([a.cxx, '-O2', '-std=c++17', '-shared', '-static', '-s', '-o',
 shutil.copytree(os.path.join(REPO, 'text'), os.path.join(root, 'pack', 'text'))
 for f in ('LICENSE', 'NOTICE.md'):
     shutil.copy(os.path.join(REPO, f), os.path.join(root, 'pack', f))
-for f in ('Instalar-PT-BR.bat', 'Desinstalar-PT-BR.bat', 'LEIA-ME.txt'):
+for f in ('Instalar-PT-BR.bat', 'Desinstalar-PT-BR.bat', 'LEIA-ME.txt', 'TERCEIROS.txt'):
     shutil.copy(os.path.join(HERE, f), root)
 cache = os.path.join(a.out, 'python-embed.zip')
 if not os.path.isfile(cache):

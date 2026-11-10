@@ -299,7 +299,7 @@
 },
 {
 "id": 35230,
-"pt": "Sobrancelha/Testa"
+"pt": "Cenho/Testa"
 },
 {
 "id": 35250,
@@ -395,7 +395,7 @@
 },
 {
 "id": 36040,
-"pt": "Espaçamento Vertical"
+"pt": "Espaço Vertical"
 },
 {
 "id": 36041,
@@ -419,7 +419,7 @@
 },
 {
 "id": 36060,
-"pt": "Espaçamento Horizontal"
+"pt": "Espaço Horizontal"
 },
 {
 "id": 36061,
@@ -515,7 +515,7 @@
 },
 {
 "id": 36200,
-"pt": "Largura da Sobrancelha"
+"pt": "Largura do Cenho"
 },
 {
 "id": 36201,
@@ -527,7 +527,7 @@
 },
 {
 "id": 36210,
-"pt": "Profundidade da Sobrancelha"
+"pt": "Fundura do Cenho"
 },
 {
 "id": 36211,
@@ -539,7 +539,7 @@
 },
 {
 "id": 36220,
-"pt": "Aspereza da Sobrancelha"
+"pt": "Aspereza do Cenho"
 },
 {
 "id": 36221,
@@ -551,7 +551,7 @@
 },
 {
 "id": 36230,
-"pt": "Altura da Ponte do Nariz"
+"pt": "Altura da Ponte Nasal"
 },
 {
 "id": 36231,
@@ -587,7 +587,7 @@
 },
 {
 "id": 36260,
-"pt": "Largura da Ponte do Nariz"
+"pt": "Largura da Ponte"
 },
 {
 "id": 36261,
@@ -635,7 +635,7 @@
 },
 {
 "id": 36400,
-"pt": "Densidade das Sobrancelhas"
+"pt": "Densidade"
 },
 {
 "id": 36401,
@@ -647,7 +647,7 @@
 },
 {
 "id": 36410,
-"pt": "Posição das Sobrancelhas"
+"pt": "Posição"
 },
 {
 "id": 36411,
@@ -659,7 +659,7 @@
 },
 {
 "id": 36420,
-"pt": "Espessura da Sobrancelha 1"
+"pt": "Espessura 1"
 },
 {
 "id": 36421,
@@ -671,7 +671,7 @@
 },
 {
 "id": 36430,
-"pt": "Espessura da Sobrancelha 2"
+"pt": "Espessura 2"
 },
 {
 "id": 36431,
@@ -755,7 +755,7 @@
 },
 {
 "id": 36530,
-"pt": "Distância entre os Olhos"
+"pt": "Distância dos Olhos"
 },
 {
 "id": 36531,
@@ -875,7 +875,7 @@
 },
 {
 "id": 36700,
-"pt": "Profundidade do Dorso do Nariz"
+"pt": "Fundura do Dorso"
 },
 {
 "id": 36701,
@@ -887,7 +887,7 @@
 },
 {
 "id": 36710,
-"pt": "Comprimento do Dorso do Nariz"
+"pt": "Extensão do Dorso"
 },
 {
 "id": 36711,
@@ -911,7 +911,7 @@
 },
 {
 "id": 36730,
-"pt": "Altura da Ponta do Nariz"
+"pt": "Altura da Ponta Nasal"
 },
 {
 "id": 36731,
@@ -959,7 +959,7 @@
 },
 {
 "id": 36800,
-"pt": "Inclinação das Narinas"
+"pt": "Ângulo das Narinas"
 },
 {
 "id": 36801,
@@ -1007,7 +1007,7 @@
 },
 {
 "id": 36900,
-"pt": "Altura das Maçãs do Rosto"
+"pt": "Altura das Maçãs"
 },
 {
 "id": 36901,
@@ -1019,7 +1019,7 @@
 },
 {
 "id": 36910,
-"pt": "Altura das Maçãs do Rosto"
+"pt": "Fundura das Maçãs"
 },
 {
 "id": 36911,
@@ -1031,7 +1031,7 @@
 },
 {
 "id": 36920,
-"pt": "Largura das Maçãs do Rosto"
+"pt": "Largura das Maçãs"
 },
 {
 "id": 36921,
@@ -1043,7 +1043,7 @@
 },
 {
 "id": 36930,
-"pt": "Aspereza das Maçãs do Rosto"
+"pt": "Aspereza das Maçãs"
 },
 {
 "id": 36931,

@@ -13,7 +13,9 @@ Setup's folder: a portable install (portable.txt beside the program) keeps it in
 there names the game folder, in full or relative to setup's folder.
 
 What it changes, all undone by `desinstalar`:
-- six files in the game folder (install_ptbr.py keeps the originals beside them);
+- nothing in the game folder setup uses (it may be RPCS3's own library folder or the player's disc copy): the
+  translation goes into a folder of its own, <setup's folder>/ptbr-game, and ready.txt's game= line points there
+  (see build_overlay below); `desinstalar` points it back and deletes that folder;
 - avcodec-62.dll in the program folder: the official file is kept as avcodec-62.orig.dll, and movie_subs/ is added;
 - setup's game cache (hdd1/cache) is emptied, because the game copies files there and would keep showing old ones.
   The game fills it again by itself. Saves and settings are not touched.
@@ -44,6 +46,10 @@ def fail(msg):
     raise SystemExit('\nNao deu certo: ' + msg)
 
 
+def has_ready(data):
+    return os.path.isfile(os.path.join(data, 'setup', 'ready.txt'))
+
+
 def find_data(program):
     if os.path.isfile(os.path.join(program, 'portable.txt')):
         return os.path.join(program, 'data', 'setup-data')
@@ -53,16 +59,21 @@ def find_data(program):
         for line in open(os.path.join(usual, 'setup-folder.txt'), encoding='utf-8-sig', errors='replace'):
             line = line.strip()
             if line and not line.startswith('#'):
-                return os.path.normpath(line if os.path.isabs(line) else os.path.join(usual, line))
+                named = os.path.normpath(line if os.path.isabs(line) else os.path.join(usual, line))
+                # a folder chosen on setup's screens but never built in: the build is in the usual place
+                return named if has_ready(named) or not has_ready(usual) else usual
     except OSError:
         pass
     return usual
 
 
+def ready_path(data):
+    return os.path.join(data, 'setup', 'ready.txt')
+
+
 def find_game(data):
-    ready = os.path.join(data, 'setup', 'ready.txt')
     try:
-        lines = open(ready, encoding='utf-8-sig', errors='replace').read().splitlines()
+        lines = open(ready_path(data), encoding='utf-8-sig', errors='replace').read().splitlines()
     except OSError:
         fail('o Soulbrandt ainda nao foi preparado neste PC. Abra o Soulbrandt.exe, termine a instalacao dele e rode '
              'este instalador de novo.')
@@ -70,7 +81,86 @@ def find_game(data):
         if line.startswith('game='):
             game = line[5:].strip()
             return os.path.normpath(game if os.path.isabs(game) else os.path.join(data, game))
-    fail('nao encontrei a pasta do jogo em ' + ready)
+    fail('nao encontrei a pasta do jogo em ' + ready_path(data))
+
+
+def set_ready_game(data, game):
+    """Point setup/ready.txt's game= line at `game`, keeping every other line as it is."""
+    p = ready_path(data)
+    raw = open(p, 'rb').read().decode('utf-8-sig')
+    nl = '\r\n' if '\r\n' in raw else '\n'
+    lines = [('game=' + game) if ln.startswith('game=') else ln for ln in raw.splitlines()]
+    with open(p + '.tmp', 'w', encoding='utf-8', newline='') as f:
+        f.write(nl.join(lines) + nl)
+    os.replace(p + '.tmp', p)
+
+
+# --- The translated game folder -------------------------------------------------------------------------------
+# Setup can use the game straight from RPCS3's library (its "Import from RPCS3" route), so the folder ready.txt names
+# may belong to RPCS3, or be the player's own disc copy. This tool NEVER writes there. It builds its own folder inside
+# setup's folder: real copies of the three folders it changes (font, msg, menu, about 85 MB) and of the loose files,
+# and directory junctions (read-only use) to everything else. ready.txt is pointed at it; `desinstalar` points it back.
+OVERLAY = 'ptbr-game'
+SOURCE_NOTE = '.ptbr-source.txt'
+CHANGED = {'ps3_game': {'usrdir': {'font': 'copy', 'msg': 'copy', 'menu': 'copy'}}}
+
+
+def overlay_of(data):
+    return os.path.join(data, OVERLAY)
+
+
+def overlay_source(ov):
+    try:
+        return open(os.path.join(ov, SOURCE_NOTE), encoding='utf-8').read().strip()
+    except OSError:
+        return None
+
+
+def junction(link, target):
+    import _winapi
+    _winapi.CreateJunction(target, link)
+    if not os.path.isdir(link):
+        raise OSError('could not link %s' % link)
+
+
+def build_overlay(src, ov):
+    if not os.path.isdir(os.path.join(src, 'PS3_GAME')):
+        fail('a pasta do jogo nao tem PS3_GAME: ' + src)
+    os.makedirs(ov)
+
+    def mirror(s, d, spec):
+        for name in os.listdir(s):
+            sp, dp = os.path.join(s, name), os.path.join(d, name)
+            sub = spec.get(name.lower())
+            if os.path.isdir(sp):
+                if sub == 'copy':
+                    shutil.copytree(sp, dp)
+                elif sub:
+                    os.mkdir(dp)
+                    mirror(sp, dp, sub)
+                else:
+                    junction(dp, sp)
+            else:
+                shutil.copy2(sp, dp)
+    mirror(src, ov, CHANGED)
+    with open(os.path.join(ov, SOURCE_NOTE), 'w', encoding='utf-8') as f:
+        f.write(src)
+
+
+def remove_overlay(ov):
+    """Delete our folder. Junctions are removed as links only: what they point to is never entered."""
+    def rm(d):
+        for e in os.scandir(d):
+            if e.is_junction() or e.is_symlink():
+                os.rmdir(e.path) if e.is_dir() or e.is_junction() else os.remove(e.path)
+            elif e.is_dir(follow_symlinks=False):
+                rm(e.path)
+            else:
+                os.chmod(e.path, 0o666)
+                os.remove(e.path)
+        os.rmdir(d)
+    if os.path.isdir(ov):
+        rm(ov)
 
 
 def is_ours(path):
@@ -145,24 +235,41 @@ def main():
              'Soulbrandt.exe e rode de novo.' % program)
     data = os.path.abspath(a.data) if a.data else find_data(program)
     game = find_game(data)
+    ov = overlay_of(data)
+    on = os.path.normcase(game) == os.path.normcase(ov)
+    source = overlay_source(ov) if on else game
     pack = load(os.path.join(HERE, 'install_ptbr.py'), 'install_ptbr')
-    usr = pack.find_usrdir(game)
     print('Soulbrandt: ' + program)
-    print('Jogo:       ' + game)
+    print('Jogo:       ' + (source or game))
     if a.cmd == 'estado':
-        print('Traducao:   ' + ('instalada' if pack.read_manifest(usr) else 'nao instalada'))
+        print('Traducao:   ' + ('instalada (pasta propria: %s)' % ov if on else 'nao instalada'))
         print('Legendas:   ' + ('instaladas' if is_ours(os.path.join(program, DLL)) else 'nao instaladas'))
         return
     if game_running():
         fail('feche o Soulbrandt e rode de novo.')
     if a.cmd == 'instalar':
-        pack.install(usr, os.path.join(HERE, '..', 'text'))
-        install_subs(program, game)
+        if not on:
+            if os.path.isdir(ov):
+                remove_overlay(ov)       # left from before a Soulbrandt update rebuilt the game: start fresh
+            print('Preparando uma pasta propria para a traducao (a pasta original do jogo nao e alterada)...')
+            build_overlay(game, ov)
+            set_ready_game(data, ov)
+        try:
+            pack.install(pack.find_usrdir(ov), os.path.join(HERE, '..', 'text'))
+            install_subs(program, ov)
+        except BaseException:
+            if not on:                   # undo: the game goes back to the folder it used before
+                set_ready_game(data, game)
+                remove_overlay(ov)
+            raise
         clear_cache(data)
         print('\nPronto! Abra o Soulbrandt normalmente.')
     else:
-        if pack.read_manifest(usr) and not pack.uninstall(usr):
-            fail('nao consegui devolver os arquivos originais do jogo.')
+        if on:
+            if not source or not os.path.isdir(source):
+                fail('nao sei para qual pasta do jogo voltar (%s). Nada foi alterado.' % source)
+            set_ready_game(data, source)
+        remove_overlay(ov)
         remove_subs(program)
         clear_cache(data)
         print('\nPronto! O jogo voltou ao original.')

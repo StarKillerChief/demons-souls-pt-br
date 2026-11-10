@@ -40,6 +40,15 @@ TARGETS = ([('font/%s/%s.%s.dcx' % (LANG, f, e)) for f in FONTS for e in ('ccm',
            + ['menu/%02d.tpf.dcx' % i for i in range(17)])     # the loading screens
 
 
+VERSION = '0.1'
+
+
+def step(key, **info):
+    """Machine-readable progress for the launcher (only when PTBR_PROGRESS is set): one '@@{json}' line per step."""
+    if os.environ.get('PTBR_PROGRESS'):
+        print('@@' + json.dumps(dict(step=key, **info), ensure_ascii=False), flush=True)
+
+
 def load(name):
     spec = importlib.util.spec_from_file_location(name, os.path.join(HERE, name + '.py'))
     m = importlib.util.module_from_spec(spec)
@@ -186,6 +195,7 @@ def install(usr, text, fonts='original'):
         base, out = os.path.join(tmp, 'orig'), os.path.join(tmp, 'out')
         decode_to_plain(usr, base, 'original')
         if fonts == 'hd':
+            step('fonts', fonts='hd')
             print('1/4 fonts: making the game fonts of this copy 4x sharper (HD), then the accented letters', flush=True)
             r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_hdfont.py'),
                                 os.path.join(base, 'font', LANG)],
@@ -193,11 +203,13 @@ def install(usr, text, fonts='original'):
             if r.returncode:
                 raise SystemExit('error: HD font generation failed:\n' + r.stdout + r.stderr)
         else:
+            step('fonts', fonts='original')
             print('1/4 fonts: deriving the accented letters from the original game fonts of this copy', flush=True)
         r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_glyphs.py'), base, out],
                            stdin=subprocess.DEVNULL, capture_output=True, text=True)
         if r.returncode:
             raise SystemExit('error: font generation failed:\n' + r.stdout + r.stderr)
+        step('text')
         print('2/4 text: building the message archives')
         import io, contextlib
         buf = io.StringIO()
@@ -226,6 +238,7 @@ def install(usr, text, fonts='original'):
                                stdin=subprocess.DEVNULL, capture_output=True, text=True)
             if r.returncode:
                 raise SystemExit('error: banner generation failed:' + chr(10) + r.stdout + r.stderr)
+            step('banners')
             print('   big on-screen messages (VOCÊ MORREU and the rest) made from the lettering of this copy')
             print('   loading screens: names and CARREGANDO, set in EB Garamond over the art of this copy', flush=True)
             r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_loading.py'),
@@ -235,6 +248,7 @@ def install(usr, text, fonts='original'):
                 raise SystemExit('error: loading screen generation failed (see above)')
         except ImportError:
             print('note: Pillow is missing, so the big on-screen messages stay in English')
+        step('writing')
         print('4/4 writing (originals are saved in %s first)' % BACKUP)
         files = {}
         newdcx = {}
@@ -254,7 +268,7 @@ def install(usr, text, fonts='original'):
                 b = os.path.join(usr, BACKUP, rel)
                 os.makedirs(os.path.dirname(b), exist_ok=True)
                 shutil.copyfile(os.path.join(usr, rel), b)
-        json.dump({'pack': 'demons-souls-ptbr', 'format': 1, 'files': files},
+        json.dump({'pack': 'demons-souls-ptbr', 'format': 1, 'version': VERSION, 'fonts': fonts, 'files': files},
                   open(manifest_path(usr), 'w', encoding='utf-8'), indent=1)
         for rel, data in newdcx.items():
             cur = os.path.join(usr, rel)

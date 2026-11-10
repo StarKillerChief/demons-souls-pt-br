@@ -272,12 +272,14 @@ def main():
         if not on:
             if os.path.isdir(ov):
                 remove_overlay(ov)       # left from before a Soulbrandt update rebuilt the game: start fresh
+            pack.step('folder')
             print('Preparando uma pasta propria para a traducao (a pasta original do jogo nao e alterada)...')
             build_overlay(game, ov)
             set_ready_game(data, ov)
         try:
             usr = pack.find_usrdir(ov)
             pack.install(usr, os.path.join(HERE, '..', 'text'), a.fontes or ask_fonts(pack, usr))
+            pack.step('subs')
             install_subs(program, ov)
         except BaseException:
             if not on:                   # undo: the game goes back to the folder it used before

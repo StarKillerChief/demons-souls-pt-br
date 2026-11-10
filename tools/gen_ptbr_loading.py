@@ -20,6 +20,7 @@ Nothing from the game is stored in this repository: the per-screen data below is
 Needs Pillow (bundled with the installer's Python).
 """
 import argparse
+import json
 import io
 import os
 import statistics
@@ -446,6 +447,9 @@ def run(src_dir, out_dir, preview=None, only=None):
         open(os.path.join(out_dir, key + '.tpf'), 'wb').write(bytes(data))
         done += 1
         print('     %s %s' % (key, pt), flush=True)
+        if os.environ.get('PTBR_PROGRESS'):
+            print('@@' + json.dumps(dict(step='loading', n=done, total=len(SCREENS), screen=key), ensure_ascii=False),
+                  flush=True)
         if preview:
             new.crop((0, 0, SIZE, PIC_H)).save(os.path.join(preview, key + '_ptbr.png'))
             print('  %s %s' % (key, notes[0]))

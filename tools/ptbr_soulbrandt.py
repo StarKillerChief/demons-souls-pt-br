@@ -125,12 +125,24 @@ def remove_subs(program):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('cmd', choices=['instalar', 'desinstalar', 'estado'])
-    ap.add_argument('--program', default=os.path.dirname(os.path.dirname(os.path.dirname(HERE))))
+    ap.add_argument('--program', help='the folder with Soulbrandt.exe (default: the nearest one above this pack)')
     ap.add_argument('--data')
     a = ap.parse_args()
-    program = os.path.abspath(a.program)
+    if a.program:
+        program = os.path.abspath(a.program)
+    else:
+        # PT-BR/pack/tools is HERE. Windows' "Extract all" adds a folder named after the zip
+        # (Soulbrandt/PT-BR-Soulbrandt/PT-BR), so look a few folders up for the program.
+        program = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
+        cand = program
+        for _ in range(3):
+            if os.path.isfile(os.path.join(cand, 'Soulbrandt.exe')):
+                program = cand
+                break
+            cand = os.path.dirname(cand)
     if not os.path.isfile(os.path.join(program, 'Soulbrandt.exe')):
-        fail('nao encontrei o Soulbrandt.exe em %s. Extraia esta pasta dentro da pasta do Soulbrandt.' % program)
+        fail('nao encontrei o Soulbrandt.exe perto de %s. Coloque a pasta PT-BR dentro da pasta onde esta o '
+             'Soulbrandt.exe e rode de novo.' % program)
     data = os.path.abspath(a.data) if a.data else find_data(program)
     game = find_game(data)
     pack = load(os.path.join(HERE, 'install_ptbr.py'), 'install_ptbr')

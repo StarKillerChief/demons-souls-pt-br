@@ -349,8 +349,25 @@ class Marks:
         return resample_rows(g, rows) if rows and len(g) > rows else g
 
 
-def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows):
-    """Return (cell rows of width = base rect width, base glyph record) for base_ch + mark."""
+def pad1(g):
+    w = len(g[0]) + 2
+    return [bytearray(w)] + [bytearray(1) + r + bytearray(1) for r in g] + [bytearray(w)]
+
+
+def dilate(g):
+    """Grow ink by one pixel in every direction (3x3 maximum): the dark outline ring of an outlined font."""
+    h, w = len(g), len(g[0])
+    return [bytearray(max(g[yy][xx] for yy in range(max(0, y - 1), min(h, y + 2))
+                          for xx in range(max(0, x - 1), min(w, x + 2))) for x in range(w)) for y in range(h)]
+
+
+def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, plane='alpha'):
+    """Return (cell rows of width = base rect width, base glyph record) for base_ch + mark.
+
+    outline: the font draws every letter as a bright core inside a dark one-pixel ring (talkfont24, the subtitle and
+    dialogue face). Drawn marks (tilde, circumflex) then get the same: the core on the colour plane, the core grown by
+    one pixel on the alpha plane, so the ring shows dark like the letters' own (play test 2026-11-10: thin grey marks
+    with no outline looked faded next to the letters)."""
     bg = ccm.glyph(ccm.index(ord(base_ch)))
     cell = crop(atlas, bg['rect'])
     W = bg['rect'][2] - bg['rect'][0]
@@ -378,7 +395,14 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows):
     inkw = bb[2] - bb[0]
     def get_mark(rows):
         if mark in ('circ', 'tilde'):
-            return draw_mark(mark, max(5, min(10, int(round(inkw * 0.8)))), rows, min(marks.thick, 1.5 if mark == 'tilde' else 1.7))
+            mw = max(5, min(10, int(round(inkw * 0.8))))
+            if outline:
+                # ring on the sides and below only: the cell has no room above the mark, and the ring below is what
+                # keeps it apart from the letter; the core keeps rows - 1 rows so the shape stays a real tilde/caret
+                core = draw_mark(mark, mw - 2, max(3, rows - 1), 1.6 if mark == 'tilde' else 1.8)
+                core = pad1(core)[1:]
+                return dilate(core) if plane == 'alpha' else core
+            return draw_mark(mark, mw, rows, min(marks.thick, 1.5 if mark == 'tilde' else 1.7))
         return marks.get(mark, rows)
     if upper:
         # capitals have only 2 empty rows above them: squash the capital to make room (see docs/fonts.md)
@@ -395,7 +419,10 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows):
         # bold face with little headroom (talkfont24: letter top at row 6): leave TWO empty rows, otherwise the mark
         # merges with the letter when the game scales the text down (in-game blob on a-tilde, 2026-11-06)
         gap = 2 if avail <= 5 else 1
-        m = get_mark(min(avail - (gap - 1), 4 if mark in ('circ', 'tilde') else 5))
+        drawn = mark in ('circ', 'tilde')
+        if outline and drawn:
+            gap = 1          # the dark ring itself keeps the mark apart from the letter
+        m = get_mark(min(avail - (gap - 1), (5 if outline else 4) if drawn else 5))
         y = bb[1] - gap - len(m)                                         # mark bottom sits `gap` empty rows above the letter
     blit(cell, m, int(round(cx - len(m[0]) / 2.0)), y)
     return cell, bg
@@ -451,8 +478,9 @@ def run(usr, out, kind, fonts, mark_rows):
         new, x, y, rep = [], 0, BAND_Y0, []
         region = [TEX, TEX, 0, 0]
         for cp, b, m in todo:
-            cell, bg = compose(b, m, ccm, atlas, marks, met, mark_rows)
-            lcell, _ = compose(b, m, ccm, latlas, marks_l, met, mark_rows)
+            outline = font == 'talkfont24'
+            cell, bg = compose(b, m, ccm, atlas, marks, met, mark_rows, outline, 'alpha')
+            lcell, _ = compose(b, m, ccm, latlas, marks_l, met, mark_rows, outline, 'lum')
             W = len(cell[0])
             if x + W > TEX:
                 x, y = 0, y + CELL

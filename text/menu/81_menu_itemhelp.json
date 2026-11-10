@@ -55,7 +55,7 @@
 },
 {
 "id": 1100,
-"pt": "Pontos de Vida (PV), atual/máximo. Em 0, o personagem morre. Na forma de Alma, o máximo cai pela metade"
+"pt": "Pontos de Vida (PV), atual/máximo. Em 0, o personagem morre. Na forma de Alma, o máximo é metade"
 },
 {
 "id": 1101,

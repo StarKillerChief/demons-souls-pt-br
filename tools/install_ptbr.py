@@ -110,8 +110,41 @@ def uninstall(usr, force=False):
     return ok
 
 
-def decode_to_plain(usr, work):
-    """Write the ORIGINAL plain ccm/tpf/msgbnd into work/{font,msg}/na_english (from the backup if one exists)."""
+def current_font(usr, rel):
+    """The font file the game opens now (as it was before our install), decoded, and the disc's plain twin."""
+    dcx = load('dcx_tool')
+    src = os.path.join(usr, BACKUP, rel)
+    if not os.path.isfile(src):
+        src = os.path.join(usr, rel)
+    plain = os.path.join(usr, rel[:-4])
+    data = dcx.decode(open(src, 'rb').read()) if os.path.isfile(src) else None
+    twin = open(plain, 'rb').read() if os.path.isfile(plain) else None
+    return data, twin
+
+
+def font_mod(usr):
+    """None: the game's own fonts. 'hd': the HD font mod (4x atlases, same glyph table), which the pack supports.
+    'other': some other font mod, which the pack cannot build on (the original fonts are used then)."""
+    g = load('gen_ptbr_glyphs')
+    found = None
+    for f in FONTS:
+        tpf, twin = current_font(usr, 'font/%s/%s.tpf.dcx' % (LANG, f))
+        ccm, ccm_twin = current_font(usr, 'font/%s/%s.ccm.dcx' % (LANG, f))
+        if tpf is None or twin is None or tpf == twin:
+            continue
+        if ccm != ccm_twin:
+            return 'other'
+        table = g.Ccm(ccm)
+        ent = g.tpf_entries(tpf)[table.glyph(table.index(ord('A')))['tex']]
+        if ent['w'] != 4 * table.tw or ent['h'] != 4 * table.th:
+            return 'other'
+        found = 'hd'
+    return found
+
+
+def decode_to_plain(usr, work, fonts='original'):
+    """Write the plain ccm/tpf/msgbnd to build from into work/{font,msg}/na_english (from the backup if one exists).
+    fonts: 'original' builds on the disc's own fonts even when a font mod replaced them; 'hd' builds on the HD font."""
     dcx = load('dcx_tool')
     for rel in TARGETS:
         src = os.path.join(usr, BACKUP, rel)
@@ -125,21 +158,25 @@ def decode_to_plain(usr, work):
         else:
             data = dcx.decode(open(src, 'rb').read())
             plain = os.path.join(usr, rel[:-4])
-            if rel.startswith('font/') and os.path.isfile(plain):
+            if rel.startswith('font/') and os.path.isfile(plain) and fonts != 'hd':
                 orig_plain = open(plain, 'rb').read()
                 if orig_plain != data:
                     # Another mod (a high-resolution font, for example) replaced the .dcx the game opens. The disc's
                     # plain twin still holds the original font, which is what the accented letters are made from.
-                    print('note: %s comes from another mod; the translation uses the original font kept beside it, '
-                          'so that font mod is off while the translation is installed' % rel)
+                    print('note: %s comes from a font mod; the original game font is used, so that font mod is '
+                          'off while the translation is installed' % rel)
                     data = orig_plain
         out = os.path.join(work, rel[:-4])
         os.makedirs(os.path.dirname(out), exist_ok=True)
         open(out, 'wb').write(data)
 
 
-def install(usr, text):
+def install(usr, text, fonts='original'):
+    """fonts: 'original' (the game's own fonts) or 'hd' (the HD font mod, when it is installed)."""
     check_title(usr)
+    if fonts == 'hd' and font_mod(usr) != 'hd':
+        print('note: the HD font mod is not installed in this copy; using the original game fonts')
+        fonts = 'original'
     if read_manifest(usr):
         print('a previous install was found: restoring the originals first')
         if not uninstall(usr):
@@ -148,8 +185,9 @@ def install(usr, text):
     fmg = load('fmg_tool')
     with tempfile.TemporaryDirectory(prefix='ptbr_') as tmp:
         base, out = os.path.join(tmp, 'orig'), os.path.join(tmp, 'out')
-        decode_to_plain(usr, base)
-        print('1/4 fonts: deriving the accented letters from the fonts of this copy')
+        decode_to_plain(usr, base, fonts)
+        print('1/4 fonts: deriving the accented letters from the %s fonts of this copy' % (
+            'HD (font mod)' if fonts == 'hd' else 'original game'))
         r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_glyphs.py'), base, out],
                            stdin=subprocess.DEVNULL, capture_output=True, text=True)
         if r.returncode:
@@ -229,6 +267,8 @@ def main():
     ap.add_argument('--in-place', action='store_true', help='install: apply to --game itself (only for a copy)')
     ap.add_argument('--text', default=TEXT)
     ap.add_argument('--force', action='store_true', help='uninstall: overwrite files changed after the install')
+    ap.add_argument('--fonts', choices=['original', 'hd'], default='original',
+                    help='install: build on the original game fonts (default) or on the HD font mod, if installed')
     a = ap.parse_args()
     game = os.path.abspath(a.game)
     if a.cmd == 'install':
@@ -244,7 +284,7 @@ def main():
             print('copying %s -> %s (a plain copy, no links; several GB, takes a while)' % (game, out))
             shutil.copytree(game, out, symlinks=False)
             game = out
-        install(find_usrdir(game), a.text)
+        install(find_usrdir(game), a.text, a.fonts)
     elif a.cmd == 'uninstall':
         sys.exit(0 if uninstall(find_usrdir(game), a.force) else 1)
     else:

@@ -23,6 +23,10 @@ import struct, sys, os, zlib, unicodedata, argparse
 TEX = 512
 CELL = 26                      # glyph cell height in the atlas (font height field of the CCM)
 BAND_Y0 = 392                  # first free row (multiple of 4) below the last used glyph row (391)
+S = 1                          # atlas scale: 1 for the game's own 512 atlas, 4 for the HD font mod's 2048 atlas
+# The HD font mod (DeS_ButtonGlyphs / High Resolution Font) keeps the CCM byte-identical (UVs are normalised) and
+# redraws the letters in a 4x atlas. Every pixel measure below is in 512-atlas pixels and multiplied by S;
+# in HD the accents come from the font's own HD marks (~ ^ ` and the rest) instead of being drawn.
 PTBR = "áâãàçéêíóôõú" "ÁÂÃÀÇÉÊÍÓÔÕÚ" "üÜ" "ªº"
 MARKS = {0: 'ord', 0x300: 'grave', 0x301: 'acute', 0x302: 'circ', 0x303: 'tilde', 0x308: 'diaer', 0x30A: 'ring', 0x327: 'cedilla'}
 MARK_SRC = {'grave': 0x60, 'acute': 0xB4, 'tilde': 0x7E, 'diaer': 0xA8, 'ring': 0xB0, 'cedilla': 0x2C}
@@ -244,6 +248,49 @@ def trim(g):
     return [bytearray(r[x0:x1]) for r in g[y0:y1]]
 
 
+def drop_edge_specks(g, share=0.15):
+    """HD atlases: a letter's neighbour can reach into its cell. Blank the small pieces of ink that touch the cell's
+    edges and are not part of the letter (connected pieces smaller than `share` of all the ink)."""
+    h, w = len(g), len(g[0])
+    seen = [bytearray(w) for _ in range(h)]
+    total = sum(1 for r in g for v in r if v)
+    out = [bytearray(r) for r in g]
+    edge = [(x, y) for y in range(h) for x in (0, w - 1)] + [(x, y) for x in range(w) for y in (0, h - 1)]
+    for sx, sy in edge:
+        if True:
+            if not g[sy][sx] or seen[sy][sx]:
+                continue
+            comp, stack = [], [(sx, sy)]
+            seen[sy][sx] = 1
+            while stack:
+                x, y = stack.pop()
+                comp.append((x, y))
+                for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                    if 0 <= nx < w and 0 <= ny < h and g[ny][nx] and not seen[ny][nx]:
+                        seen[ny][nx] = 1
+                        stack.append((nx, ny))
+            if len(comp) < share * total:
+                for x, y in comp:
+                    out[y][x] = 0
+    return out
+
+
+def flip(g):
+    return [bytearray(reversed(r)) for r in g]
+
+
+def scale_to(g, max_w, max_h):
+    """Area-average scale keeping the aspect, to fit max_w x max_h (never enlarges)."""
+    h, w = len(g), len(g[0])
+    f = min(1.0, max_w / w, max_h / h)
+    if f >= 1.0:
+        return [bytearray(r) for r in g]
+    nh, nw = max(1, int(round(h * f))), max(1, int(round(w * f)))
+    g = resample_rows(g, nh)
+    cols = resample_rows([bytearray(c) for c in zip(*g)], nw)
+    return [bytearray(r) for r in zip(*cols)]
+
+
 def resample_rows(g, dst_h):
     """Area-average vertical resample of a bitmap (list of rows) to dst_h rows."""
     src_h, w = len(g), len(g[0])
@@ -264,8 +311,8 @@ def resample_rows(g, dst_h):
     return out
 
 
-def blank(w, h=CELL):
-    return [bytearray(w) for _ in range(h)]
+def blank(w, h=None):
+    return [bytearray(w) for _ in range(CELL if h is None else h)]
 
 
 def blit(dst, src, x, y):
@@ -280,7 +327,8 @@ def blit(dst, src, x, y):
 def remove_dot(g):
     """Dotless i/j: find the narrowest row (the neck) just below the dot and blank everything above it, neck included."""
     ys = [y for y, r in enumerate(g) if any(v > 24 for v in r)]
-    lo, hi = ys[0] + 1, ys[0] + max(2, (ys[-1] - ys[0]) // 2)
+    # skip the dot's own rounded top (HD: several rows, and narrower than the neck where its ring meets the stem)
+    lo, hi = ys[0] + (1 if S == 1 else 3 * S), ys[0] + max(2, (ys[-1] - ys[0]) // 2)
     neck = min(range(lo, hi + 1), key=lambda y: sum(g[y]))
     out = [bytearray(r) for r in g]
     for k in range(0, neck + 1):
@@ -330,10 +378,30 @@ def draw_mark(kind, w, h, thick, ss=6):
 
 class Marks:
     """Accent marks cut from the game's own punctuation glyphs (same stroke weight by construction)."""
-    def __init__(self, ccm, atlas):
+    def __init__(self, ccm, atlas, font=''):
         self.m = {}
         for name, cp in MARK_SRC.items():
             self.m[name] = trim(crop(atlas, ccm.glyph(ccm.index(cp))['rect']))
+        self.hd = S > 1
+        if self.hd:
+            for name, cp in MARK_SRC.items():
+                self.m[name] = trim(drop_edge_specks(crop(atlas, ccm.glyph(ccm.index(cp))['rect'])))
+            # the HD font has proper tilde and circumflex glyphs: use them as they are (talkfont24's carry their own
+            # dark ring in the alpha plane, like its letters)
+            self.m['tilde'] = trim(drop_edge_specks(crop(atlas, ccm.glyph(ccm.index(0x7E))['rect'])))
+            self.m['circ'] = trim(drop_edge_specks(crop(atlas, ccm.glyph(ccm.index(0x5E))['rect'])))
+            if font == 'dsfont24':
+                # its acute (U+00B4) and diaeresis were left at the old resolution by the mod; the grave was redrawn
+                self.m['acute'] = flip(self.m['grave'])
+                dot = trim(drop_edge_specks(crop(atlas, ccm.glyph(ccm.index(0x2E))['rect'])))
+                d = blank(len(dot[0]) * 3, len(dot))
+                blit(d, dot, 0, 0)
+                blit(d, dot, len(dot[0]) * 2, 0)
+                self.m['diaer'] = d
+            self.thick = stroke_weight(self.m['acute'])
+            comma = self.m['cedilla']
+            self.m['cedilla'] = comma[max(0, len(comma) - 4 * S):]
+            return
         # circumflex = acute (/) next to grave (\) : same strokes, no new artwork
         a, g = self.m['acute'], self.m['grave']
         c = blank(len(a[0]) + len(g[0]), len(a))
@@ -344,8 +412,10 @@ class Marks:
         comma = self.m['cedilla']
         self.m['cedilla'] = comma[max(0, len(comma) - 4):]
 
-    def get(self, name, rows=None):
+    def get(self, name, rows=None, max_w=None):
         g = self.m[name]
+        if self.hd and rows:
+            return scale_to(g, max_w or len(g[0]), rows)
         return resample_rows(g, rows) if rows and len(g) > rows else g
 
 
@@ -370,6 +440,8 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, pla
     with no outline looked faded next to the letters)."""
     bg = ccm.glyph(ccm.index(ord(base_ch)))
     cell = crop(atlas, bg['rect'])
+    if S > 1:
+        cell = drop_edge_specks(cell)
     W = bg['rect'][2] - bg['rect'][0]
     upper = base_ch.isupper()
     if base_ch in 'ij':
@@ -382,18 +454,24 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, pla
         letter = [bytearray(r) for r in zip(*cols)]
         letter = resample_rows(letter, sh)
         cell = blank(W)
-        top = max(met['cap_top'] + 1, 0)
+        top = max(met['cap_top'] + S, 0)
         blit(cell, letter, (W - sw) // 2, top)
-        blit(cell, [bytearray([255] * sw)], (W - sw) // 2, top + sh + 1)
+        for k in range(S):
+            blit(cell, [bytearray([255] * sw)], (W - sw) // 2, top + sh + S + k)
         return cell, bg
     bb = ink_bbox(cell)
     cx = (bb[0] + bb[2]) / 2.0
     if mark == 'cedilla':
         m = marks.get('cedilla')
+        if S > 1:
+            m = scale_to(m, len(m[0]), max(S, CELL - met['baseline'] - S))     # must end inside the cell
         blit(cell, m, int(round(cx - len(m[0]) / 2.0)) + 1, met['baseline'])    # hangs under the baseline
         return cell, bg
     inkw = bb[2] - bb[0]
     def get_mark(rows):
+        if marks.hd:
+            # the font's own HD mark, scaled to the room (never wider than the letter's ink, a bit more for capitals)
+            return marks.get(mark, rows, max(4 * S, int(inkw * (1.0 if upper else 0.9))))
         if mark in ('circ', 'tilde'):
             mw = max(5, min(10, int(round(inkw * 0.8))))
             if outline:
@@ -406,23 +484,23 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, pla
         return marks.get(mark, rows)
     if upper:
         # capitals have only 2 empty rows above them: squash the capital to make room (see docs/fonts.md)
-        cap_top = mark_rows + 1                                          # mark rows, one empty row, then the capital
+        cap_top = (mark_rows + 1) * S                                    # mark rows, one empty row, then the capital
         top, bot = bb[1], bb[3]
         if top < cap_top:                                                # not enough headroom: squash the capital
             sq = resample_rows([r for r in cell[top:bot]], bot - cap_top)
             cell = blank(W)
             blit(cell, sq, 0, cap_top)
-        m = get_mark(mark_rows)
-        y = 0
+        m = get_mark(mark_rows * S)
+        y = 0 if S == 1 else max(0, cap_top - S - len(m))     # (S == 1: unchanged from the tested original-font build)
     else:
-        avail = bb[1] - 1                                                # rows above the letter, minus one empty row
+        avail = bb[1] - S                                                # rows above the letter, minus one empty row
         # bold face with little headroom (talkfont24: letter top at row 6): leave TWO empty rows, otherwise the mark
         # merges with the letter when the game scales the text down (in-game blob on a-tilde, 2026-11-06)
-        gap = 2 if avail <= 5 else 1
+        gap = (2 if avail <= 5 * S else 1) * S
         drawn = mark in ('circ', 'tilde')
         if outline and drawn:
-            gap = 1          # the dark ring itself keeps the mark apart from the letter
-        m = get_mark(min(avail - (gap - 1), (5 if outline else 4) if drawn else 5))
+            gap = S          # the dark ring itself keeps the mark apart from the letter
+        m = get_mark(min(avail - (gap - S), ((5 if outline else 4) if drawn else 5) * S))
         y = bb[1] - gap - len(m)                                         # mark bottom sits `gap` empty rows above the letter
     blit(cell, m, int(round(cx - len(m[0]) / 2.0)), y)
     return cell, bg
@@ -464,21 +542,28 @@ def run(usr, out, kind, fonts, mark_rows):
         glyph_tex = ccm.glyph(ccm.index(ord('A')))['tex']
         ent = ents[glyph_tex]      # CCM texture index == TPF entry order (dsfont24: 0 = buttons, 1 = letters)
         tex = tpf[ent['off']:ent['off'] + ent['size']]
+        global TEX, CELL, BAND_Y0, S
+        S = ent['w'] // ccm.tw
+        if S not in (1, 2, 4) or ent['w'] != ent['h'] or ent['w'] != S * ccm.tw:
+            raise SystemExit('%s: atlas %dx%d does not match its glyph table (%d); unknown font mod' % (
+                font, ent['w'], ent['h'], ccm.tw))
+        TEX, CELL, BAND_Y0 = ent['w'], 26 * S, 392 * S
+        ccm.tw = ccm.th = TEX     # glyph rects in atlas pixels; build() divides by the same size, so UVs stay right
         atlas = decode_alpha(tex, TEX, TEX)
         # colour plane (grey), kept non-zero exactly where alpha is non-zero so the same compose() geometry applies to it;
         # a dark ink pixel is stored as 1 and mapped back to 0 when the texture is encoded
         raw_lum = decode_lum(tex, TEX, TEX)
         latlas = [bytearray((max(1, raw_lum[y][x]) if atlas[y][x] else 0) for x in range(TEX)) for y in range(TEX)]
         used_bottom = max(ccm.glyph(i)['rect'][3] for i in range(ccm.nglyph) if ccm.glyph(i)['tex'] == glyph_tex)
-        marks = Marks(ccm, atlas)
-        marks_l = Marks(ccm, latlas)
+        marks = Marks(ccm, atlas, font)
+        marks_l = Marks(ccm, latlas, font)
         met = measure(ccm, atlas)
         have = ccm.codepoints()
         todo = targets(kind, have)
         new, x, y, rep = [], 0, BAND_Y0, []
         region = [TEX, TEX, 0, 0]
         for cp, b, m in todo:
-            outline = font == 'talkfont24'
+            outline = font == 'talkfont24' and S == 1
             cell, bg = compose(b, m, ccm, atlas, marks, met, mark_rows, outline, 'alpha')
             lcell, _ = compose(b, m, ccm, latlas, marks_l, met, mark_rows, outline, 'lum')
             W = len(cell[0])

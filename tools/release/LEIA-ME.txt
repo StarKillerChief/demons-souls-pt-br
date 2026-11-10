@@ -1,8 +1,8 @@
 ﻿TRADUÇÃO PT-BR DE DEMON'S SOULS PARA O SOULBRANDT — v0.1 (versão de teste)
 Feita por fãs, sem fins lucrativos e sem vínculo com os donos do jogo nem com o autor do Soulbrandt.
 
-O que fica em português: menus, itens, magias, diálogos, legendas dos vídeos e os letreiros
-grandes (VOCÊ MORREU, DEMÔNIO DESTRUÍDO e os outros).
+O que fica em português: menus, itens, magias, diálogos, legendas dos vídeos, os letreiros
+grandes (VOCÊ MORREU, DEMÔNIO DESTRUÍDO e os outros) e as telas de carregamento.
 Testado com o Soulbrandt 0.1.1, versão americana do jogo (BLUS30443).
 
 
@@ -18,7 +18,18 @@ COMO INSTALAR (3 passos)
 2. Abra a pasta PT-BR e dê dois cliques em Instalar-PT-BR.bat.
    Se o Windows mostrar "O Windows protegeu o computador", clique em "Mais informações"
    e depois em "Executar assim mesmo".
-3. Espere aparecer "Pronto!" (leva alguns segundos), aperte qualquer tecla e abra o Soulbrandt.
+3. Espere aparecer "Pronto!" (leva menos de um minuto), aperte qualquer tecla e abra o Soulbrandt.
+
+
+FONTES HD (OPCIONAL)
+A tradução funciona com as fontes originais do jogo. Você NÃO precisa de nenhum mod de fonte.
+Se você usa o mod de fontes HD (High Resolution Font / DeS_ButtonGlyphs, do Nexus Mods),
+o instalador percebe sozinho e pergunta com qual fonte você quer jogar:
+   1 - Fontes HD do mod (letras e acentos em alta resolução)
+   2 - Fontes originais do jogo
+Digite o número e aperte Enter. Se não tiver o mod HD, essa pergunta não aparece.
+Para trocar depois, é só rodar Instalar-PT-BR.bat de novo e escolher a outra opção.
+O mod de fontes HD não vem neste pacote: ele é de outro autor e se baixa à parte.
 
 
 QUANDO O SOULBRANDT FOR ATUALIZADO

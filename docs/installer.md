@@ -44,3 +44,24 @@ EB Garamond semibold (SIL OFL, `tools/fonts/`) at the size and spacing fitted to
 (name 33.5 px + 7.4, NOW LOADING 23.6 px + 4.3), coloured with the factor or offset measured from the original
 letters. Only the changed 4x4 blocks of level 0 are replaced; mips down to 4x4 are rebuilt. Names that are the
 same in both languages (Satsuki, Selen Vinland) keep the original lettering. About 1 s per screen.
+
+## HD font mod: an explicit choice (`--fonts hd|original`)
+
+Decided with the product owner (2026-11-10): the HD font mod (DeS_ButtonGlyphs 1.00 / SonofUgly's High Resolution
+Font) is optional and most players will not have it. One installer covers both; the player chooses explicitly.
+
+- `install_ptbr.font_mod(usr)` compares each font `.dcx` the game opens (from `.ptbr-backup` if installed) with
+  the disc's plain twin: equal -> the game's own fonts; different with an identical CCM and a 4x atlas -> `hd`;
+  anything else -> `other` (unknown mod: the original fonts are used, with a note).
+- `ptbr_soulbrandt.py instalar` asks only when `hd` is found ("1 - Fontes HD do mod / 2 - Fontes originais");
+  `--fontes hd|original` answers it on the command line.
+- `--fonts original` builds on the plain twins (the HD mod is off while the translation is installed);
+  `--fonts hd` builds on the mod's own `.dcx`.
+- `gen_ptbr_glyphs.py` works at the atlas scale it finds (S = atlas / CCM size: 1 or 4). With S = 1 the output is
+  byte-identical to the tested build. With S = 4 the accents are the font's own HD marks (`~` `^` `` ` `` and the
+  rest; dsfont24's acute and diaeresis were left at the old resolution by the mod, so the acute is the mirrored
+  grave and the diaeresis two periods), scaled to the room; letters' cells are cleaned of neighbours' ink that
+  reaches into them (`drop_edge_specks`); the new CCM rects are written normalised to the 2048 atlas.
+- Uninstall restores the mod's HD files byte for byte (tested).
+- The HD mod also replaces `menu/menu.tpf.dcx` and the strip below y 720 of the loading screens; the banners and
+  loading screens are built on whatever is there.

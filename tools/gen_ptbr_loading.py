@@ -62,9 +62,10 @@ LOADING = ('NOW LOADING', 'CARREGANDO')
 NAME_AREA = (100, 30, 1000, 140)
 LOAD_AREA = (260, 630, 640, 695)
 SS = 4                 # supersampling for the type
+WEIGHT = 600          # EB Garamond is a variable font (400..800); the game's lettering is a semibold
 # type size and extra letter spacing (texture pixels), fitted to the English lines of the cleanest screens
-NAME_STYLE = (33.5, 7.4)
-LOAD_STYLE = (23.6, 4.3)
+NAME_STYLE = (33.5, 7.4, WEIGHT)
+LOAD_STYLE = (23.6, 4.3, 720)    # heavier: at this size the thin bar of E broke up at 600
 # NOW LOADING sits in the same place on all 17 screens: first letter, cap top, end of the last letter
 LOAD_PLACE = (305, 652, 501)
 
@@ -121,21 +122,20 @@ def write_texture(tex, new, region):
 
 
 # ----------------------------------------------------------------------------- type
-WEIGHT = 600          # EB Garamond is a variable font (400..800); the game's lettering is a semibold
 
 
-def font(px):
+def font(px, weight=WEIGHT):
     f = ImageFont.truetype(FONT, px)
     try:
-        f.set_variation_by_axes([WEIGHT])
+        f.set_variation_by_axes([weight])
     except (OSError, AttributeError):
         pass                          # FreeType without variations: regular weight
     return f
 
 
-def set_line(text, px, track):
+def set_line(text, px, track, weight=WEIGHT):
     """Coverage image (L, supersampled SS times) of a line, and where its baseline is. track: extra space per letter."""
-    f = font(px * SS)
+    f = font(px * SS, weight)
     asc, desc = f.getmetrics()
     w = int(sum(f.getlength(c) + track * SS for c in text)) + 4 * SS
     im = Image.new('L', (w, asc + desc + 4 * SS), 0)
@@ -247,8 +247,8 @@ class Line:
     def __init__(self, pic, area, text, dark, thr, style, fixed=None):
         self.area, self.dark, self.text, self.thr = area, dark, text, thr
         self.diff, self.bg = letter_mask(pic, area, dark)
-        self.px, self.track = style
-        cov, _ = set_line(text, self.px, self.track)
+        self.px, self.track, self.weight = style
+        cov, _ = set_line(text, self.px, self.track, self.weight)
         self.cov = cov = shrink(cov)
         ib = ink_box(cov)
         width = ib[2] - ib[0]
@@ -358,7 +358,7 @@ def repaint(pic, mask, area, grain_dy):
 
 
 def draw_dark(pic, line, text, factor):
-    cov, _ = set_line(text, line.px, line.track)
+    cov, _ = set_line(text, line.px, line.track, line.weight)
     cov = shrink(cov)
     x, y = int(round(line.ox)), int(round(line.oy))
     region = pic.crop((x, y, x + cov.size[0], y + cov.size[1]))
@@ -373,7 +373,7 @@ def draw_dark(pic, line, text, factor):
 
 
 def draw_light(pic, line, text, add):
-    cov, _ = set_line(text, line.px, line.track)
+    cov, _ = set_line(text, line.px, line.track, line.weight)
     cov = shrink(cov)
     x, y = int(round(line.ox)), int(round(line.oy))     # starts where NOW LOADING started
     glow = cov.filter(ImageFilter.GaussianBlur(3))

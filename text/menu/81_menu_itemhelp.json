@@ -55,11 +55,11 @@
 },
 {
 "id": 1100,
-"pt": "Atual/máximo. O personagem morre ao chegar a 0. O máximo cai pela metade na forma de Alma"
+"pt": "Pontos de Vida (PV), atual/máximo. Em 0, o personagem morre. Na forma de Alma, o máximo cai pela metade"
 },
 {
 "id": 1101,
-"pt": "Atual/máximo. Magias e milagres consomem PM"
+"pt": "Pontos de Magia (PM), atual/máximo. Magias e milagres consomem PM"
 },
 {
 "id": 1102,

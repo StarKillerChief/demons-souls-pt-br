@@ -28,3 +28,19 @@ install_ptbr.py status    --game GAMEDIR
 Soulbrandt's setup can use the game straight from RPCS3's library ("Import from RPCS3"); its `setup/ready.txt` then names RPCS3's own folder (`game=C:\...\rpcs3...\games\Demons Souls BLUS30443`). An earlier draft of `ptbr_soulbrandt.py` would have written there; it never did, because it stopped earlier on another error. Now the tool never writes to the folder ready.txt names. It builds `<setup's folder>/ptbr-game`: real copies of `PS3_GAME/USRDIR/{font,msg,menu}` (about 85 MB) and of the loose files (EBOOT.BIN, PARAM.SFO and the rest, about 35 MB), and directory junctions to every other folder. ready.txt's `game=` line is pointed there and the original path is kept in `ptbr-game/.ptbr-source.txt`; `desinstalar` points it back, removes the junctions as links only and deletes the folder. A failed install puts ready.txt back at once. Tested on a sandbox layout: install, reinstall, status and uninstall; the source folder's 213 files were byte-identical afterwards and ready.txt was restored byte for byte.
 
 Also: when `setup-folder.txt` names a folder setup never built in, the tool uses the usual folder (`%LOCALAPPDATA%\DemonsSoulsRecomp`) if that one holds ready.txt. And the installer finds `Soulbrandt.exe` up to three folders above the pack, for the extra folder Windows' "Extract all" adds.
+
+## Loading screens (`gen_ptbr_loading.py`)
+
+`menu/00.tpf.dcx` ... `16.tpf.dcx` are the 17 loading screens: one 1024x1024 DXT1 texture each, full mip chain
+(699064 bytes). The upper 1024x720 is the picture; the character's name is painted at the top left (dark
+lettering that darkens the parchment) and NOW LOADING next to the emblem (gold lettering that lightens it).
+NOW LOADING is in the same place on all 17 screens (x 305..501, cap top y 652); the name's position is found per
+screen. The HD font mod (DeS_ButtonGlyphs) changes only the strip below y 720 of these files, so the tool works
+on both.
+
+On the player's PC, from the player's copy: the English letter pixels (found against an 11 px median of the paper)
+are filled back by normalised blur plus the paper grain of the rows next to them; the Portuguese line is set in
+EB Garamond semibold (SIL OFL, `tools/fonts/`) at the size and spacing fitted to the English lines
+(name 33.5 px + 7.4, NOW LOADING 23.6 px + 4.3), coloured with the factor or offset measured from the original
+letters. Only the changed 4x4 blocks of level 0 are replaced; mips down to 4x4 are rebuilt. Names that are the
+same in both languages (Satsuki, Selen Vinland) keep the original lettering. About 1 s per screen.

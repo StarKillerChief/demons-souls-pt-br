@@ -9,7 +9,11 @@ Componentes de terceiros incluidos neste pacote / Third-party components in this
    python\Lib\site-packages\pillow-12.0.0.dist-info\licenses\LICENSE
    Usado para montar os letreiros grandes (VOCE MORREU e os outros) a partir da sua copia do jogo.
 
-3. pack\tools\movie_subs\avcodec-62.dll
+3. EB Garamond (fonte), em pack\tools\fonts\EBGaramond.ttf
+   Licenca: SIL Open Font License 1.1. Texto completo: pack\tools\fonts\OFL.txt
+   Usada para escrever os nomes e o CARREGANDO nas telas de carregamento.
+
+4. pack\tools\movie_subs\avcodec-62.dll
    Codigo proprio deste projeto (licenca MIT, ver pack\LICENSE). Nao contem codigo do FFmpeg:
    ela repassa as chamadas para a DLL original do Soulbrandt, que fica guardada como
    avcodec-62.orig.dll, e so desenha as legendas por cima dos videos.

@@ -10,10 +10,11 @@ from the files in the folder you point at, plus the Portuguese text in ../text.
     install_ptbr.py status    --game GAMEDIR
 
 GAMEDIR is the folder that contains PS3_GAME (or PS3_GAME/USRDIR itself).
-Files touched (seven, all inside USRDIR; the originals are saved first under USRDIR/.ptbr-backup with SHA-256):
+Files touched (all inside USRDIR; the originals are saved first under USRDIR/.ptbr-backup with SHA-256):
     font/na_english/dsfont24.ccm.dcx   dsfont24.tpf.dcx   talkfont24.ccm.dcx   talkfont24.tpf.dcx
     msg/na_english/item.msgbnd.dcx     menu.msgbnd.dcx
     menu/menu.tpf.dcx                  (the big on-screen messages; needs Pillow)
+    menu/00.tpf.dcx ... 16.tpf.dcx     (the loading screens: name and CARREGANDO; needs Pillow)
 The game only ever opens the `.dcx` names for these files, so the plain twins are left alone.
 `install` refuses to run on a folder that is not BLUS30443, refuses --in-place without the flag, and never
 writes outside GAMEDIR/NEWDIR. Running `install` again first restores the originals, then re-applies.
@@ -35,7 +36,8 @@ FONTS = ('dsfont24', 'talkfont24')
 LANG = 'na_english'
 TARGETS = ([('font/%s/%s.%s.dcx' % (LANG, f, e)) for f in FONTS for e in ('ccm', 'tpf')]
            + [('msg/%s/%s.msgbnd.dcx' % (LANG, b)) for b in ('item', 'menu')]
-           + ['menu/menu.tpf.dcx'])            # the big on-screen messages (YOU DIED and the rest)
+           + ['menu/menu.tpf.dcx']             # the big on-screen messages (YOU DIED and the rest)
+           + ['menu/%02d.tpf.dcx' % i for i in range(17)])     # the loading screens
 
 
 def load(name):
@@ -104,7 +106,7 @@ def uninstall(usr, force=False):
             print('  restored %s' % rel)
     if ok:
         shutil.rmtree(os.path.join(usr, BACKUP))
-        print('undone: all six files are the originals again, backup folder removed')
+        print('undone: all %d files are the originals again, backup folder removed' % len(man['files']))
     return ok
 
 
@@ -181,6 +183,12 @@ def install(usr, text):
             if r.returncode:
                 raise SystemExit('error: banner generation failed:' + chr(10) + r.stdout + r.stderr)
             print('   big on-screen messages (VOCÊ MORREU and the rest) made from the lettering of this copy')
+            print('   loading screens: names and CARREGANDO, set in EB Garamond over the art of this copy', flush=True)
+            r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_loading.py'),
+                                os.path.join(base, 'menu'), os.path.join(out, 'menu')],
+                               stdin=subprocess.DEVNULL)
+            if r.returncode:
+                raise SystemExit('error: loading screen generation failed (see above)')
         except ImportError:
             print('note: Pillow is missing, so the big on-screen messages stay in English')
         print('4/4 writing (originals are saved in %s first)' % BACKUP)

@@ -13,7 +13,7 @@ Você precisa do **Soulbrandt** instalado e funcionando, com a **sua própria c�
 
 Não precisa instalar o Python: ele vem dentro do pacote, como no próprio Soulbrandt. Para voltar ao inglês, use `Desinstalar-PT-BR.bat`. Depois de atualizar o Soulbrandt, rode o instalador de novo. O passo a passo completo está no `LEIA-ME.txt` do pacote.
 
-O instalador monta as letras com acento, os textos, as legendas dos vídeos e os letreiros grandes no seu PC, a partir da sua cópia, guarda os originais com SHA-256 e desfaz tudo na desinstalação. Seus saves não são alterados. Detalhes técnicos: `docs/installer.md`.
+O instalador monta as letras com acento, os textos, as legendas dos vídeos, os letreiros grandes e as 17 telas de carregamento no seu PC, a partir da sua cópia, guarda os originais com SHA-256 e desfaz tudo na desinstalação. Seus saves não são alterados. Detalhes técnicos: `docs/installer.md`.
 
 ## O que tem aqui
 - `text/`: só o português, por arquivo e id (as entradas iguais ao original foram removidas).

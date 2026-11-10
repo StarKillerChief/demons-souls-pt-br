@@ -213,19 +213,14 @@ def remove_subs(program):
 
 
 def ask_fonts(pack, usr):
-    """The HD font mod is optional and most players do not have it. When it is there, the player picks explicitly."""
-    mod = pack.font_mod(usr)
-    if mod == 'other':
-        print('Aviso: encontrei um mod de fonte que esta traducao nao conhece. A traducao vai usar as fontes '
-              'originais do jogo (esse mod fica desligado enquanto a traducao estiver instalada).')
-        return 'original'
-    if mod != 'hd':
-        return 'original'
+    """The player picks the fonts: the game's own, or HD versions of them made on this PC (no mod needed)."""
+    if pack.font_mod(usr):
+        print('Aviso: encontrei um mod de fonte no seu jogo. Ele fica desligado enquanto a traducao estiver '
+              'instalada (a traducao faz as proprias fontes, originais ou HD).')
     print()
-    print('Encontrei o mod de fontes HD (alta resolucao) instalado no seu jogo.')
     print('Com qual fonte voce quer jogar a traducao?')
-    print('   1 - Fontes HD do mod (letras e acentos em alta resolucao)')
-    print('   2 - Fontes originais do jogo (como no PS3; o mod de fontes fica desligado)')
+    print('   1 - Fontes originais do jogo (como no PS3)')
+    print('   2 - Fontes HD (as letras do jogo em alta resolucao, geradas no seu PC)')
     while True:
         try:
             r = input('Digite 1 ou 2 e aperte Enter: ').strip()
@@ -233,7 +228,7 @@ def ask_fonts(pack, usr):
             r = '1'
         if r in ('1', '2'):
             print()
-            return 'hd' if r == '1' else 'original'
+            return 'original' if r == '1' else 'hd'
 
 
 def main():
@@ -242,7 +237,7 @@ def main():
     ap.add_argument('--program', help='the folder with Soulbrandt.exe (default: the nearest one above this pack)')
     ap.add_argument('--data')
     ap.add_argument('--fontes', choices=['hd', 'original'],
-                    help='instalar: sem perguntar, usar as fontes HD (se o mod estiver instalado) ou as originais')
+                    help='instalar: sem perguntar, usar as fontes originais ou as fontes HD (geradas no PC)')
     a = ap.parse_args()
     if a.program:
         program = os.path.abspath(a.program)

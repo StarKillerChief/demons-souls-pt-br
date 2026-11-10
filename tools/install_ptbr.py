@@ -172,11 +172,10 @@ def decode_to_plain(usr, work, fonts='original'):
 
 
 def install(usr, text, fonts='original'):
-    """fonts: 'original' (the game's own fonts) or 'hd' (the HD font mod, when it is installed)."""
+    """fonts: 'original' (the game's own fonts) or 'hd' (the same fonts made 4x sharper on this PC by
+    gen_ptbr_hdfont.py, then given the accents at that size). Both start from the disc's own fonts; a font mod
+    installed in this copy is set aside while the translation is installed."""
     check_title(usr)
-    if fonts == 'hd' and font_mod(usr) != 'hd':
-        print('note: the HD font mod is not installed in this copy; using the original game fonts')
-        fonts = 'original'
     if read_manifest(usr):
         print('a previous install was found: restoring the originals first')
         if not uninstall(usr):
@@ -185,9 +184,16 @@ def install(usr, text, fonts='original'):
     fmg = load('fmg_tool')
     with tempfile.TemporaryDirectory(prefix='ptbr_') as tmp:
         base, out = os.path.join(tmp, 'orig'), os.path.join(tmp, 'out')
-        decode_to_plain(usr, base, fonts)
-        print('1/4 fonts: deriving the accented letters from the %s fonts of this copy' % (
-            'HD (font mod)' if fonts == 'hd' else 'original game'))
+        decode_to_plain(usr, base, 'original')
+        if fonts == 'hd':
+            print('1/4 fonts: making the game fonts of this copy 4x sharper (HD), then the accented letters', flush=True)
+            r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_hdfont.py'),
+                                os.path.join(base, 'font', LANG)],
+                               stdin=subprocess.DEVNULL, capture_output=True, text=True)
+            if r.returncode:
+                raise SystemExit('error: HD font generation failed:\n' + r.stdout + r.stderr)
+        else:
+            print('1/4 fonts: deriving the accented letters from the original game fonts of this copy', flush=True)
         r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_glyphs.py'), base, out],
                            stdin=subprocess.DEVNULL, capture_output=True, text=True)
         if r.returncode:
@@ -268,7 +274,7 @@ def main():
     ap.add_argument('--text', default=TEXT)
     ap.add_argument('--force', action='store_true', help='uninstall: overwrite files changed after the install')
     ap.add_argument('--fonts', choices=['original', 'hd'], default='original',
-                    help='install: build on the original game fonts (default) or on the HD font mod, if installed')
+                    help='install: the original game fonts (default) or HD versions of them made on this PC')
     a = ap.parse_args()
     game = os.path.abspath(a.game)
     if a.cmd == 'install':

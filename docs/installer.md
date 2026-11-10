@@ -65,3 +65,20 @@ Font) is optional and most players will not have it. One installer covers both; 
 - Uninstall restores the mod's HD files byte for byte (tested).
 - The HD mod also replaces `menu/menu.tpf.dcx` and the strip below y 720 of the loading screens; the banners and
   loading screens are built on whatever is there.
+
+## Our own HD fonts (`gen_ptbr_hdfont.py`), replacing the HD-mod option (2026-11-10)
+
+Decided with the product owner: the HD option must not need any mod, and nothing from the HD mod may ship (it would
+be third-party work and a version of the game's fonts). `--fonts hd` now means:
+
+1. decode the disc's own fonts (the plain twins, so any font mod is set aside);
+2. `gen_ptbr_hdfont.py` enlarges each glyph 4x inside its own cell (bicubic, light Gaussian smoothing, then an edge
+   curve: crisp outline with a thin anti-aliased rim). Smoothing per font: dsfont24 1.2 px (thin serif strokes),
+   talkfont24 2.0 px; talkfont24's grey body is smoothed more (3.0 px, lower edge) to drop the PS3 compression grain
+   from its bright core. Cells are processed separately because smoothing the whole atlas carried ink from the row
+   below into each cell (the baseline then measured 103 instead of 76 and the cedilla fell off the cell).
+   The letters texture becomes 2048x2048 DXT5 with its full mip chain, encoded with gen_ptbr_glyphs' font encoder
+   (Pillow's BC1 speckled the grey body); the TPF is rebuilt with the new size; the CCM is unchanged (normalised UVs).
+3. `gen_ptbr_glyphs.py` then adds the accented letters at that scale (S = 4), from the enlarged font's own marks.
+
+About 15 s for both fonts; a whole HD install about 40 s. Movie subtitles read the 4x atlas (make_movie_subs).

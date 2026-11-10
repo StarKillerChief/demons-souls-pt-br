@@ -28,7 +28,7 @@
 - [Onde funciona](#onde-funciona)
 - [Antes de começar](#antes-de-começar)
 - [Como instalar](#como-instalar)
-- [Fontes HD (opcional)](#fontes-hd-opcional)
+- [Fontes originais ou HD](#fontes-originais-ou-hd)
 - [Atualizações e desinstalação](#atualizações-e-desinstalação)
 - [Problemas conhecidos](#problemas-conhecidos)
 - [Perguntas frequentes](#perguntas-frequentes)
@@ -46,7 +46,7 @@
 | ✅ **Legendas dos vídeos** | Abertura e cenas, com moldura no estilo do jogo (só no Soulbrandt) |
 | ✅ **Letreiros grandes** | VOCÊ MORREU, DEMÔNIO DESTRUÍDO, ALMA PERDIDA RECUPERADA e os outros |
 | ✅ **Telas de carregamento** | Os 17 nomes de personagens e o CARREGANDO, sobre a arte original |
-| ✅ **Acentos de verdade** | á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, nas fontes originais e nas fontes HD |
+| ✅ **Acentos de verdade** | á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, nas fontes originais e nas fontes HD feitas no seu PC |
 
 Os acentos são feitos a partir das próprias letras do jogo, para combinar com a fonte original. Os textos foram
 medidos contra as caixas de cada tela para não passarem das bordas.
@@ -82,17 +82,16 @@ O passo a passo completo também está no `LEIA-ME.txt` do pacote.
 > O instalador nunca altera a pasta original do jogo nem a do RPCS3: ele monta uma pasta própria para a tradução e
 > aponta o Soulbrandt para ela. Os seus saves não são tocados.
 
-## Fontes HD (opcional)
+## Fontes originais ou HD
 
-A tradução funciona com as **fontes originais do jogo**; você **não precisa** de nenhum mod de fonte.
+O instalador pergunta com qual fonte você quer jogar:
 
-Se você usa o mod de fontes HD (*High Resolution Font* / *DeS_ButtonGlyphs*, do Nexus Mods), o instalador percebe
-sozinho e pergunta com qual fonte você quer jogar:
+- **Fontes originais do jogo**: como no PS3;
+- **Fontes HD**: as próprias letras do jogo ampliadas para alta resolução **no seu PC**, já com os acentos.
 
-- **Fontes HD do mod**: letras e acentos em alta resolução;
-- **Fontes originais do jogo**: como no PS3 (o mod de fontes fica desligado enquanto a tradução estiver instalada).
-
-O mod de fontes HD é de outro autor e não vem neste pacote. Para trocar de fonte depois, rode o instalador de novo.
+Não precisa de nenhum mod de fonte, e nada dessas fontes vem no pacote: elas são feitas a partir da sua cópia.
+Para trocar de fonte depois, rode o instalador de novo. Se você usa algum mod de fonte, ele fica desligado enquanto a
+tradução estiver instalada.
 
 ## Atualizações e desinstalação
 
@@ -162,6 +161,6 @@ donos. As ferramentas estão sob a licença MIT ([`LICENSE`](LICENSE)); o texto 
 A fan-made **Brazilian Portuguese translation of Demon's Souls** (PS3, BLUS30443) for the
 [Soulbrandt](https://github.com/JonathanDC64/Soulbrandt) PC port: menus, items, spells, dialogue, movie subtitles,
 banners and loading screens. **No game data is included**: the installer builds the accented fonts, text archives
-and images on your PC from your own copy, keeps backups, and restores everything on uninstall. Works with the game's
-original fonts and, optionally, with the HD font mod. Made with AI assistance and human review. Not affiliated with
+and images on your PC from your own copy, keeps backups, and restores everything on uninstall. Choose the game's
+original fonts or HD versions of them, made on your PC. Made with AI assistance and human review. Not affiliated with
 FromSoftware, Sony, Atlus, Bandai Namco, Bluepoint or the author of Soulbrandt. Tools: MIT licence.

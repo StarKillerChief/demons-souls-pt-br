@@ -21,15 +21,13 @@ COMO INSTALAR (3 passos)
 3. Espere aparecer "Pronto!" (leva menos de um minuto), aperte qualquer tecla e abra o Soulbrandt.
 
 
-FONTES HD (OPCIONAL)
-A tradução funciona com as fontes originais do jogo. Você NÃO precisa de nenhum mod de fonte.
-Se você usa o mod de fontes HD (High Resolution Font / DeS_ButtonGlyphs, do Nexus Mods),
-o instalador percebe sozinho e pergunta com qual fonte você quer jogar:
-   1 - Fontes HD do mod (letras e acentos em alta resolução)
-   2 - Fontes originais do jogo
-Digite o número e aperte Enter. Se não tiver o mod HD, essa pergunta não aparece.
+FONTES: ORIGINAIS OU HD
+O instalador pergunta com qual fonte você quer jogar:
+   1 - Fontes originais do jogo (como no PS3)
+   2 - Fontes HD: as próprias letras do jogo em alta resolução, geradas no seu PC
+Digite o número e aperte Enter. Não precisa de nenhum mod de fonte.
 Para trocar depois, é só rodar Instalar-PT-BR.bat de novo e escolher a outra opção.
-O mod de fontes HD não vem neste pacote: ele é de outro autor e se baixa à parte.
+Se você usa algum mod de fonte, ele fica desligado enquanto a tradução estiver instalada.
 
 
 QUANDO O SOULBRANDT FOR ATUALIZADO

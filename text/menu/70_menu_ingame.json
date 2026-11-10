@@ -247,7 +247,7 @@
 },
 {
 "id": 7530,
-"pt": "As Almas obtidas ao derrotar demônios serão divididas\nentre Fantasmas e invocadores conforme a avaliação."
+"pt": "As Almas obtidas ao derrotar demônios serão divididas\nentre Espectros e invocadores conforme a avaliação."
 },
 {
 "id": 7540,
@@ -255,15 +255,15 @@
 },
 {
 "id": 7600,
-"pt": "Sinal de Fantasma"
+"pt": "Sinal de Espectro"
 },
 {
 "id": 7610,
-"pt": "Invocar este Fantasma?"
+"pt": "Invocar este Espectro?"
 },
 {
 "id": 7611,
-"pt": "Invocar este Fantasma Negro?"
+"pt": "Invocar este Espectro Escuro?"
 },
 {
 "id": 7612,
@@ -303,7 +303,7 @@
 },
 {
 "id": 8101,
-"pt": "Dispensar um Fantasma."
+"pt": "Dispensar um Espectro."
 },
 {
 "id": 8110,
@@ -327,11 +327,11 @@
 },
 {
 "id": 8203,
-"pt": "Mais Fantasmas Salvos"
+"pt": "Mais Espectros Salvos"
 },
 {
 "id": 8204,
-"pt": "Mais Fantasmas Negros Mortos"
+"pt": "Mais Espectros Escuros Mortos"
 },
 {
 "id": 8205,
@@ -415,11 +415,11 @@
 },
 {
 "id": 8810,
-"pt": "Invocando Fantasma"
+"pt": "Invocando Espectro"
 },
 {
 "id": 8811,
-"pt": "Invocando Fantasma Negro"
+"pt": "Invocando Espectro Escuro"
 },
 {
 "id": 8813,
@@ -439,31 +439,31 @@
 },
 {
 "id": 8823,
-"pt": "Indo para outro mundo como Fantasma."
+"pt": "Indo para outro mundo como Espectro."
 },
 {
 "id": 8824,
-"pt": "Indo para outro mundo como Fantasma Negro."
+"pt": "Indo para outro mundo como Espectro Escuro."
 },
 {
 "id": 8825,
-"pt": "Invadindo outro mundo como Fantasma Negro."
+"pt": "Invadindo outro mundo como Espectro Escuro."
 },
 {
 "id": 8826,
-"pt": "Indo para outro mundo como Fantasma Negro."
+"pt": "Indo para outro mundo como Espectro Escuro."
 },
 {
 "id": 8830,
-"pt": "Você invocou o Fantasma <?joinChara?>."
+"pt": "Você invocou o Espectro <?joinChara?>."
 },
 {
 "id": 8831,
-"pt": "Você invocou o Fantasma Negro <?joinChara?>."
+"pt": "Você invocou o Espectro Escuro <?joinChara?>."
 },
 {
 "id": 8832,
-"pt": "O Fantasma Negro <?joinChara?> invadiu!"
+"pt": "O Espectro Escuro <?joinChara?> invadiu!"
 },
 {
 "id": 8833,
@@ -483,19 +483,19 @@
 },
 {
 "id": 8843,
-"pt": "Você invocou o Fantasma <?joinChara?>."
+"pt": "Você invocou o Espectro <?joinChara?>."
 },
 {
 "id": 8844,
-"pt": "Você invocou o Fantasma Negro <?joinChara?>."
+"pt": "Você invocou o Espectro Escuro <?joinChara?>."
 },
 {
 "id": 8845,
-"pt": "O Fantasma Negro <?joinChara?> invadiu!"
+"pt": "O Espectro Escuro <?joinChara?> invadiu!"
 },
 {
 "id": 8846,
-"pt": "O Fantasma Negro <?joinChara?> invadiu!"
+"pt": "O Espectro Escuro <?joinChara?> invadiu!"
 },
 {
 "id": 8850,
@@ -603,67 +603,67 @@
 },
 {
 "id": 8971,
-"pt": "Fantasmas Negros são Humanos possuídos por Almas de demônios.\nLogo voltarão a ameaçá-lo..."
+"pt": "Espectros Escuros são Humanos possuídos por Almas de demônios.\nLogo voltarão a ameaçá-lo..."
 },
 {
 "id": 8972,
-"pt": "Fantasmas Negros são Humanos possuídos por Almas de demônios.\nLogo voltarão a ameaçá-lo..."
+"pt": "Espectros Escuros são Humanos possuídos por Almas de demônios.\nLogo voltarão a ameaçá-lo..."
 },
 {
 "id": 8980,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8981,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8982,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8983,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8984,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8985,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8986,
-"pt": "O Fantasma <?deadChara?> foi morto."
+"pt": "O Espectro <?deadChara?> foi morto."
 },
 {
 "id": 8990,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 8991,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 8992,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 8993,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 8994,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 8995,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 8996,
-"pt": "O Fantasma Negro <?deadChara?> foi morto."
+"pt": "O Espectro Escuro <?deadChara?> foi morto."
 },
 {
 "id": 9500,
@@ -715,7 +715,7 @@
 },
 {
 "id": 11051,
-"pt": "Fantasma, você não conseguiu cumprir o seu objetivo."
+"pt": "Espectro, você não conseguiu cumprir o seu objetivo."
 },
 {
 "id": 11052,
@@ -723,7 +723,7 @@
 },
 {
 "id": 11061,
-"pt": "Fantasmas Negros são humanos possuídos por Almas de demônios."
+"pt": "Espectros Escuros são humanos possuídos por Almas de demônios."
 },
 {
 "id": 11062,

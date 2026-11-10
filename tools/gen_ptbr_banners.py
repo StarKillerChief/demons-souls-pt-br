@@ -28,7 +28,7 @@ BANNERS = {
     'Menu15': [(0, 440, 'YOU DIED', 'VOCÊ MORREU'), (440, 1024, 'YOU REVIVED', 'VOCÊ REVIVEU')],
     'Menu16': [(0, 1024, 'YOU REGAINED LOST SOUL', 'ALMA PERDIDA RECUPERADA')],
     'Menu17': [(0, 1024, 'TARGET WAS DESTROYED', 'ALVO DESTRUÍDO')],
-    'Menu18': [(0, 1024, 'BLACK PHANTOM WAS DESTROYED', 'FANTASMA NEGRO DESTRUÍDO')],
+    'Menu18': [(0, 1024, 'BLACK PHANTOM WAS DESTROYED', 'ESPECTRO ESCURO DESTRUÍDO')],
 }
 INK = 40          # brightness above which a pixel is part of a letter
 W, H = 1024, 128

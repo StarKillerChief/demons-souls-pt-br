@@ -59,15 +59,15 @@
 },
 {
 "id": 113,
-"pt": "Perde menos PV como Fantasma Cinzento"
+"pt": "Perde menos PV como Espectro Cinzento"
 },
 {
 "id": 114,
-"pt": "Maior probabilidade de ser invocado e tornar-se um Fantasma Branco"
+"pt": "Maior probabilidade de ser invocado e tornar-se um Espectro Branco"
 },
 {
 "id": 115,
-"pt": "Maior probabilidade de ser invocado e tornar-se um Fantasma Negro"
+"pt": "Maior probabilidade de ser invocado e tornar-se um Espectro Escuro"
 },
 {
 "id": 116,
@@ -75,7 +75,7 @@
 },
 {
 "id": 117,
-"pt": "Dificulta que Fantasmas Negros achem o jogador. Versão fraca da “Camuflagem Fantasma”"
+"pt": "Dificulta que Espectros Escuros achem o jogador. Versão fraca da “Camuflagem Espectral”"
 },
 {
 "id": 118,

@@ -13,7 +13,7 @@ Date: 2026-11-06. Rule (project rule): official PS5 remake PT-BR terms are the r
 | Garl Vinland, Biorr, Satsuki, Yuria, Urbain, Ostrava | names kept | PS5-press (names left as is) |
 | Nexus | O Nexus | ours (the trophy page keeps "Nexus") |
 | Soul / Demon's Soul | Alma / Alma de Demônio | ours |
-| Phantom / Black Phantom / ghost | Fantasma / Fantasma Negro | ours |
+| Phantom / Black Phantom / ghost | Espectro / Espectro Escuro (was Fantasma / Fantasma Negro until 2026-11-10) | PS5 |
 | Soul Sign | Sinal de Alma | ours |
 | Archstone | Arquipedra | Project owner, from the PS5 game |
 | Archstones of the Nexus | Arquipedra do Rei Ganancioso (Small King), do Rei Escavador (Burrow King), da Rainha da Torre, dos Sombrios (Shadowmen), do Chefe | Project owner, from the PS5 game |

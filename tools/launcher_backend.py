@@ -255,7 +255,16 @@ def cmd_art(a):
         except OSError:
             continue
         e = g.tpf_entries(d)[0]
-        L.decode(d[e['off']:e['off'] + e['size']]).crop((0, 0, 1024, L.PIC_H)).save(os.path.join(a.out, key + '.png'))
+        img = L.decode(d[e['off']:e['off'] + e['size']])
+        if a.translated:
+            img = img.crop((0, 0, 1024, L.PIC_H))
+        else:
+            try:
+                # the window shows the painting alone: the name and NOW LOADING painted over with the parchment
+                img = L.clean(img, L.SCREENS[key][0])
+            except ValueError:
+                img = img.crop((0, 0, 1024, L.PIC_H))
+        img.save(os.path.join(a.out, key + '.png'))
         n += 1
     emit(step='done', out=a.out, paintings=n, translated=bool(a.translated))
 

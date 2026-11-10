@@ -398,6 +398,18 @@ def union(a, b):
     return (min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3]))
 
 
+def clean(img, en):
+    """The painting with no lettering at all (name and NOW LOADING painted over with the parchment), for the
+    launcher's background. img: decoded level 0; returns the picture part (1024 x PIC_H)."""
+    pic = img.copy()
+    name = Line(pic, NAME_AREA, en, True, 30, NAME_STYLE)
+    load = Line(pic, LOAD_AREA, LOADING[0], False, 30, LOAD_STYLE, LOAD_PLACE)
+    m1, m2 = name.erase_mask(), load.erase_mask()
+    repaint(pic, m1, m1.getbbox() or NAME_AREA, (name.cov.size[1] + 6))
+    repaint(pic, m2, m2.getbbox() or LOAD_AREA, -(load.cov.size[1] + 6))
+    return pic.crop((0, 0, SIZE, PIC_H))
+
+
 def make(img, en, pt):
     """img: decoded level 0. Returns (new image, changed region, notes)."""
     pic = img.copy()

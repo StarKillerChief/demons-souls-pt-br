@@ -122,6 +122,15 @@ def decode_to_plain(usr, work):
             data = open(plain, 'rb').read()
         else:
             data = dcx.decode(open(src, 'rb').read())
+            plain = os.path.join(usr, rel[:-4])
+            if rel.startswith('font/') and os.path.isfile(plain):
+                orig_plain = open(plain, 'rb').read()
+                if orig_plain != data:
+                    # Another mod (a high-resolution font, for example) replaced the .dcx the game opens. The disc's
+                    # plain twin still holds the original font, which is what the accented letters are made from.
+                    print('note: %s comes from another mod; the translation uses the original font kept beside it, '
+                          'so that font mod is off while the translation is installed' % rel)
+                    data = orig_plain
         out = os.path.join(work, rel[:-4])
         os.makedirs(os.path.dirname(out), exist_ok=True)
         open(out, 'wb').write(data)

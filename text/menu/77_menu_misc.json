@@ -1211,7 +1211,7 @@
 },
 {
 "id": 37150,
-"pt": "Distância Boca-Queixo"
+"pt": "Espaço Boca-Queixo"
 },
 {
 "id": 37151,
@@ -1259,7 +1259,7 @@
 },
 {
 "id": 37300,
-"pt": "Posição da Ponta do Queixo"
+"pt": "Ponta do Queixo"
 },
 {
 "id": 37301,
@@ -1271,7 +1271,7 @@
 },
 {
 "id": 37310,
-"pt": "Comprimento do Queixo"
+"pt": "Extensão do Queixo"
 },
 {
 "id": 37311,
@@ -1295,7 +1295,7 @@
 },
 {
 "id": 37330,
-"pt": "Profundidade do Queixo"
+"pt": "Fundura do Queixo"
 },
 {
 "id": 37331,
@@ -1343,7 +1343,7 @@
 },
 {
 "id": 37400,
-"pt": "Protrusão da Mandíbula"
+"pt": "Avanço da Mandíbula"
 },
 {
 "id": 37401,
@@ -1379,7 +1379,7 @@
 },
 {
 "id": 37430,
-"pt": "Contorno da Mandíbula"
+"pt": "Linha da Mandíbula"
 },
 {
 "id": 37431,

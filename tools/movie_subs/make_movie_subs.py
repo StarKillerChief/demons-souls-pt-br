@@ -72,12 +72,27 @@ def decode_dxt5(data, w, region):
     return rows
 
 
+def cell_at_game_size(art, rect):
+    """The glyph's pixels at the game's own scale (1 atlas pixel = 1 unit of the glyph table)."""
+    k = art.scale
+    if k == 1:
+        return g.crop(art.atlas, rect)
+    x0, y0, x1, y1 = (v * k for v in rect)
+    big = g.crop(art.atlas, (x0, y0, x1, y1))
+    w, h = (x1 - x0) // k, (y1 - y0) // k
+    return [bytearray(sum(big[y * k + j][x * k + i] for j in range(k) for i in range(k)) // (k * k)
+                      for x in range(w)) for y in range(h)]
+
+
 class Art:
     def __init__(self, usr):
         ccm = g.Ccm(read_game_file(usr, 'font/na_english/dsfont24.ccm'))
         tpf = read_game_file(usr, 'font/na_english/dsfont24.tpf')
         ent = g.tpf_entries(tpf)[ccm.glyph(ccm.index(ord('A')))['tex']]
-        self.ccm, self.atlas = ccm, g.decode_alpha(tpf[ent['off']:ent['off'] + ent['size']], g.TEX, g.TEX)
+        # the HD font mod draws the same glyph table in a 4x atlas: read it at its own size and bring each letter
+        # back to the game's size (averaging the HD pixels gives smoother letters than the original atlas)
+        self.scale = max(1, ent['w'] // ccm.tw)
+        self.ccm, self.atlas = ccm, g.decode_alpha(tpf[ent['off']:ent['off'] + ent['size']], ent['w'], ent['h'])
         menu = read_game_file(usr, 'menu/menu.tpf')
         tex = next(e for e in g.tpf_entries(menu) if e['name'] == 'Menu03')
         self.tex_rows = decode_dxt5(menu[tex['off']:tex['off'] + tex['size']], tex['w'], FRAME)
@@ -124,7 +139,7 @@ def make_sprite(art, lines):
         pen = (w - art.text_width(s)) // 2
         for c in s:
             gl = art.ccm.glyph(art.ccm.index(ord(c)))
-            cell = g.crop(art.atlas, gl['rect'])
+            cell = cell_at_game_size(art, gl['rect'])
             for yy, row in enumerate(cell):
                 for xx, a in enumerate(row):
                     if a:

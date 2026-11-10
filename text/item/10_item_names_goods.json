@@ -23,23 +23,23 @@
 },
 {
 "id": 10,
-"pt": "Chave da Prisão da Esperança, 1º And."
+"pt": "Chave do 1º Andar da Prisão"
 },
 {
 "id": 11,
-"pt": "Chave da Prisão da Esperança, 2º And."
+"pt": "Chave do 2º Andar da Prisão"
 },
 {
 "id": 12,
-"pt": "Chave da Prisão da Esperança, 3º And."
+"pt": "Chave do 3º Andar da Prisão"
 },
 {
 "id": 13,
-"pt": "Chave da Prisão da Esperança, 4º And."
+"pt": "Chave do 4º Andar da Prisão"
 },
 {
 "id": 14,
-"pt": "Chave do Carcereiro da Prisão da Esperança"
+"pt": "Chave do Carcereiro da Prisão"
 },
 {
 "id": 15,
@@ -139,27 +139,27 @@
 },
 {
 "id": 39,
-"pt": "Chave da Cela, Prisão da Esperança, 1º And."
+"pt": "Chave da Cela do 1º Andar"
 },
 {
 "id": 40,
-"pt": "Chave da Cela O., Prisão da Esperança, 2º And."
+"pt": "Chave da Cela Oeste, 2º Andar"
 },
 {
 "id": 41,
-"pt": "Chave da Cela, Prisão da Esperança, 3º And."
+"pt": "Chave da Cela do 3º Andar"
 },
 {
 "id": 42,
-"pt": "Chave da Cela, Prisão da Esperança, 4º And."
+"pt": "Chave da Cela do 4º Andar"
 },
 {
 "id": 43,
-"pt": "Chave da Cela L., Prisão da Esperança, 2º And."
+"pt": "Chave da Cela Leste, 2º Andar"
 },
 {
 "id": 44,
-"pt": "Chave Especial da Prisão da Esperança"
+"pt": "Chave Especial da Prisão"
 },
 {
 "id": 45,
@@ -303,7 +303,7 @@
 },
 {
 "id": 2001,
-"pt": "Grande Fragmento de Pedra Dura"
+"pt": "Pedaço de Pedra Dura"
 },
 {
 "id": 2002,
@@ -319,7 +319,7 @@
 },
 {
 "id": 2005,
-"pt": "Grande Fragmento de Pedra Afiada"
+"pt": "Pedaço de Pedra Afiada"
 },
 {
 "id": 2006,
@@ -439,7 +439,7 @@
 },
 {
 "id": 2042,
-"pt": "Fragmento de Pedra da Lua Sombria"
+"pt": "Fragmento da Lua Sombria"
 },
 {
 "id": 2043,
@@ -479,15 +479,15 @@
 },
 {
 "id": 2055,
-"pt": "Grande Fragmento de Pedra Clara"
+"pt": "Pedaço de Pedra Clara"
 },
 {
 "id": 2056,
-"pt": "Grande Fragmento de Pedra Cinzenta"
+"pt": "Pedaço de Pedra Cinzenta"
 },
 {
 "id": 2057,
-"pt": "Grande Fragmento de Pedra-Lâmina"
+"pt": "Pedaço de Pedra-Lâmina"
 },
 {
 "id": 9995,

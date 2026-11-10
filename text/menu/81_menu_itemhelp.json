@@ -47,7 +47,7 @@
 },
 {
 "id": 1010,
-"pt": "Afeta a taxa de queda de itens e a resistência à praga"
+"pt": "Afeta a taxa de queda de itens e a resistência à peste"
 },
 {
 "id": 1011,
@@ -131,7 +131,7 @@
 },
 {
 "id": 1212,
-"pt": "Resistência à praga. Quanto maior, menor a chance de sofrer a praga"
+"pt": "Resistência à peste. Quanto maior, menor a chance de sofrer a peste"
 },
 {
 "id": 2200,

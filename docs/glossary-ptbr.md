@@ -42,3 +42,20 @@ To confirm with the PS5 game or its Brazilian trophy/glossary pages: every "ours
 Dialogue register, approved by the project owner: each NPC may have its own register, for example archaic "vós" for nobles such as Ostrava.
 
 Unconfirmed: a Brazilian article (maisgoias.com.br) uses "Condado das Tempestades" and "Vale da Perdição" for two areas. It is not an official source, and our drafts differ; check both against the PS5 game before choosing.
+
+## Rings (2026-11-10)
+Names marked PS5 were read by the project owner from the PS5 game's own PT-BR menus; only the names are used, descriptions stay our own wording. The others follow the same pattern.
+
+| English | PT-BR | Source |
+|---|---|---|
+| Ring of Avarice / Great Strength / Herculean Strength | Anel da Avareza / da Grande Força / da Força Hercúlea | PS5 |
+| Regenerator's Ring / Fragrant Ring | Anel do Regenerador / Anel Perfumado | PS5 |
+| Ring of Flame / Poison / Disease Resistance | Anel de Resistência às Chamas / ao Veneno / à Peste | PS5 |
+| Ring of Gash Resistance | Anel da Resistência a Cortes | PS5 |
+| Ring of Magical Sharpness / Dullness / Nature | Anel da Argúcia / da Opacidade / da Natureza Mágica | PS5 |
+| Ring of Sincere Prayer / Devout Prayer | Anel da Prece Sincera / Anel da Prece Devota | PS5 / pattern |
+| Clever Rat's Ring / Dull Rat's Ring | Anel do Rato Esperto / Anel do Rato Tolo | PS5 / pattern |
+| Ronin's / Cling / Thief's / Graverobber's / Cat's Ring | Anel do Ronin / da Ligação / do Ladrão / do Ladrão de Covas / do Gato | PS5 |
+| Ring of the Accursed | Anel do Amaldiçoado | PS5 |
+| Graverobber Blige | Blige o Ladrão de Covas | pattern |
+| Plague (the status effect) | Peste ("praga" kept only where the English says vermin or pests) | PS5 |

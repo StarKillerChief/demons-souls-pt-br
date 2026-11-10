@@ -15,11 +15,11 @@
 },
 {
 "id": 102,
-"pt": "Anel do Rato Astuto"
+"pt": "Anel do Rato Esperto"
 },
 {
 "id": 103,
-"pt": "Anel do Rato Tapado"
+"pt": "Anel do Rato Tolo"
 },
 {
 "id": 104,
@@ -27,7 +27,7 @@
 },
 {
 "id": 105,
-"pt": "Anel Fragrante"
+"pt": "Anel Perfumado"
 },
 {
 "id": 106,
@@ -35,19 +35,19 @@
 },
 {
 "id": 107,
-"pt": "Anel Antifogo"
+"pt": "Anel de Resistência às Chamas"
 },
 {
 "id": 108,
-"pt": "Anel Antiveneno"
+"pt": "Anel de Resistência ao Veneno"
 },
 {
 "id": 109,
-"pt": "Anel da Agudeza Mágica"
+"pt": "Anel da Argúcia Mágica"
 },
 {
 "id": 110,
-"pt": "Anel da Embotação Mágica"
+"pt": "Anel da Opacidade Mágica"
 },
 {
 "id": 111,
@@ -55,11 +55,11 @@
 },
 {
 "id": 112,
-"pt": "Anel da Oração Sincera"
+"pt": "Anel da Prece Sincera"
 },
 {
 "id": 113,
-"pt": "Anel Aderente"
+"pt": "Anel da Ligação"
 },
 {
 "id": 114,
@@ -75,7 +75,7 @@
 },
 {
 "id": 117,
-"pt": "Anel do Saqueador"
+"pt": "Anel do Ladrão de Covas"
 },
 {
 "id": 118,
@@ -83,7 +83,7 @@
 },
 {
 "id": 119,
-"pt": "Anel dos Amaldiçoados"
+"pt": "Anel do Amaldiçoado"
 },
 {
 "id": 120,
@@ -99,15 +99,15 @@
 },
 {
 "id": 124,
-"pt": "Anel da Oração Devota"
+"pt": "Anel da Prece Devota"
 },
 {
 "id": 125,
-"pt": "Anel Anticortes"
+"pt": "Anel da Resistência a Cortes"
 },
 {
 "id": 126,
-"pt": "Anel Antidoenças"
+"pt": "Anel de Resistência à Peste"
 }
 ]
 }

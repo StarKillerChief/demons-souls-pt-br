@@ -171,9 +171,11 @@ def is_ours(path):
 
 
 def game_running():
-    r = subprocess.run(['tasklist', '/FI', 'IMAGENAME eq Soulbrandt.exe', '/NH'], capture_output=True, text=True,
+    # bytes, not text: tasklist answers in the console's code page (UTF-8 under the .bat, the OEM page when run
+    # from the launcher), and its Portuguese "INFORMACOES" line does not decode as UTF-8
+    r = subprocess.run(['tasklist', '/FI', 'IMAGENAME eq Soulbrandt.exe', '/NH'], capture_output=True,
                        stdin=subprocess.DEVNULL)
-    return 'Soulbrandt.exe' in r.stdout
+    return b'Soulbrandt.exe' in (r.stdout or b'')
 
 
 def clear_cache(data):

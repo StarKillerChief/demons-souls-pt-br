@@ -34,8 +34,11 @@ shutil.copytree(os.path.join(REPO, 'text'), os.path.join(root, 'pack', 'text'))
 shutil.copytree(os.path.join(REPO, 'tools', 'fonts'), os.path.join(root, 'pack', 'tools', 'fonts'))   # EB Garamond (OFL)
 for f in ('LICENSE', 'NOTICE.md'):
     shutil.copy(os.path.join(REPO, f), os.path.join(root, 'pack', f))
-for f in ('Instalar-PT-BR.bat', 'Desinstalar-PT-BR.bat', 'LEIA-ME.txt', 'TERCEIROS.txt'):
+for f in ('LEIA-ME.txt', 'TERCEIROS.txt'):
     shutil.copy(os.path.join(HERE, f), root)
+# the launcher (install, change fonts, uninstall), built with the same compiler
+subprocess.run([sys.executable, os.path.join(REPO, 'tools', 'launcher', 'build.py'), '--cxx', a.cxx, '--out', root], check=True)
+os.replace(os.path.join(root, 'PT-BR.exe'), os.path.join(root, 'Tradução PT-BR.exe'))
 cache = os.path.join(a.out, 'python-embed.zip')
 if not os.path.isfile(cache):
     urllib.request.urlretrieve(URL, cache)

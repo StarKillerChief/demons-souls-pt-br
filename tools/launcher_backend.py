@@ -164,10 +164,16 @@ def run_quiet(fn, *args):
 class _Router(io.TextIOBase):
     """'@@' lines to the real stdout, the rest to stderr (kept for the log)."""
 
+    buf = ''
+
     def write(self, s):
-        for line in s.splitlines(True):
-            (sys.__stdout__ if line.startswith('@@') else sys.__stderr__).write(line)
+        # print() writes the text and its newline separately: keep whole lines together before routing them
+        self.buf += s
+        while '\n' in self.buf:
+            line, self.buf = self.buf.split('\n', 1)
+            (sys.__stdout__ if line.startswith('@@') else sys.__stderr__).write(line + '\n')
         sys.__stdout__.flush()
+        sys.__stderr__.flush()
         return len(s)
 
 

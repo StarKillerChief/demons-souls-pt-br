@@ -55,32 +55,35 @@ medidos contra as caixas de cada tela para não passarem das bordas.
 
 | Onde | Situação |
 |---|---|
-| **Soulbrandt** (PC) | ✅ Suportado. É o jeito recomendado. |
-| **RPCS3** (emulador) | 🔜 Planejado para o instalador novo (os textos funcionam; as legendas dos vídeos dependem do Soulbrandt) |
-| **PS3** | 🔜 Planejado: gerar uma pasta com os arquivos traduzidos para copiar para o console |
+| **Soulbrandt** (PC) | ✅ Suportado. É o jeito recomendado: tudo traduzido, inclusive as legendas dos vídeos. |
+| **RPCS3** (emulador) | ✅ Suportado: textos, fontes, letreiros e telas de carregamento (os vídeos ficam sem legendas). |
 
 Por enquanto, só a versão americana do jogo (**BLUS30443**). A versão europeia (BLES00932) ainda não.
 
 ## Antes de começar
 
-1. Tenha o **Soulbrandt** instalado e funcionando com a sua cópia do jogo.
-2. Abra o `Soulbrandt.exe` pelo menos uma vez, deixe ele preparar o jogo até o fim e feche.
+- **Soulbrandt:** abra o `Soulbrandt.exe` pelo menos uma vez, deixe ele preparar o jogo até o fim e feche.
+- **RPCS3:** tenha o Demon's Souls (BLUS30443) na lista de jogos do RPCS3.
 
-Não precisa instalar o Python nem mais nada: tudo o que o instalador usa já vem no pacote, como no próprio Soulbrandt.
+Não precisa instalar o Python nem mais nada: tudo o que o instalador usa já vem no pacote.
 
 ## Como instalar
 
 1. Baixe o **`PT-BR-Soulbrandt.zip`** na página de [Releases](../../releases/latest).
 2. Extraia o zip **dentro da pasta onde está o `Soulbrandt.exe`**. Vai aparecer uma pasta `PT-BR` ao lado dele.
-3. Abra a pasta `PT-BR` e dê dois cliques em **`Instalar-PT-BR.bat`**.
+   (Para o RPCS3, pode extrair em qualquer pasta.)
+3. Abra a pasta `PT-BR` e dê dois cliques em **`Tradução PT-BR.exe`**.
    Se o Windows mostrar "O Windows protegeu o computador", clique em *Mais informações* → *Executar assim mesmo*.
-4. Espere aparecer **"Pronto!"** (menos de um minuto) e abra o Soulbrandt normalmente.
+4. Escolha a fonte, clique em **Instalar tradução** e espere (até 1 minuto). Depois, **Abrir Soulbrandt**.
 
-O passo a passo completo também está no `LEIA-ME.txt` do pacote.
+Para o RPCS3: clique em **Mudar**, escolha **RPCS3** e confirme a pasta do jogo (o instalador tenta achar sozinho).
+O mesmo programa troca a fonte, reinstala e desinstala. O passo a passo também está no `LEIA-ME.txt` do pacote.
 
 > [!TIP]
-> O instalador nunca altera a pasta original do jogo nem a do RPCS3: ele monta uma pasta própria para a tradução e
-> aponta o Soulbrandt para ela. Os seus saves não são tocados.
+> No Soulbrandt, o instalador nunca altera a pasta original do jogo nem a do RPCS3: ele monta uma pasta própria para
+> a tradução e aponta o Soulbrandt para ela. No RPCS3, os arquivos trocados são guardados antes e voltam na
+> desinstalação. Os seus saves não são tocados. O logo e as pinturas que aparecem no instalador também vêm da sua
+> cópia do jogo.
 
 ## Fontes originais ou HD
 
@@ -90,14 +93,14 @@ O instalador pergunta com qual fonte você quer jogar:
 - **Fontes HD**: as próprias letras do jogo ampliadas para alta resolução **no seu PC**, já com os acentos.
 
 Não precisa de nenhum mod de fonte, e nada dessas fontes vem no pacote: elas são feitas a partir da sua cópia.
-Para trocar de fonte depois, rode o instalador de novo. Se você usa algum mod de fonte, ele fica desligado enquanto a
+Para trocar de fonte depois, use **Trocar fonte** no instalador. Se você usa algum mod de fonte, ele fica desligado enquanto a
 tradução estiver instalada.
 
 ## Atualizações e desinstalação
 
 - **O Soulbrandt foi atualizado?** A atualização desfaz a tradução. Abra o Soulbrandt uma vez, deixe ele preparar o
-  jogo, feche e rode `Instalar-PT-BR.bat` de novo.
-- **Voltar ao inglês:** dois cliques em `Desinstalar-PT-BR.bat`, dentro da pasta `PT-BR`.
+  jogo, feche, abra `Tradução PT-BR.exe` e clique em **Instalar tradução**.
+- **Voltar ao inglês:** abra `Tradução PT-BR.exe` e clique em **Desinstalar**.
 
 ## Problemas conhecidos
 

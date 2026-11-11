@@ -194,14 +194,21 @@ def install(usr, text, fonts='original'):
     with tempfile.TemporaryDirectory(prefix='ptbr_') as tmp:
         base, out = os.path.join(tmp, 'orig'), os.path.join(tmp, 'out')
         decode_to_plain(usr, base, 'original')
-        if fonts == 'hd':
-            step('fonts', fonts='hd')
+        if fonts in ('hd', 'novas'):
+            step('fonts', fonts=fonts)
             print('1/4 fonts: making the game fonts of this copy 4x sharper (HD), then the accented letters', flush=True)
             r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_hdfont.py'),
                                 os.path.join(base, 'font', LANG)],
                                stdin=subprocess.DEVNULL, capture_output=True, text=True)
             if r.returncode:
                 raise SystemExit('error: HD font generation failed:\n' + r.stdout + r.stderr)
+            if fonts == 'novas':
+                print('   new fonts (test): letters and accents redrawn from free fonts (Schola, Almendra)', flush=True)
+                r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_freefont.py'),
+                                    os.path.join(base, 'font', LANG)],
+                                   stdin=subprocess.DEVNULL, capture_output=True, text=True)
+                if r.returncode:
+                    raise SystemExit('error: new font generation failed:\n' + r.stdout + r.stderr)
         else:
             step('fonts', fonts='original')
             print('1/4 fonts: deriving the accented letters from the original game fonts of this copy', flush=True)
@@ -287,7 +294,7 @@ def main():
     ap.add_argument('--in-place', action='store_true', help='install: apply to --game itself (only for a copy)')
     ap.add_argument('--text', default=TEXT)
     ap.add_argument('--force', action='store_true', help='uninstall: overwrite files changed after the install')
-    ap.add_argument('--fonts', choices=['original', 'hd'], default='original',
+    ap.add_argument('--fonts', choices=['original', 'hd', 'novas'], default='original',
                     help='install: the original game fonts (default) or HD versions of them made on this PC')
     a = ap.parse_args()
     game = os.path.abspath(a.game)

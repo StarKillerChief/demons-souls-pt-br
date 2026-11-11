@@ -238,7 +238,7 @@ def main():
     ap.add_argument('cmd', choices=['instalar', 'desinstalar', 'estado'])
     ap.add_argument('--program', help='the folder with Soulbrandt.exe (default: the nearest one above this pack)')
     ap.add_argument('--data')
-    ap.add_argument('--fontes', choices=['hd', 'original'],
+    ap.add_argument('--fontes', choices=['hd', 'original', 'novas'],
                     help='instalar: sem perguntar, usar as fontes originais ou as fontes HD (geradas no PC)')
     a = ap.parse_args()
     if a.program:

@@ -279,7 +279,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('cmd', choices=['state', 'validate', 'install', 'uninstall', 'art'])
     ap.add_argument('--target', choices=['soulbrandt', 'rpcs3'], default='soulbrandt')
-    ap.add_argument('--fonts', choices=['original', 'hd'], default='original')
+    ap.add_argument('--fonts', choices=['original', 'hd', 'novas'], default='original')
     ap.add_argument('--game')
     ap.add_argument('--out')
     ap.add_argument('--translated', action='store_true')

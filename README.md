@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/banner.png" alt="Demon's Souls — Tradução PT-BR, para Soulbrandt e RPCS3" width="100%">
+  <img src="docs/assets/banner.png" alt="Demon's Souls — Tradução PT-BR, para Soulbrandt e RPCS3, por Fábio – StarKillerChief" width="100%">
 </p>
 
 <p align="center">
@@ -156,7 +156,7 @@ A tradução só muda textos e imagens no seu PC; não altera nada da jogabilida
 - **Soulbrandt**, de [JonathanDC64](https://github.com/JonathanDC64/Soulbrandt): o port de PC que torna tudo isto possível.
 - **EB Garamond** (SIL Open Font License), usada nas telas de carregamento.
 - **Python** e **Pillow**, embutidos no instalador (licenças em `TERCEIROS.txt`).
-- Tradução, ferramentas e revisão: projeto de fãs, feito **com ajuda de inteligência artificial** e revisão humana.
+- **Tradução, ferramentas e revisão: Fábio – StarKillerChief**, com ajuda de inteligência artificial (Claude, da Anthropic).
 
 Projeto sem fins lucrativos e **sem nenhuma ligação** com a FromSoftware, a Sony Interactive Entertainment, a Atlus,
 a Bandai Namco, a Bluepoint ou com o autor do Soulbrandt. *Demon's Souls* e todos os nomes do jogo pertencem aos seus

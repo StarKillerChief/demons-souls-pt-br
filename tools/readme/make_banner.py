@@ -1,14 +1,15 @@
-"""Original README banner for demons-souls-pt-br: procedural fog, distant towers, drifting soul motes,
-EB Garamond lettering and a drawn Brazil flag. No game art. Output 2x for crisp display."""
-import math, random, sys
+"""Original README banner: a sword planted in the ground, souls rising from it through the fog, with the
+title set in EB Garamond. Procedural; no game art. Usage: make_banner.py OUT.png"""
+import os, random, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-FONT = __import__('os').path.join(__import__('os').path.dirname(__file__), '..', 'fonts', 'EBGaramond.ttf')
+FONT = os.path.join(os.path.dirname(__file__), '..', 'fonts', 'EBGaramond.ttf')
 OUT = sys.argv[1]
-W, H = 2560, 860
-rng = np.random.default_rng(7)
-random.seed(7)
+W, H = 2560, 1000
+rng = np.random.default_rng(5)
+random.seed(5)
+SX, GROUND = 1930, 860                       # sword axis and ground line
 
 
 def font(size, wght):
@@ -21,8 +22,7 @@ def font(size, wght):
 
 
 def noise(scale, octaves=5):
-    acc = np.zeros((H, W), np.float32)
-    amp, tot = 1.0, 0.0
+    acc, amp, tot = np.zeros((H, W), np.float32), 1.0, 0.0
     for o in range(octaves):
         s = max(2, int(scale / 2 ** o))
         small = rng.random((H // s + 2, W // s + 2)).astype(np.float32)
@@ -34,77 +34,75 @@ def noise(scale, octaves=5):
 
 
 yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
-# base: warm black with a cold light behind the towers (right)
-d = np.sqrt(((xx - W * 0.74) / (W * 0.55)) ** 2 + ((yy - H * 0.46) / (H * 0.9)) ** 2)
-light = np.clip(1 - d, 0, 1) ** 1.6
-moon = np.exp(-(((xx - W * 0.80) ** 2 + (yy - H * 0.30) ** 2) / (2 * (H * 0.22) ** 2)))
-base = np.stack([8 + 44 * light + 70 * moon, 7 + 46 * light + 74 * moon, 7 + 50 * light + 84 * moon], -1)
+# sky: near black, a pale cold light behind the sword
+glow = np.exp(-(((xx - SX) / 520) ** 2 + ((yy - 470) / 430) ** 2))
+img = np.stack([7 + 60 * glow, 7 + 63 * glow, 9 + 72 * glow], -1)
+# fog: low bank over the ground, thin wisps above
+f1, f2 = noise(460), noise(150)
+low = np.clip((yy - 560) / 380, 0, 1) ** 1.2
+f = np.clip(f1 * 1.5 - 0.40, 0, 1) * low * 0.85 + np.clip(f2 - 0.47, 0, 1) * 0.30 * np.clip(xx / W - 0.35, 0, 1)
+img += (np.array([96, 100, 110]) - img) * np.clip(f, 0, 0.75)[..., None]
 
-# distant towers (procedural silhouettes), two layers in fog
-def towers(seed, x0, x1, ymin, ymax, count):
-    r = random.Random(seed)
-    m = Image.new('L', (W, H), 0)
-    dr = ImageDraw.Draw(m)
-    x = x0
-    while x < x1:
-        w = r.randint(*count)
-        top = r.randint(ymin, ymax)
-        dr.rectangle([x, top, x + w, H], fill=255)
-        if r.random() < 0.6:                                   # pointed roof
-            dr.polygon([(x - 6, top), (x + w + 6, top), (x + w / 2, top - r.randint(60, 190))], fill=255)
-            if r.random() < 0.5:
-                dr.line([(x + w / 2, top - 200), (x + w / 2, top - 120)], fill=255, width=4)
-        if r.random() < 0.35:                                  # battlement
-            for bx in range(x, x + w, 22):
-                dr.rectangle([bx, top - 18, bx + 11, top], fill=255)
-        x += w + r.randint(-10, 70)
-    return np.asarray(m.filter(ImageFilter.GaussianBlur(1.2)), np.float32) / 255
+# ground: an uneven dark rise under the sword, fading into the fog
+gm = Image.new('L', (W, H), 0)
+pts = [(0, H)]
+for x in range(0, W + 40, 40):
+    hump = 70 * np.exp(-((x - SX) / 420) ** 2)
+    pts.append((x, GROUND + 38 - hump + random.uniform(-6, 6)))
+pts.append((W, H))
+ImageDraw.Draw(gm).polygon(pts, fill=255)
+g = np.asarray(gm.filter(ImageFilter.GaussianBlur(3)), np.float32)[..., None] / 255
+img = img * (1 - g * 0.9) + np.array([10, 10, 12]) * g * 0.9
 
-far = towers(3, int(W * 0.48), W, int(H * 0.30), int(H * 0.58), (40, 110))
-near = towers(11, int(W * 0.56), W, int(H * 0.48), int(H * 0.72), (70, 170))
-fog = noise(420)
-fog2 = noise(160)
-img = base.copy()
-rise = np.clip((yy / H - 0.45) / 0.5, 0, 1)[..., None]
-farc = np.array([30, 33, 40]) * (1 - rise) + np.array([70, 74, 82]) * rise
-nearc = np.array([8, 8, 10]) * (1 - rise) + np.array([48, 50, 56]) * rise
-img = img * (1 - far[..., None] * 0.7) + farc * far[..., None] * 0.7
-img = img * (1 - near[..., None] * 0.92) + nearc * near[..., None] * 0.92
-# rolling fog, thicker low and right
-band = np.clip((yy / H - 0.35) * 1.6, 0, 1) * np.clip((xx / W - 0.25) * 1.6, 0, 1)
-f = np.clip(fog * 1.6 - 0.45, 0, 1) * band * 0.9 + np.clip(fog2 - 0.42, 0, 1) * 0.35 * band
-img = img + (np.array([110, 114, 124]) - img) * np.clip(f, 0, 0.8)[..., None]
-# left darkening for the lettering and vignette
-left = np.clip(1 - (xx / W) / 0.55, 0, 1) ** 1.4
-img *= (1 - 0.55 * left)[..., None]
-vig = np.clip(1 - (((xx - W / 2) / (W * 0.62)) ** 2 + ((yy - H / 2) / (H * 0.78)) ** 2), 0, 1) ** 0.6
+# the sword, drawn 4x and scaled down for clean edges
+K = 4
+sw = Image.new('L', (W * K, H * K), 0)
+sd = ImageDraw.Draw(sw)
+c = SX * K
+sd.polygon([(c - 32 * K, 318 * K), (c + 32 * K, 318 * K), (c + 26 * K, (GROUND + 10) * K), (c - 26 * K, (GROUND + 10) * K)], fill=255)
+sd.polygon([(c - 128 * K, 300 * K), (c - 30 * K, 286 * K), (c + 30 * K, 286 * K), (c + 128 * K, 300 * K),
+            (c + 122 * K, 322 * K), (c + 30 * K, 318 * K), (c - 30 * K, 318 * K), (c - 122 * K, 322 * K)], fill=255)
+sd.ellipse([c - 140 * K, 296 * K, c - 112 * K, 330 * K], fill=255)
+sd.ellipse([c + 112 * K, 296 * K, c + 140 * K, 330 * K], fill=255)
+sd.rectangle([c - 16 * K, 150 * K, c + 16 * K, 288 * K], fill=255)
+for wy in range(162, 284, 18):                                       # grip wrapping
+    sd.rectangle([c - 19 * K, wy * K, c + 19 * K, (wy + 7) * K], fill=255)
+sd.ellipse([c - 34 * K, 100 * K, c + 34 * K, 160 * K], fill=255)
+sw = sw.rotate(-6, resample=Image.BICUBIC, center=(c, GROUND * K))
+sword = np.asarray(sw.resize((W, H), Image.LANCZOS), np.float32)[..., None] / 255
+img = img * (1 - sword) + np.array([12, 12, 14]) * sword
+# rim light on the sword's edges (light comes from behind)
+rim = np.clip(sword - np.roll(sword, -3, axis=1), 0, 1) + np.clip(sword - np.roll(sword, 3, axis=0), 0, 1) * 0.6
+rim = rim * np.clip(1 - (yy - 300) / 700, 0.25, 1)[..., None]
+img += rim * np.array([120, 124, 136])
+
+# darker on the left for the lettering, vignette, grain
+img *= (1 - 0.6 * np.clip(1 - (xx / W) / 0.55, 0, 1) ** 1.3)[..., None]
+vig = np.clip(1 - (((xx - W / 2) / (W * 0.64)) ** 2 + ((yy - H / 2) / (H * 0.8)) ** 2), 0, 1) ** 0.6
 img *= (0.35 + 0.65 * vig)[..., None]
-grain = rng.normal(0, 3.2, (H, W, 1))
-img = np.clip(img + grain, 0, 255)
+img = np.clip(img + rng.normal(0, 3.0, (H, W, 1)), 0, 255)
 canvas = Image.fromarray(img.astype(np.uint8), 'RGB')
 
-# soul motes: soft glowing points drifting upward from the fog
-glow = Image.new('RGB', (W, H), 0)
-gd = ImageDraw.Draw(glow)
-for _ in range(70):
-    x = random.uniform(W * 0.42, W * 0.98)
-    y = random.uniform(H * 0.15, H * 0.92)
-    r = random.choice([2, 2, 3, 3, 4, 6])
-    a = random.uniform(0.35, 1)
-    c = tuple(int(v * a) for v in (235, 240, 255))
-    gd.ellipse([x - r, y - r, x + r, y + r], fill=c)
-halo = glow.filter(ImageFilter.GaussianBlur(9))
-core = glow.filter(ImageFilter.GaussianBlur(1.2))
-canvas = Image.fromarray(np.clip(np.asarray(canvas, np.float32) + np.asarray(halo, np.float32) * 2.2
-                                 + np.asarray(core, np.float32) * 0.9, 0, 255).astype(np.uint8))
+# souls: motes rising from the sword's base, denser and brighter near it, drifting as they climb
+motes = Image.new('RGB', (W, H), 0)
+md = ImageDraw.Draw(motes)
+for _ in range(95):
+    t = random.random() ** 0.8
+    y = GROUND - 30 - t * 760
+    spread = 30 + t * 420
+    x = SX + random.gauss(0, spread * 0.5) + t * 120
+    r = random.choice([2, 3, 3, 4, 5]) * (1.2 - 0.5 * t)
+    a = (1 - 0.6 * t) * random.uniform(0.5, 1)
+    md.ellipse([x - r, y - r, x + r, y + r], fill=tuple(int(v * a) for v in (255, 238, 205)))
+halo = np.asarray(motes.filter(ImageFilter.GaussianBlur(10)), np.float32)
+core = np.asarray(motes.filter(ImageFilter.GaussianBlur(1.3)), np.float32)
+base_glow = np.exp(-(((xx - SX) / 150) ** 2 + ((yy - GROUND + 10) / 40) ** 2))[..., None] * np.array([90, 80, 62])
+canvas = Image.fromarray(np.clip(np.asarray(canvas, np.float32) + halo * 2.4 + core + base_glow, 0, 255)
+                         .astype(np.uint8)).convert('RGBA')
 
-# lettering
-INK = (242, 237, 228)
-GOLD = (201, 176, 124)
-DIM = (170, 158, 138)
-X = 150
-layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-ld = ImageDraw.Draw(layer)
+# lettering, with room to breathe
+INK, GOLD, DIM = (242, 237, 228), (201, 176, 124), (168, 157, 138)
+X = 170
 
 
 def spaced(draw, xy, s, f, fill, track):
@@ -115,36 +113,34 @@ def spaced(draw, xy, s, f, fill, track):
     return x
 
 
-title = font(196, 500)
-end = spaced(ld, (X, 150), "Demon's Souls", title, INK + (255,), 3)
-# soft glow behind the title
-g = layer.filter(ImageFilter.GaussianBlur(18))
-canvas = Image.alpha_composite(canvas.convert('RGBA'), Image.merge('RGBA', (*g.split()[:3], g.split()[3].point(lambda v: v // 3))))
+layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+ld = ImageDraw.Draw(layer)
+end = spaced(ld, (X, 150), "Demon's Souls", font(188, 500), INK + (255,), 2)
+gl = layer.filter(ImageFilter.GaussianBlur(20))
+canvas = Image.alpha_composite(canvas, Image.merge('RGBA', (*gl.split()[:3], gl.split()[3].point(lambda v: v // 3))))
 canvas = Image.alpha_composite(canvas, layer)
 d = ImageDraw.Draw(canvas)
-# ornament: line - diamond - line
-ly = 452
-d.line([(X + 4, ly), (end - 30, ly)], fill=(138, 118, 86, 255), width=3)
+ly = 470
 cx = (X + end) / 2
-d.polygon([(cx, ly - 14), (cx + 14, ly), (cx, ly + 14), (cx - 14, ly)], fill=(20, 17, 14, 255), outline=(201, 176, 124, 255), width=3)
-spaced(d, (X + 2, 492), 'TRADUÇÃO PT-BR', font(76, 560), GOLD + (255,), 22)
-spaced(d, (X + 4, 610), 'para Soulbrandt e RPCS3  ·  feita por fãs', font(52, 430), DIM + (255,), 4)
+d.line([(X + 4, ly), (cx - 30, ly)], fill=(138, 118, 86, 255), width=3)
+d.line([(cx + 30, ly), (end - 10, ly)], fill=(138, 118, 86, 255), width=3)
+d.polygon([(cx, ly - 15), (cx + 15, ly), (cx, ly + 15), (cx - 15, ly)], fill=(20, 17, 14, 255), outline=GOLD + (255,), width=3)
+spaced(d, (X + 2, 540), 'TRADUÇÃO PT-BR', font(72, 560), GOLD + (255,), 16)
+spaced(d, (X + 4, 670), 'para Soulbrandt e RPCS3  ·  por Fábio – StarKillerChief', font(50, 430), DIM + (255,), 2)
 
-# Brazil flag (public-domain design), drawn small next to the subtitle line
-fx, fy, fw, fh = X + 4, 712, 120, 84
-flag = Image.new('RGBA', (fw * 4, fh * 4), (0, 0, 0, 0))
-fd = ImageDraw.Draw(flag)
+# Brazil flag (public-domain design), drawn
+fx, fy, fw, fh = X + 4, 790, 112, 78
 s = 4
-fd.rounded_rectangle([0, 0, fw * s - 1, fh * s - 1], 10 * s, fill=(30, 148, 71, 255))
-fd.polygon([(fw * s / 2, 9 * s), (fw * s - 10 * s, fh * s / 2), (fw * s / 2, fh * s - 9 * s), (10 * s, fh * s / 2)], fill=(247, 209, 22, 255))
-r = 21 * s
+flag = Image.new('RGBA', (fw * s, fh * s), (0, 0, 0, 0))
+fd = ImageDraw.Draw(flag)
+fd.rounded_rectangle([0, 0, fw * s - 1, fh * s - 1], 9 * s, fill=(30, 148, 71, 255))
+fd.polygon([(fw * s / 2, 8 * s), (fw * s - 9 * s, fh * s / 2), (fw * s / 2, fh * s - 8 * s), (9 * s, fh * s / 2)], fill=(247, 209, 22, 255))
+r = 19 * s
 fd.ellipse([fw * s / 2 - r, fh * s / 2 - r, fw * s / 2 + r, fh * s / 2 + r], fill=(38, 53, 127, 255))
 fd.arc([fw * s / 2 - r * 2.2, fh * s / 2 - r * 0.55, fw * s / 2 + r * 1.6, fh * s / 2 + r * 3.2], 235, 300, fill=(242, 242, 242, 255), width=4 * s)
-flag = flag.resize((fw, fh), Image.LANCZOS)
-canvas.alpha_composite(flag, (fx, fy))
-d.text((fx + fw + 26, fy + 8), 'Português do Brasil · v0.1', font=font(46, 430), fill=(150, 140, 122, 255))
+canvas.alpha_composite(flag.resize((fw, fh), Image.LANCZOS), (fx, fy))
+d.text((fx + fw + 30, fy + 10), 'Português do Brasil  ·  v0.1', font=font(44, 430), fill=(148, 138, 120, 255))
 
-# thin double frame like the game's menus
 d.rectangle([28, 28, W - 29, H - 29], outline=(92, 81, 66, 255), width=3)
 d.rectangle([42, 42, W - 43, H - 43], outline=(45, 39, 31, 255), width=2)
 canvas.convert('RGB').save(OUT, optimize=True)

@@ -798,7 +798,8 @@ static void draw_installed() {
     kv(SHEET_X + 14, y + 11, L"Versão", L"Tradução PT-BR v0.1");
     kv(SHEET_X + 14, y + 37, L"Destino", target_name());
     kv(SHEET_X + 344, y + 11, L"Fontes", installed_fonts() == L"hd" ? L"Fontes HD (geradas no seu PC)" : L"Fontes originais");
-    kv(SHEET_X + 344, y + 37, L"Filmes", app.target_rpcs3 ? L"Sem legendas (só no Soulbrandt)" : L"Com legendas");
+    kv(SHEET_X + 344, y + 37, L"Filmes", app.target_rpcs3 ? L"Sem legendas (só no Soulbrandt)"
+                                                  : app.sb_subs ? L"Com legendas" : L"Sem legendas: clique em Reinstalar");
     float by = 374, bw = (SHEET_W - 20) / 3, bh = 52;
     if (app.target_rpcs3) button(ID_EXIT, D2D1::RectF(SHEET_X, by, SHEET_X + bw, by + bh), L"Fechar", PRIMARY, I_X);
     else button(ID_OPEN, D2D1::RectF(SHEET_X, by, SHEET_X + bw, by + bh), L"Abrir Soulbrandt", PRIMARY, I_PLAY);
@@ -1005,7 +1006,7 @@ static void on_line(int kind, const std::string &l) {
         app.busy = false;
         if (kind == J_INSTALL) {
             if (app.target_rpcs3) { app.rp_installed = true; app.rp_fonts = app.fonts_hd ? L"hd" : L"original"; }
-            else { app.sb_installed = true; app.sb_fonts = app.fonts_hd ? L"hd" : L"original"; }
+            else { app.sb_installed = true; app.sb_subs = true; app.sb_fonts = app.fonts_hd ? L"hd" : L"original"; }
             app.done_fresh = true;
             app.screen = S_INSTALLED;
         } else {
@@ -1273,12 +1274,13 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
         app.rp_msg = L"Esta pasta não parece ser a do Demon's Souls. Escolha a pasta do jogo, a PS3_GAME ou a USRDIR."; }
     else if (scr == L"installing") { app.screen = S_INSTALLING; app.step = "loading"; app.loading_n = 7; app.pct = 62;
         app.t_start = GetTickCount64() - 20000; app.fonts_hd = true; }
-    else if (scr == L"installed") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_fonts = L"hd"; app.done_fresh = true; }
+    else if (scr == L"installed") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_subs = true; app.sb_fonts = L"hd"; app.done_fresh = true; }
     else if (scr == L"installed-rpcs3") { app.screen = S_INSTALLED; app.target_rpcs3 = true; app.rp_installed = true; app.rp_fonts = L"original"; }
     else if (scr == L"confirm") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_fonts = L"hd"; app.modal = M_CONFIRM;
         app.focus = ID_M_CANCEL; app.kb_focus = true; }
     else if (scr == L"about") app.modal = M_ABOUT;
     else if (scr == L"uninstalled") app.screen = S_UNINSTALLED;
+    else if (scr == L"nosubs") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_fonts = L"hd"; app.sb_subs = false; }
     else if (scr == L"error") { app.screen = S_ERROR; app.err_code = L"running"; app.err_title = L"O Soulbrandt está aberto";
         app.err_msg = L"O Soulbrandt está aberto. Feche o jogo e tente de novo."; }
     else if (scr == L"notfound") { app.screen = S_NOTFOUND; app.art_ready = false; }

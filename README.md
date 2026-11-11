@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Demon's Souls inteiro em português do Brasil.</b><br>
+  <b>Demon's Souls inteiramente legendado em português do Brasil.</b><br>
   Menus, itens, magias, diálogos, legendas dos vídeos, letreiros e telas de carregamento,<br>
   com acentos de verdade nas fontes do próprio jogo, originais ou em HD.
 </p>

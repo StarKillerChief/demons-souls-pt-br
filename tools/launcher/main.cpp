@@ -78,7 +78,7 @@ static const int NHERO = sizeof(HEROES) / sizeof(HEROES[0]);
 // ---------------------------------------------------------------------------------------------------------- state
 enum Screen { S_LOADING, S_HOME, S_TARGETS, S_RPCS3, S_INSTALLING, S_INSTALLED, S_UNINSTALLING, S_UNINSTALLED,
               S_ERROR, S_NOTFOUND, S_FONTCHANGE };
-enum Modal { M_NONE, M_CONFIRM, M_ABOUT };
+enum Modal { M_NONE, M_CONFIRM, M_ABOUT, M_SAMEFONT };
 
 struct App {
     HWND hwnd = nullptr;
@@ -426,7 +426,7 @@ enum Ids {
     ID_MIN = 1, ID_CLOSE, ID_CHANGE, ID_FONT_ORIG, ID_FONT_HD, ID_INSTALL, ID_GITHUB, ID_ABOUT,
     ID_T_SB, ID_T_RP, ID_T_CONTINUE, ID_BACK, ID_BROWSE, ID_RP_CONTINUE,
     ID_OPEN, ID_REINSTALL, ID_CHANGEFONT, ID_UNINSTALL, ID_M_CANCEL, ID_M_OK, ID_M_CLOSE,
-    ID_RETRY, ID_LOG, ID_INSTALL_AGAIN, ID_EXIT, ID_APPLY, ID_CHOOSE_RP
+    ID_RETRY, ID_LOG, ID_INSTALL_AGAIN, ID_EXIT, ID_APPLY, ID_CHOOSE_RP, ID_M_REINSTALL
 };
 
 static bool focused(int id) { return app.kb_focus && app.focus == id; }
@@ -849,6 +849,17 @@ static void draw_modal() {
              278, 236, 404, 16.5f, INK2);
         button(ID_M_CANCEL, D2D1::RectF(278, 318, 470, 360), L"Cancelar", SECONDARY);
         button(ID_M_OK, D2D1::RectF(490, 318, 682, 360), L"Desinstalar", DANGER, I_TRASH);
+    } else if (app.modal == M_SAMEFONT) {
+        D2D1_RECT_F d = D2D1::RectF(250, 170, 710, 380);
+        fill(d, D2D1::ColorF(0x100d0a), 4);
+        stroke(d, D2D1::ColorF(0x5a4f3e), 1, 4);
+        bool hd = installed_fonts() == L"hd";
+        text(hd ? L"As fontes HD já estão instaladas" : L"As fontes originais já estão instaladas",
+             278, 194, 404, 23, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
+        text(L"Não é preciso fazer nada. Reinstale só se algo parecer errado no jogo.",
+             278, 236, 404, 16.5f, INK2);
+        button(ID_M_CANCEL, D2D1::RectF(278, 318, 470, 360), L"Cancelar", SECONDARY);
+        button(ID_M_REINSTALL, D2D1::RectF(490, 318, 682, 360), L"Reinstalar", PRIMARY, I_REFRESH);
     } else {
         D2D1_RECT_F d = D2D1::RectF(170, 70, 790, 500);
         fill(d, D2D1::ColorF(0x100d0a), 4);
@@ -1049,7 +1060,13 @@ static void action(int id) {
     case ID_CHANGE: app.target_pick_rpcs3 = app.target_rpcs3; app.screen = S_TARGETS; app.focus = 0; break;
     case ID_FONT_ORIG: app.fonts_hd = false; break;
     case ID_FONT_HD: app.fonts_hd = true; break;
-    case ID_INSTALL: case ID_APPLY: start_install(false); break;
+    case ID_INSTALL: start_install(false); break;
+    case ID_APPLY:
+        if (target_installed() && (installed_fonts() == L"hd") == app.fonts_hd) {
+            app.modal = M_SAMEFONT; app.focus = ID_M_CANCEL; app.kb_focus = true;
+        } else start_install(false);
+        break;
+    case ID_M_REINSTALL: start_install(false); break;
     case ID_REINSTALL: app.fonts_hd = installed_fonts() == L"hd"; start_install(false); break;
     case ID_CHANGEFONT: app.fonts_hd = installed_fonts() != L"hd"; app.screen = S_FONTCHANGE; app.focus = 0; break;
     case ID_UNINSTALL: app.modal = M_CONFIRM; app.focus = ID_M_CANCEL; app.kb_focus = true; break;
@@ -1265,6 +1282,8 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
     else if (scr == L"error") { app.screen = S_ERROR; app.err_code = L"running"; app.err_title = L"O Soulbrandt está aberto";
         app.err_msg = L"O Soulbrandt está aberto. Feche o jogo e tente de novo."; }
     else if (scr == L"notfound") { app.screen = S_NOTFOUND; app.art_ready = false; }
+    else if (scr == L"samefont") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.sb_fonts = L"hd"; app.fonts_hd = true;
+        app.modal = M_SAMEFONT; app.focus = ID_M_CANCEL; app.kb_focus = true; }
     else if (scr == L"fontchange") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.fonts_hd = false; }
     rt->BeginDraw();
     paint(GetTickCount64());

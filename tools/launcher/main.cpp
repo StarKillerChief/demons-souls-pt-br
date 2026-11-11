@@ -613,7 +613,7 @@ static void draw_titlebar() {
 }
 
 static void draw_footer() {
-    text(L"v0.1 · Feito por Fábio (StarKillerChief)", 22, 532, 420, 14.5f, INK3);
+    text(L"v0.1.1 · Feito por Fábio (StarKillerChief)", 22, 532, 420, 14.5f, INK3);
     link(ID_ABOUT, WIN_W - 22, 530, L"Sobre", 15, RIGHT);
     float w = text_width(L"Sobre", 15);
     text(L"·", WIN_W - 22 - w - 22, 530, 12, 15, INK3);
@@ -795,7 +795,7 @@ static void draw_installed() {
         text(k, x, yy, 80, 15, INK3);
         text(v, x + 66, yy, 270, 15.5f, INK);
     };
-    kv(SHEET_X + 14, y + 11, L"Versão", L"Tradução PT-BR v0.1");
+    kv(SHEET_X + 14, y + 11, L"Versão", L"Tradução PT-BR v0.1.1");
     kv(SHEET_X + 14, y + 37, L"Destino", target_name());
     kv(SHEET_X + 344, y + 11, L"Fontes", installed_fonts() == L"hd" ? L"Fontes HD (geradas no seu PC)" : L"Fontes originais");
     kv(SHEET_X + 344, y + 37, L"Filmes", app.target_rpcs3 ? L"Sem legendas (só no Soulbrandt)"
@@ -868,7 +868,7 @@ static void draw_modal() {
         text(L"Sobre", 198, 92, 400, 24, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
         float y = 134;
         const wchar_t *lines[] = {
-            L"Tradução PT-BR de Demon's Souls, versão 0.1.",
+            L"Tradução PT-BR de Demon's Souls, versão 0.1.1.",
             L"Tradução e ferramentas: Fábio (StarKillerChief), com ajuda do Claude (IA da Anthropic).",
             L"Projeto sem fins lucrativos. Tudo é gerado no seu PC, a partir da sua própria cópia do jogo: "
             L"este programa não traz nenhum arquivo do jogo.",

@@ -341,7 +341,7 @@ def measure(ccm, atlas):
     def rows(ch):
         bb = ink_bbox(crop(atlas, ccm.glyph(ccm.index(ord(ch)))['rect']))
         return bb[1], bb[3] - 1
-    return dict(cap_top=rows('H')[0], baseline=rows('H')[1], x_top=rows('o')[0])
+    return dict(cap_top=rows('H')[0], baseline=rows('H')[1], x_top=rows('o')[0], a_top=rows('a')[0])
 
 
 def stroke_weight(g):
@@ -355,6 +355,10 @@ def draw_mark(kind, w, h, thick, ss=6):
     import math
     if kind == 'circ':
         pts = [(thick / 2, h - thick / 2), (w / 2.0, thick / 2), (w - thick / 2, h - thick / 2)]
+    elif kind == 'acute':
+        pts = [(thick / 2, h - thick / 2), (w - thick / 2, thick / 2)]
+    elif kind == 'grave':
+        pts = [(thick / 2, thick / 2), (w - thick / 2, h - thick / 2)]
     else:   # tilde: one sine period, rising then falling
         amp = max(0.0, (h - thick) / 2.0)
         pts = [(thick / 2 + (w - thick) * i / 16.0, h / 2.0 - amp * math.sin(2 * math.pi * i / 16.0)) for i in range(17)]
@@ -383,7 +387,14 @@ class Marks:
         for name, cp in MARK_SRC.items():
             self.m[name] = trim(crop(atlas, ccm.glyph(ccm.index(cp))['rect']))
         self.hd = S > 1
+        self.font = font
         if self.hd:
+            # pen width of the letters (the stem of 'l', in atlas pixels): HD marks are drawn with it, so they read as
+            # boldly as the letters once the game scales the text down (play test 2026-11-11: marks cut from the
+            # font's own ~ and ^ and shrunk to fit came out as hairlines, nearly invisible in menus)
+            lg = crop(atlas, ccm.glyph(ccm.index(ord('l')))['rect'])
+            ys = [y for y, r in enumerate(lg) if max(r) > 128]
+            self.stem = max(S, sum(1 for v in lg[ys[len(ys) // 2]] if v > 128)) if ys else 2 * S
             for name, cp in MARK_SRC.items():
                 self.m[name] = trim(drop_edge_specks(crop(atlas, ccm.glyph(ccm.index(cp))['rect'])))
             # the HD font has proper tilde and circumflex glyphs: use them as they are (talkfont24's carry their own
@@ -431,6 +442,39 @@ def dilate(g):
                           for xx in range(max(0, x - 1), min(w, x + 2))) for x in range(w)) for y in range(h)]
 
 
+def grow(g, n):
+    for _ in range(n):
+        g = dilate(g)
+    return g
+
+
+def hd_mark(kind, rows, inkw, marks, plane):
+    """An HD accent drawn with the letters' own pen width. talkfont24 draws its letters as a bright core inside a dark
+    ring: the mark gets the same (core on the colour plane, core grown by the ring on the alpha plane)."""
+    ring = max(2, int(round(marks.stem * 0.19))) if marks.font == 'talkfont24' else 0
+    thick = marks.stem * (0.38 if ring else 0.8)      # talkfont24: little headroom, so a slimmer core keeps the shape
+    h = max(int(thick + 2), rows - 2 * ring)
+    if kind == 'tilde':
+        # a real wave: narrower than the circumflex, and a pen thin enough for the swing to show in the room there is
+        # (play test 2026-11-11: the first HD tilde read as a straight bar)
+        thick = min(thick, h * 0.38)
+        w = max(4 * S, min(9 * S, int(round(inkw * 0.7))), int(thick * 4))
+    elif kind == 'circ':
+        thick = min(thick, h * 0.5)       # a peak, not a bar, when the room is short
+        w = max(5 * S, min(10 * S, int(round(inkw * 0.8))), int(thick * 3))
+    else:
+        # acute / grave: long and slanted like the one over i (play test 2026-11-11: short ones read as dots)
+        w = max(int(round(h * 0.9)) + 2 * ring, int(thick * 2.6))
+    core = draw_mark(kind, w - 2 * ring, h, thick, ss=3)
+    if not ring:
+        # colour plane: full brightness wherever there is ink, as in the letters (the alpha plane carries the edge)
+        return core if plane == 'alpha' else [bytearray(255 if v else 0 for v in r) for r in core]
+    cw = len(core[0]) + 2 * ring
+    padded = [bytearray(cw) for _ in range(ring)] + [bytearray(ring) + r + bytearray(ring) for r in core] + \
+             [bytearray(cw) for _ in range(ring)]
+    return grow(padded, ring) if plane == 'alpha' else padded
+
+
 def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, plane='alpha'):
     """Return (cell rows of width = base rect width, base glyph record) for base_ch + mark.
 
@@ -469,6 +513,8 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, pla
         return cell, bg
     inkw = bb[2] - bb[0]
     def get_mark(rows):
+        if marks.hd and mark in ('circ', 'tilde', 'acute', 'grave'):
+            return hd_mark(mark, rows, inkw, marks, plane)
         if marks.hd:
             # the font's own HD mark, scaled to the room (never wider than the letter's ink, a bit more for capitals)
             return marks.get(mark, rows, max(4 * S, int(inkw * (1.0 if upper else 0.9))))
@@ -493,14 +539,22 @@ def compose(base_ch, mark, ccm, atlas, marks, met, mark_rows, outline=False, pla
         m = get_mark(mark_rows * S)
         y = 0 if S == 1 else max(0, cap_top - S - len(m))     # (S == 1: unchanged from the tested original-font build)
     else:
+        if S > 1 and bb[1] < met['a_top'] and base_ch not in 'ij':
+            # a round letter that rises above the others (talkfont24's o) would get a smaller mark: lower its top to
+            # the a's, a few rows, so its accent is the same as the other letters' (play test 2026-11-11)
+            sq = resample_rows([r for r in cell[bb[1]:bb[3]]], bb[3] - met['a_top'])
+            cell = blank(W)
+            blit(cell, sq, 0, met['a_top'])
+            bb = ink_bbox(cell)
+            cx = (bb[0] + bb[2]) / 2.0
         avail = bb[1] - S                                                # rows above the letter, minus one empty row
         # bold face with little headroom (talkfont24: letter top at row 6): leave TWO empty rows, otherwise the mark
         # merges with the letter when the game scales the text down (in-game blob on a-tilde, 2026-11-06)
         gap = (2 if avail <= 5 * S else 1) * S
-        drawn = mark in ('circ', 'tilde')
+        drawn = mark in ('circ', 'tilde') or (S > 1 and mark in ('acute', 'grave'))     # HD draws all four
         if outline and drawn:
             gap = S          # the dark ring itself keeps the mark apart from the letter
-        m = get_mark(min(avail - (gap - S), ((5 if outline else 4) if drawn else 5) * S))
+        m = get_mark(min(avail - (gap - S), ((5 if outline or S > 1 else 4) if drawn else 5) * S))
         y = bb[1] - gap - len(m)                                         # mark bottom sits `gap` empty rows above the letter
     blit(cell, m, int(round(cx - len(m[0]) / 2.0)), y)
     return cell, bg
@@ -557,15 +611,19 @@ def run(usr, out, kind, fonts, mark_rows):
         used_bottom = max(ccm.glyph(i)['rect'][3] for i in range(ccm.nglyph) if ccm.glyph(i)['tex'] == glyph_tex)
         marks = Marks(ccm, atlas, font)
         marks_l = Marks(ccm, latlas, font)
+        if marks.hd:
+            marks_l.stem = marks.stem       # same geometry on both planes (measured on the alpha plane)
         met = measure(ccm, atlas)
         have = ccm.codepoints()
         todo = targets(kind, have)
         new, x, y, rep = [], 0, BAND_Y0, []
         region = [TEX, TEX, 0, 0]
         for cp, b, m in todo:
-            outline = font == 'talkfont24' and S == 1
-            cell, bg = compose(b, m, ccm, atlas, marks, met, mark_rows, outline, 'alpha')
-            lcell, _ = compose(b, m, ccm, latlas, marks_l, met, mark_rows, outline, 'lum')
+            outline = font == 'talkfont24'     # HD too: the mark's dark ring keeps it apart from the letter
+            # HD: more mark rows above capitals (talkfont24 also needs room for the dark ring), so a tilde has a wave
+            mr = mark_rows + ((2 if font == 'talkfont24' else 1) if S > 1 else 0)
+            cell, bg = compose(b, m, ccm, atlas, marks, met, mr, outline, 'alpha')
+            lcell, _ = compose(b, m, ccm, latlas, marks_l, met, mr, outline, 'lum')
             W = len(cell[0])
             if x + W > TEX:
                 x, y = 0, y + CELL

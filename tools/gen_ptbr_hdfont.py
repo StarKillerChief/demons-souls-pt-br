@@ -29,10 +29,10 @@ FONTS = ('dsfont24', 'talkfont24')
 EDGE = (0.30, 0.70)        # coverage band turned into the anti-aliased rim
 # smoothing (HD pixels) before the edge curve: it turns the 512 atlas' pixel steps into straight and round edges.
 # dsfont24 has thin serif strokes that vanish with more; talkfont24's heavy letters take more.
-SMOOTH = {'dsfont24': 1.2, 'talkfont24': 2.0}
+SMOOTH = {'dsfont24': 1.2, 'talkfont24': 1.5}
 # talkfont24's grey body (the bright core inside the dark ring) carries the PS3 texture compression's grain; it is
 # smoothed more and filled from a lower level, so the core comes out clean like a drawn letter
-GREY = {'dsfont24': (1.2, EDGE), 'talkfont24': (3.0, (0.18, 0.48))}
+GREY = {'dsfont24': (1.2, EDGE), 'talkfont24': (2.4, (0.30, 0.60))}
 
 
 def plane(rows, w, h):
@@ -154,7 +154,14 @@ def run(font_dir):
             ca.paste(src_a.crop((x0, y0, x1, y1)), (pad, pad))
             cg.paste(src_g.crop((x0, y0, x1, y1)), (pad, pad))
             ua = upscale(ca, SMOOTH[font])
-            ug = upscale(cg, *GREY[font])
+            # a glyph whose bright core is tiny (the dots of the ellipsis: one pixel) loses it under talkfont24's strong
+            # grey smoothing and came out black in game (play test 2026-11-11): smooth it less until the core is back
+            top = cg.getextrema()[1]
+            sigma, edge = GREY[font]
+            for s in (sigma, 2.0, 1.2, 0.6, 0):
+                ug = upscale(cg, min(s, sigma), edge if s == sigma else EDGE)
+                if ug.getextrema()[1] >= 0.8 * top:
+                    break
             box = (pad * K, pad * K, (pad + x1 - x0) * K, (pad + y1 - y0) * K)
             alpha.paste(ua.crop(box), (x0 * K, y0 * K))
             grey.paste(ug.crop(box), (x0 * K, y0 * K))

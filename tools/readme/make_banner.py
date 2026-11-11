@@ -139,7 +139,7 @@ r = 19 * s
 fd.ellipse([fw * s / 2 - r, fh * s / 2 - r, fw * s / 2 + r, fh * s / 2 + r], fill=(38, 53, 127, 255))
 fd.arc([fw * s / 2 - r * 2.2, fh * s / 2 - r * 0.55, fw * s / 2 + r * 1.6, fh * s / 2 + r * 3.2], 235, 300, fill=(242, 242, 242, 255), width=4 * s)
 canvas.alpha_composite(flag.resize((fw, fh), Image.LANCZOS), (fx, fy))
-d.text((fx + fw + 30, fy + 10), 'Português do Brasil  ·  v0.1', font=font(44, 430), fill=(148, 138, 120, 255))
+d.text((fx + fw + 30, fy + 10), 'Português do Brasil', font=font(44, 430), fill=(148, 138, 120, 255))
 
 d.rectangle([28, 28, W - 29, H - 29], outline=(92, 81, 66, 255), width=3)
 d.rectangle([42, 42, W - 43, H - 43], outline=(45, 39, 31, 255), width=2)

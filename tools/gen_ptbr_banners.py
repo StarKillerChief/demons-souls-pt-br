@@ -162,7 +162,7 @@ BASE = {'Ê': ('E', 'circ'), 'Ô': ('O', 'circ'), 'Í': ('I', 'acute'), 'Ú': ('
 def accent(kind, w, size):
     m = Image.new('L', (w, size), 0)
     d = ImageDraw.Draw(m)
-    t = max(3, size // 4)
+    t = max(4, size // 3)      # as heavy as the letters' thin strokes
     cx = w // 2
     if kind == 'circ':
         d.line([(cx - size, size - 2), (cx, 2), (cx + size, size - 2)], fill=255, width=t, joint='curve')
@@ -175,7 +175,13 @@ def compose(letters, name, text, top, bot, ramp, span):
     """Grey image of the Portuguese line, the letters' height as in the original."""
     height = bot - top
     lg, wg = letters.gaps.get(name, (6, 30))
-    acc = max(10, height // 4)
+    # The HUD draws its two ornamental lines just above and below the original lettering: accented letters must fit
+    # inside that height, or the top line crosses the accents (play test 2026-11-11, VOCÊ MORREU). With accents the
+    # letters are made a little smaller so letter + accent together are as tall as the original letters.
+    accented = any(BASE.get(ch, (ch, None))[1] for ch in text)
+    acc = max(8, height // 5) if accented else 0
+    gap = 3 if accented else 0
+    height = height - acc - gap
     pieces = []
     for ch in text:
         if ch == ' ':
@@ -184,13 +190,13 @@ def compose(letters, name, text, top, bot, ramp, span):
         base, kind = BASE.get(ch, (ch, None))
         gl = letters.get(base, name, height)
         if kind:
-            full = Image.new('L', (gl.size[0], height + acc + 4), 0)
-            full.paste(gl, (0, acc + 4))
+            full = Image.new('L', (gl.size[0], height + acc + gap), 0)
+            full.paste(gl, (0, acc + gap))
             full.paste(accent(kind, gl.size[0], acc), (0, 0))
             gl = full
         pieces.append(('glyph', gl))
     total = sum(p[1] if p[0] == 'gap' else p[1].size[0] + lg for p in pieces) - lg
-    out = Image.new('L', (max(total, 1), height + acc + 4), 0)
+    out = Image.new('L', (max(total, 1), height + acc + gap), 0)
     x = 0
     for kind, p in pieces:
         if kind == 'gap':
@@ -200,18 +206,21 @@ def compose(letters, name, text, top, bot, ramp, span):
         x += p.size[0] + lg
     if out.size[0] > span:      # too long for the room: narrow it a little
         out = out.resize((span, out.size[1]), Image.LANCZOS)
-    return out, acc + 4
+    return out, acc + gap
 
 
 def paint(img, grey, x_center, top, acc, ramp):
-    """Colour the grey line with the original's per-row colour and draw it, centred where the original was."""
+    """Colour the grey line with the original's per-row colour and draw it, centred where the original was.
+    grey spans the original letters' rows; its first `acc` rows hold the accents, the rest the letters, which take
+    the original's colour ramp stretched to their height (accents take its middle colour, the letters' brightest)."""
     w, h = grey.size
     x0 = x_center - w // 2
-    y0 = top - acc
+    y0 = top
+    lh = max(1, h - acc)
     px = img.load()
     gp = grey.load()
     for y in range(h):
-        c = ramp[min(max(y - acc, 0), len(ramp) - 1)]
+        c = ramp[len(ramp) // 2] if y < acc else ramp[min(max((y - acc) * len(ramp) // lh, 0), len(ramp) - 1)]
         for x in range(w):
             v = gp[x, y]
             if v and 0 <= x0 + x < W and 0 <= y0 + y < H:

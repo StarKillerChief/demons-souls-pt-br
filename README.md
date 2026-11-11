@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
+  <a href="../../releases/latest"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1.1-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 > O instalador monta tudo no seu PC, a partir da **sua própria cópia** do jogo, e desfaz tudo quando você desinstala.
 
 > [!NOTE]
-> **v0.1 é uma versão de teste.** A tradução ainda está sendo revisada: espere algumas frases estranhas e termos que
+> **v0.1.1 é uma versão de teste.** A tradução ainda está sendo revisada: espere algumas frases estranhas e termos que
 > ainda vão mudar. Achou algo? [Abra uma issue](../../issues) com um print.
 
 ## O que é traduzido

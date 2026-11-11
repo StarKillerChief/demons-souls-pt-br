@@ -1,4 +1,4 @@
-﻿TRADUÇÃO PT-BR DE DEMON'S SOULS — v0.1 (versão de teste)
+﻿TRADUÇÃO PT-BR DE DEMON'S SOULS — v0.1.1 (versão de teste)
 Feita por Fábio (StarKillerChief), com ajuda do Claude (IA da Anthropic). Sem fins lucrativos e sem
 vínculo com os donos do jogo nem com o autor do Soulbrandt.
 

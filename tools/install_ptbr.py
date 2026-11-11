@@ -40,7 +40,7 @@ TARGETS = ([('font/%s/%s.%s.dcx' % (LANG, f, e)) for f in FONTS for e in ('ccm',
            + ['menu/%02d.tpf.dcx' % i for i in range(17)])     # the loading screens
 
 
-VERSION = '0.1'
+VERSION = '0.1.1'
 
 
 def step(key, **info):

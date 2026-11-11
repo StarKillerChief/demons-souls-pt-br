@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
+  <a href="../../releases"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
 </p>
 
 <p align="center">
@@ -70,7 +70,7 @@ Não precisa instalar o Python nem mais nada: tudo o que o instalador usa já ve
 
 ## Como instalar
 
-1. Baixe o **`PT-BR-Soulbrandt.zip`** na página de [Releases](../../releases/latest).
+1. Baixe o **`PT-BR-Soulbrandt.zip`** na página de [Releases](../../releases).
 2. Extraia o zip **dentro da pasta onde está o `Soulbrandt.exe`**. Vai aparecer uma pasta `PT-BR` ao lado dele.
    (Para o RPCS3, pode extrair em qualquer pasta.)
 3. Abra a pasta `PT-BR` e dê dois cliques em **`Tradução PT-BR.exe`**.

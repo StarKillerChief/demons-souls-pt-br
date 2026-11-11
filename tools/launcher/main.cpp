@@ -67,7 +67,7 @@ static const D2D1_COLOR_F BG = D2D1::ColorF(0x060504), INK = D2D1::ColorF(0xe4dc
                           OK = D2D1::ColorF(0x8aa56b), ERR = D2D1::ColorF(0xc4624a), LINE = D2D1::ColorF(0x2e2820),
                           PANEL = D2D1::ColorF(0x0c0a08, 0.72f);
 static const float WIN_W = 960, WIN_H = 560, HERO_H = 250, SHEET_X = 150, SHEET_W = 660;
-static const wchar_t *GITHUB = L"https://github.com/StarKillerChief/demons-souls-ptbr";
+static const wchar_t *GITHUB = L"https://github.com/StarKillerChief/demons-souls-pt-br";
 
 struct Crop { const wchar_t *key; float y; };
 // painting (cleaned export, 1024x720) scaled to 960 px wide; y = vertical offset inside the 250 px band

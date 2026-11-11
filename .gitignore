@@ -7,3 +7,7 @@ __pycache__/
 *.fmg
 *.png
 *.bnd
+
+# Original README art (no game assets): banner and installer showcase
+!docs/assets/banner.png
+!docs/assets/instalador.png

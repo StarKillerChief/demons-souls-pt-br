@@ -1,17 +1,32 @@
 <p align="center">
-  <img src="docs/assets/banner.svg" alt="Demon's Souls — Tradução PT-BR para o Soulbrandt" width="900">
+  <img src="docs/assets/banner.png" alt="Demon's Souls — Tradução PT-BR, para Soulbrandt e RPCS3" width="100%">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-0.1%20(teste)-b59a6a?style=flat-square"></a>
+  <b>Demon's Souls inteiro em português do Brasil.</b><br>
+  Menus, itens, magias, diálogos, legendas dos vídeos, letreiros e telas de carregamento,<br>
+  com acentos de verdade nas fontes do próprio jogo, originais ou em HD.
+</p>
+
+<p align="center">
+  <a href="../../releases/latest"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
+</p>
+
+<p align="center">
   <img alt="Jogo" src="https://img.shields.io/badge/jogo-BLUS30443%20(EUA)-5c5142?style=flat-square">
-  <a href="LICENSE"><img alt="Licença das ferramentas" src="https://img.shields.io/badge/ferramentas-MIT-3d6b4a?style=flat-square"></a>
-  <img alt="Feito por fãs" src="https://img.shields.io/badge/feito%20por-f%C3%A3s-1e9447?style=flat-square">
+  <img alt="Soulbrandt" src="https://img.shields.io/badge/Soulbrandt-suportado-3d6b4a?style=flat-square">
+  <img alt="RPCS3" src="https://img.shields.io/badge/RPCS3-suportado-3d6b4a?style=flat-square">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011-2b3a55?style=flat-square">
+  <a href="LICENSE"><img alt="Licença das ferramentas" src="https://img.shields.io/badge/ferramentas-MIT-5c5142?style=flat-square"></a>
 </p>
 
 <p align="center">
-  <b>Demon's Souls inteiro em português do Brasil, no PC, com o <a href="https://github.com/JonathanDC64/Soulbrandt">Soulbrandt</a>.</b><br>
-  Menus, itens, magias, diálogos, legendas dos vídeos, letreiros e telas de carregamento.
+  <a href="#como-instalar">Como instalar</a> ·
+  <a href="#o-que-é-traduzido">O que é traduzido</a> ·
+  <a href="#fontes-originais-ou-hd">Fontes HD</a> ·
+  <a href="#perguntas-frequentes">Perguntas</a> ·
+  <a href="#como-ajudar">Como ajudar</a> ·
+  <a href="#english-summary">English</a>
 </p>
 
 > [!IMPORTANT]
@@ -21,20 +36,6 @@
 > [!NOTE]
 > **v0.1 é uma versão de teste.** A tradução ainda está sendo revisada: espere algumas frases estranhas e termos que
 > ainda vão mudar. Achou algo? [Abra uma issue](../../issues) com um print.
-
-## Sumário
-
-- [O que é traduzido](#o-que-é-traduzido)
-- [Onde funciona](#onde-funciona)
-- [Antes de começar](#antes-de-começar)
-- [Como instalar](#como-instalar)
-- [Fontes originais ou HD](#fontes-originais-ou-hd)
-- [Atualizações e desinstalação](#atualizações-e-desinstalação)
-- [Problemas conhecidos](#problemas-conhecidos)
-- [Perguntas frequentes](#perguntas-frequentes)
-- [Como ajudar](#como-ajudar)
-- [Créditos e avisos](#créditos-e-avisos)
-- [English summary](#english-summary)
 
 ## O que é traduzido
 
@@ -78,6 +79,11 @@ Não precisa instalar o Python nem mais nada: tudo o que o instalador usa já ve
 
 Para o RPCS3: clique em **Mudar**, escolha **RPCS3** e confirme a pasta do jogo (o instalador tenta achar sozinho).
 O mesmo programa troca a fonte, reinstala e desinstala. O passo a passo também está no `LEIA-ME.txt` do pacote.
+
+<p align="center">
+  <img src="docs/assets/instalador.png" alt="O instalador: escolha da fonte, instalação com progresso e tela de pronto" width="100%">
+  <br><sub>O instalador. No seu PC, o fundo mostra o logo e as pinturas tirados da sua cópia do jogo.</sub>
+</p>
 
 > [!TIP]
 > No Soulbrandt, o instalador nunca altera a pasta original do jogo nem a do RPCS3: ele monta uma pasta própria para

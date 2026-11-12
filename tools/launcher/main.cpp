@@ -92,6 +92,7 @@ struct App {
     std::wstring rp_game;                     // chosen / detected RPCS3 game folder
     bool rp_installed = false;
     std::wstring rp_fonts;
+    bool sb_other = false, sb_game_rpcs3 = false, rp_other = false;   // another translation in that copy; where it is
     int rp_check = 0;                         // 0 none, 1 ok, -1 bad, 2 checking
     std::wstring rp_msg;
     // choices
@@ -686,6 +687,24 @@ static void draw_home(bool change_font) {
         std::wstring inc = app.target_rpcs3 ? L"Inclui: textos, fontes com acentos, letreiros e as 17 telas de carregamento."
                                             : L"Inclui: textos, fontes com acentos, letreiros, 17 telas de carregamento e legendas dos filmes.";
         text(inc, SHEET_X + 22, y + 168, SHEET_W - 22, 15, INK2);
+        std::wstring where;
+        if (!app.target_rpcs3 && !app.sb_game.empty())
+            where = app.sb_game_rpcs3 ? L"O Soulbrandt usa o jogo que está na pasta do RPCS3. A tradução não altera essa pasta."
+                                      : L"O Soulbrandt usa uma cópia própria do jogo. A tradução não altera essa cópia.";
+        bool other = app.target_rpcs3 ? app.rp_other : app.sb_other;
+        if (other) {
+            D2D1_RECT_F nb = D2D1::RectF(SHEET_X, y + 188, SHEET_X + SHEET_W, y + 230);
+            fill(nb, D2D1::ColorF(0x1f180c, 0.95f), 3);
+            stroke(nb, GOLD, 1, 3);
+            text(L"!", SHEET_X + 12, y + 198, 14, 17, GOLDHI, DWRITE_FONT_WEIGHT_BOLD);
+            text(app.target_rpcs3
+                     ? L"Esta cópia já tem outra tradução. A nossa vai substituí-la; ao desinstalar, a anterior volta."
+                     : L"O jogo já tem outra tradução. No Soulbrandt, a nossa vai substituí-la; a pasta do jogo não muda.",
+                 SHEET_X + 30, y + 191, SHEET_W - 40, 14.5f, INK);
+            if (!where.empty()) text(where, SHEET_X + 30, y + 210, SHEET_W - 40, 13.5f, INK2);
+        } else if (!where.empty()) {
+            text(where, SHEET_X + 22, y + 192, SHEET_W - 22, 14, INK3);
+        }
         button(ID_INSTALL, D2D1::RectF(SHEET_X, by, SHEET_X + 184, by + 42), L"Instalar tradução", PRIMARY);
         text(L"Leva até 1 minuto.", SHEET_X + 200, by + 12, 300, 15, INK3);
     } else {
@@ -984,6 +1003,8 @@ static void apply_state(const JVal &st) {
     app.sb_program = W(sb["program"].str());
     app.sb_game = W(sb["game"].str());
     app.sb_fonts = W(sb["fonts"].str("original"));
+    app.sb_other = sb["other_translation"].truthy();
+    app.sb_game_rpcs3 = sb["rpcs3_folder"].truthy();
     const JVal &c = st["rpcs3"]["candidates"];
     std::wstring remembered = app.rp_game;
     bool picked = false;
@@ -993,6 +1014,7 @@ static void apply_state(const JVal &st) {
             app.rp_game = g;
             app.rp_installed = v["installed"].truthy();
             app.rp_fonts = W(v["fonts"].str("original"));
+            app.rp_other = v["other_translation"].truthy();
             app.rp_check = 1;
             picked = true;
             break;
@@ -1085,6 +1107,7 @@ static void on_line(int kind, const std::string &l) {
             app.rp_check = 1;
             app.rp_installed = v["installed"].truthy();
             app.rp_fonts = W(v["fonts"].str("original"));
+            app.rp_other = v["other_translation"].truthy();
         } else if (st == "error") { app.rp_check = -1; app.rp_msg = W(v["message"].str()); }
         return;
     }
@@ -1406,6 +1429,7 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
     else if (scr == L"fontchange") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.font = L"novas"; }
     else if (scr == L"update") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_subs = true; app.sb_fonts = L"novas";
         app.upd_avail = true; }
+    else if (scr == L"othertr") { app.sb_other = true; app.sb_game_rpcs3 = true; app.sb_game = L"C:\\rpcs3\\games\\x"; }
     else if (scr == L"updating") { app.screen = S_UPDATING; app.upd_step = "download"; app.upd_pct = 47; }
     rt->BeginDraw();
     paint(GetTickCount64());

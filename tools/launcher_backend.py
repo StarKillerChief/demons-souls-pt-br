@@ -94,6 +94,45 @@ def check_game(folder):
     return usr
 
 
+def is_rpcs3_folder(folder):
+    """True when a game folder lives inside an RPCS3 install (its games list or dev_hdd0), not in a copy of its own."""
+    if not folder:
+        return False
+    p = os.path.normpath(folder)
+    if 'dev_hdd0' in p.lower().split(os.sep):
+        return True
+    for _ in range(5):
+        p = os.path.dirname(p)
+        if os.path.isfile(os.path.join(p, 'rpcs3.exe')):
+            return True
+    return False
+
+
+# Portuguese spellings that never appear in the US disc's English text (our own words, no game text)
+PT_MARKERS = [w.encode('utf-16-be') for w in ('ção', 'ções', 'você', 'Você', 'não ')]
+
+
+def other_translation(usr):
+    """Does this copy's own text (before our pack, from the backup when we are installed) hold another translation?"""
+    if not usr:
+        return False
+    dcx = pack.load('dcx_tool')
+    rel = 'msg/%s/menu.msgbnd.dcx' % pack.LANG
+    src = os.path.join(usr, pack.BACKUP, rel)
+    if not os.path.isfile(src):
+        src = os.path.join(usr, rel)
+    try:
+        data = dcx.decode(open(src, 'rb').read())
+    except Exception:                 # noqa: BLE001  (unreadable: say nothing here; the install reports it)
+        return False
+    return sum(data.count(m) for m in PT_MARKERS) >= 20
+
+
+def game_info(folder):
+    usr = usrdir_of(folder)
+    return {'rpcs3_folder': is_rpcs3_folder(folder), 'other_translation': other_translation(usr)}
+
+
 def installed_info(usr):
     man = pack.read_manifest(usr) if usr else None
     if not man:
@@ -155,6 +194,7 @@ def cmd_state(a):
                 on = os.path.normcase(game) == os.path.normcase(ov)
                 src = sb.overlay_source(ov) if on else game
                 s['game'] = src
+                s.update(game_info(src))
                 extra.append(src)
                 s.update(installed_info(usrdir_of(ov)) if on else {'installed': False})
                 s['subs'] = on and sb.is_ours(os.path.join(prog, sb.DLL))
@@ -162,13 +202,13 @@ def cmd_state(a):
                 s['prepared'] = False
         out['soulbrandt'] = s
     cands = rpcs3_candidates(extra)
-    out['rpcs3'] = {'candidates': [dict(game=c, **installed_info(usrdir_of(c))) for c in cands]}
+    out['rpcs3'] = {'candidates': [dict(game=c, **installed_info(usrdir_of(c)), **game_info(c)) for c in cands]}
     print(json.dumps(out, ensure_ascii=False))
 
 
 def cmd_validate(a):
     usr = check_game(a.game)
-    emit(step='done', usrdir=usr, **installed_info(usr))
+    emit(step='done', usrdir=usr, **installed_info(usr), **game_info(a.game))
 
 
 def run_quiet(fn, *args):

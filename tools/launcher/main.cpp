@@ -139,7 +139,10 @@ static void run_backend(int kind, const std::wstring &args) {
         CreatePipe(&rd, &wr, &sa, 0);
         SetHandleInformation(rd, HANDLE_FLAG_INHERIT, 0);
         CreateDirectoryW(path(L"cache").c_str(), nullptr);
-        HANDLE log = CreateFileW(path(L"cache\\registro.txt").c_str(), FILE_APPEND_DATA, FILE_SHARE_READ, &sa,
+        // shared for writing too: two jobs can run at once (the reinstall after an update and the update check),
+        // and the second one used to lose its log lines while the first held the file
+        HANDLE log = CreateFileW(path(L"cache\\registro.txt").c_str(), FILE_APPEND_DATA,
+                                 FILE_SHARE_READ | FILE_SHARE_WRITE, &sa,
                                  OPEN_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
         HANDLE nul = CreateFileW(L"NUL", GENERIC_READ, FILE_SHARE_READ | FILE_SHARE_WRITE, &sa, OPEN_EXISTING, 0, nullptr);
         STARTUPINFOW si{};

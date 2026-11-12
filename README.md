@@ -33,6 +33,14 @@
 > **Nenhum arquivo do jogo vem neste repositório ou no pacote.** Nem textos em inglês, nem fontes, nem imagens.
 > O instalador monta tudo no seu PC, a partir da **sua própria cópia** do jogo, e desfaz tudo quando você desinstala.
 
+> [!WARNING]
+> **O que continua em inglês** (é do próprio Soulbrandt, não do jogo, e a tradução não altera):
+> - o **launcher do Soulbrandt** (as telas de preparar e montar o jogo);
+> - o **menu do Soulbrandt** que abre com **L3 + R3** durante o jogo;
+> - o **menu da estátua do Nexus**: *Statue*, *Respecialization*, *Change Appearance* e a pergunta da *Respecialization*.
+>
+> Esses textos ficam dentro do `Soulbrandt.exe`. A tradução só mexe nos arquivos do jogo, nunca no programa do Soulbrandt.
+
 > [!NOTE]
 > **v0.1.2 é uma versão de teste.** A tradução ainda está sendo revisada: espere algumas frases estranhas e termos que
 > ainda vão mudar. Achou algo? [Abra uma issue](../../issues) com um print.
@@ -112,8 +120,9 @@ tradução estiver instalada.
 
 ## Problemas conhecidos
 
-- **Funções novas do Soulbrandt** (por exemplo, a *Respecialization* na estátua) ainda aparecem em inglês: esses textos
-  ficam dentro do próprio `Soulbrandt.exe`, não nos arquivos do jogo.
+- **O launcher do Soulbrandt, o menu L3 + R3 e o menu da estátua do Nexus** (*Statue*, *Respecialization*,
+  *Change Appearance*) ainda aparecem em inglês: esses textos ficam dentro do próprio `Soulbrandt.exe`, não nos
+  arquivos do jogo, e a tradução não altera o programa.
 - Alguns nomes longos de armas podem encostar na borda da caixa de itens.
 - O símbolo ® não existe na fonte dos diálogos (também não aparece no jogo em inglês).
 
@@ -174,5 +183,5 @@ A fan-made **Brazilian Portuguese translation of Demon's Souls** (PS3, BLUS30443
 [Soulbrandt](https://github.com/JonathanDC64/Soulbrandt) PC port: menus, items, spells, dialogue, movie subtitles,
 banners and loading screens. **No game data is included**: the installer builds the accented fonts, text archives
 and images on your PC from your own copy, keeps backups, and restores everything on uninstall. Choose the game's
-the game's original fonts or new letters from a free font, both made on your PC. Made with AI assistance and human review. Not affiliated with
+original fonts or new letters from a free font, both made on your PC. Made with AI assistance and human review. Not affiliated with
 FromSoftware, Sony, Atlus, Bandai Namco, Bluepoint or the author of Soulbrandt. Tools: MIT licence.

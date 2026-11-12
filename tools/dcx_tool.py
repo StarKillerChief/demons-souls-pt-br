@@ -69,9 +69,13 @@ def decode(d):
     for off, size, flag, ulen in chunks:
         raw = d[payload + off: payload + off + size]
         part = zlib.decompress(raw, -15) if flag else bytes(raw)
-        if len(part) != ulen:
+        if len(part) < ulen:
             raise DcxError("chunk decoded to %d bytes, expected %d" % (len(part), ulen))
-        out += part
+        # Some third-party DCX writers (older fan translations re-packed this way) put one byte too many in every
+        # chunk: the next chunk's first byte. The game reads only the size the table gives, so do the same.
+        out += part[:ulen]
+    if len(out) != usize:
+        raise DcxError("decoded %d bytes, expected %d" % (len(out), usize))
     return bytes(out)
 
 

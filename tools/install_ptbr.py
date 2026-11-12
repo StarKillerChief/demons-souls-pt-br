@@ -174,7 +174,12 @@ def decode_to_plain(usr, work, fonts='original'):
                 raise SystemExit('error: neither %s nor its plain twin exists' % rel)
             data = open(plain, 'rb').read()
         else:
-            data = dcx.decode(open(src, 'rb').read())
+            try:
+                data = dcx.decode(open(src, 'rb').read())
+            except Exception as x:          # noqa: BLE001  (say which file, in words the player can act on)
+                raise SystemExit('error: the game file %s could not be read (%s). It may have been changed by '
+                                 'another mod or an older translation: restore the original game files and try '
+                                 'again.' % (rel, x))
             plain = os.path.join(usr, rel[:-4])
             if rel.startswith('font/') and os.path.isfile(plain) and fonts != 'hd':
                 orig_plain = open(plain, 'rb').read()

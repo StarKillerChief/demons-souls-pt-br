@@ -9,6 +9,8 @@ of every command is '@@{"step": "done", ...}' or '@@{"step": "error", "code": ..
     launcher_backend.py install   --target soulbrandt|rpcs3 --fonts original|hd [--game FOLDER]
     launcher_backend.py uninstall --target soulbrandt|rpcs3 [--game FOLDER]
     launcher_backend.py art       --out DIR [--target soulbrandt|rpcs3] [--game FOLDER] [--translated]
+    launcher_backend.py check-update
+    launcher_backend.py update
 
 state     what the launcher shows first: Soulbrandt found / prepared / running / translated (fonts, version), and
           RPCS3 folders holding BLUS30443 that could be found without searching the disk (the folder Soulbrandt
@@ -16,6 +18,13 @@ state     what the launcher shows first: Soulbrandt found / prepared / running /
 validate  is FOLDER (the game folder, PS3_GAME or USRDIR) Demon's Souls BLUS30443?
 art       the white logo and the 17 loading-screen paintings, as PNG files, from the player's own copy (never
           shipped): logo.png, NN.png (the picture part, 1024x720); --translated reads the installed files.
+check-update  is there a newer pack on GitHub? Compares the build stamp of this pack (pack/build.json) with the
+          latest release's latest.json, so a release replaced under the same version number is seen too.
+          Offline or any error: answers "not available" quietly.
+update    downloads the latest PT-BR-Soulbrandt.zip from the GitHub release, checks its SHA-256 against
+          latest.json and puts its files over this PT-BR folder (cache/ is left alone; files in use, like the
+          launcher itself, are renamed to *.old-update first and removed at the next start). It does not
+          reinstall the translation: the launcher does that next, with the new tools.
 """
 import argparse
 import contextlib
@@ -32,6 +41,11 @@ import install_ptbr as pack  # noqa: E402
 import ptbr_soulbrandt as sb  # noqa: E402
 
 TEXT = os.path.join(HERE, '..', 'text')
+ROOT = os.path.dirname(os.path.dirname(HERE))            # the PT-BR folder
+REPO = 'StarKillerChief/demons-souls-pt-br'
+LATEST = 'https://github.com/%s/releases/latest/download/' % REPO
+ZIP_NAME, INFO_NAME = 'PT-BR-Soulbrandt.zip', 'latest.json'
+OLD = '.old-update'
 
 
 def emit(**kv):
@@ -126,7 +140,9 @@ def rpcs3_candidates(extra=()):
 
 # ----------------------------------------------------------------------------- commands
 def cmd_state(a):
-    out = {'version': pack.VERSION, 'soulbrandt': {'found': False}, 'rpcs3': {}}
+    clean_old()
+    out = {'version': pack.VERSION, 'build': local_build().get('build', ''), 'soulbrandt': {'found': False},
+           'rpcs3': {}}
     prog = find_program()
     extra = []
     if prog:
@@ -217,6 +233,128 @@ def cmd_uninstall(a):
     emit(step='done', target=a.target)
 
 
+# ----------------------------------------------------------------------------- updates
+def local_build():
+    try:
+        return json.load(open(os.path.join(ROOT, 'pack', 'build.json'), encoding='utf-8'))
+    except (OSError, ValueError):
+        return {'version': pack.VERSION, 'build': ''}
+
+
+def fetch(url, timeout=15):
+    import urllib.request
+    req = urllib.request.Request(url, headers={'User-Agent': 'demons-souls-ptbr-launcher'})
+    return urllib.request.urlopen(req, timeout=timeout)
+
+
+def latest_info():
+    info = json.loads(fetch(LATEST + INFO_NAME).read().decode('utf-8'))
+    if not info.get('build') or not info.get('sha256'):
+        raise ValueError('latest.json without build/sha256')
+    return info
+
+
+def clean_old():
+    """Remove the files an earlier update had to rename because they were in use."""
+    for dirpath, dirs, files in os.walk(ROOT):
+        dirs[:] = [d for d in dirs if d != 'cache']
+        for f in files:
+            if f.endswith(OLD):
+                try:
+                    os.remove(os.path.join(dirpath, f))
+                except OSError:
+                    pass
+
+
+def cmd_check_update(a):
+    mine = local_build()
+    try:
+        info = latest_info()
+    except Exception as x:          # noqa: BLE001  (no internet, GitHub down, an older release without latest.json)
+        print('check-update: %s' % x, file=sys.stderr)
+        emit(step='done', available=False, offline=True)
+        return
+    newer = info['build'] > (mine.get('build') or '')
+    emit(step='done', available=newer, version=info.get('version', ''), build=info['build'],
+         size=info.get('size', 0), current=mine.get('version', ''))
+
+
+def cmd_update(a):
+    import hashlib
+    import shutil
+    import zipfile
+    emit(step='prepare')
+    try:
+        info = latest_info()
+    except Exception as x:          # noqa: BLE001
+        raise Fail('offline', 'Não consegui falar com o GitHub (%s). Confira a internet e tente de novo.' % x)
+    work = os.path.join(ROOT, 'cache', 'update')
+    shutil.rmtree(work, ignore_errors=True)
+    os.makedirs(work)
+    zpath = os.path.join(work, ZIP_NAME)
+    h = hashlib.sha256()
+    try:
+        r = fetch(LATEST + ZIP_NAME, timeout=30)
+        total = int(r.headers.get('Content-Length') or info.get('size') or 0)
+        got, last = 0, -1
+        with open(zpath, 'wb') as out:
+            while True:
+                chunk = r.read(1 << 16)
+                if not chunk:
+                    break
+                out.write(chunk)
+                h.update(chunk)
+                got += len(chunk)
+                pct = got * 100 // total if total else 0
+                if pct != last:
+                    emit(step='download', pct=pct, got=got, total=total)
+                    last = pct
+    except Exception as x:          # noqa: BLE001
+        raise Fail('offline', 'O download parou (%s). Confira a internet e tente de novo.' % x)
+    if h.hexdigest() != info['sha256'].lower():
+        raise Fail('bad_download', 'O arquivo baixado veio diferente do publicado (o SHA-256 não confere). '
+                                   'Nada foi alterado. Tente de novo.')
+    emit(step='verify')
+    with zipfile.ZipFile(zpath) as z:
+        names = [n for n in z.namelist() if n.startswith('PT-BR/') and not n.endswith('/')]
+        if 'PT-BR/pack/tools/launcher_backend.py' not in names:
+            raise Fail('bad_download', 'O pacote baixado não parece a tradução. Nada foi alterado.')
+        for n in names:                                   # every path must stay inside PT-BR, never in cache/
+            rel = os.path.normpath(n[len('PT-BR/'):])
+            if rel.startswith('..') or os.path.isabs(rel) or rel.split(os.sep)[0] == 'cache':
+                raise Fail('bad_download', 'O pacote baixado tem um caminho inesperado (%s). Nada foi alterado.' % n)
+        emit(step='apply')
+        new = set()
+        for n in names:
+            rel = os.path.normpath(n[len('PT-BR/'):])
+            new.add(os.path.normcase(rel))
+            dest = os.path.join(ROOT, rel)
+            data = z.read(n)
+            if os.path.isfile(dest) and open(dest, 'rb').read() == data:
+                continue
+            os.makedirs(os.path.dirname(dest), exist_ok=True)
+            open(dest + '.new', 'wb').write(data)
+            try:
+                os.replace(dest + '.new', dest)
+            except PermissionError:                       # in use (the launcher, python.exe): move it aside first
+                if os.path.exists(dest + OLD):
+                    os.remove(dest + OLD)
+                os.replace(dest, dest + OLD)
+                os.replace(dest + '.new', dest)
+    # files of the old pack that the new one no longer has (tools, texts): only under pack/
+    for dirpath, dirs, files in os.walk(os.path.join(ROOT, 'pack')):
+        for f in files:
+            full = os.path.join(dirpath, f)
+            rel = os.path.normcase(os.path.relpath(full, ROOT))
+            if rel not in new and not f.endswith(OLD) and not f.endswith('.pyc'):
+                try:
+                    os.remove(full)
+                except OSError:
+                    pass
+    shutil.rmtree(work, ignore_errors=True)
+    emit(step='done', version=info.get('version', ''), build=info['build'])
+
+
 def cmd_art(a):
     """Logo + paintings from the player's copy into a.out (PNG)."""
     from PIL import Image
@@ -277,7 +415,7 @@ def cmd_art(a):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument('cmd', choices=['state', 'validate', 'install', 'uninstall', 'art'])
+    ap.add_argument('cmd', choices=['state', 'validate', 'install', 'uninstall', 'art', 'check-update', 'update'])
     ap.add_argument('--target', choices=['soulbrandt', 'rpcs3'], default='soulbrandt')
     ap.add_argument('--fonts', choices=['original', 'hd', 'novas'], default='original')
     ap.add_argument('--game')
@@ -288,7 +426,7 @@ def main():
         ap.error('--game is needed for rpcs3')
     try:
         {'state': cmd_state, 'validate': cmd_validate, 'install': cmd_install, 'uninstall': cmd_uninstall,
-         'art': cmd_art}[a.cmd](a)
+         'art': cmd_art, 'check-update': cmd_check_update, 'update': cmd_update}[a.cmd](a)
     except Fail as f:
         emit(step='error', code=f.code, message=f.message)
         sys.exit(2)

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Build PT-BR-Soulbrandt.zip. Output goes outside the repository; it holds no game files.
+"""Build PT-BR-Soulbrandt.zip and latest.json (upload both to the release). Output goes outside the repository;
+it holds no game files.
 
     build_pack.py --out DIR --cxx CLANG++  (mingw-w64 clang)
 
@@ -57,4 +58,15 @@ zipfile.ZipFile(os.path.join(wheels, whl)).extractall(site)
 pth = [f for f in os.listdir(os.path.join(root, 'python')) if f.endswith('._pth')][0]
 with open(os.path.join(root, 'python', pth), 'a') as f:
     f.write('Lib/site-packages' + chr(10))
-print(shutil.make_archive(os.path.join(a.out, 'PT-BR-Soulbrandt'), 'zip', a.out, 'PT-BR'))
+# build stamp: the launcher's "Atualizar" compares it with latest.json of the newest GitHub release, so a release
+# replaced under the same version number is still seen as new
+import datetime, json, re
+version = re.search(r"VERSION = '([^']+)'", open(os.path.join(REPO, 'tools', 'install_ptbr.py'), encoding='utf-8').read()).group(1)
+build = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+json.dump({'version': version, 'build': build}, open(os.path.join(root, 'pack', 'build.json'), 'w', encoding='utf-8'))
+zpath = shutil.make_archive(os.path.join(a.out, 'PT-BR-Soulbrandt'), 'zip', a.out, 'PT-BR')
+zdata = open(zpath, 'rb').read()
+json.dump({'version': version, 'build': build, 'sha256': hashlib.sha256(zdata).hexdigest(), 'size': len(zdata)},
+          open(os.path.join(a.out, 'latest.json'), 'w', encoding='utf-8'), indent=1)
+print(zpath)
+print(os.path.join(a.out, 'latest.json'), version, build)

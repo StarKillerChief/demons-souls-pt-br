@@ -58,6 +58,8 @@ static std::string U8(const std::wstring &w) {
 
 // ---------------------------------------------------------------------------------------------------------- paths
 static std::wstring g_dir;          // folder of PT-BR.exe
+static std::wstring g_exe;          // PT-BR.exe itself (restarted after an update)
+static HANDLE g_single = nullptr;   // the one-window mutex (released before that restart)
 static std::wstring path(const std::wstring &rel) { return g_dir + L"\\" + rel; }
 static bool exists(const std::wstring &p) { return GetFileAttributesW(p.c_str()) != INVALID_FILE_ATTRIBUTES; }
 
@@ -77,7 +79,7 @@ static const int NHERO = sizeof(HEROES) / sizeof(HEROES[0]);
 
 // ---------------------------------------------------------------------------------------------------------- state
 enum Screen { S_LOADING, S_HOME, S_TARGETS, S_RPCS3, S_INSTALLING, S_INSTALLED, S_UNINSTALLING, S_UNINSTALLED,
-              S_ERROR, S_NOTFOUND, S_FONTCHANGE };
+              S_ERROR, S_NOTFOUND, S_FONTCHANGE, S_UPDATING };
 enum Modal { M_NONE, M_CONFIRM, M_ABOUT, M_SAMEFONT };
 
 struct App {
@@ -102,6 +104,11 @@ struct App {
     ULONGLONG t_start = 0;
     std::wstring err_title, err_msg, err_code;
     bool done_fresh = false;
+    // updates (check-update / update in the back end)
+    bool upd_checked = false, upd_avail = false, after_update = false;
+    std::wstring upd_version;
+    std::string upd_step;
+    int upd_pct = 0;
     // art
     bool art_ready = false;
     ULONGLONG art_t = 0;
@@ -118,7 +125,7 @@ struct App {
 #define WM_APP_EXIT (WM_APP + 2)
 
 struct Job { int kind; };                     // posted with lines: wParam = kind, lParam = new std::string*
-enum JobKind { J_STATE = 1, J_ART, J_INSTALL, J_UNINSTALL, J_VALIDATE };
+enum JobKind { J_STATE = 1, J_ART, J_INSTALL, J_UNINSTALL, J_VALIDATE, J_CHECKUPD, J_UPDATE };
 
 static void run_backend(int kind, const std::wstring &args) {
     std::wstring py = path(L"python\\python.exe"), be = path(L"pack\\tools\\launcher_backend.py");
@@ -426,7 +433,7 @@ enum Ids {
     ID_MIN = 1, ID_CLOSE, ID_CHANGE, ID_FONT_ORIG, ID_FONT_NEW, ID_INSTALL, ID_GITHUB, ID_ABOUT,
     ID_T_SB, ID_T_RP, ID_T_CONTINUE, ID_BACK, ID_BROWSE, ID_RP_CONTINUE,
     ID_OPEN, ID_REINSTALL, ID_CHANGEFONT, ID_UNINSTALL, ID_M_CANCEL, ID_M_OK, ID_M_CLOSE,
-    ID_RETRY, ID_LOG, ID_INSTALL_AGAIN, ID_EXIT, ID_APPLY, ID_CHOOSE_RP, ID_M_REINSTALL
+    ID_RETRY, ID_LOG, ID_INSTALL_AGAIN, ID_EXIT, ID_APPLY, ID_CHOOSE_RP, ID_M_REINSTALL, ID_UPDATE
 };
 
 static bool focused(int id) { return app.kb_focus && app.focus == id; }
@@ -618,6 +625,19 @@ static void draw_titlebar() {
 
 static void draw_footer() {
     text(L"v0.1.2 · Feito por Fábio (StarKillerChief)", 22, 532, 420, 14.5f, INK3);
+    if (app.upd_avail && app.modal == M_NONE &&
+        (app.screen == S_HOME || app.screen == S_INSTALLED || app.screen == S_FONTCHANGE || app.screen == S_UNINSTALLED)) {
+        std::wstring l = L"Nova versão disponível · Atualizar";
+        float w = text_width(l, 15, DWRITE_FONT_WEIGHT_SEMI_BOLD) + 44;
+        D2D1_RECT_F r = D2D1::RectF(WIN_W / 2 - w / 2 + 40, 523, WIN_W / 2 + w / 2 + 40, 553);
+        add(ID_UPDATE, r);
+        bool hov = app.hover == ID_UPDATE;
+        fill(r, D2D1::ColorF(hov ? 0x2a2216 : 0x1b160f, 0.95f), 15);
+        stroke(r, hov ? GOLDHI : GOLD, 1.2f, 15);
+        icon(I_REFRESH, r.left + 18, (r.top + r.bottom) / 2, GOLDHI);
+        text(l, r.left + 32, r.top + 5, w, 15, GOLDHI, DWRITE_FONT_WEIGHT_SEMI_BOLD);
+        if (focused(ID_UPDATE)) focus_ring(r, 15);
+    }
     link(ID_ABOUT, WIN_W - 22, 530, L"Sobre", 15, RIGHT);
     float w = text_width(L"Sobre", 15);
     text(L"·", WIN_W - 22 - w - 22, 530, 12, 15, INK3);
@@ -786,6 +806,50 @@ static void draw_installing(ULONGLONG now) {
     text(L"Não feche esta janela até terminar. Isso leva até 1 minuto.", SHEET_X + 18, 473, SHEET_W - 30, 15.5f, INK);
 }
 
+static void draw_updating(ULONGLONG now) {
+    sheet_title(L"Atualizando a tradução...", L"");
+    struct Row { const char *key; const wchar_t *label; };
+    const Row rows[] = {{"prepare", L"Procurando a versão nova"}, {"download", L"Baixando do GitHub"},
+                        {"verify", L"Conferindo o arquivo"}, {"apply", L"Trocando os arquivos da tradução"},
+                        {"done", L"Reabrindo para reinstalar"}};
+    int cur_i = 0;
+    for (int i = 0; i < 5; i++) if (app.upd_step == rows[i].key) cur_i = i;
+    std::wstring label = rows[cur_i].label;
+    if (app.upd_step == "download") label += L" (" + std::to_wstring(app.upd_pct) + L"%)";
+    text(label + L"...", SHEET_X, 268, SHEET_W, 16.5f, INK2);
+    float by = 302;
+    D2D1_RECT_F bar = D2D1::RectF(SHEET_X, by, SHEET_X + SHEET_W, by + 8);
+    fill(bar, D2D1::ColorF(0x1c1813), 4);
+    int pct = cur_i == 0 ? 2 : cur_i == 1 ? 2 + app.upd_pct * 86 / 100 : cur_i == 2 ? 90 : cur_i == 3 ? 95 : 100;
+    vgrad(D2D1::RectF(SHEET_X, by, SHEET_X + SHEET_W * pct / 100.f, by + 8), GOLDHI, GOLD, 4);
+    text(std::to_wstring(pct) + L"%", SHEET_X, by + 14, 100, 15, INK2);
+    float ry = 348;
+    for (int i = 0; i < 5; i++) {
+        float x = SHEET_X + (i < 3 ? 0 : SHEET_W / 2), y = ry + (i % 3) * 28;
+        if (i < cur_i) { check_icon(x + 8, y + 11, 7.5f, OK); text(rows[i].label, x + 24, y, 300, 16, INK2); }
+        else if (i == cur_i) {
+            R.br->SetColor(GOLDHI);
+            float a = now / 180.f;
+            for (int k = 0; k < 8; k++) {
+                float an = a + k * 0.785f;
+                R.br->SetOpacity(0.25f + 0.75f * k / 8.f);
+                R.rt->FillEllipse(D2D1::Ellipse(D2D1::Point2F(x + 8 + 6 * cosf(an), y + 11 + 6 * sinf(an)), 1.4f, 1.4f), R.br);
+            }
+            R.br->SetOpacity(1);
+            text(rows[i].label, x + 24, y, 300, 16, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
+        } else {
+            R.br->SetColor(INK3);
+            R.rt->DrawEllipse(D2D1::Ellipse(D2D1::Point2F(x + 8, y + 11), 6.5f, 6.5f), R.br, 1.2f);
+            text(rows[i].label, x + 24, y, 300, 16, INK3);
+        }
+    }
+    D2D1_RECT_F note = D2D1::RectF(SHEET_X, 462, SHEET_X + SHEET_W, 504);
+    fill(note, D2D1::ColorF(0x14110c, 0.95f), 3);
+    stroke(note, D2D1::ColorF(0x4a4030), 1, 3);
+    text(L"Não feche esta janela. Depois o programa reabre e reinstala a tradução sozinho.", SHEET_X + 18, 473,
+         SHEET_W - 30, 15.5f, INK);
+}
+
 static void draw_installed() {
     sheet_title(app.done_fresh ? L"Pronto! A tradução está instalada" : L"A tradução está instalada",
                 app.target_rpcs3 ? L"Abra o jogo no RPCS3 normalmente e jogue em português."
@@ -900,6 +964,7 @@ static void paint(ULONGLONG now) {
     case S_RPCS3: draw_rpcs3(); break;
     case S_INSTALLING: case S_UNINSTALLING: draw_installing(now); break;
     case S_INSTALLED: draw_installed(); break;
+    case S_UPDATING: draw_updating(now); break;
     case S_UNINSTALLED: draw_uninstalled(); break;
     case S_ERROR: draw_error(); break;
     case S_NOTFOUND: draw_notfound(); break;
@@ -951,6 +1016,24 @@ static void apply_state(const JVal &st) {
     }
     app.done_fresh = false;
     start_art();
+    if (app.after_update) {                       // reopened by an update: rebuild the translation with the new tools
+        app.after_update = false;
+        if (app.screen == S_INSTALLED) { app.font = installed_font_or_original(); start_install(false); }
+    }
+    if (!app.upd_checked) { app.upd_checked = true; run_backend(J_CHECKUPD, L"check-update"); }
+}
+
+static void restart_after_update() {
+    if (g_single) { CloseHandle(g_single); g_single = nullptr; }
+    std::wstring cmd = L"\"" + g_exe + L"\" --after-update";
+    STARTUPINFOW si{sizeof(si)};
+    PROCESS_INFORMATION pi{};
+    if (CreateProcessW(nullptr, &cmd[0], nullptr, nullptr, FALSE, 0, nullptr, g_dir.c_str(), &si, &pi)) {
+        CloseHandle(pi.hProcess);
+        CloseHandle(pi.hThread);
+    }
+    app.busy = false;
+    PostMessageW(app.hwnd, WM_CLOSE, 0, 0);
 }
 
 static int step_pct(const std::string &s, int n) {
@@ -980,6 +1063,21 @@ static void on_line(int kind, const std::string &l) {
     std::string st = v["step"].str();
     if (kind == J_ART) {
         if (st == "done") { app.art_ready = true; app.art_t = GetTickCount64(); R.art_loaded = false; }
+        return;
+    }
+    if (kind == J_CHECKUPD) {
+        if (st == "done") { app.upd_avail = v["available"].truthy(); app.upd_version = W(v["version"].str()); }
+        return;
+    }
+    if (kind == J_UPDATE) {
+        if (st == "error") {
+            app.busy = false;
+            app.err_code = W(v["code"].str());
+            app.err_title = L"A atualização não terminou";
+            app.err_msg = W(v["message"].str());
+            app.screen = S_ERROR;
+        } else if (st == "done") { app.upd_step = "done"; restart_after_update(); }
+        else { app.upd_step = st; if (st == "download") app.upd_pct = (int)v["pct"].num(); }
         return;
     }
     if (kind == J_VALIDATE) {
@@ -1032,6 +1130,13 @@ static void on_exit(int kind, DWORD code) {
         app.screen = S_ERROR;
     }
     if (kind == J_STATE && app.screen == S_LOADING) app.screen = S_NOTFOUND;
+    if (kind == J_UPDATE && app.busy) {
+        app.busy = false;
+        app.err_code = L"crash";
+        app.err_title = L"A atualização não terminou";
+        app.err_msg = L"O atualizador parou sem terminar (código " + std::to_wstring(code) + L"). Veja o registro.";
+        app.screen = S_ERROR;
+    }
 }
 
 static bool pick_folder(std::wstring &out) {
@@ -1064,6 +1169,10 @@ static void action(int id) {
     case ID_ABOUT: app.modal = M_ABOUT; app.focus = ID_M_CLOSE; break;
     case ID_M_CLOSE: case ID_M_CANCEL: app.modal = M_NONE; app.focus = 0; break;
     case ID_M_OK: start_install(true); break;
+    case ID_UPDATE:
+        app.busy = true; app.upd_step = "prepare"; app.upd_pct = 0; app.screen = S_UPDATING; app.focus = 0;
+        run_backend(J_UPDATE, L"update");
+        break;
     case ID_CHANGE: app.target_pick_rpcs3 = app.target_rpcs3; app.screen = S_TARGETS; app.focus = 0; break;
     case ID_FONT_ORIG: app.font = L"original"; break;
     case ID_FONT_NEW: app.font = L"novas"; break;
@@ -1146,7 +1255,7 @@ static void create_target(HWND h) {
 }
 
 static bool animating(ULONGLONG now) {
-    if (app.screen == S_INSTALLING || app.screen == S_UNINSTALLING) return true;
+    if (app.screen == S_INSTALLING || app.screen == S_UNINSTALLING || app.screen == S_UPDATING) return true;
     if (app.art_ready && now - app.art_t < 800) return true;
     if (app.hero_fade_t && now - app.hero_fade_t < 1600) return true;
     return false;
@@ -1243,7 +1352,8 @@ static LRESULT CALLBACK wndproc(HWND h, UINT m, WPARAM wp, LPARAM lp) {
     case WM_SIZE: if (R.rt) { R.drop(); } return 0;
     case WM_CLOSE:
         if (app.busy) {
-            MessageBoxW(h, L"Espere a instalação terminar antes de fechar. Fechar agora pode deixar o jogo pela metade.",
+            MessageBoxW(h, app.screen == S_UPDATING ? L"Espere a atualização terminar antes de fechar."
+                                                    : L"Espere a instalação terminar antes de fechar. Fechar agora pode deixar o jogo pela metade.",
                         L"Tradução PT-BR", MB_OK | MB_ICONINFORMATION);
             return 0;
         }
@@ -1294,6 +1404,9 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
     else if (scr == L"samefont") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.sb_fonts = L"novas"; app.font = L"novas";
         app.modal = M_SAMEFONT; app.focus = ID_M_CANCEL; app.kb_focus = true; }
     else if (scr == L"fontchange") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.font = L"novas"; }
+    else if (scr == L"update") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_subs = true; app.sb_fonts = L"novas";
+        app.upd_avail = true; }
+    else if (scr == L"updating") { app.screen = S_UPDATING; app.upd_step = "download"; app.upd_pct = 47; }
     rt->BeginDraw();
     paint(GetTickCount64());
     HRESULT hr = rt->EndDraw();
@@ -1323,6 +1436,7 @@ int WINAPI wWinMain(HINSTANCE inst, HINSTANCE, PWSTR, int show) {
     CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);
     wchar_t exe[MAX_PATH];
     GetModuleFileNameW(nullptr, exe, MAX_PATH);
+    g_exe = exe;
     g_dir = exe;
     g_dir = g_dir.substr(0, g_dir.find_last_of(L"\\/"));
     g_artdir = path(L"cache\\art");
@@ -1338,6 +1452,7 @@ int WINAPI wWinMain(HINSTANCE inst, HINSTANCE, PWSTR, int show) {
         else if (a == L"--screen" && i + 1 < argc) scr = argv[++i];
         else if (a == L"--art" && i + 1 < argc) art = argv[++i];
         else if (a == L"--hero" && i + 1 < argc) hero = _wtoi(argv[++i]);
+        else if (a == L"--after-update") app.after_update = true;
     }
     if (!snap.empty()) {
         g_artdir = art;
@@ -1345,7 +1460,19 @@ int WINAPI wWinMain(HINSTANCE inst, HINSTANCE, PWSTR, int show) {
     }
 
     HANDLE single = CreateMutexW(nullptr, TRUE, L"DemonsSoulsPTBR.Launcher");
-    if (GetLastError() == ERROR_ALREADY_EXISTS) {
+    if (GetLastError() == ERROR_ALREADY_EXISTS && app.after_update) {
+        // the old window is closing after an update: wait for it a little
+        CloseHandle(single);
+        for (int i = 0; i < 50; i++) {
+            Sleep(100);
+            single = CreateMutexW(nullptr, TRUE, L"DemonsSoulsPTBR.Launcher");
+            if (GetLastError() != ERROR_ALREADY_EXISTS) break;
+            CloseHandle(single);
+            single = nullptr;
+        }
+    }
+    g_single = single;
+    if (single && GetLastError() == ERROR_ALREADY_EXISTS) {
         HWND other = FindWindowW(L"DeSPTBRLauncher", nullptr);
         if (other) { ShowWindow(other, SW_RESTORE); SetForegroundWindow(other); }
         return 0;
@@ -1399,6 +1526,6 @@ int WINAPI wWinMain(HINSTANCE inst, HINSTANCE, PWSTR, int show) {
         DispatchMessageW(&msg);
     }
     R.drop();
-    if (single) CloseHandle(single);
+    if (g_single) CloseHandle(g_single);
     return 0;
 }

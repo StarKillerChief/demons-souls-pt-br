@@ -236,6 +236,9 @@ def install(usr, text, fonts='original'):
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
             fmg.cmd_import(base, text, out, LANG)
+        for line in buf.getvalue().splitlines():
+            if line.startswith('note:'):
+                print('   ' + line, flush=True)
         cp_ds = fmg.ccm_codepoints(os.path.join(out, 'font', LANG, 'dsfont24.ccm'))
         cp_talk = fmg.ccm_codepoints(os.path.join(out, 'font', LANG, 'talkfont24.ccm'))
         used = set()

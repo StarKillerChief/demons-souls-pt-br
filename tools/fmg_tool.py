@@ -187,7 +187,16 @@ def cmd_import(usr, tdir, out, lang):
                 continue
             flags, items = parse_fmg(e['data'])
             pt = {x['id']: x['pt'] for x in j['entries'] if x['pt']}
-            e['data'] = build_fmg(flags, [(i, pt.get(i, t)) for i, t in items])
+            have = {i for i, _ in items}
+            lost = sorted(set(pt) - have)
+            if lost:   # another translation installed earlier removed or renumbered these: put ours back
+                print('note: %s fmg %d lacked %d entries the US disc has (%s...); added them'
+                      % (bnd, e['id'], len(lost), ','.join(map(str, lost[:8]))))
+            e['data'] = build_fmg(flags, sorted([(i, pt.get(i, t)) for i, t in items] + [(i, pt[i]) for i in lost]))
+        missing = sorted({k[1] for k in tr if k[0] == bnd} - {e['id'] for e in ents})
+        if missing:
+            print('note: %s.msgbnd has no fmg %s (changed by another mod?); that text stays as it is'
+                  % (bnd, ','.join(map(str, missing))))
         os.makedirs(os.path.join(out, 'msg', lang), exist_ok=True)
         open(os.path.join(out, 'msg', lang, bnd + '.msgbnd'), 'wb').write(write_bnd3(d, ents))
     print('wrote', os.path.join(out, 'msg', lang))

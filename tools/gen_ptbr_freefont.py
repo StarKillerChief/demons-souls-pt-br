@@ -9,7 +9,7 @@ FONT_DIR  folder with dsfont24 / talkfont24 .tpf + .ccm already made 4x by gen_p
 
   dsfont24 (menus, items, descriptions): TeX Gyre Schola (GUST Font License), the free Century Schoolbook design,
             the same family as the game's letters; a little lighter and with wider spacing, like the game.
-  talkfont24 (dialogue, subtitles, cutscenes): the same Schola in its Bold cut, made a little heavier still ("black"),
+  talkfont24 (dialogue, subtitles, cutscenes): the same Schola in its Bold cut, as drawn,
             slightly narrower so every line keeps the length it has with the game's own dialogue font, with a dark
             outline like the game's.
 
@@ -34,7 +34,7 @@ FONTS_DIR = os.path.join(HERE, 'fonts')
 # squeeze: horizontal scale of every letter and its advance
 FACES = {
     'dsfont24': dict(file='texgyreschola-regular.otf', cap=1.0, track=0.5, light=1, outline=0),
-    'talkfont24': dict(file='texgyreschola-bold.otf', cap=0.88, track=0.3, squeeze=0.92, light=-2, outline=1),
+    'talkfont24': dict(file='texgyreschola-bold.otf', cap=0.88, track=0.3, squeeze=0.92, light=0, outline=1),
 }
 CODES = (list(range(0x21, 0x7F)) + list(range(0xA1, 0x100))
          + [0x2013, 0x2014, 0x2018, 0x2019, 0x201C, 0x201D, 0x2022, 0x2026])

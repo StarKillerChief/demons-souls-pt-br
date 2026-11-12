@@ -19,10 +19,10 @@ validate  is FOLDER (the game folder, PS3_GAME or USRDIR) Demon's Souls BLUS3044
 art       the white logo and the 17 loading-screen paintings, as PNG files, from the player's own copy (never
           shipped): logo.png, NN.png (the picture part, 1024x720); --translated reads the installed files.
 check-update  is there a newer pack on GitHub? Compares the build stamp of this pack (pack/build.json) with the
-          latest release's latest.json, so a release replaced under the same version number is seen too.
+          latest release's update-info.json, so a release replaced under the same version number is seen too.
           Offline or any error: answers "not available" quietly.
 update    downloads the latest PT-BR-Soulbrandt.zip from the GitHub release, checks its SHA-256 against
-          latest.json and puts its files over this PT-BR folder (cache/ is left alone; files in use, like the
+          update-info.json and puts its files over this PT-BR folder (cache/ is left alone; files in use, like the
           launcher itself, are renamed to *.old-update first and removed at the next start). It does not
           reinstall the translation: the launcher does that next, with the new tools.
 """
@@ -44,7 +44,7 @@ TEXT = os.path.join(HERE, '..', 'text')
 ROOT = os.path.dirname(os.path.dirname(HERE))            # the PT-BR folder
 REPO = 'StarKillerChief/demons-souls-pt-br'
 LATEST = 'https://github.com/%s/releases/latest/download/' % REPO
-ZIP_NAME, INFO_NAME = 'PT-BR-Soulbrandt.zip', 'latest.json'
+ZIP_NAME, INFO_NAME = 'PT-BR-Soulbrandt.zip', 'update-info.json'   # listed after the zip on the release page
 OLD = '.old-update'
 
 
@@ -250,7 +250,7 @@ def fetch(url, timeout=15):
 def latest_info():
     info = json.loads(fetch(LATEST + INFO_NAME).read().decode('utf-8'))
     if not info.get('build') or not info.get('sha256'):
-        raise ValueError('latest.json without build/sha256')
+        raise ValueError('update-info.json without build/sha256')
     return info
 
 
@@ -270,7 +270,7 @@ def cmd_check_update(a):
     mine = local_build()
     try:
         info = latest_info()
-    except Exception as x:          # noqa: BLE001  (no internet, GitHub down, an older release without latest.json)
+    except Exception as x:          # noqa: BLE001  (no internet, GitHub down, an older release without update-info.json)
         print('check-update: %s' % x, file=sys.stderr)
         emit(step='done', available=False, offline=True)
         return

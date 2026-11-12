@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Letters from free fonts ("Fontes novas"), drawn into the game's HD font atlases on the player's PC. TEST.
+"""Letters from a free font ("Fontes novas"), drawn into the game's HD font atlases on the player's PC.
 
     gen_ptbr_freefont.py FONT_DIR [--preview OUT.png]
 
@@ -9,8 +9,9 @@ FONT_DIR  folder with dsfont24 / talkfont24 .tpf + .ccm already made 4x by gen_p
 
   dsfont24 (menus, items, descriptions): TeX Gyre Schola (GUST Font License), the free Century Schoolbook design,
             the same family as the game's letters; a little lighter and with wider spacing, like the game.
-  talkfont24 (dialogue, subtitles): Almendra Bold (SIL OFL 1.1), the free font nearest to the game's medieval face;
-            lighter and spaced out, with a dark outline like the game's.
+  talkfont24 (dialogue, subtitles, cutscenes): the same Schola in its Bold cut, made a little heavier still ("black"),
+            slightly narrower so every line keeps the length it has with the game's own dialogue font, with a dark
+            outline like the game's.
 
 The glyph table keeps the game's own cell height and baseline; only rectangles, widths and advances change.
 Needs Pillow (bundled).
@@ -29,10 +30,11 @@ import gen_ptbr_hdfont as hd  # noqa: E402
 K = 4
 FONTS_DIR = os.path.join(HERE, 'fonts')
 # cap: capital height in game pixels relative to the game's own H; track: extra spacing (game px);
-# light: how much the strokes are thinned (0 = as drawn); outline: dark ring width (game px)
+# light: how much the strokes are thinned (0 = as drawn, negative = heavier, in HD px); outline: dark ring width (game px);
+# squeeze: horizontal scale of every letter and its advance
 FACES = {
     'dsfont24': dict(file='texgyreschola-regular.otf', cap=1.0, track=0.5, light=1, outline=0),
-    'talkfont24': dict(file='Almendra-Bold.ttf', cap=0.90, track=0.5, light=2, outline=1),
+    'talkfont24': dict(file='texgyreschola-bold.otf', cap=0.88, track=0.3, squeeze=0.92, light=-2, outline=1),
 }
 CODES = (list(range(0x21, 0x7F)) + list(range(0xA1, 0x100))
          + [0x2013, 0x2014, 0x2018, 0x2019, 0x201C, 0x201D, 0x2022, 0x2026])
@@ -71,9 +73,11 @@ class Face:
 
 
 def lighten(im, level):
-    """Thinner strokes: blur, then a higher threshold (level 1 = slight, 2 = more)."""
+    """Thinner strokes: blur, then a higher threshold (level 1 = slight, 2 = more); a negative level is heavier."""
     if not level:
         return im
+    if level < 0:                                   # heavier: grow the strokes by -level HD pixels each side
+        return im.filter(ImageFilter.MaxFilter(2 * -level + 1))
     if level == 2:
         im = im.filter(ImageFilter.MinFilter(3))
         level = 1
@@ -127,6 +131,10 @@ def run(font_dir, preview=None):
         for cp in todo:
             M = CH // 2                         # room above the cell: an accent may start above it
             im, adv, padx = face.draw(chr(cp), base + M, CH + M)
+            sx = spec.get('squeeze', 1.0)
+            if sx != 1.0:                       # a little narrower, so lines keep the game's own length
+                im = im.resize((max(1, round(im.width * sx)), im.height), Image.LANCZOS)
+                padx, adv = round(padx * sx), adv * sx
             im = lighten(im, spec['light'])
             bb = ink_rows(im)
             ftop = M + base - round((base - cap_top) * spec['cap'])     # top of this face's capitals
@@ -196,7 +204,7 @@ def run(font_dir, preview=None):
         sp = ccm.index(0x20)
         if sp is not None:
             gsp = ccm.glyph(sp)
-            space = round(face.font.getlength(' ') / K + spec['track'])
+            space = round(face.font.getlength(' ') * spec.get('squeeze', 1.0) / K + spec['track'])
             struct.pack_into('>HHH', recs, 24 * sp + 16, gsp['pad'], gsp['w'], space)
             ccm.glyph_bytes = bytes(recs)
         out_ccm = ccm.build([(cp, r, pad, w, step, tx) for cp, r, pad, w, step, tx in new])

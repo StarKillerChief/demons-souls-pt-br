@@ -5,11 +5,11 @@
 <p align="center">
   <b>Demon's Souls inteiramente legendado em português do Brasil.</b><br>
   Menus, itens, magias, diálogos, legendas dos vídeos, letreiros e telas de carregamento,<br>
-  com acentos de verdade nas fontes do próprio jogo, originais ou em HD.
+  com acentos de verdade: nas fontes do próprio jogo ou em fontes novas, mais nítidas.
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1.1-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
+  <a href="../../releases/latest"><img alt="Baixar a tradução" src="https://img.shields.io/badge/%E2%AC%87%20Baixar%20a%20tradu%C3%A7%C3%A3o-v0.1.2-c9b07c?style=for-the-badge&labelColor=1a1612"></a>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 <p align="center">
   <a href="#como-instalar">Como instalar</a> ·
   <a href="#o-que-é-traduzido">O que é traduzido</a> ·
-  <a href="#fontes-originais-ou-hd">Fontes HD</a> ·
+  <a href="#fontes-originais-ou-novas">Fontes</a> ·
   <a href="#perguntas-frequentes">Perguntas</a> ·
   <a href="#como-ajudar">Como ajudar</a> ·
   <a href="#english-summary">English</a>
@@ -34,7 +34,7 @@
 > O instalador monta tudo no seu PC, a partir da **sua própria cópia** do jogo, e desfaz tudo quando você desinstala.
 
 > [!NOTE]
-> **v0.1.1 é uma versão de teste.** A tradução ainda está sendo revisada: espere algumas frases estranhas e termos que
+> **v0.1.2 é uma versão de teste.** A tradução ainda está sendo revisada: espere algumas frases estranhas e termos que
 > ainda vão mudar. Achou algo? [Abra uma issue](../../issues) com um print.
 
 ## O que é traduzido
@@ -47,7 +47,7 @@
 | ✅ **Legendas dos vídeos** | Abertura e cenas, com moldura no estilo do jogo (só no Soulbrandt) |
 | ✅ **Letreiros grandes** | VOCÊ MORREU, DEMÔNIO DESTRUÍDO, ALMA PERDIDA RECUPERADA e os outros |
 | ✅ **Telas de carregamento** | Os 17 nomes de personagens e o CARREGANDO, sobre a arte original |
-| ✅ **Acentos de verdade** | á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, nas fontes originais e nas fontes HD feitas no seu PC |
+| ✅ **Acentos de verdade** | á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, nas fontes originais e nas fontes novas, feitas no seu PC |
 
 Os acentos são feitos a partir das próprias letras do jogo, para combinar com a fonte original. Os textos foram
 medidos contra as caixas de cada tela para não passarem das bordas.
@@ -91,14 +91,16 @@ O mesmo programa troca a fonte, reinstala e desinstala. O passo a passo também 
 > desinstalação. Os seus saves não são tocados. O logo e as pinturas que aparecem no instalador também vêm da sua
 > cópia do jogo.
 
-## Fontes originais ou HD
+## Fontes originais ou novas
 
 O instalador pergunta com qual fonte você quer jogar:
 
-- **Fontes originais do jogo**: como no PS3;
-- **Fontes HD**: as próprias letras do jogo ampliadas para alta resolução **no seu PC**, já com os acentos.
+- **Fontes originais do jogo**: como no PS3, já com os acentos;
+- **Fontes novas**: letras desenhadas no seu PC a partir da fonte livre TeX Gyre Schola, da mesma família da fonte do
+  jogo, com todos os acentos do desenho original da fonte. Nos diálogos e legendas ela entra em negrito, com o contorno
+  escuro do jogo e a mesma largura de linha.
 
-Não precisa de nenhum mod de fonte, e nada dessas fontes vem no pacote: elas são feitas a partir da sua cópia.
+Não precisa de nenhum mod de fonte, e nenhuma fonte do jogo vem no pacote: elas são feitas a partir da sua cópia.
 Para trocar de fonte depois, use **Trocar fonte** no instalador. Se você usa algum mod de fonte, ele fica desligado enquanto a
 tradução estiver instalada.
 
@@ -155,6 +157,7 @@ A tradução só muda textos e imagens no seu PC; não altera nada da jogabilida
 
 - **Soulbrandt**, de [JonathanDC64](https://github.com/JonathanDC64/Soulbrandt): o port de PC que torna tudo isto possível.
 - **EB Garamond** (SIL Open Font License), usada nas telas de carregamento.
+- **TeX Gyre Schola** (GUST Font License), usada na opção "Fontes novas".
 - **Python** e **Pillow**, embutidos no instalador (licenças em `TERCEIROS.txt`).
 - **Tradução, ferramentas e revisão: Fábio – StarKillerChief**, com ajuda de inteligência artificial (Claude, da Anthropic).
 
@@ -171,5 +174,5 @@ A fan-made **Brazilian Portuguese translation of Demon's Souls** (PS3, BLUS30443
 [Soulbrandt](https://github.com/JonathanDC64/Soulbrandt) PC port: menus, items, spells, dialogue, movie subtitles,
 banners and loading screens. **No game data is included**: the installer builds the accented fonts, text archives
 and images on your PC from your own copy, keeps backups, and restores everything on uninstall. Choose the game's
-original fonts or HD versions of them, made on your PC. Made with AI assistance and human review. Not affiliated with
+the game's original fonts or new letters from a free font, both made on your PC. Made with AI assistance and human review. Not affiliated with
 FromSoftware, Sony, Atlus, Bandai Namco, Bluepoint or the author of Soulbrandt. Tools: MIT licence.

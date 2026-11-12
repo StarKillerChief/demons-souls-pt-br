@@ -1,4 +1,4 @@
-﻿TRADUÇÃO PT-BR DE DEMON'S SOULS — v0.1.1 (versão de teste)
+﻿TRADUÇÃO PT-BR DE DEMON'S SOULS — v0.1.2 (versão de teste)
 Feita por Fábio (StarKillerChief), com ajuda do Claude (IA da Anthropic). Sem fins lucrativos e sem
 vínculo com os donos do jogo nem com o autor do Soulbrandt.
 
@@ -20,7 +20,7 @@ COMO INSTALAR
 2. Abra a pasta PT-BR e dê dois cliques em "Tradução PT-BR.exe".
    Se o Windows mostrar "O Windows protegeu o computador", clique em "Mais informações"
    e depois em "Executar assim mesmo".
-3. Escolha a fonte (originais ou HD) e clique em "Instalar tradução". Leva até 1 minuto.
+3. Escolha a fonte (originais ou novas) e clique em "Instalar tradução". Leva até 1 minuto.
 4. Pronto! Clique em "Abrir Soulbrandt" (ou abra o jogo no RPCS3).
 
 Para instalar no RPCS3, clique em "Mudar", escolha "RPCS3" e confirme a pasta do jogo
@@ -28,9 +28,10 @@ Para instalar no RPCS3, clique em "Mudar", escolha "RPCS3" e confirme a pasta do
 No RPCS3 os vídeos ficam sem legendas: elas só funcionam no Soulbrandt.
 
 
-FONTES: ORIGINAIS OU HD
+FONTES: ORIGINAIS OU NOVAS
 - Fontes originais: as letras do jogo, como no PS3, já com os acentos.
-- Fontes HD: as próprias letras do jogo em alta resolução, geradas no seu PC.
+- Fontes novas: letras nítidas da fonte livre TeX Gyre Schola, geradas no seu PC
+  (negrito nos diálogos e legendas).
 Não precisa de nenhum mod de fonte. Para trocar depois, abra "Tradução PT-BR.exe" e clique em
 "Trocar fonte". Se você usa algum mod de fonte, ele fica desligado enquanto a tradução estiver
 instalada.

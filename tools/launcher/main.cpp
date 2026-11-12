@@ -94,7 +94,7 @@ struct App {
     std::wstring rp_msg;
     // choices
     bool target_rpcs3 = false, target_pick_rpcs3 = false;
-    bool fonts_hd = false;
+    std::wstring font = L"original";       // original | novas (hd: only a v0.1.1 install, kept on Reinstalar)
     // install progress
     bool busy = false, uninstalling = false;
     int pct = 0, loading_n = 0;
@@ -212,7 +212,7 @@ static void start_install(bool uninstall) {
     app.focus = 0;
     std::wstring args = uninstall ? L"uninstall" : L"install";
     args += app.target_rpcs3 ? L" --target rpcs3 --game " + q(app.rp_game) : L" --target soulbrandt";
-    if (!uninstall) args += app.fonts_hd ? L" --fonts hd" : L" --fonts original";
+    if (!uninstall) args += L" --fonts " + app.font;
     run_backend(uninstall ? J_UNINSTALL : J_INSTALL, args);
 }
 
@@ -423,7 +423,7 @@ static std::vector<Item> items;
 static bool inside(D2D1_RECT_F r, float x, float y) { return x >= r.left && x < r.right && y >= r.top && y < r.bottom; }
 
 enum Ids {
-    ID_MIN = 1, ID_CLOSE, ID_CHANGE, ID_FONT_ORIG, ID_FONT_HD, ID_INSTALL, ID_GITHUB, ID_ABOUT,
+    ID_MIN = 1, ID_CLOSE, ID_CHANGE, ID_FONT_ORIG, ID_FONT_NEW, ID_INSTALL, ID_GITHUB, ID_ABOUT,
     ID_T_SB, ID_T_RP, ID_T_CONTINUE, ID_BACK, ID_BROWSE, ID_RP_CONTINUE,
     ID_OPEN, ID_REINSTALL, ID_CHANGEFONT, ID_UNINSTALL, ID_M_CANCEL, ID_M_OK, ID_M_CLOSE,
     ID_RETRY, ID_LOG, ID_INSTALL_AGAIN, ID_EXIT, ID_APPLY, ID_CHOOSE_RP, ID_M_REINSTALL
@@ -578,6 +578,10 @@ static std::wstring target_name() { return app.target_rpcs3 ? L"RPCS3" : L"Soulb
 static std::wstring target_path() { return app.target_rpcs3 ? app.rp_game : app.sb_program; }
 static bool target_installed() { return app.target_rpcs3 ? app.rp_installed : app.sb_installed; }
 static std::wstring installed_fonts() { return app.target_rpcs3 ? app.rp_fonts : app.sb_fonts; }
+static std::wstring installed_font_or_original() { std::wstring f = installed_fonts(); return f.empty() ? L"original" : f; }
+static const wchar_t *font_label(const std::wstring &f) {
+    return f == L"novas" ? L"Fontes novas (Schola)" : f == L"hd" ? L"Fontes HD (geradas no seu PC)" : L"Fontes originais";
+}
 
 static void draw_hero(ULONGLONG now) {
     float ease = app.art_ready && R.art_loaded ? smooth((now - app.art_t) / 700.f) : 0;
@@ -613,7 +617,7 @@ static void draw_titlebar() {
 }
 
 static void draw_footer() {
-    text(L"v0.1.1 · Feito por Fábio (StarKillerChief)", 22, 532, 420, 14.5f, INK3);
+    text(L"v0.1.2 · Feito por Fábio (StarKillerChief)", 22, 532, 420, 14.5f, INK3);
     link(ID_ABOUT, WIN_W - 22, 530, L"Sobre", 15, RIGHT);
     float w = text_width(L"Sobre", 15);
     text(L"·", WIN_W - 22 - w - 22, 530, 12, 15, INK3);
@@ -628,10 +632,10 @@ static void sheet_title(const std::wstring &t, const std::wstring &sub, float y 
 static void font_cards(float y) {
     text(L"FONTE DO TEXTO", SHEET_X, y, 300, 14.5f, GOLD, DWRITE_FONT_WEIGHT_SEMI_BOLD, LEFT, 30, false, 1.5f);
     float w = (SHEET_W - 10) / 2;
-    radio_card(ID_FONT_ORIG, D2D1::RectF(SHEET_X, y + 22, SHEET_X + w, y + 100), !app.fonts_hd, L"Fontes originais",
-               L"Como no jogo do PS3, já com os acentos do português.");
-    radio_card(ID_FONT_HD, D2D1::RectF(SHEET_X + w + 10, y + 22, SHEET_X + SHEET_W, y + 100), app.fonts_hd, L"Fontes HD",
-               L"Letras em alta resolução, geradas no seu PC.");
+    radio_card(ID_FONT_ORIG, D2D1::RectF(SHEET_X, y + 22, SHEET_X + w, y + 100), app.font != L"novas",
+               L"Fontes originais", L"Como no jogo do PS3, já com os acentos do português.");
+    radio_card(ID_FONT_NEW, D2D1::RectF(SHEET_X + w + 10, y + 22, SHEET_X + SHEET_W, y + 100), app.font == L"novas",
+               L"Fontes novas", L"Letras nítidas, com negrito nos diálogos.");
 }
 
 static void draw_home(bool change_font) {
@@ -795,9 +799,9 @@ static void draw_installed() {
         text(k, x, yy, 80, 15, INK3);
         text(v, x + 66, yy, 270, 15.5f, INK);
     };
-    kv(SHEET_X + 14, y + 11, L"Versão", L"Tradução PT-BR v0.1.1");
+    kv(SHEET_X + 14, y + 11, L"Versão", L"Tradução PT-BR v0.1.2");
     kv(SHEET_X + 14, y + 37, L"Destino", target_name());
-    kv(SHEET_X + 344, y + 11, L"Fontes", installed_fonts() == L"hd" ? L"Fontes HD (geradas no seu PC)" : L"Fontes originais");
+    kv(SHEET_X + 344, y + 11, L"Fontes", font_label(installed_fonts()));
     kv(SHEET_X + 344, y + 37, L"Filmes", app.target_rpcs3 ? L"Sem legendas (só no Soulbrandt)"
                                                   : app.sb_subs ? L"Com legendas" : L"Sem legendas: clique em Reinstalar");
     float by = 374, bw = (SHEET_W - 20) / 3, bh = 52;
@@ -854,8 +858,9 @@ static void draw_modal() {
         D2D1_RECT_F d = D2D1::RectF(250, 170, 710, 380);
         fill(d, D2D1::ColorF(0x100d0a), 4);
         stroke(d, D2D1::ColorF(0x5a4f3e), 1, 4);
-        bool hd = installed_fonts() == L"hd";
-        text(hd ? L"As fontes HD já estão instaladas" : L"As fontes originais já estão instaladas",
+        std::wstring f = installed_fonts();
+        text(f == L"novas" ? L"As fontes novas já estão instaladas" : f == L"hd" ? L"As fontes HD já estão instaladas"
+                           : L"As fontes originais já estão instaladas",
              278, 194, 404, 23, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
         text(L"Não é preciso fazer nada. Reinstale só se algo parecer errado no jogo.",
              278, 236, 404, 16.5f, INK2);
@@ -868,7 +873,7 @@ static void draw_modal() {
         text(L"Sobre", 198, 92, 400, 24, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
         float y = 134;
         const wchar_t *lines[] = {
-            L"Tradução PT-BR de Demon's Souls, versão 0.1.1.",
+            L"Tradução PT-BR de Demon's Souls, versão 0.1.2.",
             L"Tradução e ferramentas: Fábio (StarKillerChief), com ajuda do Claude (IA da Anthropic).",
             L"Projeto sem fins lucrativos. Tudo é gerado no seu PC, a partir da sua própria cópia do jogo: "
             L"este programa não traz nenhum arquivo do jogo.",
@@ -942,7 +947,7 @@ static void apply_state(const JVal &st) {
         } else app.screen = S_NOTFOUND;
     } else {
         app.screen = target_installed() ? S_INSTALLED : S_HOME;
-        app.fonts_hd = target_installed() && installed_fonts() == L"hd";
+        app.font = target_installed() ? installed_font_or_original() : L"original";
     }
     app.done_fresh = false;
     start_art();
@@ -953,9 +958,10 @@ static int step_pct(const std::string &s, int n) {
     if (s == "prepare") return 3;
     if (s == "folder") return 8;
     if (s == "fonts") return 14;
-    if (s == "text") return app.fonts_hd ? 40 : 34;
-    if (s == "banners") return app.fonts_hd ? 50 : 46;
-    if (s == "loading") return (app.fonts_hd ? 50 : 46) + n * (rp ? 38 : 32) / 17;
+    bool big = app.font != L"original";
+    if (s == "text") return big ? 40 : 34;
+    if (s == "banners") return big ? 50 : 46;
+    if (s == "loading") return (big ? 50 : 46) + n * (rp ? 38 : 32) / 17;
     if (s == "writing") return rp ? 92 : 84;
     if (s == "subs") return 92;
     if (s == "done") return 100;
@@ -1005,8 +1011,8 @@ static void on_line(int kind, const std::string &l) {
     if (st == "done" && (kind == J_INSTALL || kind == J_UNINSTALL)) {
         app.busy = false;
         if (kind == J_INSTALL) {
-            if (app.target_rpcs3) { app.rp_installed = true; app.rp_fonts = app.fonts_hd ? L"hd" : L"original"; }
-            else { app.sb_installed = true; app.sb_subs = true; app.sb_fonts = app.fonts_hd ? L"hd" : L"original"; }
+            if (app.target_rpcs3) { app.rp_installed = true; app.rp_fonts = app.font; }
+            else { app.sb_installed = true; app.sb_subs = true; app.sb_fonts = app.font; }
             app.done_fresh = true;
             app.screen = S_INSTALLED;
         } else {
@@ -1059,17 +1065,17 @@ static void action(int id) {
     case ID_M_CLOSE: case ID_M_CANCEL: app.modal = M_NONE; app.focus = 0; break;
     case ID_M_OK: start_install(true); break;
     case ID_CHANGE: app.target_pick_rpcs3 = app.target_rpcs3; app.screen = S_TARGETS; app.focus = 0; break;
-    case ID_FONT_ORIG: app.fonts_hd = false; break;
-    case ID_FONT_HD: app.fonts_hd = true; break;
+    case ID_FONT_ORIG: app.font = L"original"; break;
+    case ID_FONT_NEW: app.font = L"novas"; break;
     case ID_INSTALL: start_install(false); break;
     case ID_APPLY:
-        if (target_installed() && (installed_fonts() == L"hd") == app.fonts_hd) {
+        if (target_installed() && installed_font_or_original() == app.font) {
             app.modal = M_SAMEFONT; app.focus = ID_M_CANCEL; app.kb_focus = true;
         } else start_install(false);
         break;
     case ID_M_REINSTALL: start_install(false); break;
-    case ID_REINSTALL: app.fonts_hd = installed_fonts() == L"hd"; start_install(false); break;
-    case ID_CHANGEFONT: app.fonts_hd = installed_fonts() != L"hd"; app.screen = S_FONTCHANGE; app.focus = 0; break;
+    case ID_REINSTALL: app.font = installed_font_or_original(); start_install(false); break;
+    case ID_CHANGEFONT: app.font = installed_font_or_original() == L"novas" ? L"original" : L"novas"; app.screen = S_FONTCHANGE; app.focus = 0; break;
     case ID_UNINSTALL: app.modal = M_CONFIRM; app.focus = ID_M_CANCEL; app.kb_focus = true; break;
     case ID_T_SB: app.target_pick_rpcs3 = false; break;
     case ID_T_RP: app.target_pick_rpcs3 = true; break;
@@ -1088,7 +1094,7 @@ static void action(int id) {
         app.target_rpcs3 = true;
         save_prefs();
         app.screen = app.rp_installed ? S_INSTALLED : S_HOME;
-        app.fonts_hd = app.rp_installed && app.rp_fonts == L"hd";
+        app.font = app.rp_installed && !app.rp_fonts.empty() ? app.rp_fonts : L"original";
         if (!app.art_ready) start_art();
         app.focus = 0;
         break;
@@ -1209,8 +1215,9 @@ static LRESULT CALLBACK wndproc(HWND h, UINT m, WPARAM wp, LPARAM lp) {
         else if (wp == VK_ESCAPE) escape();
         else if (wp == VK_RETURN || wp == VK_SPACE) { if (app.focus) action(app.focus); }
         else if (wp == VK_LEFT || wp == VK_RIGHT || wp == VK_UP || wp == VK_DOWN) {
-            if (app.focus == ID_FONT_ORIG || app.focus == ID_FONT_HD) {
-                app.fonts_hd = !app.fonts_hd; app.focus = app.fonts_hd ? ID_FONT_HD : ID_FONT_ORIG;
+            if (app.focus == ID_FONT_ORIG || app.focus == ID_FONT_NEW) {
+                bool to_new = app.focus == ID_FONT_ORIG;
+                app.font = to_new ? L"novas" : L"original"; app.focus = to_new ? ID_FONT_NEW : ID_FONT_ORIG;
             } else if (app.focus == ID_T_SB || app.focus == ID_T_RP) {
                 app.target_pick_rpcs3 = !app.target_pick_rpcs3; app.focus = app.target_pick_rpcs3 ? ID_T_RP : ID_T_SB;
             } else move_focus(wp == VK_LEFT || wp == VK_UP ? -1 : 1);
@@ -1273,7 +1280,7 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
     else if (scr == L"rpcs3bad") { app.screen = S_RPCS3; app.rp_check = -1; app.rp_game = L"C:\\Users\\Jogador\\Downloads";
         app.rp_msg = L"Esta pasta não parece ser a do Demon's Souls. Escolha a pasta do jogo, a PS3_GAME ou a USRDIR."; }
     else if (scr == L"installing") { app.screen = S_INSTALLING; app.step = "loading"; app.loading_n = 7; app.pct = 62;
-        app.t_start = GetTickCount64() - 20000; app.fonts_hd = true; }
+        app.t_start = GetTickCount64() - 20000; app.font = L"novas"; }
     else if (scr == L"installed") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_subs = true; app.sb_fonts = L"hd"; app.done_fresh = true; }
     else if (scr == L"installed-rpcs3") { app.screen = S_INSTALLED; app.target_rpcs3 = true; app.rp_installed = true; app.rp_fonts = L"original"; }
     else if (scr == L"confirm") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_fonts = L"hd"; app.modal = M_CONFIRM;
@@ -1284,9 +1291,9 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
     else if (scr == L"error") { app.screen = S_ERROR; app.err_code = L"running"; app.err_title = L"O Soulbrandt está aberto";
         app.err_msg = L"O Soulbrandt está aberto. Feche o jogo e tente de novo."; }
     else if (scr == L"notfound") { app.screen = S_NOTFOUND; app.art_ready = false; }
-    else if (scr == L"samefont") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.sb_fonts = L"hd"; app.fonts_hd = true;
+    else if (scr == L"samefont") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.sb_fonts = L"novas"; app.font = L"novas";
         app.modal = M_SAMEFONT; app.focus = ID_M_CANCEL; app.kb_focus = true; }
-    else if (scr == L"fontchange") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.fonts_hd = false; }
+    else if (scr == L"fontchange") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.font = L"novas"; }
     rt->BeginDraw();
     paint(GetTickCount64());
     HRESULT hr = rt->EndDraw();

@@ -12,7 +12,7 @@ REPO = os.path.dirname(os.path.dirname(HERE))
 URL = 'https://www.python.org/ftp/python/3.13.9/python-3.13.9-embed-amd64.zip'
 SHA = '91d828c2da3a029b41699e918674a0cb379c02cf20dab9c501306885f837402a'
 PILLOW = '12.0.0'
-TOOLS = ['ptbr_soulbrandt.py', 'install_ptbr.py', 'gen_ptbr_glyphs.py', 'gen_ptbr_banners.py', 'gen_ptbr_loading.py', 'gen_ptbr_hdfont.py', 'launcher_backend.py',
+TOOLS = ['ptbr_soulbrandt.py', 'install_ptbr.py', 'gen_ptbr_glyphs.py', 'gen_ptbr_banners.py', 'gen_ptbr_loading.py', 'gen_ptbr_hdfont.py', 'gen_ptbr_freefont.py', 'gen_ptbr_layout.py', 'launcher_backend.py',
          'fmg_tool.py', 'dcx_tool.py',
          'font_mark.py']
 
@@ -31,7 +31,7 @@ subprocess.run([a.cxx, '-O2', '-std=c++17', '-shared', '-static', '-s', '-o',
                 os.path.join(root, 'pack', 'tools', 'movie_subs', 'avcodec-62.dll'),
                 os.path.join(ms, 'avcodec_shim.cpp')], check=True)
 shutil.copytree(os.path.join(REPO, 'text'), os.path.join(root, 'pack', 'text'))
-shutil.copytree(os.path.join(REPO, 'tools', 'fonts'), os.path.join(root, 'pack', 'tools', 'fonts'))   # EB Garamond (OFL)
+shutil.copytree(os.path.join(REPO, 'tools', 'fonts'), os.path.join(root, 'pack', 'tools', 'fonts'))   # EB Garamond (OFL), TeX Gyre Schola (GUST)
 for f in ('LICENSE', 'NOTICE.md'):
     shutil.copy(os.path.join(REPO, f), os.path.join(root, 'pack', f))
 for f in ('LEIA-ME.txt', 'TERCEIROS.txt'):

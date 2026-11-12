@@ -15,7 +15,8 @@ Files touched (all inside USRDIR; the originals are saved first under USRDIR/.pt
     msg/na_english/item.msgbnd.dcx     menu.msgbnd.dcx
     menu/menu.tpf.dcx                  (the big on-screen messages; needs Pillow)
     menu/00.tpf.dcx ... 16.tpf.dcx     (the loading screens: name and CARREGANDO; needs Pillow)
-The game only ever opens the `.dcx` names for these files, so the plain twins are left alone.
+    menu/menu.drb                      (plain, no .dcx: the HUD layout; only the area-name box gets wider to the left)
+The game only ever opens the `.dcx` names for the .dcx files, so their plain twins are left alone.
 `install` refuses to run on a folder that is not BLUS30443, refuses --in-place without the flag, and never
 writes outside GAMEDIR/NEWDIR. Running `install` again first restores the originals, then re-applies.
 """
@@ -37,10 +38,11 @@ LANG = 'na_english'
 TARGETS = ([('font/%s/%s.%s.dcx' % (LANG, f, e)) for f in FONTS for e in ('ccm', 'tpf')]
            + [('msg/%s/%s.msgbnd.dcx' % (LANG, b)) for b in ('item', 'menu')]
            + ['menu/menu.tpf.dcx']             # the big on-screen messages (YOU DIED and the rest)
-           + ['menu/%02d.tpf.dcx' % i for i in range(17)])     # the loading screens
+           + ['menu/%02d.tpf.dcx' % i for i in range(17)]      # the loading screens
+           + ['menu/menu.drb'])                                 # HUD layout (a plain file: the game opens it as is)
 
 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 
 def step(key, **info):
@@ -159,6 +161,13 @@ def decode_to_plain(usr, work, fonts='original'):
         src = os.path.join(usr, BACKUP, rel)
         if not os.path.isfile(src):
             src = os.path.join(usr, rel)
+        if not rel.endswith('.dcx'):                 # a plain file: used as it is
+            if not os.path.isfile(src):
+                raise SystemExit('error: %s does not exist' % rel)
+            out = os.path.join(work, rel)
+            os.makedirs(os.path.dirname(out), exist_ok=True)
+            shutil.copyfile(src, out)
+            continue
         if not os.path.isfile(src):
             plain = os.path.join(usr, rel[:-4])
             if not os.path.isfile(plain):
@@ -203,7 +212,7 @@ def install(usr, text, fonts='original'):
             if r.returncode:
                 raise SystemExit('error: HD font generation failed:\n' + r.stdout + r.stderr)
             if fonts == 'novas':
-                print('   new fonts (test): letters and accents redrawn from free fonts (Schola, Almendra)', flush=True)
+                print('   new fonts: letters and accents redrawn from a free font (TeX Gyre Schola; bold for dialogue)', flush=True)
                 r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_freefont.py'),
                                     os.path.join(base, 'font', LANG)],
                                    stdin=subprocess.DEVNULL, capture_output=True, text=True)
@@ -255,15 +264,25 @@ def install(usr, text, fonts='original'):
                 raise SystemExit('error: loading screen generation failed (see above)')
         except ImportError:
             print('note: Pillow is missing, so the big on-screen messages stay in English')
+        os.makedirs(os.path.join(out, 'menu'), exist_ok=True)
+        r = subprocess.run([sys.executable, '-I', os.path.join(HERE, 'gen_ptbr_layout.py'),
+                            os.path.join(base, 'menu', 'menu.drb'), os.path.join(out, 'menu', 'menu.drb'),
+                            '--ccm', os.path.join(out, 'font', LANG, 'dsfont24.ccm'),
+                            '--names', os.path.join(text, 'item', '19_place_names.json')],
+                           stdin=subprocess.DEVNULL, capture_output=True, text=True, errors='replace')
+        if r.returncode:
+            raise SystemExit('error: HUD layout step failed:' + chr(10) + r.stdout + r.stderr)
+        print(r.stdout.rstrip(), flush=True)
         step('writing')
         print('4/4 writing (originals are saved in %s first)' % BACKUP)
         files = {}
         newdcx = {}
         for rel in TARGETS:
-            built = os.path.join(out, rel[:-4])
+            built = os.path.join(out, rel[:-4] if rel.endswith('.dcx') else rel)
             if not os.path.isfile(built):
                 continue
-            newdcx[rel] = dcx.encode(open(built, 'rb').read())
+            data = open(built, 'rb').read()
+            newdcx[rel] = dcx.encode(data) if rel.endswith('.dcx') else data
             cur = os.path.join(usr, rel)
             orig_sha = sha(cur) if os.path.isfile(cur) else None
             files[rel] = {'original_sha256': orig_sha,

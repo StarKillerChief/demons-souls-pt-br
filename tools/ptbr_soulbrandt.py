@@ -271,6 +271,12 @@ def main():
     if game_running():
         fail('feche o Soulbrandt e rode de novo.')
     if a.cmd == 'instalar':
+        if on and source and os.path.isdir(source):
+            # a reinstall copies again from the game as it is now (say, freshly extracted without another
+            # translation): the copies in our folder were made at the first install and may hold old files
+            set_ready_game(data, source)
+            remove_overlay(ov)
+            game, on = source, False
         if not on:
             if os.path.isdir(ov):
                 remove_overlay(ov)       # left from before a Soulbrandt update rebuilt the game: start fresh

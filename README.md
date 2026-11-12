@@ -73,6 +73,7 @@ Por enquanto, só a versão americana do jogo (**BLUS30443**). A versão europei
 
 - **Soulbrandt:** abra o `Soulbrandt.exe` pelo menos uma vez, deixe ele preparar o jogo até o fim e feche.
 - **RPCS3:** tenha o Demon's Souls (BLUS30443) na lista de jogos do RPCS3.
+- **Já instalou outra tradução antes** (colocando arquivos traduzidos por cima do jogo)? Extraia o jogo limpo de novo antes de instalar a nossa. A nossa substitui os textos, mas não consegue desfazer o que a outra mudou em outros arquivos, e alguns menus podem ficar sem nomes (como o de viajar entre mundos). O instalador avisa quando encontra arquivos mudados. Se você já instalou a nossa antes, depois de extrair o jogo limpo é só clicar em **Reinstalar**.
 
 Não precisa instalar o Python nem mais nada: tudo o que o instalador usa já vem no pacote.
 

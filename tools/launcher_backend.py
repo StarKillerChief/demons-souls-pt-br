@@ -128,9 +128,52 @@ def other_translation(usr):
     return sum(data.count(m) for m in PT_MARKERS) >= 20
 
 
+def changed_files(usr):
+    """Files in font/, msg/ and menu/ that differ from the US disc (from our backup for the ones we replaced).
+    Another translation or mod changed them; ours rebuilds only some, so the rest can still break menus."""
+    if not usr:
+        return []
+    import hashlib
+    try:
+        table = json.load(open(os.path.join(HERE, 'us_disc_sha256.json'), encoding='utf-8'))['files']
+    except (OSError, ValueError, KeyError):
+        return []
+    cpath = os.path.join(ROOT, 'cache', 'hashes.json')
+    try:
+        cache = json.load(open(cpath, encoding='utf-8'))
+    except (OSError, ValueError):
+        cache = {}
+    out, dirty = [], False
+    for rel, want in table.items():
+        p = os.path.join(usr, pack.BACKUP, rel)
+        if not os.path.isfile(p):
+            p = os.path.join(usr, rel)
+        try:
+            st = os.stat(p)
+        except OSError:
+            continue                  # not in this copy: nothing another translation did, so nothing to report
+        key = '%s|%d|%d' % (os.path.normcase(p), st.st_size, st.st_mtime_ns)
+        got = cache.get(key)
+        if got is None:
+            got = hashlib.sha256(open(p, 'rb').read()).hexdigest()
+            cache[key] = got
+            dirty = True
+        if got != want:
+            out.append(rel)
+    if dirty:
+        try:
+            os.makedirs(os.path.dirname(cpath), exist_ok=True)
+            json.dump(cache, open(cpath, 'w', encoding='utf-8'))
+        except OSError:
+            pass
+    return out
+
+
 def game_info(folder):
     usr = usrdir_of(folder)
-    return {'rpcs3_folder': is_rpcs3_folder(folder), 'other_translation': other_translation(usr)}
+    ch = changed_files(usr)
+    return {'rpcs3_folder': is_rpcs3_folder(folder), 'other_translation': other_translation(usr),
+            'changed': len(ch), 'changed_files': ch[:12]}
 
 
 def installed_info(usr):
@@ -250,6 +293,7 @@ def soulbrandt_args(cmd, fonts=None):
 
 
 def cmd_install(a):
+    print('Pacote:     v%s (build %s)' % (pack.VERSION, local_build().get('build', '?')), flush=True)
     emit(step='prepare', target=a.target, fonts=a.fonts)
     if a.target == 'soulbrandt':
         sys.argv = soulbrandt_args('instalar', a.fonts)

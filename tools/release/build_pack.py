@@ -15,7 +15,7 @@ SHA = '91d828c2da3a029b41699e918674a0cb379c02cf20dab9c501306885f837402a'
 PILLOW = '12.0.0'
 TOOLS = ['ptbr_soulbrandt.py', 'install_ptbr.py', 'gen_ptbr_glyphs.py', 'gen_ptbr_banners.py', 'gen_ptbr_loading.py', 'gen_ptbr_hdfont.py', 'gen_ptbr_freefont.py', 'gen_ptbr_layout.py', 'launcher_backend.py',
          'fmg_tool.py', 'dcx_tool.py',
-         'font_mark.py']
+         'font_mark.py', 'us_disc_sha256.json']
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--out', required=True)

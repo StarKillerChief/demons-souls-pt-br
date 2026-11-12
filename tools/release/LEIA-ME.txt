@@ -10,6 +10,10 @@ Funciona no Soulbrandt (recomendado) e no RPCS3. Versão americana do jogo (BLUS
 ANTES DE COMEÇAR
 - Soulbrandt: abra o Soulbrandt.exe pelo menos uma vez, deixe ele preparar o jogo até o fim e feche.
 - RPCS3: tenha o Demon's Souls (BLUS30443) na lista de jogos do RPCS3.
+- Já instalou outra tradução antes (arquivos traduzidos colocados por cima do jogo)? Extraia o jogo
+  limpo de novo antes de instalar a nossa. A nossa substitui os textos, mas não desfaz o que a outra
+  mudou em outros arquivos, e alguns menus podem ficar sem nomes. O instalador avisa quando encontra
+  arquivos mudados. Se a nossa já estava instalada, depois de extrair o jogo limpo clique em Reinstalar.
 Não precisa instalar mais nada, nem o Python: tudo o que o tradutor usa já vem neste pacote.
 
 

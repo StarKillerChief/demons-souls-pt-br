@@ -93,6 +93,7 @@ struct App {
     bool rp_installed = false;
     std::wstring rp_fonts;
     bool sb_other = false, sb_game_rpcs3 = false, rp_other = false;   // another translation in that copy; where it is
+    int sb_changed = 0, rp_changed = 0;   // files in font/msg/menu that differ from the US disc
     int rp_check = 0;                         // 0 none, 1 ok, -1 bad, 2 checking
     std::wstring rp_msg;
     // choices
@@ -659,6 +660,11 @@ static void font_cards(float y) {
                L"Fontes HD", L"Uma fonte nova, de letras nítidas, com negrito nos diálogos.");
 }
 
+static std::wstring changed_title(int n) {
+    return n == 1 ? L"Este jogo tem 1 arquivo mudado por outra tradução ou mod."
+                  : L"Este jogo tem " + std::to_wstring(n) + L" arquivos mudados por outra tradução ou mod.";
+}
+
 static void draw_home(bool change_font) {
     float y = 232;
     if (!change_font) {
@@ -682,7 +688,23 @@ static void draw_home(bool change_font) {
         font_cards(y + 70);
     }
     float by = 475;
-    if (!change_font) {
+    int changed = app.target_rpcs3 ? app.rp_changed : app.sb_changed;
+    if (!change_font && changed > 0) {
+        // another translation or mod changed files ours does not rebuild: say so, and how to get it right
+        D2D1_RECT_F nb = D2D1::RectF(SHEET_X, y + 160, SHEET_X + SHEET_W, y + 236);
+        fill(nb, D2D1::ColorF(0x1f180c, 0.95f), 3);
+        stroke(nb, GOLD, 1, 3);
+        text(L"!", SHEET_X + 12, y + 170, 14, 17, GOLDHI, DWRITE_FONT_WEIGHT_BOLD);
+        text(changed_title(changed), SHEET_X + 30, y + 166, SHEET_W - 40, 14.5f, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
+        text(app.target_rpcs3
+                 ? L"A nossa substitui os textos, mas alguns menus podem ficar sem nomes. Para ficar perfeito, "
+                   L"volte o jogo aos arquivos originais (extraia de novo do seu dump) antes de instalar."
+                 : L"A nossa substitui os textos, mas alguns menus podem ficar sem nomes. Para ficar perfeito, "
+                   L"extraia o jogo limpo de novo (sem a outra tradução) antes de instalar.",
+             SHEET_X + 30, y + 188, SHEET_W - 44, 13.5f, INK2);
+        button(ID_INSTALL, D2D1::RectF(SHEET_X, by, SHEET_X + 184, by + 42), L"Instalar tradução", PRIMARY);
+        text(L"Leva até 1 minuto.", SHEET_X + 200, by + 12, 300, 15, INK3);
+    } else if (!change_font) {
         text(L"ⓘ", SHEET_X, y + 168, 20, 16, INK3);
         std::wstring inc = app.target_rpcs3 ? L"Inclui: textos, fontes com acentos, letreiros e as 17 telas de carregamento."
                                             : L"Inclui: textos, fontes com acentos, letreiros, 17 telas de carregamento e legendas dos filmes.";
@@ -893,6 +915,14 @@ static void draw_installed() {
     button(ID_REINSTALL, D2D1::RectF(SHEET_X + bw + 10, by, SHEET_X + 2 * bw + 10, by + bh), L"Reinstalar", SECONDARY, I_REFRESH);
     button(ID_CHANGEFONT, D2D1::RectF(SHEET_X + 2 * bw + 20, by, SHEET_X + SHEET_W, by + bh), L"Trocar fonte", SECONDARY, I_AA);
     button(ID_UNINSTALL, D2D1::RectF(SHEET_X, by + bh + 10, SHEET_X + SHEET_W, by + 2 * bh + 10), L"Desinstalar", DANGER, I_TRASH);
+    int changed = app.target_rpcs3 ? app.rp_changed : app.sb_changed;
+    if (changed > 0) {
+        float ny = by + 2 * bh + 18;
+        text(L"!", SHEET_X + 2, ny, 14, 16, GOLDHI, DWRITE_FONT_WEIGHT_BOLD);
+        text(changed_title(changed) + (app.target_rpcs3 ? L" Volte o jogo aos originais e clique em Reinstalar."
+                                                        : L" Extraia o jogo limpo e clique em Reinstalar."),
+             SHEET_X + 18, ny, SHEET_W - 18, 13.5f, GOLDHI);
+    }
 }
 
 static void draw_uninstalled() {
@@ -1004,6 +1034,7 @@ static void apply_state(const JVal &st) {
     app.sb_game = W(sb["game"].str());
     app.sb_fonts = W(sb["fonts"].str("original"));
     app.sb_other = sb["other_translation"].truthy();
+    app.sb_changed = (int)sb["changed"].num();
     app.sb_game_rpcs3 = sb["rpcs3_folder"].truthy();
     const JVal &c = st["rpcs3"]["candidates"];
     std::wstring remembered = app.rp_game;
@@ -1015,6 +1046,7 @@ static void apply_state(const JVal &st) {
             app.rp_installed = v["installed"].truthy();
             app.rp_fonts = W(v["fonts"].str("original"));
             app.rp_other = v["other_translation"].truthy();
+            app.rp_changed = (int)v["changed"].num();
             app.rp_check = 1;
             picked = true;
             break;
@@ -1108,6 +1140,7 @@ static void on_line(int kind, const std::string &l) {
             app.rp_installed = v["installed"].truthy();
             app.rp_fonts = W(v["fonts"].str("original"));
             app.rp_other = v["other_translation"].truthy();
+            app.rp_changed = (int)v["changed"].num();
         } else if (st == "error") { app.rp_check = -1; app.rp_msg = W(v["message"].str()); }
         return;
     }
@@ -1429,7 +1462,8 @@ static int snapshot(const std::wstring &out, const std::wstring &scr, int hero) 
     else if (scr == L"fontchange") { app.screen = S_FONTCHANGE; app.sb_installed = true; app.font = L"novas"; }
     else if (scr == L"update") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_subs = true; app.sb_fonts = L"novas";
         app.upd_avail = true; }
-    else if (scr == L"othertr") { app.sb_other = true; app.sb_game_rpcs3 = true; app.sb_game = L"C:\\rpcs3\\games\\x"; }
+    else if (scr == L"othertr") { app.sb_other = true; app.sb_changed = 23; app.sb_game = L"D:\\PORTS\\soulbrandt"; }
+    else if (scr == L"othertr_inst") { app.screen = S_INSTALLED; app.sb_installed = true; app.sb_subs = true; app.sb_fonts = L"novas"; app.sb_changed = 23; }
     else if (scr == L"updating") { app.screen = S_UPDATING; app.upd_step = "download"; app.upd_pct = 47; }
     rt->BeginDraw();
     paint(GetTickCount64());

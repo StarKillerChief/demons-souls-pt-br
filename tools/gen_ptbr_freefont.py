@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Letters from a free font ("Fontes novas"), drawn into the game's HD font atlases on the player's PC.
+"""Letters from a free font ("Fontes HD", a new font), drawn into the game's HD font atlases on the player's PC.
 
     gen_ptbr_freefont.py FONT_DIR [--preview OUT.png]
 

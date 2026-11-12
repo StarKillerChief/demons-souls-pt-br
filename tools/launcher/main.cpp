@@ -580,7 +580,7 @@ static bool target_installed() { return app.target_rpcs3 ? app.rp_installed : ap
 static std::wstring installed_fonts() { return app.target_rpcs3 ? app.rp_fonts : app.sb_fonts; }
 static std::wstring installed_font_or_original() { std::wstring f = installed_fonts(); return f.empty() ? L"original" : f; }
 static const wchar_t *font_label(const std::wstring &f) {
-    return f == L"novas" ? L"Fontes novas (Schola)" : f == L"hd" ? L"Fontes HD (geradas no seu PC)" : L"Fontes originais";
+    return f == L"novas" ? L"Fontes HD (fonte nova)" : f == L"hd" ? L"Fontes HD (versão 0.1.1)" : L"Fontes originais";
 }
 
 static void draw_hero(ULONGLONG now) {
@@ -635,7 +635,7 @@ static void font_cards(float y) {
     radio_card(ID_FONT_ORIG, D2D1::RectF(SHEET_X, y + 22, SHEET_X + w, y + 100), app.font != L"novas",
                L"Fontes originais", L"Como no jogo do PS3, já com os acentos do português.");
     radio_card(ID_FONT_NEW, D2D1::RectF(SHEET_X + w + 10, y + 22, SHEET_X + SHEET_W, y + 100), app.font == L"novas",
-               L"Fontes novas", L"Letras nítidas, com negrito nos diálogos.");
+               L"Fontes HD", L"Uma fonte nova, de letras nítidas, com negrito nos diálogos.");
 }
 
 static void draw_home(bool change_font) {
@@ -859,7 +859,7 @@ static void draw_modal() {
         fill(d, D2D1::ColorF(0x100d0a), 4);
         stroke(d, D2D1::ColorF(0x5a4f3e), 1, 4);
         std::wstring f = installed_fonts();
-        text(f == L"novas" ? L"As fontes novas já estão instaladas" : f == L"hd" ? L"As fontes HD já estão instaladas"
+        text(f == L"novas" ? L"As fontes HD já estão instaladas" : f == L"hd" ? L"As fontes HD já estão instaladas"
                            : L"As fontes originais já estão instaladas",
              278, 194, 404, 23, INK, DWRITE_FONT_WEIGHT_SEMI_BOLD);
         text(L"Não é preciso fazer nada. Reinstale só se algo parecer errado no jogo.",

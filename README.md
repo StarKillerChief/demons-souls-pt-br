@@ -5,7 +5,7 @@
 <p align="center">
   <b>Demon's Souls inteiramente legendado em português do Brasil.</b><br>
   Menus, itens, magias, diálogos, legendas dos vídeos, letreiros e telas de carregamento,<br>
-  com acentos de verdade: nas fontes do próprio jogo ou em fontes novas, mais nítidas.
+  com acentos de verdade: nas fontes do próprio jogo ou nas fontes HD, uma fonte nova e mais nítida.
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 <p align="center">
   <a href="#como-instalar">Como instalar</a> ·
   <a href="#o-que-é-traduzido">O que é traduzido</a> ·
-  <a href="#fontes-originais-ou-novas">Fontes</a> ·
+  <a href="#fontes-originais-ou-hd">Fontes</a> ·
   <a href="#perguntas-frequentes">Perguntas</a> ·
   <a href="#como-ajudar">Como ajudar</a> ·
   <a href="#english-summary">English</a>
@@ -47,7 +47,7 @@
 | ✅ **Legendas dos vídeos** | Abertura e cenas, com moldura no estilo do jogo (só no Soulbrandt) |
 | ✅ **Letreiros grandes** | VOCÊ MORREU, DEMÔNIO DESTRUÍDO, ALMA PERDIDA RECUPERADA e os outros |
 | ✅ **Telas de carregamento** | Os 17 nomes de personagens e o CARREGANDO, sobre a arte original |
-| ✅ **Acentos de verdade** | á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, nas fontes originais e nas fontes novas, feitas no seu PC |
+| ✅ **Acentos de verdade** | á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, nas fontes originais e nas fontes HD, feitas no seu PC |
 
 Os acentos são feitos a partir das próprias letras do jogo, para combinar com a fonte original. Os textos foram
 medidos contra as caixas de cada tela para não passarem das bordas.
@@ -91,12 +91,12 @@ O mesmo programa troca a fonte, reinstala e desinstala. O passo a passo também 
 > desinstalação. Os seus saves não são tocados. O logo e as pinturas que aparecem no instalador também vêm da sua
 > cópia do jogo.
 
-## Fontes originais ou novas
+## Fontes originais ou HD
 
 O instalador pergunta com qual fonte você quer jogar:
 
 - **Fontes originais do jogo**: como no PS3, já com os acentos;
-- **Fontes novas**: letras desenhadas no seu PC a partir da fonte livre TeX Gyre Schola, da mesma família da fonte do
+- **Fontes HD**: uma fonte nova, de letras nítidas, desenhadas no seu PC a partir da fonte livre TeX Gyre Schola, da mesma família da fonte do
   jogo, com todos os acentos do desenho original da fonte. Nos diálogos e legendas ela entra em negrito, com o contorno
   escuro do jogo e a mesma largura de linha.
 
@@ -157,7 +157,7 @@ A tradução só muda textos e imagens no seu PC; não altera nada da jogabilida
 
 - **Soulbrandt**, de [JonathanDC64](https://github.com/JonathanDC64/Soulbrandt): o port de PC que torna tudo isto possível.
 - **EB Garamond** (SIL Open Font License), usada nas telas de carregamento.
-- **TeX Gyre Schola** (GUST Font License), usada na opção "Fontes novas".
+- **TeX Gyre Schola** (GUST Font License), usada na opção "Fontes HD".
 - **Python** e **Pillow**, embutidos no instalador (licenças em `TERCEIROS.txt`).
 - **Tradução, ferramentas e revisão: Fábio – StarKillerChief**, com ajuda de inteligência artificial (Claude, da Anthropic).
 

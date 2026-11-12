@@ -15,7 +15,7 @@ Componentes de terceiros incluidos neste pacote / Third-party components in this
 
 5. TeX Gyre Schola (fonte, normal e negrito), em pack\tools\fonts\texgyreschola-*.otf
    Licenca: GUST Font License. Texto completo: pack\tools\fonts\GUST-FONT-LICENSE.txt
-   Usada na opcao "Fontes novas": as letras sao desenhadas no seu PC a partir dela.
+   Usada na opcao "Fontes HD": as letras sao desenhadas no seu PC a partir dela.
 
 4. pack\tools\movie_subs\avcodec-62.dll
    Codigo proprio deste projeto (licenca MIT, ver pack\LICENSE). Nao contem codigo do FFmpeg:
